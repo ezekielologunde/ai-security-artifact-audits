@@ -1,0 +1,98 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_gpt/by_perturbation.csv",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_gpt/by_perturbation.csv",
+    "path": "data/trace-tables/data/analysis_val_gpt/by_perturbation.csv",
+    "bytes": 3804,
+    "sha256": "9d7249d6d86858f7dc7e4ec4da366f642850128b0deb137b48940be42d01045a",
+    "retrieved_at_utc": "2026-10-18T16:10:51Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_gpt/runs_flat.csv",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_gpt/runs_flat.csv",
+    "path": "data/trace-tables/data/analysis_val_gpt/runs_flat.csv",
+    "bytes": 70690,
+    "sha256": "ad634013ea3c4fbdfcf125899e6d004aba9c1a02afc3b5b266fa119a48433d6a",
+    "retrieved_at_utc": "2026-10-18T16:10:51Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_gpt/token_usage.csv",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_gpt/token_usage.csv",
+    "path": "data/trace-tables/data/analysis_val_gpt/token_usage.csv",
+    "bytes": 44291,
+    "sha256": "204841cc897f271d08ca9f7f1fa39abba0cca0aa77328c6673f82feb7f55e224",
+    "retrieved_at_utc": "2026-10-18T16:10:51Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_llama/by_perturbation.csv",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_llama/by_perturbation.csv",
+    "path": "data/trace-tables/data/analysis_val_llama/by_perturbation.csv",
+    "bytes": 4408,
+    "sha256": "78fd4e6271cbbf864000daa48616b36eb1217c02534305d481458f4d47dcbb51",
+    "retrieved_at_utc": "2026-10-18T16:10:51Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_llama/runs_flat.csv",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_llama/runs_flat.csv",
+    "path": "data/trace-tables/data/analysis_val_llama/runs_flat.csv",
+    "bytes": 84972,
+    "sha256": "84c62900d5d488c6a9e619e3bd1a2cb0cb63252a7591fc62d43f29fe52ec448b",
+    "retrieved_at_utc": "2026-10-18T16:10:52Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_llama/token_usage.csv",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_llama/token_usage.csv",
+    "path": "data/trace-tables/data/analysis_val_llama/token_usage.csv",
+    "bytes": 51451,
+    "sha256": "6ffd3ca59c4441f0def06fa93972107dacb760a7084877a9fccc11832bdf4415",
+    "retrieved_at_utc": "2026-10-18T16:10:52Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_qwen/by_perturbation.csv",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_qwen/by_perturbation.csv",
+    "path": "data/trace-tables/data/analysis_val_qwen/by_perturbation.csv",
+    "bytes": 4428,
+    "sha256": "417c14f39c69b2739c07866286c8b152796d7d5d16fcc8de76e8d30d28f062a9",
+    "retrieved_at_utc": "2026-10-18T16:10:52Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_qwen/runs_flat.csv",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_qwen/runs_flat.csv",
+    "path": "data/trace-tables/data/analysis_val_qwen/runs_flat.csv",
+    "bytes": 85016,
+    "sha256": "8f02cb9a584f55e03f45def858003d732fe6c248a47aaf081661446081c03ff6",
+    "retrieved_at_utc": "2026-10-18T16:10:52Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_qwen/token_usage.csv",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/data/analysis_val_qwen/token_usage.csv",
+    "path": "data/trace-tables/data/analysis_val_qwen/token_usage.csv",
+    "bytes": 51602,
+    "sha256": "745b972ee453885c4a549c22aee7e12b28f2083f9d82c17d83a0a0e0177414fc",
+    "retrieved_at_utc": "2026-10-18T16:10:52Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/reference/paper_stats.txt",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/reference/paper_stats.txt",
+    "path": "data/trace-tables/reference/paper_stats.txt",
+    "bytes": 3789,
+    "sha256": "140788be0f7e7b676cb976adaa91d2fc3e31aacc5faf8d75ed9eccc08d23716a",
+    "retrieved_at_utc": "2026-10-18T16:10:53Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/reference/paper_stats_gpt.txt",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/reference/paper_stats_gpt.txt",
+    "path": "data/trace-tables/reference/paper_stats_gpt.txt",
+    "bytes": 4475,
+    "sha256": "64319d41e983e3cc57c81de3bcafaf15a781dcd4bd6c34c6681f6fba33cb883c",
+    "retrieved_at_utc": "2026-10-18T16:10:53Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/scripts/paper_stats.py",
+    "resolved_url": "https://raw.githubusercontent.com/anna-mazhar/trace-level-contamination-mas/a6aaf30ccdb15d774ac8bad136e52491db3e2a4a/scripts/paper_stats.py",
+    "path": "data/trace-tables/scripts/paper_stats.py",
+    "bytes": 23572,
+    "sha256": "08986d3a21b48d87e69c0aa9113d7e19cbccc709921f68b25f5132db016152ee",
+    "retrieved_at_utc": "2026-10-18T16:10:53Z"
+  }
+]

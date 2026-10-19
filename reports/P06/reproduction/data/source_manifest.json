@@ -1,0 +1,54 @@
+[
+  {
+    "paper": "2510.26702",
+    "url": "https://arxiv.org/html/2510.26702",
+    "sha256": "80d6130d5b74329b2bf2212a27a156c38df5cfbd36a15c53b4b4467dd1a773e7",
+    "bytes": 173591,
+    "versions": [
+      "arXiv:2510.26702v1"
+    ],
+    "path": "data/2510.26702.html",
+    "artifact_candidates": [
+      "https://github.com/agntcy/identity-service",
+      "https://github.com/arXiv/html_feedback/issues",
+      "https://github.com/brucemiller/LaTeXML/issues",
+      "https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML"
+    ],
+    "retrieved_at_utc": "2026-10-18T15:34:16Z"
+  },
+  {
+    "paper": "2512.11147",
+    "url": "https://arxiv.org/html/2512.11147",
+    "sha256": "3890127a2b869294ab9e79ca74d7e78b24c8026fdab8d2dc53536b2372430a53",
+    "bytes": 332540,
+    "versions": [
+      "arXiv:2512.11147v2"
+    ],
+    "path": "data/2512.11147.html",
+    "artifact_candidates": [
+      "https://github.com/arXiv/html_feedback/issues",
+      "https://github.com/browser-use/browser-use",
+      "https://github.com/brucemiller/LaTeXML/issues",
+      "https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML",
+      "https://github.com/openclaw/openclaw"
+    ],
+    "retrieved_at_utc": "2026-10-18T15:34:16Z"
+  },
+  {
+    "paper": "2609.00267",
+    "url": "https://arxiv.org/html/2609.00267",
+    "sha256": "3b73f890b3353497ed1d9ed637baa8964d5097053870dec1d7336da2c6ed47cb",
+    "bytes": 154592,
+    "versions": [
+      "arXiv:2609.00267v1"
+    ],
+    "path": "data/2609.00267.html",
+    "artifact_candidates": [
+      "https://github.com/arXiv/html_feedback/issues",
+      "https://github.com/brucemiller/LaTeXML/issues",
+      "https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML",
+      "https://github.com/spiffe/spire"
+    ],
+    "retrieved_at_utc": "2026-10-18T15:34:16Z"
+  }
+]

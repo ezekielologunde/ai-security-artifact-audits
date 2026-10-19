@@ -1,0 +1,10 @@
+{
+  "study": "Public contamination-table qualification and bounded reanalysis",
+  "source_revision": "a6aaf30ccdb15d774ac8bad136e52491db3e2a4a",
+  "scope": "Published aggregate tables; no new model runs, no raw causal reconstruction, no independent correctness labels",
+  "exploratory_information_already_seen": "Schemas, per-file row/task counts, and author join/statistic code were inspected before this record. This is not external preregistration.",
+  "questions": ["Are table join keys unique and how much token/trace coverage overlaps?", "Which source-reported aggregate counts can be independently recomputed?", "Which proposed correctness-sensitive analyses lack required released fields?"],
+  "join_key": ["model", "task_id", "perturbation_type"],
+  "rules": ["Do not infer incorrectness from answer_changed", "Do not impute missing correctness as false", "Do not merge across model identities", "Report unmatched rows and duplicate keys", "Do not train a manifestation classifier using fields that define manifestation labels"],
+  "publication_claim": "Data suitability and replication evidence only; standalone novelty unestablished"
+}

@@ -1,0 +1,168 @@
+{
+  "source_files_sha256_verified": 139,
+  "boundary_tests_passed": 5,
+  "independent_confusion_count_recalculation": true,
+  "unknown_cases": [
+    {
+      "source": "TOUCAN",
+      "split": "test",
+      "tools_per_task": 2,
+      "row": 238,
+      "task_hash": "3c58619391de8d3e6673fce210bfa620000f65e1a5c77d65df94f4da61e32ea9",
+      "truth": true,
+      "tag": "correct",
+      "score": null,
+      "missing_catalog_bindings": [
+        {
+          "server": "United States Weather",
+          "tool": "United States Weather::get_local_time"
+        },
+        {
+          "server": "United States Weather",
+          "tool": "United States Weather::get_current_weather"
+        }
+      ]
+    },
+    {
+      "source": "TOUCAN",
+      "split": "test",
+      "tools_per_task": 2,
+      "row": 443,
+      "task_hash": "74a4e4917ca4ee5245218ca06e5fceabae59dd16457f3de8b2ce189402ff2377",
+      "truth": true,
+      "tag": "correct",
+      "score": null,
+      "missing_catalog_bindings": [
+        {
+          "server": "AI Research Assistant - Semantic Scholar",
+          "tool": "AI Research Assistant - Semantic Scholar::papers-search-advanced"
+        },
+        {
+          "server": "AI Research Assistant - Semantic Scholar",
+          "tool": "AI Research Assistant - Semantic Scholar::analysis-citation-network"
+        }
+      ]
+    },
+    {
+      "source": "TOUCAN",
+      "split": "test",
+      "tools_per_task": 2,
+      "row": 530,
+      "task_hash": "f88fa70606531475961664af5da1f98a3f4d36de518577d80573ce69d569fc09",
+      "truth": true,
+      "tag": "correct",
+      "score": null,
+      "missing_catalog_bindings": [
+        {
+          "server": "United States Weather",
+          "tool": "United States Weather::get_weather_alerts"
+        },
+        {
+          "server": "United States Weather",
+          "tool": "United States Weather::get_weather_forecast"
+        }
+      ]
+    },
+    {
+      "source": "TOUCAN",
+      "split": "test",
+      "tools_per_task": 2,
+      "row": 551,
+      "task_hash": "0d56aadfd79fa9a6761c57b7fe1b32ca17b79be18aff59b710f1458424e33b99",
+      "truth": true,
+      "tag": "correct",
+      "score": null,
+      "missing_catalog_bindings": [
+        {
+          "server": "United States Weather",
+          "tool": "United States Weather::get_current_weather"
+        },
+        {
+          "server": "United States Weather",
+          "tool": "United States Weather::get_weather_forecast"
+        }
+      ]
+    },
+    {
+      "source": "TOUCAN",
+      "split": "test",
+      "tools_per_task": 2,
+      "row": 571,
+      "task_hash": "a9eac0633d56e17f57f9c2d1809a214f00e7ea86abf1b5a873b4835575cdf3fd",
+      "truth": true,
+      "tag": "correct",
+      "score": null,
+      "missing_catalog_bindings": [
+        {
+          "server": "United States Weather",
+          "tool": "United States Weather::get_current_weather"
+        },
+        {
+          "server": "United States Weather",
+          "tool": "United States Weather::get_local_time"
+        }
+      ]
+    },
+    {
+      "source": "TOUCAN",
+      "split": "test",
+      "tools_per_task": 2,
+      "row": 863,
+      "task_hash": "22a69b8c17e1f638ff5e00118b7fb6ffc7672d707c7dd508dcd24b7fcffa1c53",
+      "truth": true,
+      "tag": "correct",
+      "score": null,
+      "missing_catalog_bindings": [
+        {
+          "server": "AI Research Assistant - Semantic Scholar",
+          "tool": "AI Research Assistant - Semantic Scholar::papers-search-basic"
+        },
+        {
+          "server": "AI Research Assistant - Semantic Scholar",
+          "tool": "AI Research Assistant - Semantic Scholar::analysis-citation-network"
+        }
+      ]
+    },
+    {
+      "source": "TOUCAN",
+      "split": "test",
+      "tools_per_task": 2,
+      "row": 868,
+      "task_hash": "00b3b2ade58eb81f5912cec675b622a097ca86c54dd3b19a01fe3d17b7db4241",
+      "truth": true,
+      "tag": "correct",
+      "score": null,
+      "missing_catalog_bindings": [
+        {
+          "server": "United States Weather",
+          "tool": "United States Weather::get_local_time"
+        },
+        {
+          "server": "United States Weather",
+          "tool": "United States Weather::get_current_weather"
+        }
+      ]
+    },
+    {
+      "source": "TOUCAN",
+      "split": "test",
+      "tools_per_task": 2,
+      "row": 1006,
+      "task_hash": "fc2477516c0a83b351a26bff87ea113d494b62d6aec0b426c458e3a146c9b5ab",
+      "truth": true,
+      "tag": "correct",
+      "score": null,
+      "missing_catalog_bindings": [
+        {
+          "server": "Exa Search",
+          "tool": "Exa Search::web_search_exa"
+        },
+        {
+          "server": "Exa Search",
+          "tool": "Exa Search::crawling_exa"
+        }
+      ]
+    }
+  ],
+  "limits": "This validates software arithmetic and file identity; it does not independently adjudicate source semantic labels."
+}

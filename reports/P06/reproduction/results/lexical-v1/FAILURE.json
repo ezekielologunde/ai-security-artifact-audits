@@ -1,0 +1,7 @@
+{
+  "previous_version": "lexical-v1",
+  "previous_code_sha256": "4a3ff6211d04b8f28b3b3a36016895bc46e976c49b47af08361df73ea1fa7655",
+  "reason": "Initial run failed during catalog loading: a broad *.json glob included acquisition receipts, producing KeyError name before any validation/test scores were computed.",
+  "change": "Enumerate only catalog payload paths declared by the frozen acquisition manifest. Feature definitions, calibration rule, outcomes and splits remain unchanged.",
+  "test_outcomes_seen_before_amendment": false
+}

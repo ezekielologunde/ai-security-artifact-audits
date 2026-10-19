@@ -1,0 +1,28 @@
+{
+  "method": "Remove the confirmed label alias and identifier; no assertion of exhaustive leakage removal",
+  "excluded": [
+    "session_id",
+    "session_type"
+  ],
+  "remaining_columns": [
+    "employee_id",
+    "timestamp",
+    "date",
+    "weekday",
+    "hour",
+    "after_hours",
+    "browser_used",
+    "client_type",
+    "ja4_archetype",
+    "tls_version",
+    "destination_domain",
+    "session_duration_sec",
+    "requests",
+    "dns_queries",
+    "upload_kb",
+    "download_kb",
+    "vpn_used",
+    "minutes_since_resource",
+    "upload_download_ratio"
+  ]
+}

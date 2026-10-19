@@ -1,0 +1,1126 @@
+{
+  "repository": "outshift-open/ASTRA",
+  "revision": "ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7",
+  "upstream_license": null,
+  "selected_bytes": 9877472,
+  "receipts": [
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/01_tool/ASTRA/test.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/01_tool/ASTRA/test.json",
+      "path": "data/benchmark/data/01_tool/ASTRA/test.json",
+      "bytes": 547045,
+      "sha256": "f61ccd26ed4bc01642a23aed0c7839ca796000b920944c905ab2bab537958480",
+      "retrieved_at_utc": "2026-10-18T15:37:44Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/01_tool/ASTRA/validation.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/01_tool/ASTRA/validation.json",
+      "path": "data/benchmark/data/01_tool/ASTRA/validation.json",
+      "bytes": 643935,
+      "sha256": "4d15a312d2cf120fbec54d2a0441c85871a120e4cff2f6911be668cf9cb4f26d",
+      "retrieved_at_utc": "2026-10-18T15:37:44Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/01_tool/TOUCAN/test.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/01_tool/TOUCAN/test.json",
+      "path": "data/benchmark/data/01_tool/TOUCAN/test.json",
+      "bytes": 1138101,
+      "sha256": "38cff5869a292dcf47170eca45f7a9e17073d8618272ab052d30187d301a48f8",
+      "retrieved_at_utc": "2026-10-18T15:37:44Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/02_tools/ASTRA/test.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/02_tools/ASTRA/test.json",
+      "path": "data/benchmark/data/02_tools/ASTRA/test.json",
+      "bytes": 665598,
+      "sha256": "c63e61682e5ddcf01a982caee8dc8405613b683d4212f21a232fbeafd6a1b22f",
+      "retrieved_at_utc": "2026-10-18T15:37:45Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/02_tools/ASTRA/validation.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/02_tools/ASTRA/validation.json",
+      "path": "data/benchmark/data/02_tools/ASTRA/validation.json",
+      "bytes": 787304,
+      "sha256": "c962d56f90e00f8f59079dba0ac99ddf2e34eb503a1e0f9eee02a3e92c9cdc59",
+      "retrieved_at_utc": "2026-10-18T15:37:45Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/02_tools/TOUCAN/test.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/02_tools/TOUCAN/test.json",
+      "path": "data/benchmark/data/02_tools/TOUCAN/test.json",
+      "bytes": 1592354,
+      "sha256": "ecb401dc4ba4e608e78527d200aa2e9d51913aefb784974e9e32961e8e3080df",
+      "retrieved_at_utc": "2026-10-18T15:37:46Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/03_tools/ASTRA/test.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/03_tools/ASTRA/test.json",
+      "path": "data/benchmark/data/03_tools/ASTRA/test.json",
+      "bytes": 738559,
+      "sha256": "c87a3d9ee614faccb59a647895c9028af1daed0e3c55b88b85f86dc2033b970e",
+      "retrieved_at_utc": "2026-10-18T15:37:46Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/03_tools/ASTRA/validation.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/03_tools/ASTRA/validation.json",
+      "path": "data/benchmark/data/03_tools/ASTRA/validation.json",
+      "bytes": 860513,
+      "sha256": "d7504f9aceab47a92f2c577afecf92455efc5f3f6ae0a5167a5e59a430a64f57",
+      "retrieved_at_utc": "2026-10-18T15:37:46Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/03_tools/TOUCAN/test.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/03_tools/TOUCAN/test.json",
+      "path": "data/benchmark/data/03_tools/TOUCAN/test.json",
+      "bytes": 2057829,
+      "sha256": "2fc7b77cf2bc71922479d75e422ea9a2ba1a65935f17a723f4253c27fe3b863e",
+      "retrieved_at_utc": "2026-10-18T15:37:47Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/atlassian.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/atlassian.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/atlassian.json",
+      "bytes": 57470,
+      "sha256": "db12a16ce2d1450e02852a56fbe13004ea7ef9f14c4a42c5b1e8f78a10694486",
+      "retrieved_at_utc": "2026-10-18T15:37:47Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/azure.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/azure.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/azure.json",
+      "bytes": 69555,
+      "sha256": "75b3f536432869cad3e548312109de935c1727fc2a98b235fcc71e95eb9df791",
+      "retrieved_at_utc": "2026-10-18T15:37:47Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/github_official.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/github_official.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/github_official.json",
+      "bytes": 109099,
+      "sha256": "9bd0b2f0ba55c6d5591c737d23cd562aa5b211e1d1fabe7a0d0363529ea57d3d",
+      "retrieved_at_utc": "2026-10-18T15:37:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/grafana.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/grafana.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/grafana.json",
+      "bytes": 58328,
+      "sha256": "7afd4c7e9a6802e01f2fb646ade85e1e1e338015df2bf5025b1f4b4614b86994",
+      "retrieved_at_utc": "2026-10-18T15:37:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/hummingbot_mcp.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/hummingbot_mcp.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/hummingbot_mcp.json",
+      "bytes": 35261,
+      "sha256": "c6a2e243c5cb4f98671678606ede574564fcbf133812a8ab3cc83d306d8691e2",
+      "retrieved_at_utc": "2026-10-18T15:37:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/mongodb.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/mongodb.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/mongodb.json",
+      "bytes": 33359,
+      "sha256": "82e020592c51a470056840ef764e23107997ecdcd1531da75b92d759e3a349e8",
+      "retrieved_at_utc": "2026-10-18T15:37:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/nasdaq_data_link.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/nasdaq_data_link.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/nasdaq_data_link.json",
+      "bytes": 44043,
+      "sha256": "28f48e92f0450f88df1ab4bc6ca1e17482b74ab94a747768a6db869d66b875cd",
+      "retrieved_at_utc": "2026-10-18T15:37:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/notion.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/notion.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/notion.json",
+      "bytes": 32349,
+      "sha256": "8181c9338d3baf3f2b4d1272b03d1dafd0f231329cbe8b92f9c0c74d70295ac3",
+      "retrieved_at_utc": "2026-10-18T15:37:49Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/paper_search.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/paper_search.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/paper_search.json",
+      "bytes": 29448,
+      "sha256": "6bbf728fcbfd1f362d11ac642244e4882445aa1927ac6942e0414cbb144287f3",
+      "retrieved_at_utc": "2026-10-18T15:37:49Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/sonarqube.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/sonarqube.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/sonarqube.json",
+      "bytes": 13668,
+      "sha256": "20f9adf0e265443e5b1c78d033412ee2ed24dcba02bd918066bbb5abf5be83a7",
+      "retrieved_at_utc": "2026-10-18T15:37:49Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/stripe.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/stripe.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/stripe.json",
+      "bytes": 30211,
+      "sha256": "0948922debb87d8e6adb87a72b0d5b1fd646228d0f1a9e493a1051a3311b91f1",
+      "retrieved_at_utc": "2026-10-18T15:37:49Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/wikipedia_mcp.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/ASTRA/wikipedia_mcp.json",
+      "path": "data/benchmark/data/mcp_servers/ASTRA/wikipedia_mcp.json",
+      "bytes": 6904,
+      "sha256": "c5849a019e1ef3e92cfee466ae746617941481dc46c9ba442618c81b201321c9",
+      "retrieved_at_utc": "2026-10-18T15:37:49Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/AI%20Research%20Assistant%20-%20Semantic%20Scholar.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/AI%20Research%20Assistant%20-%20Semantic%20Scholar.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/AI Research Assistant - Semantic Scholar.json",
+      "bytes": 1210,
+      "sha256": "0bfe4830bc2ab526f64c30e8ff30d02459370da5984ccc5754333308ed495425",
+      "retrieved_at_utc": "2026-10-18T15:37:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/AKShare%20One%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/AKShare%20One%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/AKShare One MCP Server.json",
+      "bytes": 1008,
+      "sha256": "adfe46d9e9fa7cbc3b65b82bcf5ca0d680de60fd2e066303c576e7b9f7ed90d2",
+      "retrieved_at_utc": "2026-10-18T15:37:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/AO%20Generative%20AI%20CP3%20Smithery%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/AO%20Generative%20AI%20CP3%20Smithery%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/AO Generative AI CP3 Smithery Server.json",
+      "bytes": 1584,
+      "sha256": "28125625e82451a9a6113bfd0a15a3c5c40bacf107e1202b4c3cf5479c2ba475",
+      "retrieved_at_utc": "2026-10-18T15:37:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/After%20Effects%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/After%20Effects%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/After Effects MCP Server.json",
+      "bytes": 1722,
+      "sha256": "bffb7d02de7692a82670a3efaf05c07994ebed6e20f26ece1d8d469747da2b65",
+      "retrieved_at_utc": "2026-10-18T15:37:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/App%20Market%20Intelligence.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/App%20Market%20Intelligence.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/App Market Intelligence.json",
+      "bytes": 12461,
+      "sha256": "37bb69c6d359b332e0c4edff550c3d6d040b9733ababcbf6166297010ceb3fe8",
+      "retrieved_at_utc": "2026-10-18T15:37:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Atlas%20Docs.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Atlas%20Docs.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Atlas Docs.json",
+      "bytes": 1726,
+      "sha256": "0a43cb6978e16cb534256ecf55249b80ccbdcefb96ab656080151bc1f2d071f5",
+      "retrieved_at_utc": "2026-10-18T15:37:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Bible%20Verse%20Access%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Bible%20Verse%20Access%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Bible Verse Access Server.json",
+      "bytes": 1677,
+      "sha256": "155eab87cb332420a9a5099f49626649f6886f220f8b3b6e6fcb98563a914321",
+      "retrieved_at_utc": "2026-10-18T15:37:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/BioMCP.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/BioMCP.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/BioMCP.json",
+      "bytes": 7566,
+      "sha256": "3d1b8d33fb800aabdb58c159e1a521d5d00c04ad9fd629a83a6b95f7cee2bb68",
+      "retrieved_at_utc": "2026-10-18T15:37:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Biomart%20MCP.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Biomart%20MCP.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Biomart MCP.json",
+      "bytes": 7910,
+      "sha256": "b8da6b168d2ee288c9f5f490fa31e3a7689886653074b33f1730010b726e11f7",
+      "retrieved_at_utc": "2026-10-18T15:37:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Bitcoin%20SV%20Tools%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Bitcoin%20SV%20Tools%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Bitcoin SV Tools Server.json",
+      "bytes": 5580,
+      "sha256": "96a71aa3c02d74641e3c8238d98edab0c37fa1944dbe96b15f7254361a0e1e39",
+      "retrieved_at_utc": "2026-10-18T15:37:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/BoardGameGeek%20API%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/BoardGameGeek%20API%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/BoardGameGeek API Server.json",
+      "bytes": 1296,
+      "sha256": "b85b878c80d1011b391ee2694a84a36abca40a8c45734c75320f42ef80860b23",
+      "retrieved_at_utc": "2026-10-18T15:37:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Brasil%20API.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Brasil%20API.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Brasil API.json",
+      "bytes": 1458,
+      "sha256": "6c7c0a02d6d204e25c0b80405d6168ff4e551403e0fb5f5034c68c2e68783689",
+      "retrieved_at_utc": "2026-10-18T15:37:52Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/BrasilAPI%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/BrasilAPI%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/BrasilAPI MCP Server.json",
+      "bytes": 810,
+      "sha256": "08d1126e6c61e996d0d08cc264c19951453804e496617262867c8781209c7329",
+      "retrieved_at_utc": "2026-10-18T15:37:52Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Bright%20Data.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Bright%20Data.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Bright Data.json",
+      "bytes": 12869,
+      "sha256": "fa8d32a4a2d9552cbd66c635893a227d42a3a4a657f30ae322f29fd1cf76b2e5",
+      "retrieved_at_utc": "2026-10-18T15:37:52Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/CCXT%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/CCXT%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/CCXT MCP Server.json",
+      "bytes": 2674,
+      "sha256": "1dc10799971257bd306cdbb0c3dfc5282e3fd247e96f5364d30df8014f62c74d",
+      "retrieved_at_utc": "2026-10-18T15:37:52Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Cal%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Cal%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Cal Server.json",
+      "bytes": 771,
+      "sha256": "0565808911d77aec23d8a67bef855f155742c6474053eba50ca1824332c19443",
+      "retrieved_at_utc": "2026-10-18T15:37:52Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/ChEMBL%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/ChEMBL%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/ChEMBL Server.json",
+      "bytes": 11020,
+      "sha256": "ce4970be899b1f57333feeae9cf734407461b3d33297854eb6b62ad635c6efce",
+      "retrieved_at_utc": "2026-10-18T15:37:52Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Claude%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Claude%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Claude Server.json",
+      "bytes": 517,
+      "sha256": "3bc48adda7c8efca667c0fa02a6c29514099d4215057dde4c54b57cb892b9cbe",
+      "retrieved_at_utc": "2026-10-18T15:37:53Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/ClinicalTrials%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/ClinicalTrials%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/ClinicalTrials MCP Server.json",
+      "bytes": 2681,
+      "sha256": "6c0eb29731df34a7d36f9800af539723a2cf7f2ad355a0357004313925f991a7",
+      "retrieved_at_utc": "2026-10-18T15:37:53Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/CoinGecko%20API%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/CoinGecko%20API%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/CoinGecko API Server.json",
+      "bytes": 682,
+      "sha256": "bbe71bf2008a67063c3fd0a7254531cbfca3b7fe4b20998624150475b8a8a1f6",
+      "retrieved_at_utc": "2026-10-18T15:37:53Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/CoinGecko%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/CoinGecko%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/CoinGecko MCP Server.json",
+      "bytes": 552,
+      "sha256": "b94080af2e9e0f9832c6bae7ba0e721d15ea49e40d0f240e65ce5633fa762b6c",
+      "retrieved_at_utc": "2026-10-18T15:37:53Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Coinranking.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Coinranking.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Coinranking.json",
+      "bytes": 2021,
+      "sha256": "541cd973baa5c6a8b05fc6c7b6551b3e439f3a0de7216ee7bf04d8f7350b1cb1",
+      "retrieved_at_utc": "2026-10-18T15:37:53Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Context7.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Context7.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Context7.json",
+      "bytes": 1623,
+      "sha256": "2729fcc8fb2f9bd8ab848eda12dc17273e78e25b616bbee5040102cfa4b1632c",
+      "retrieved_at_utc": "2026-10-18T15:37:54Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Crypto%20Research%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Crypto%20Research%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Crypto Research Server.json",
+      "bytes": 735,
+      "sha256": "1003ccde182e4792825d6da1e7046d21d9af1ca35e99cd9aa7bd0781af76799a",
+      "retrieved_at_utc": "2026-10-18T15:37:54Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Crypto_MCP.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Crypto_MCP.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Crypto_MCP.json",
+      "bytes": 1295,
+      "sha256": "357770e999436c4ce89448f160f0834d8179a3c6e4961041e9d861f26e059090",
+      "retrieved_at_utc": "2026-10-18T15:37:54Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Cultural%20Heritage%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Cultural%20Heritage%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Cultural Heritage Server.json",
+      "bytes": 1594,
+      "sha256": "e40f5f7e912739915d3559c5bdd4a65e4a7a770c44d01aaea32a5db0c9471c93",
+      "retrieved_at_utc": "2026-10-18T15:37:54Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Current%20Forest%20Fire%20Status%20in%20Korea.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Current%20Forest%20Fire%20Status%20in%20Korea.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Current Forest Fire Status in Korea.json",
+      "bytes": 1534,
+      "sha256": "499143dae584c8fa73380d5c59e0e74fc5a0520af002f56699334c9899cb545d",
+      "retrieved_at_utc": "2026-10-18T15:37:54Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/DefiLlama%20API%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/DefiLlama%20API%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/DefiLlama API Server.json",
+      "bytes": 2382,
+      "sha256": "c8af8db0ca1f8f658f8bbb4ee81856c059080eb23489479ffbb3429835854e77",
+      "retrieved_at_utc": "2026-10-18T15:37:54Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Desktop%20TXT%20File%20Manager.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Desktop%20TXT%20File%20Manager.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Desktop TXT File Manager.json",
+      "bytes": 893,
+      "sha256": "096fd4e27e525f0604c4225136480bfb5e5270575c8742afb4fef9586054cdcb",
+      "retrieved_at_utc": "2026-10-18T15:37:55Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Dog%20Image%20Fetcher.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Dog%20Image%20Fetcher.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Dog Image Fetcher.json",
+      "bytes": 1429,
+      "sha256": "ed2ec4492a179d931d0b0b4f3e5e8399735bacd795230224d037831f5d8cf5e7",
+      "retrieved_at_utc": "2026-10-18T15:37:55Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Drawing%20Tool%20for%20AI%20Assistants.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Drawing%20Tool%20for%20AI%20Assistants.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Drawing Tool for AI Assistants.json",
+      "bytes": 628,
+      "sha256": "01a0965612ad3993f639b71448ee87be7c1622aec73543f8f8e5833d3d340333",
+      "retrieved_at_utc": "2026-10-18T15:37:55Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/EVE%20Online%20Market%20Data%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/EVE%20Online%20Market%20Data%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/EVE Online Market Data Server.json",
+      "bytes": 1206,
+      "sha256": "bd40e1df62c1e2f11b1d6b737a1e9ae9ebb1b68b61fd6f32fbae4c7e34f1897c",
+      "retrieved_at_utc": "2026-10-18T15:37:55Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Emoji%20Hub%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Emoji%20Hub%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Emoji Hub Server.json",
+      "bytes": 1853,
+      "sha256": "dfe5281878810660f02a7f9b06fb24514ba134d7d6875a9f84cb6656cacd6f4a",
+      "retrieved_at_utc": "2026-10-18T15:37:55Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Erick%20Wendel%20Contributions.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Erick%20Wendel%20Contributions.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Erick Wendel Contributions.json",
+      "bytes": 539,
+      "sha256": "e2fdc7c72f45a297f5551f1971ab30e32ed14bd0a3168d1c8255a0bbf8a246d5",
+      "retrieved_at_utc": "2026-10-18T15:37:55Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Event%20Horizon%20Evolutionary%20Solution%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Event%20Horizon%20Evolutionary%20Solution%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Event Horizon Evolutionary Solution Server.json",
+      "bytes": 2330,
+      "sha256": "92187aac7bc8e3c3e2c8412f4fed052e82f4d26d559eee634cf1d7587d77af11",
+      "retrieved_at_utc": "2026-10-18T15:37:56Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Exa%20Search.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Exa%20Search.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Exa Search.json",
+      "bytes": 2253,
+      "sha256": "62e4538ee04a0d703da8c1b58377f1a6004e2c38c50b0aabc0600f9a73754f3d",
+      "retrieved_at_utc": "2026-10-18T15:37:56Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Figma%20API%20Integration.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Figma%20API%20Integration.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Figma API Integration.json",
+      "bytes": 1866,
+      "sha256": "004a906025355ed7c62a22299f7b75cbe34570c08fc84ab6710166a32ab6a74b",
+      "retrieved_at_utc": "2026-10-18T15:37:56Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Firestore%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Firestore%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Firestore Server.json",
+      "bytes": 2989,
+      "sha256": "ba2a2c215cd6608bdc58b7682bb96718bcabaca5c9ca05c2d07f864c00b07bc9",
+      "retrieved_at_utc": "2026-10-18T15:37:56Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Flow%20RPC%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Flow%20RPC%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Flow RPC Server.json",
+      "bytes": 1280,
+      "sha256": "9bb269fa5dbe85ed7183a580c0febfd8db8d11cbdea3f5c09b895637ef9c02db",
+      "retrieved_at_utc": "2026-10-18T15:37:56Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Food%20Tracker.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Food%20Tracker.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Food Tracker.json",
+      "bytes": 2193,
+      "sha256": "76a82baee7dfa4f2fdffff24ab37a23f21301f20b2614d1d3167f05f0b9d011e",
+      "retrieved_at_utc": "2026-10-18T15:37:56Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Framer%20Plugin%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Framer%20Plugin%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Framer Plugin Server.json",
+      "bytes": 275,
+      "sha256": "b398ac37fb673fd6d801fbfb313ebb01a00c5da0127972cf9f2ab652680fa66b",
+      "retrieved_at_utc": "2026-10-18T15:37:57Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Game%20Trends.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Game%20Trends.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Game Trends.json",
+      "bytes": 1075,
+      "sha256": "b358aeacd5a6b8e8f16be8a6d295a47d0ef7f17bbd65fc9668f5718e69b7d8a0",
+      "retrieved_at_utc": "2026-10-18T15:37:57Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Git%20Test%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Git%20Test%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Git Test Server.json",
+      "bytes": 3765,
+      "sha256": "1b933f0e48e17530ecf9b44dec2ef764d43be7b8f34242105f440e0f5974c8f0",
+      "retrieved_at_utc": "2026-10-18T15:37:57Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Hotel%20Booking%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Hotel%20Booking%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Hotel Booking Server.json",
+      "bytes": 3655,
+      "sha256": "6702134dcf1ed61fe89bec49353538e748313afe01917db301ca824d83926810",
+      "retrieved_at_utc": "2026-10-18T15:37:57Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Hugging%20Face%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Hugging%20Face%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Hugging Face MCP Server.json",
+      "bytes": 1215,
+      "sha256": "234119652fbc7ead0e344e1a87a64fdc956a42d9c945d480dbdfe588783af614",
+      "retrieved_at_utc": "2026-10-18T15:37:57Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/IBGE%20Municipality%20Listing%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/IBGE%20Municipality%20Listing%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/IBGE Municipality Listing Server.json",
+      "bytes": 756,
+      "sha256": "02c2878a718b03073265e537cdfb920b56f7f3a0147e12c98c79badea59b2ee6",
+      "retrieved_at_utc": "2026-10-18T15:37:58Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Internet%20Speed%20Test.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Internet%20Speed%20Test.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Internet Speed Test.json",
+      "bytes": 1900,
+      "sha256": "e4a4623ceb0dd60af2fa592e473080b132aa6f782a25e7709d839f328b6827b1",
+      "retrieved_at_utc": "2026-10-18T15:37:58Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/JWorg%20Content%20Tools.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/JWorg%20Content%20Tools.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/JWorg Content Tools.json",
+      "bytes": 2029,
+      "sha256": "5f144cb4921382a020e279bf1d734d505349bb1b08e80c09e49b02bfd98b29e0",
+      "retrieved_at_utc": "2026-10-18T15:37:58Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/KMB%20Bus.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/KMB%20Bus.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/KMB Bus.json",
+      "bytes": 1179,
+      "sha256": "434f46dadce3480f73ebfa58a8a4393b9a7a8e1355c0e231919f2ad8090b2786",
+      "retrieved_at_utc": "2026-10-18T15:37:58Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Laravel%20MCP%20Companion.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Laravel%20MCP%20Companion.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Laravel MCP Companion.json",
+      "bytes": 4724,
+      "sha256": "87bfe68c1d49fc7814ace812f80a2e67e397a3cda043fdcf40be821ca9a24a20",
+      "retrieved_at_utc": "2026-10-18T15:37:58Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/LeetCode.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/LeetCode.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/LeetCode.json",
+      "bytes": 1998,
+      "sha256": "2da3a3f62dd54445746e08894b8ec4843a7dc0b1a1711143f2abef52907592f6",
+      "retrieved_at_utc": "2026-10-18T15:37:58Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/LinkedIn%20Digital%20Intelligence%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/LinkedIn%20Digital%20Intelligence%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/LinkedIn Digital Intelligence Server.json",
+      "bytes": 3854,
+      "sha256": "8d002637546ac9296f25639e507e6575d9b19a5bd63e8122462cb420e2302833",
+      "retrieved_at_utc": "2026-10-18T15:37:59Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Lorenz%20Woehr%20Portfolio.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Lorenz%20Woehr%20Portfolio.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Lorenz Woehr Portfolio.json",
+      "bytes": 479,
+      "sha256": "03242d632285911fd24d4b7c6a80e8df8830e9133dbb0336676f1cba47aec12e",
+      "retrieved_at_utc": "2026-10-18T15:37:59Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Lotus%20Wisdom.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Lotus%20Wisdom.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Lotus Wisdom.json",
+      "bytes": 3873,
+      "sha256": "ae864d840b33c7e3bd53660c53c5e461329083c7b214555a612a225c49cf20e7",
+      "retrieved_at_utc": "2026-10-18T15:37:59Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Lulu%20Print.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Lulu%20Print.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Lulu Print.json",
+      "bytes": 299,
+      "sha256": "af9d4a1f4d728bdb78cdfce7ddf8e5c1569bca33f5bb2c794b0ca93968a3f5f1",
+      "retrieved_at_utc": "2026-10-18T15:37:59Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MCP%20Server%20Semgrep.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MCP%20Server%20Semgrep.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/MCP Server Semgrep.json",
+      "bytes": 748,
+      "sha256": "f5f5b1a139560983cb1ce3268ddf14994e13fba62cca8a6ae49c77b2a8d781e6",
+      "retrieved_at_utc": "2026-10-18T15:37:59Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MCP%20Server%20for%20Singapore%20Government%20Open%20Data.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MCP%20Server%20for%20Singapore%20Government%20Open%20Data.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/MCP Server for Singapore Government Open Data.json",
+      "bytes": 1376,
+      "sha256": "b0dbe25bf07c783f549a457a03bd07d204fdb74b146f2340ec28f04fc6cd9238",
+      "retrieved_at_utc": "2026-10-18T15:38:00Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MCPollinations.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MCPollinations.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/MCPollinations.json",
+      "bytes": 898,
+      "sha256": "b3a76f6505f04ccf18fe5446078d561bbe59e59df7aee40c048fd567b49261a3",
+      "retrieved_at_utc": "2026-10-18T15:38:00Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Macrostrat%20API%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Macrostrat%20API%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Macrostrat API Server.json",
+      "bytes": 750,
+      "sha256": "0597d99329a84345e1919c597785be03b51db9a909936e840ca97220d1959b30",
+      "retrieved_at_utc": "2026-10-18T15:38:00Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Magic%20UI%20Component%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Magic%20UI%20Component%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Magic UI Component Server.json",
+      "bytes": 2258,
+      "sha256": "cb2742e521a8c6318e15f87417bc47737be47d35e533b995e7a6a84bb2a4e4b1",
+      "retrieved_at_utc": "2026-10-18T15:38:00Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Mapas%20Mentais%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Mapas%20Mentais%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Mapas Mentais Server.json",
+      "bytes": 784,
+      "sha256": "8e9df666f776f6c52920ba9dc8b2bce9357a40612bc103f20676d2511666956c",
+      "retrieved_at_utc": "2026-10-18T15:38:00Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Markdown%20Downloader.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Markdown%20Downloader.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Markdown Downloader.json",
+      "bytes": 649,
+      "sha256": "10fdf55681ccfa9568c7d4c6dde331f85a0a9c345312c08df57dcba2a8019512",
+      "retrieved_at_utc": "2026-10-18T15:38:00Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MediaWiki.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MediaWiki.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/MediaWiki.json",
+      "bytes": 1279,
+      "sha256": "ab12c3188ae196c7226d677c29e5ce668bed656971467093fe91a0e336c3431e",
+      "retrieved_at_utc": "2026-10-18T15:38:01Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Medical%20Calculation%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Medical%20Calculation%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Medical Calculation Server.json",
+      "bytes": 16818,
+      "sha256": "919d973cb3793966a0b6076daaa152cb363fe6a1775dc4b65810880e38d819d9",
+      "retrieved_at_utc": "2026-10-18T15:38:01Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Memory%20Bank.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Memory%20Bank.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Memory Bank.json",
+      "bytes": 1704,
+      "sha256": "da7d00c5203aab78ae2767d18c4b978d53b1853f15300432f8a69902b1e0ab7a",
+      "retrieved_at_utc": "2026-10-18T15:38:01Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Memory%20Palace.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Memory%20Palace.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Memory Palace.json",
+      "bytes": 1028,
+      "sha256": "bf42fd77fa88cdaa4223690c3bac61645f1470476aeb12773986bd679ec33f82",
+      "retrieved_at_utc": "2026-10-18T15:38:01Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MindBridge.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MindBridge.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/MindBridge.json",
+      "bytes": 418,
+      "sha256": "2d7dcc68b7c69b5ee86dc2306b5ed2be02ee644657c9f32d35521f5e03756322",
+      "retrieved_at_utc": "2026-10-18T15:38:01Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Minecraft%20Bot%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Minecraft%20Bot%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Minecraft Bot Server.json",
+      "bytes": 1597,
+      "sha256": "48e3c64218a57d722e60d7160d37830e57e7dffa9589f14837b924fcdf66b152",
+      "retrieved_at_utc": "2026-10-18T15:38:01Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Minecraft%20Wiki%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Minecraft%20Wiki%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Minecraft Wiki Server.json",
+      "bytes": 2097,
+      "sha256": "91ae8f381c357bfd53581020de146f38dc0e096e9c693ac465a3b8ca4bba10b3",
+      "retrieved_at_utc": "2026-10-18T15:38:02Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Model%20Context%20Protocol%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Model%20Context%20Protocol%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Model Context Protocol Server.json",
+      "bytes": 3328,
+      "sha256": "73cb23e6765d5e4e83889e5b9f068654406daab29cf218cd404a31767957ec8b",
+      "retrieved_at_utc": "2026-10-18T15:38:02Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MongoDB%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/MongoDB%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/MongoDB MCP Server.json",
+      "bytes": 2618,
+      "sha256": "8c4b7a29173e764859efbef789eb728113969e08ba48861d87cfd973befafc73",
+      "retrieved_at_utc": "2026-10-18T15:38:02Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Mutation%20Testing%20Manager.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Mutation%20Testing%20Manager.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Mutation Testing Manager.json",
+      "bytes": 2686,
+      "sha256": "1e87ededd0384122cad5401f4770692831de68281b4a675bbf8f16aab06270bc",
+      "retrieved_at_utc": "2026-10-18T15:38:02Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/NPM%20Sentinel%20MCP.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/NPM%20Sentinel%20MCP.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/NPM Sentinel MCP.json",
+      "bytes": 2268,
+      "sha256": "e5461361b7a028c53afeca6e4e565de80afa9fe1a75ce4738525c0b37e90e6f2",
+      "retrieved_at_utc": "2026-10-18T15:38:02Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OKX%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OKX%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/OKX Server.json",
+      "bytes": 259,
+      "sha256": "633bd94d306ec6f6189b35070b46042a2dd330c525c631e05c640bcc52536116",
+      "retrieved_at_utc": "2026-10-18T15:38:02Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OPGG.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OPGG.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/OPGG.json",
+      "bytes": 4662,
+      "sha256": "0361a12268f620af7a7544d8a38fc4a4aeb35cc48495043debfc8b85cc75a95c",
+      "retrieved_at_utc": "2026-10-18T15:38:03Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OSINT%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OSINT%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/OSINT Server.json",
+      "bytes": 517,
+      "sha256": "01617d7f69b1cdbcf83d3ca809f0b18e775332197371d993bdf1ee9ba3bc4265",
+      "retrieved_at_utc": "2026-10-18T15:38:03Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Office%20Word%20Document%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Office%20Word%20Document%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Office Word Document Server.json",
+      "bytes": 7682,
+      "sha256": "e4b7bc39a6065bdc884d5cb2c1c7ac303e6bcfb757227bd8d007d6b97302f8ac",
+      "retrieved_at_utc": "2026-10-18T15:38:03Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Old%20School%20RuneScape%20Wiki%20and%20Data%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Old%20School%20RuneScape%20Wiki%20and%20Data%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Old School RuneScape Wiki and Data Server.json",
+      "bytes": 2754,
+      "sha256": "8ddff0d0b4086a734b07ee85b4114398110480f66d40884251a118d83e2fc7ec",
+      "retrieved_at_utc": "2026-10-18T15:38:03Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OpenAPI%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OpenAPI%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/OpenAPI MCP Server.json",
+      "bytes": 7415,
+      "sha256": "e7e31f2daee8e879145051579be7092a767e075eab711c83d5309d9c75b9fad0",
+      "retrieved_at_utc": "2026-10-18T15:38:03Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OpenDota%20API%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OpenDota%20API%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/OpenDota API Server.json",
+      "bytes": 4233,
+      "sha256": "f3865bd017261f444fb4ec48eb0fcc76ec9e34e336ab3d8ee486cd917ea5123e",
+      "retrieved_at_utc": "2026-10-18T15:38:03Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OpenProject%20Integration%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/OpenProject%20Integration%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/OpenProject Integration Server.json",
+      "bytes": 1618,
+      "sha256": "54b3315e0332dffa7a00752eede439061fa6d241970d503fd7baf8a333034e11",
+      "retrieved_at_utc": "2026-10-18T15:38:04Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Package%20Registry%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Package%20Registry%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Package Registry Server.json",
+      "bytes": 1703,
+      "sha256": "6dd01b89e466ed1bf5d70b036a932e2b47ead4b7b0157a207a661da83305d8ca",
+      "retrieved_at_utc": "2026-10-18T15:38:04Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Paper%20Search.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Paper%20Search.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Paper Search.json",
+      "bytes": 4255,
+      "sha256": "db32089c3c5db5e3c9a21077595396c950b37267340755a537813b0516ffd439",
+      "retrieved_at_utc": "2026-10-18T15:38:04Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Playwright%20Automation%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Playwright%20Automation%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Playwright Automation Server.json",
+      "bytes": 3600,
+      "sha256": "95844eac5f9655343a393e0e8b05a20e2c5f18701ad0c995f93827d87f6dde36",
+      "retrieved_at_utc": "2026-10-18T15:38:04Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Playwright%20Browser%20Automation%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Playwright%20Browser%20Automation%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Playwright Browser Automation Server.json",
+      "bytes": 2918,
+      "sha256": "e8b143219487f5a4b42cd39875c3af26d12dc27f564d3b536b3297ef7dadf30f",
+      "retrieved_at_utc": "2026-10-18T15:38:04Z"
+    },
+    {
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Pok\u00c3\u00a9mcp.json",
+      "url": "https://api.github.com/repos/outshift-open/ASTRA/git/blobs/5febfb4957c8beaeedb036d0df17ec776bc2b57b",
+      "resolved_url": "https://api.github.com/repos/outshift-open/ASTRA/git/blobs/5febfb4957c8beaeedb036d0df17ec776bc2b57b",
+      "bytes": 482,
+      "sha256": "ea4b2a127a53e0993e865c87751e20eddaed528f7f03c9825195f9f6d6da4a4c",
+      "source_response": "data/blob_responses/5febfb4957c8beaeedb036d0df17ec776bc2b57b.json",
+      "transform": "base64 decode Git blob response; verified Git blob SHA-1",
+      "raw_route_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Pok\u00c3\u00a9mon Information Server.json",
+      "url": "https://api.github.com/repos/outshift-open/ASTRA/git/blobs/3117ded6024142d19d04a67a9eaae49e72f623fe",
+      "resolved_url": "https://api.github.com/repos/outshift-open/ASTRA/git/blobs/3117ded6024142d19d04a67a9eaae49e72f623fe",
+      "bytes": 797,
+      "sha256": "6fc6ccaab4d947fba4cab3b29ab24edd146ba41cc20b8b2d384573b70d2e656a",
+      "source_response": "data/blob_responses/3117ded6024142d19d04a67a9eaae49e72f623fe.json",
+      "transform": "base64 decode Git blob response; verified Git blob SHA-1",
+      "raw_route_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Pote.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Pote.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Pote.json",
+      "bytes": 684,
+      "sha256": "430c06be62d1f48a2c85d7c38bbf0e52d2aa1952f6ac92599b4fd906442fc047",
+      "retrieved_at_utc": "2026-10-18T15:38:47Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/PowerShell%20Exec%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/PowerShell%20Exec%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/PowerShell Exec Server.json",
+      "bytes": 22444,
+      "sha256": "27de25e4b375bed654df0ebea6b1e2c18db65e76fb6303f04b44b4a4f41e0793",
+      "retrieved_at_utc": "2026-10-18T15:38:47Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/PubChem%20Data%20Access%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/PubChem%20Data%20Access%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/PubChem Data Access Server.json",
+      "bytes": 1610,
+      "sha256": "9baf63b2ee66fdf6ce8b0adf350f855ae045f3789144add78db210adf0cb88b5",
+      "retrieved_at_utc": "2026-10-18T15:38:47Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/PubMed%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/PubMed%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/PubMed MCP Server.json",
+      "bytes": 362,
+      "sha256": "2214d14df5deef8d274234dd1389ba08c597d3c21a27cc826e2820e65f03cb74",
+      "retrieved_at_utc": "2026-10-18T15:38:47Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Pumpfun%20Data%20Fetch%20Tool.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Pumpfun%20Data%20Fetch%20Tool.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Pumpfun Data Fetch Tool.json",
+      "bytes": 337,
+      "sha256": "39aa9bcdcc770e0f7d8566fb2df28355af1398353599d1c81b3333e6cf8896eb",
+      "retrieved_at_utc": "2026-10-18T15:38:47Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Q-Anon%20PostsDrops%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Q-Anon%20PostsDrops%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Q-Anon PostsDrops Server.json",
+      "bytes": 2500,
+      "sha256": "ec414beb7cd8194f7d507edd51baf73d10c233d0974db0ae25523a96a2bc27ad",
+      "retrieved_at_utc": "2026-10-18T15:38:47Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Quran%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Quran%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Quran MCP Server.json",
+      "bytes": 4708,
+      "sha256": "da56900d8a988a41c26f50c1ba983dd097dd7886c1c3f51a878e9a8e98d7f651",
+      "retrieved_at_utc": "2026-10-18T15:38:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Rabi%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Rabi%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Rabi MCP Server.json",
+      "bytes": 735,
+      "sha256": "9b4386118abe1a48bbcac818203d8cec72f8829d2a3ecb381e78fa10b16a1a80",
+      "retrieved_at_utc": "2026-10-18T15:38:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Scientific%20Computation%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Scientific%20Computation%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Scientific Computation MCP Server.json",
+      "bytes": 12317,
+      "sha256": "9365fd1f22c6f313b126613cd58f471a7b658d99e3be01fd299e4e749d7ac422",
+      "retrieved_at_utc": "2026-10-18T15:38:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Semantic%20Scholar%20Academic%20Research%20MCP.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Semantic%20Scholar%20Academic%20Research%20MCP.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Semantic Scholar Academic Research MCP.json",
+      "bytes": 4303,
+      "sha256": "272ce52e01c54abbc26b3eccf7bb47c87191027ad1713e772f3afc4e7e8cb142",
+      "retrieved_at_utc": "2026-10-18T15:38:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Solana%20Client.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Solana%20Client.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Solana Client.json",
+      "bytes": 11922,
+      "sha256": "538b764f29c1d629c79c8c111a75d9fe56789d49921eb1c927196675b1d7350e",
+      "retrieved_at_utc": "2026-10-18T15:38:48Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Starknet%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Starknet%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Starknet MCP Server.json",
+      "bytes": 3171,
+      "sha256": "0745e0b500baa40550879c2ee9d304df905e3a14b468a908d52a4656f217eedb",
+      "retrieved_at_utc": "2026-10-18T15:38:49Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Steam%20Statistics.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Steam%20Statistics.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Steam Statistics.json",
+      "bytes": 620,
+      "sha256": "382b0c1649adf6a6c2fc3393c39749e162ef6754b17346acdde099db795739a4",
+      "retrieved_at_utc": "2026-10-18T15:38:49Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Super%20Shell.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Super%20Shell.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Super Shell.json",
+      "bytes": 1028,
+      "sha256": "ebbc682a0219a4022fd4de1355f8893f66c918a5eff2c044e026ebeaa3054fcc",
+      "retrieved_at_utc": "2026-10-18T15:38:49Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Terraform%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Terraform%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Terraform MCP Server.json",
+      "bytes": 1955,
+      "sha256": "c9cd9f50300252de642ffd62128ef031263ce9c76cba99445e765514e9e6f3d8",
+      "retrieved_at_utc": "2026-10-18T15:38:49Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Test%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Test%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Test Server.json",
+      "bytes": 682,
+      "sha256": "b1209fae53adc8e4b4a1d9d2c71abd19e933092d9e164b42f503f3dd9ef1343b",
+      "retrieved_at_utc": "2026-10-18T15:38:49Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Think%20Tool.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Think%20Tool.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Think Tool.json",
+      "bytes": 813,
+      "sha256": "30158f37ac621eb44fe56fd3fb58eea20e3653cb9df289eb1f73c1c8fcfc2183",
+      "retrieved_at_utc": "2026-10-18T15:38:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/TusClasesParticulares%20Automation%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/TusClasesParticulares%20Automation%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/TusClasesParticulares Automation Server.json",
+      "bytes": 2068,
+      "sha256": "dd83645340b1efe0f1af638c8cdec7cc1f9594e3337d2b69498c4b6720a8d27a",
+      "retrieved_at_utc": "2026-10-18T15:38:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Two%20Truths%20and%20a%20Twist.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Two%20Truths%20and%20a%20Twist.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Two Truths and a Twist.json",
+      "bytes": 907,
+      "sha256": "1b6884cd057213dc3a4ef47f662de9cbd6ef6a717d9f215559d91589fac6aa29",
+      "retrieved_at_utc": "2026-10-18T15:38:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/United%20States%20Weather.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/United%20States%20Weather.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/United States Weather.json",
+      "bytes": 1711,
+      "sha256": "582f2affa4c580a6c095376a8fe059d54085801a1fac83f5da636dad1a93310d",
+      "retrieved_at_utc": "2026-10-18T15:38:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Unity%20MCP%20Integration.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Unity%20MCP%20Integration.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Unity MCP Integration.json",
+      "bytes": 2681,
+      "sha256": "4b7f20286abd25cfc07a4a136b20b42c36675a260f453a471b752c61cbd06d51",
+      "retrieved_at_utc": "2026-10-18T15:38:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Velt%20Analytics%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Velt%20Analytics%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Velt Analytics Server.json",
+      "bytes": 2927,
+      "sha256": "9f9a093272bfdce31ff97aa613fe2e6c643c01d5e9f1680e6ade0e26e7f54e3c",
+      "retrieved_at_utc": "2026-10-18T15:38:50Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Vibe%20Marketing%20MCP%20%28HyperFeedai%29.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Vibe%20Marketing%20MCP%20%28HyperFeedai%29.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Vibe Marketing MCP (HyperFeedai).json",
+      "bytes": 1693,
+      "sha256": "4a4e9c30b3203f9f321fcfc12ad7d41fe0a2a53eb590baf7041503c1b080ad75",
+      "retrieved_at_utc": "2026-10-18T15:38:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Virtual%20Traveling%20Bot.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Virtual%20Traveling%20Bot.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Virtual Traveling Bot.json",
+      "bytes": 1161,
+      "sha256": "49191e698ebc22229d6a4c605bfe9b965f70a7074d3df5dec4c7c8cb5b04180a",
+      "retrieved_at_utc": "2026-10-18T15:38:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/WaPulse%20Whatsapp%20MCP%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/WaPulse%20Whatsapp%20MCP%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/WaPulse Whatsapp MCP Server.json",
+      "bytes": 3348,
+      "sha256": "7526e77a6a5e19d34b7c5c60a4bbff539ee83855a48625716fb1486b5f5a7fd1",
+      "retrieved_at_utc": "2026-10-18T15:38:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Wallhaven%20Wallpaper%20Search%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Wallhaven%20Wallpaper%20Search%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Wallhaven Wallpaper Search Server.json",
+      "bytes": 2008,
+      "sha256": "17bc0897ac6d72e7df18d71acc4b026bd841bbd2de38bc301aa99c5073494773",
+      "retrieved_at_utc": "2026-10-18T15:38:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Weather%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Weather%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Weather Server.json",
+      "bytes": 700,
+      "sha256": "57f41895bcdb35647cea011b978626432a5cc3e34498dc7bac23f9a18891c5d1",
+      "retrieved_at_utc": "2026-10-18T15:38:51Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Wikipedia%20Integration%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/Wikipedia%20Integration%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/Wikipedia Integration Server.json",
+      "bytes": 1193,
+      "sha256": "5871520b08ea16cbcc65afb38aaf3e432742b0e449f9721db1430d23147e5310",
+      "retrieved_at_utc": "2026-10-18T15:38:52Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/arXiv%20Research%20Assistant.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/arXiv%20Research%20Assistant.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/arXiv Research Assistant.json",
+      "bytes": 611,
+      "sha256": "3af3582022f18181b0dc5270192519ef2f026842e66694a2f12cc479ae22ef74",
+      "retrieved_at_utc": "2026-10-18T15:38:52Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/ennkaheksa.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/ennkaheksa.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/ennkaheksa.json",
+      "bytes": 9073,
+      "sha256": "5dbebbadfa2bc2ab514887b114fc5668f84160e996adc048ea88e2b973ed360d",
+      "retrieved_at_utc": "2026-10-18T15:38:52Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/shadcnui%20Component%20Reference%20Server.json",
+      "resolved_url": "https://raw.githubusercontent.com/outshift-open/ASTRA/ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7/data/mcp_servers/TOUCAN/shadcnui%20Component%20Reference%20Server.json",
+      "path": "data/benchmark/data/mcp_servers/TOUCAN/shadcnui Component Reference Server.json",
+      "bytes": 575,
+      "sha256": "352a1b0d6a025072d4c38294686e511cbd73c63a94e8a5179f9abac31a572e7c",
+      "retrieved_at_utc": "2026-10-18T15:38:52Z"
+    }
+  ],
+  "errors": [],
+  "scope": "ASTRA validation/tests, processed TOUCAN tests and original tool catalogs; no model responses or real access-token traces."
+}

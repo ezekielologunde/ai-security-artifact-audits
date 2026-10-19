@@ -1,0 +1,15 @@
+{
+  "exit_code": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "cryptography": "50.0.2",
+    "pytest": "8.4.2",
+    "pyarrow": null,
+    "datasets": null,
+    "numpy": "2.3.5"
+  },
+  "author_code_modified": false,
+  "new_model_calls": 0,
+  "source_files_verified": 32,
+  "sample_sha256": "b31332809dbc08cea7bb90e82a325e01928b85ae507682cce42b0f44d75a7c41"
+}

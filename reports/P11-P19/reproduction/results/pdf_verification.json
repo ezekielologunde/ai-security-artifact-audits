@@ -1,0 +1,7 @@
+{
+  "pages": 2,
+  "pdf_sha256": "813df7d82ea1f51340b695297598b53a8feb5ad26a518a492c32f96cb208cf31",
+  "issues": [],
+  "visual_review": "All two rendered pages inspected; readable text and table, no clipping or blank pages.",
+  "compiler": "Portable Tectonic; native compiler platform-directory error"
+}

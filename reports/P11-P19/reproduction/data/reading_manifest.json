@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://arxiv.org/html/2605.14421",
+    "resolved_url": "https://arxiv.org/html/2605.14421",
+    "bytes": 506582,
+    "sha256": "7d3a0af653d298cec6268e0043d2db72c253d540666d3d5fc3cc15faf218f9f8",
+    "retrieved_at_utc": "2026-10-18T16:03:15Z",
+    "artifact_candidates": [
+      "https://github.com/arXiv/html_feedback/issues",
+      "https://github.com/brucemiller/LaTeXML/issues",
+      "https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/html/2607.27080",
+    "resolved_url": "https://arxiv.org/html/2607.27080",
+    "bytes": 431977,
+    "sha256": "dc7dac46e476f65d731dad380e2b2d09471d07dda36497aaf5fd5c1684f13161",
+    "retrieved_at_utc": "2026-10-18T16:03:16Z",
+    "artifact_candidates": [
+      "https://github.com/arXiv/html_feedback/issues",
+      "https://github.com/brucemiller/LaTeXML/issues",
+      "https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/html/2604.27586",
+    "resolved_url": "https://arxiv.org/html/2604.27586",
+    "bytes": 259358,
+    "sha256": "e547311c142ebb7b46e897aac93005923e7098c3d2f96d61479990a067a93e2f",
+    "retrieved_at_utc": "2026-10-18T16:03:16Z",
+    "artifact_candidates": [
+      "https://github.com/anna-mazhar/trace-level-contamination-mas",
+      "https://github.com/arXiv/html_feedback/issues",
+      "https://github.com/brucemiller/LaTeXML/issues",
+      "https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML",
+      "https://github.com/crewAIInc/crewAI",
+      "https://github.com/guardrails-ai/guardrails",
+      "https://github.com/langchain-ai/langgraph"
+    ]
+  }
+]

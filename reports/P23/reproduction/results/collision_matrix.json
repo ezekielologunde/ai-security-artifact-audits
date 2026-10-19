@@ -1,0 +1,594 @@
+{
+  "source_revision": "c11da0ba9e6071773b11113c47a69bf80fcb916a",
+  "new_model_calls": 0,
+  "original_author_code_modified": false,
+  "variants": {
+    "original": {
+      "cases": [
+        {
+          "same_id": false,
+          "same_principal": false,
+          "same_text": false,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 1,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 1
+        },
+        {
+          "same_id": false,
+          "same_principal": false,
+          "same_text": true,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": null,
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 1,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 1
+        },
+        {
+          "same_id": false,
+          "same_principal": true,
+          "same_text": false,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": false,
+          "same_principal": true,
+          "same_text": true,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": true,
+          "same_principal": false,
+          "same_text": false,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [
+              {
+                "principal": "source-A",
+                "chunk_id": "doc::c0"
+              }
+            ],
+            "hash_index_mismatches": [
+              {
+                "hash": "479bd8718b57c108c78818728d997ab7ca8c0cee18089346368d2b091edd0c1f",
+                "chunk_id": "doc::c0"
+              }
+            ]
+          },
+          "old_content_lookup_hash_matches_or_unknown": false,
+          "old_content_attribution": "source-B",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 1,
+          "current_other_source_false_purges": [
+            "doc::c0"
+          ],
+          "after_revocation": {
+            "principal_index_mismatches": [
+              {
+                "principal": "source-A",
+                "chunk_id": "doc::c0"
+              }
+            ],
+            "hash_index_mismatches": [
+              {
+                "hash": "479bd8718b57c108c78818728d997ab7ca8c0cee18089346368d2b091edd0c1f",
+                "chunk_id": "doc::c0"
+              }
+            ]
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": true,
+          "same_principal": false,
+          "same_text": true,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [
+              {
+                "principal": "source-A",
+                "chunk_id": "doc::c0"
+              }
+            ],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-B",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 1,
+          "current_other_source_false_purges": [
+            "doc::c0"
+          ],
+          "after_revocation": {
+            "principal_index_mismatches": [
+              {
+                "principal": "source-A",
+                "chunk_id": "doc::c0"
+              }
+            ],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": true,
+          "same_principal": true,
+          "same_text": false,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": [
+              {
+                "hash": "479bd8718b57c108c78818728d997ab7ca8c0cee18089346368d2b091edd0c1f",
+                "chunk_id": "doc::c0"
+              }
+            ]
+          },
+          "old_content_lookup_hash_matches_or_unknown": false,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": [
+              {
+                "hash": "479bd8718b57c108c78818728d997ab7ca8c0cee18089346368d2b091edd0c1f",
+                "chunk_id": "doc::c0"
+              }
+            ]
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": true,
+          "same_principal": true,
+          "same_text": true,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        }
+      ],
+      "summary": {
+        "cases": 8,
+        "accepted_second_ingestions": 8,
+        "principal_index_failure_cases": 2,
+        "hash_index_failure_cases": 2,
+        "old_content_wrong_hash_binding_cases": 2,
+        "other_source_false_purge_cases": 2,
+        "live_signature_failure_cases": 0
+      }
+    },
+    "immutable_overlay": {
+      "cases": [
+        {
+          "same_id": false,
+          "same_principal": false,
+          "same_text": false,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 1,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 1
+        },
+        {
+          "same_id": false,
+          "same_principal": false,
+          "same_text": true,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": null,
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 1,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 1
+        },
+        {
+          "same_id": false,
+          "same_principal": true,
+          "same_text": false,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": false,
+          "same_principal": true,
+          "same_text": true,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": true,
+          "same_principal": false,
+          "same_text": false,
+          "second_ingestion_rejected": true,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": true,
+          "same_principal": false,
+          "same_text": true,
+          "second_ingestion_rejected": true,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": true,
+          "same_principal": true,
+          "same_text": false,
+          "second_ingestion_rejected": true,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": true,
+          "same_principal": true,
+          "same_text": true,
+          "second_ingestion_rejected": true,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        }
+      ],
+      "summary": {
+        "cases": 8,
+        "accepted_second_ingestions": 4,
+        "principal_index_failure_cases": 0,
+        "hash_index_failure_cases": 0,
+        "old_content_wrong_hash_binding_cases": 0,
+        "other_source_false_purge_cases": 0,
+        "live_signature_failure_cases": 0
+      }
+    },
+    "consistent_upsert_posthoc": {
+      "cases": [
+        {
+          "same_id": false,
+          "same_principal": false,
+          "same_text": false,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 1,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 1
+        },
+        {
+          "same_id": false,
+          "same_principal": false,
+          "same_text": true,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": null,
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 1,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 1
+        },
+        {
+          "same_id": false,
+          "same_principal": true,
+          "same_text": false,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": false,
+          "same_principal": true,
+          "same_text": true,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": true,
+          "same_principal": false,
+          "same_text": false,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": null,
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 1,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 1
+        },
+        {
+          "same_id": true,
+          "same_principal": false,
+          "same_text": true,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-B",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 1,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 1
+        },
+        {
+          "same_id": true,
+          "same_principal": true,
+          "same_text": false,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": null,
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        },
+        {
+          "same_id": true,
+          "same_principal": true,
+          "same_text": true,
+          "second_ingestion_rejected": false,
+          "live_signatures_valid_before_revocation": true,
+          "before_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "old_content_lookup_hash_matches_or_unknown": true,
+          "old_content_attribution": "source-A",
+          "signature_verification_failures": [],
+          "current_other_source_before_revocation": 0,
+          "current_other_source_false_purges": [],
+          "after_revocation": {
+            "principal_index_mismatches": [],
+            "hash_index_mismatches": []
+          },
+          "remaining_records": 0
+        }
+      ],
+      "summary": {
+        "cases": 8,
+        "accepted_second_ingestions": 8,
+        "principal_index_failure_cases": 0,
+        "hash_index_failure_cases": 0,
+        "old_content_wrong_hash_binding_cases": 0,
+        "other_source_false_purge_cases": 0,
+        "live_signature_failure_cases": 0
+      }
+    }
+  }
+}

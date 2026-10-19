@@ -1,0 +1,1 @@
+Authored reports, code and results: copyright 2026 Ezekiel Ologunde. No general reuse licence has been selected. Third-party material retains its identified upstream terms; see preserved notices and source manifests. Standard ACM class files are not redistributed.

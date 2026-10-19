@@ -1,0 +1,258 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/__init__.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/__init__.py",
+    "path": "data/source-code/src/ragtrap/__init__.py",
+    "bytes": 707,
+    "sha256": "515a72a02daa0495315a2ffc94d375ea8a768f44fcd8423cf44b9e01a7c74d7a",
+    "retrieved_at_utc": "2026-10-18T16:17:00Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/asr.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/asr.py",
+    "path": "data/source-code/src/ragtrap/asr.py",
+    "bytes": 2822,
+    "sha256": "784af6e326722bcb9924bf6fd9468e0b4b39000d0cab008a9cfd324b8cad66e5",
+    "retrieved_at_utc": "2026-10-18T16:17:01Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/cli.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/cli.py",
+    "path": "data/source-code/src/ragtrap/cli.py",
+    "bytes": 6430,
+    "sha256": "24b49e39326d6aa5698ad5c733972a5c023219c2e54e009a16494cacf3be03ac",
+    "retrieved_at_utc": "2026-10-18T16:17:01Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/config.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/config.py",
+    "path": "data/source-code/src/ragtrap/config.py",
+    "bytes": 3552,
+    "sha256": "3d78dadd3abc679a5f009b39b309cce00dfa9bf622269896b064d9c3e4fd4c1b",
+    "retrieved_at_utc": "2026-10-18T16:17:01Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/corpus.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/corpus.py",
+    "path": "data/source-code/src/ragtrap/corpus.py",
+    "bytes": 4246,
+    "sha256": "4d8d3863176fec2e4702149826fd9954910c8f615236b0f533e82aac641f3cca",
+    "retrieved_at_utc": "2026-10-18T16:17:01Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/datastore.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/datastore.py",
+    "path": "data/source-code/src/ragtrap/datastore.py",
+    "bytes": 4092,
+    "sha256": "5b30707c0fb3e9971e7407e84a5003039247935ff1837ccf2bf252daad8eccfc",
+    "retrieved_at_utc": "2026-10-18T16:17:01Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/detectors.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/detectors.py",
+    "path": "data/source-code/src/ragtrap/detectors.py",
+    "bytes": 2585,
+    "sha256": "728cbe2935c9c8fcce7c1895f36f78e34d3c00ed9d71c2c5154d42aa4aa20e74",
+    "retrieved_at_utc": "2026-10-18T16:17:01Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/experiments.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/experiments.py",
+    "path": "data/source-code/src/ragtrap/experiments.py",
+    "bytes": 3999,
+    "sha256": "46d2b2147e4cd82d80d39744fc7e856d12886573ea3b60cc8c3d0a19cc6522ca",
+    "retrieved_at_utc": "2026-10-18T16:17:02Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/gate.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/gate.py",
+    "path": "data/source-code/src/ragtrap/gate.py",
+    "bytes": 6844,
+    "sha256": "cd956c53068645dbc5a3ad2019e82560a0aadd35c3185b30eaa52080e5e7c555",
+    "retrieved_at_utc": "2026-10-18T16:17:02Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/hashing.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/hashing.py",
+    "path": "data/source-code/src/ragtrap/hashing.py",
+    "bytes": 1003,
+    "sha256": "692b753db9ac3392e2a9814cf448371b100d394d320e678b5bd731dbf8425119",
+    "retrieved_at_utc": "2026-10-18T16:17:02Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/llm_judge.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/llm_judge.py",
+    "path": "data/source-code/src/ragtrap/llm_judge.py",
+    "bytes": 4629,
+    "sha256": "1329575a351bbbccb80e455cd284a7d4da34fce9c552d61eab35022fc7d6ee13",
+    "retrieved_at_utc": "2026-10-18T16:17:02Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/logging_setup.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/logging_setup.py",
+    "path": "data/source-code/src/ragtrap/logging_setup.py",
+    "bytes": 2229,
+    "sha256": "53c8277b673422e833ca1582fb0afc726cec18a074c2f94dbd52ae68a7950666",
+    "retrieved_at_utc": "2026-10-18T16:17:02Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/manifest.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/manifest.py",
+    "path": "data/source-code/src/ragtrap/manifest.py",
+    "bytes": 2099,
+    "sha256": "31421eca0727fb776f2a08a0168f6abf8588360288af458eacbd1452d3255319",
+    "retrieved_at_utc": "2026-10-18T16:17:02Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/realdata.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/realdata.py",
+    "path": "data/source-code/src/ragtrap/realdata.py",
+    "bytes": 6509,
+    "sha256": "003c13860d48853955d97f78060c93d1105ec041210130c75e36b17b96d7e2a4",
+    "retrieved_at_utc": "2026-10-18T16:17:03Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/realeval.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/realeval.py",
+    "path": "data/source-code/src/ragtrap/realeval.py",
+    "bytes": 15110,
+    "sha256": "93b9ba5d0a954807c1b87bf5bb0ffeea7dafef8f50238dcef9a987ccf410dddb",
+    "retrieved_at_utc": "2026-10-18T16:17:03Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/realeval3.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/realeval3.py",
+    "path": "data/source-code/src/ragtrap/realeval3.py",
+    "bytes": 8944,
+    "sha256": "01891366979507141d70375e45c1ff8a0d8e59e1731d6cde29745d793a23a8a1",
+    "retrieved_at_utc": "2026-10-18T16:17:03Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/records.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/records.py",
+    "path": "data/source-code/src/ragtrap/records.py",
+    "bytes": 3431,
+    "sha256": "a39603da28ff89d5f79846bdcc7ca1be1d43fdcac6d598612bf4387f3150ca3e",
+    "retrieved_at_utc": "2026-10-18T16:17:03Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/revocation.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/revocation.py",
+    "path": "data/source-code/src/ragtrap/revocation.py",
+    "bytes": 3321,
+    "sha256": "72dcc1bf946e41c3930491cbab811656405c4f13bd8ef5fbe2c9232abf8e44d1",
+    "retrieved_at_utc": "2026-10-18T16:17:03Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/scaling.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/scaling.py",
+    "path": "data/source-code/src/ragtrap/scaling.py",
+    "bytes": 8565,
+    "sha256": "bd4a96f9841cdc3c4cec8a34a922384304ab70c186da276eedf0da59f025f4ce",
+    "retrieved_at_utc": "2026-10-18T16:17:04Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/signing.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/signing.py",
+    "path": "data/source-code/src/ragtrap/signing.py",
+    "bytes": 4582,
+    "sha256": "3396f17aa6890a6b60d15b61d4c8bc2f2df280b7c30f17641918e5ea278b2394",
+    "retrieved_at_utc": "2026-10-18T16:17:04Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/stats.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/stats.py",
+    "path": "data/source-code/src/ragtrap/stats.py",
+    "bytes": 2206,
+    "sha256": "fb966a995267cf3b614a7f96b4fe8e220055258ed89a40bc7afb9af173ee6d1e",
+    "retrieved_at_utc": "2026-10-18T16:17:04Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/synthetic.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/synthetic.py",
+    "path": "data/source-code/src/ragtrap/synthetic.py",
+    "bytes": 3531,
+    "sha256": "d4906b1802b3720f868ca26574f6c866f8df967268c1bfd0f7795df33016a31c",
+    "retrieved_at_utc": "2026-10-18T16:17:04Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/traceback.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/src/ragtrap/traceback.py",
+    "path": "data/source-code/src/ragtrap/traceback.py",
+    "bytes": 2942,
+    "sha256": "fa024a9b8e1d195bac4cb7726ee7f10d164229cab37cebd2a745fb25af048ebb",
+    "retrieved_at_utc": "2026-10-18T16:17:04Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/__init__.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/__init__.py",
+    "path": "data/source-code/tests/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrieved_at_utc": "2026-10-18T16:17:05Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/test_gate_and_traceback.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/test_gate_and_traceback.py",
+    "path": "data/source-code/tests/test_gate_and_traceback.py",
+    "bytes": 4310,
+    "sha256": "20d2941acb17196bb40b98970a1a63f58943ba817ab19a91ee6b88312fd8e3c1",
+    "retrieved_at_utc": "2026-10-18T16:17:05Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/test_realdata.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/test_realdata.py",
+    "path": "data/source-code/tests/test_realdata.py",
+    "bytes": 4541,
+    "sha256": "d0864fa84115611e7aed40813d50206cb567679b127e579e2e800b7225257669",
+    "retrieved_at_utc": "2026-10-18T16:17:05Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/test_revocation_and_synthetic.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/test_revocation_and_synthetic.py",
+    "path": "data/source-code/tests/test_revocation_and_synthetic.py",
+    "bytes": 3359,
+    "sha256": "247df90157fb5b171a01af0ae7621500cffeebe110481313eba1e604a6c92533",
+    "retrieved_at_utc": "2026-10-18T16:17:05Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/test_sample_and_fastpath.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/test_sample_and_fastpath.py",
+    "path": "data/source-code/tests/test_sample_and_fastpath.py",
+    "bytes": 1740,
+    "sha256": "74cf99e08cb8b7a109f285c1c29173acb3d5d17c3edb5e320834f08253268b34",
+    "retrieved_at_utc": "2026-10-18T16:17:05Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/test_signing.py",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/tests/test_signing.py",
+    "path": "data/source-code/tests/test_signing.py",
+    "bytes": 1874,
+    "sha256": "a3febfd78d13e3760a815db9d3ba25bd617a9db4a16e75d74fd6e704104d9e66",
+    "retrieved_at_utc": "2026-10-18T16:17:06Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/CITATION.cff",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/CITATION.cff",
+    "path": "data/source-code/CITATION.cff",
+    "bytes": 1479,
+    "sha256": "e9ecd1479976b8b25d4e994a7164728fd4f54e8eaa7c36ec95ddea33c17f1e27",
+    "retrieved_at_utc": "2026-10-18T16:17:06Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/DOCUMENTATION.md",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/DOCUMENTATION.md",
+    "path": "data/source-code/DOCUMENTATION.md",
+    "bytes": 35133,
+    "sha256": "d4896d41f3f631c1fc40a974fd098c04f620662b070fe78cbd11dcda6f27a992",
+    "retrieved_at_utc": "2026-10-18T16:17:06Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/uv.lock",
+    "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/uv.lock",
+    "path": "data/source-code/uv.lock",
+    "bytes": 832367,
+    "sha256": "76e3305505f0be441d7330d27e9bcfc2d89f65abe36c740203b24b2b6ceb5b37",
+    "retrieved_at_utc": "2026-10-18T16:17:06Z"
+  }
+]

@@ -1,0 +1,73 @@
+\documentclass[sigconf,nonacm]{acmart}
+\setcopyright{none}
+\settopmatter{printacmref=false,printfolios=true}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\setlength{\emergencystretch}{2em}
+\title{A Catalog-Aware Lexical Baseline for Task--Tool Matching: Transfer Errors and Coverage on ASTRA and TOUCAN}
+\author{Ezekiel Ologunde}
+\renewcommand{\shortauthors}{Ezekiel Ologunde}
+\begin{document}
+\begin{abstract}
+Semantic task--tool matching is one proposed component of delegated agent authorization. We implement an established lexical baseline and audit its behavior on the public ASTRA artifact and its processed TOUCAN cases. Thresholds are selected only on 3,477 ASTRA validation requests and applied unchanged to 2,824 ASTRA test requests and 6,333 TOUCAN test requests. Adding catalog descriptions improves macro-F1 over names alone on all three ASTRA complexities, reaching 0.770, 0.761 and 0.621, but increases false-appropriate predictions. Description-inclusive false-appropriate rates range from 7.4--20.1\% on ASTRA to 40.2--58.5\% on TOUCAN. Eight namespaced identifiers initially yield indeterminate lookup; an explicitly post-hoc canonicalization sensitivity resolves them without changing false-positive counts. We provide source hashes, predictions, frozen calibration rules and independent confusion-count verification. These are benchmark-label disagreements, not unauthorized token issuance or enterprise exploit rates. The contribution is a preliminary reproducible baseline and transfer audit, not a new matching algorithm or a demonstrated authorization architecture.
+\end{abstract}
+\keywords{agent authorization, semantic matching, calibration transfer, least privilege, benchmark validity}
+\maketitle
+
+\section{Question and Prior Work}
+An agent can request tools that are related to a task yet lack authority to invoke them with particular arguments or resources. Conversely, an appropriate request may have little literal overlap with a tool name. El Helou et al. introduce ASTRA and compare a generated ideal-description/embedding matcher with an LLM reasoning matcher~\cite{astra}. Their artifact includes generated ASTRA tasks and processed TOUCAN tasks~\cite{toucan}, with appropriate and simulated wrong/null requests across one-, two- and three-tool cases. Semantic matching, validation-based calibration and task-scoped access are established research directions.
+
+We ask a smaller measurement question: what does a transparent lexical baseline recover from the visible task/tool descriptions, and how does calibration transfer across the two supplied sources? Our hypothesis is that descriptions improve held-out ASTRA macro-F1 relative to names/constant controls, while the same calibrated rule need not preserve its false-appropriate rate on TOUCAN. We do not reproduce the authors' neural configurations or claim superiority over their results.
+
+TF-IDF, cosine similarity and threshold selection are standard techniques. The candidate contribution is their explicit, no-generative-call measurement on this pinned artifact, with transfer, coverage and false-positive reporting. Standalone novelty and venue suitability remain unestablished; a broader comparison or independently adjudicated extension would strengthen this preliminary note.
+
+\section{Data and Frozen Method}
+We acquire 139 JSON files, totaling 9,877,472 bytes, from \texttt{outshift-open/ASTRA} at commit \texttt{ee05b9b6}\ldots. These comprise validation/test splits and tool catalogs. SHA-256 checks verify every selected file. Two Unicode filenames fail through the raw-content route and are recovered through Git blob objects, with decoded bytes verified against their Git object identities. No tool endpoint, author matcher or embedded instruction is executed.
+
+The input to scoring is only \texttt{input.task}, \texttt{input.tools}, \texttt{input.mcp\_servers} and the corresponding catalog names/descriptions. The \texttt{groundtruth} object and \texttt{match\_tag} are excluded from features. A positive evaluation label is the source's \texttt{correct} tag; \texttt{wrong} and \texttt{null} are negative labels. These labels represent the source benchmark's semantic assignments, not independent organizational permission judgments.
+
+Two representations use either tool names or names plus descriptions. We normalize Unicode and camel case, tokenize alphabetic text, remove a fixed generic stopword list, apply sublinear term frequency and smoothed inverse-document frequency, and normalize vectors. IDF is fitted on 1,592 public catalog definitions, including descriptions for test servers. This is a declared catalog-aware setting; it is not unseen-vocabulary generalization. No test tasks or labels are used in representation fitting.
+
+Each request receives the minimum task/tool cosine over its requested tools. Missing server/tool bindings produce an indeterminate assessment rather than an automatic correct rejection. Each representation selects one threshold from 0 to 1 in steps of 0.01 by maximizing macro-F1 on all ASTRA validation complexities; the larger threshold breaks exact ties. The chosen thresholds are 0.03 for names and 0.04 for names plus descriptions. Both are applied unchanged to all test sources and complexities. Constant-positive and constant-negative controls use the same rows.
+
+Schemas, class balances and first-record examples were inspected before freezing; test predictions were not inspected. The initial frozen implementation failed before scoring because a catalog glob included acquisition receipts. That original code/protocol is retained, and a second freeze records the manifest-based enumeration repair. Feature definitions, thresholds and outcomes were not tuned from test scores. This is local reproducibility freezing, not external preregistration.
+
+\section{Results}
+Table~\ref{tab:transfer} reports primary results. Constant predictions yield macro-F1 near 0.333 on the approximately balanced matching cases. Descriptions improve ASTRA macro-F1 at all three complexities, supporting the narrow hypothesis. However, names alone have false-appropriate rates of 9.9\%, 3.0\% and 0.6\% on those slices, below the description-inclusive rates. The macro-F1 gain therefore does not imply fewer false-appropriate decisions.
+
+\begin{table}[t]
+\caption{Frozen primary test outcomes. F1 is macro-F1; N is names alone, D adds descriptions. FPR is the fraction of negative labels predicted appropriate; R is positive recall. FPR/R are percentages. U is indeterminate lookup. Metrics exclude U and coverage is reported separately; the eight U cases are all positive TOUCAN/two-tool requests.}
+\label{tab:transfer}\centering\scriptsize
+\begin{tabular}{llrrrrrr}\toprule
+Source & Tools & Rows & F1(N) & F1(D) & FPR(D) & R(D) & U\\\midrule
+ASTRA & 1 & 947 & 0.675 & 0.770 & 20.1 & 74.1 & 0 \\
+ASTRA & 2 & 930 & 0.633 & 0.761 & 11.8 & 64.7 & 0 \\
+ASTRA & 3 & 947 & 0.502 & 0.621 & 7.4 & 37.3 & 0 \\
+TOUCAN & 1 & 2111 & 0.633 & 0.661 & 58.5 & 95.5 & 0 \\
+TOUCAN & 2 & 2111 & 0.731 & 0.698 & 45.5 & 86.6 & 8 \\
+TOUCAN & 3 & 2111 & 0.717 & 0.721 & 40.2 & 85.3 & 0 \\
+\bottomrule\end{tabular}
+\end{table}
+
+On TOUCAN, the description-inclusive rule increases recall but labels 617/1,055 single-tool negatives appropriate (58.5\%), compared with 95/473 (20.1\%) on ASTRA. The corresponding two- and three-tool counts are 480/1,055 and 424/1,055. Transfer does not universally favor descriptions: the two-tool TOUCAN macro-F1 is higher for names alone. These are descriptive comparisons under a fixed calibration choice; source and task distributions differ, so the differences are not attributed to one causal factor.
+
+Primary lookup covers every request except eight of the 2,111 TOUCAN/two-tool cases (99.62\% slice coverage). Those eight contain identifiers of the form \texttt{Server::tool}, whereas the catalog uses the tool suffix. This is a representation-integration issue, not a semantic-model error or established source-label defect.
+
+After inspecting primary unknowns, we run a separately recorded sensitivity: strip a prefix only when it matches the separately supplied server identity. Thresholds remain unchanged and original outcomes are preserved. All eight become assessable. Names plus descriptions then produces 916 true positives and 140 false negatives on that slice, with macro-F1 0.6984 and unchanged false-positive count 480. Names alone has macro-F1 0.7321. This post-hoc analysis is not a second held-out success claim.
+
+\section{Verification and Interpretation}
+Five boundary checks cover catalog receipt exclusion, unknown binding, action-preserving tokenization, server identity and indeterminate accounting. A separately implemented confusion-count loop agrees with all saved TP/FP/FN/TN/unknown counts. All 139 source hashes verify. Predictions, calibration choices, original failure and source revisions are preserved. Runtime is a descriptive single local execution, not a controlled efficiency comparison.
+
+Requests sharing one task are intentionally paired with different candidate tools. Row counts are therefore not independent task samples; we report unique task hashes in the artifact and make no population or significance claim. The benchmark labels are accepted for this measurement rather than independently adjudicated. Different thresholds, representations and calibration objectives could change the trade-off; we do not tune them after observing these tests.
+
+A false-appropriate prediction is a disagreement with a semantic label. We did not issue access tokens, run a delegation chain, measure credential reachability, verify resource-level privileges, or test a live authorization service. The experiment does not demonstrate an exploit against ASTRA or establish that all semantic matchers are unsuitable. Actual enforcement also requires authenticated identity, policy, argument/resource constraints and current authority. Accordingly, these results do not complete the separate portfolio questions about blast radius, longitudinal permission accumulation or secure handoffs.
+
+\section{Reproducibility and Conclusion}
+The authored artifact includes a pure-Python scorer, threshold protocol, exact source receipts, predictions, verification and the sensitivity analysis. The repository's Apache-2.0 notice and original ASTRA/TOUCAN attributions are retained separately; no blanket license is assigned to all third-party material. A public release, original neural-baseline replication and independent label review are not yet complete. Generative AI assisted literature inspection, code and drafting; no independent human assessment is claimed.
+
+The baseline improves on constant classification but exposes a substantial recall/false-appropriate trade-off and a calibration-transfer limitation. Description-inclusive macro-F1 gains on ASTRA coexist with more false-appropriate decisions, especially after transfer. The evidence supports a reproducible preliminary benchmark audit, not a new authorization algorithm or deployment safety guarantee.
+
+\begin{thebibliography}{2}
+\bibitem{astra} Majed El Helou, Chiara Troiani, Benjamin Ryder, Jean Diaconu, Herv\'e Muyal, and Marcelo Yannuzzi. 2025. Delegated Authorization for Agents Constrained to Semantic Task-to-Scope Matching. \emph{arXiv:2510.26702v1}. \url{https://arxiv.org/abs/2510.26702}
+\bibitem{toucan} Zhangchen Xu, Adriana Meza Soria, Shawn Tan, Anurag Roy, Ashish Sunil Agrawal, Radha Poovendran, and Rameswar Panda. 2025. TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments. \emph{arXiv:2510.01179}. \url{https://arxiv.org/abs/2510.01179}
+\end{thebibliography}
+\end{document}

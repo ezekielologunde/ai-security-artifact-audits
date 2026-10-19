@@ -1,0 +1,16 @@
+{
+  "protocol_version": "source-audit-v1",
+  "frozen_local_date": "2026-10-18",
+  "preregistered": false,
+  "discovery_status": "Exploratory source inspection already identified session_type as a candidate label alias and uuid4 as an unseeded identifier source. Tests below confirm or refute those mechanisms; they are not blind discoveries.",
+  "source_repository": "Deepa-15/shadowai-enterprise-dataset",
+  "source_revision": "b1d2966939edde18edc08a08f52145fc1378d567",
+  "run_plan": "Two independent local processes in separate copied source directories, unchanged author seed 42/configuration; preserve original downloaded bytes.",
+  "endpoint_1": "Confirm whether detector_view retains session_type and whether exact equality to shadow_ai_violation reproduces is_violation after session_id joining. Report TP/FP/FN/TN, precision, recall, accuracy and class prevalence. This is label leakage, not a detection model.",
+  "endpoint_2": "Confirm whether the author verify_detector_view accepts the leaked field using its extracted original function, with no full-module side effects.",
+  "endpoint_3": "Compare SHA-256 across fresh outputs; separately compare canonical non-identifier detector rows and ground-truth labels. Do not equate UUID-only inequality with unstable substantive distributions.",
+  "controls": "Always-negative baseline; AI-domain heuristic; remove session_type and other label/identifier columns from a separately saved feature schema. Removing the observed alias does not certify all remaining fields leakage-free.",
+  "environment": "Python 3.12; pandas 3.0.1; numpy 2.3.5; Faker 37.0.0. Author requirements are broad lower bounds, so exact original author environment is not reproduced.",
+  "exclusions": "No natural enterprise records; no employee monitoring; no third-party network probing; no claim about published detector performance (none reproduced); no redistribution license inferred from public GitHub visibility.",
+  "failure_policy": "Preserve logs and any partial output. A generator error becomes a reproduction limitation, not a fabricated full-dataset result. Fall back to a clearly identified component reproduction if necessary."
+}

@@ -1,0 +1,122 @@
+{
+  "runs": [
+    {
+      "run": 1,
+      "exit_code": 0,
+      "files": [
+        {
+          "path": "work/generator-run-1/outputs/detector_view.csv",
+          "bytes": 36511935,
+          "sha256": "79318870bbbcb9cfaedf664557f9b02e8a6dba73484125331668ce2049043bc5"
+        },
+        {
+          "path": "work/generator-run-1/outputs/employee_statistics.json",
+          "bytes": 1074,
+          "sha256": "88e5ef4a0bb7c3556f8a2617802645a7572fe8f302234b37a1bf5002eeec4fc6"
+        },
+        {
+          "path": "work/generator-run-1/outputs/employees.csv",
+          "bytes": 71144,
+          "sha256": "482f95f20edf498b32b0afeb1f4b823e648532dc012076cbd6f9789d32f64b5f"
+        },
+        {
+          "path": "work/generator-run-1/outputs/enterprise_sessions.csv",
+          "bytes": 39820089,
+          "sha256": "ca2a0f01b49ec1809571aa59ae732255257296e897deae69ee1b7dfe7c154700"
+        },
+        {
+          "path": "work/generator-run-1/outputs/enterprise_sessions_enriched.csv",
+          "bytes": 43252757,
+          "sha256": "6d6c43002145303f9d63e7da27755aebe6c550b18aa5f5a9af7d8d0e40b7234b"
+        },
+        {
+          "path": "work/generator-run-1/outputs/ground_truth.csv",
+          "bytes": 43252757,
+          "sha256": "3b2afdc60ef71d8f7ca54c7a3dc5cab18a2a1617d003c9c619dc3be739465a9d"
+        },
+        {
+          "path": "work/generator-run-1/outputs/integrity_report.json",
+          "bytes": 234,
+          "sha256": "2e39f0590cdac758483db1b6d2189c2320881e0e329cff71bb8e69b960f088b4"
+        },
+        {
+          "path": "work/generator-run-1/outputs/investigator_view.csv",
+          "bytes": 15601,
+          "sha256": "209b8e3ca4a7a790ad93a666ea8d95eae1a34df84deab94fe0f949d0072735c7"
+        },
+        {
+          "path": "work/generator-run-1/outputs/session_statistics.json",
+          "bytes": 415,
+          "sha256": "9b4d9a9a0dc3b66b54ff63288a8d2337aa41dd61698f269d9001bebb0f6bab38"
+        },
+        {
+          "path": "work/generator-run-1/outputs/statistics.json",
+          "bytes": 786,
+          "sha256": "ebd3d6e80163848dec0d4877035467c6f7549529d46b25eea6c150a3ea577af1"
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "exit_code": 0,
+      "files": [
+        {
+          "path": "work/generator-run-2/outputs/detector_view.csv",
+          "bytes": 36511935,
+          "sha256": "726b8daa295d09c065effad55f8ec22d01b8114156e7bcad2d55781bc0609255"
+        },
+        {
+          "path": "work/generator-run-2/outputs/employee_statistics.json",
+          "bytes": 1074,
+          "sha256": "88e5ef4a0bb7c3556f8a2617802645a7572fe8f302234b37a1bf5002eeec4fc6"
+        },
+        {
+          "path": "work/generator-run-2/outputs/employees.csv",
+          "bytes": 71144,
+          "sha256": "482f95f20edf498b32b0afeb1f4b823e648532dc012076cbd6f9789d32f64b5f"
+        },
+        {
+          "path": "work/generator-run-2/outputs/enterprise_sessions.csv",
+          "bytes": 39820089,
+          "sha256": "36872e6e3ddf4aadee1db34723b2d443235b2969b8fd2915191039a4c5449abc"
+        },
+        {
+          "path": "work/generator-run-2/outputs/enterprise_sessions_enriched.csv",
+          "bytes": 43252757,
+          "sha256": "1638408f89b103966e7f7b3b5bfde90ad790cb2564ef3463270e6c92865766a5"
+        },
+        {
+          "path": "work/generator-run-2/outputs/ground_truth.csv",
+          "bytes": 43252757,
+          "sha256": "03451419851e9357582ed851eb0b2cbbac8f19e44e9f4f9a137eeedd49efc134"
+        },
+        {
+          "path": "work/generator-run-2/outputs/integrity_report.json",
+          "bytes": 234,
+          "sha256": "2e39f0590cdac758483db1b6d2189c2320881e0e329cff71bb8e69b960f088b4"
+        },
+        {
+          "path": "work/generator-run-2/outputs/investigator_view.csv",
+          "bytes": 15601,
+          "sha256": "7ba87839ae81ad66400db5d0e9766ddd38e5b61377ce368f8df3b6a54b6907aa"
+        },
+        {
+          "path": "work/generator-run-2/outputs/session_statistics.json",
+          "bytes": 415,
+          "sha256": "9b4d9a9a0dc3b66b54ff63288a8d2337aa41dd61698f269d9001bebb0f6bab38"
+        },
+        {
+          "path": "work/generator-run-2/outputs/statistics.json",
+          "bytes": 786,
+          "sha256": "ebd3d6e80163848dec0d4877035467c6f7549529d46b25eea6c150a3ea577af1"
+        }
+      ]
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "Faker": "37.0.0"
+  }
+}

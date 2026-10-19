@@ -1,0 +1,109 @@
+{
+  "revision": "a6aaf30ccdb15d774ac8bad136e52491db3e2a4a",
+  "files": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76170377cbebaa6ffad52c40bd3c3db01341564b",
+      "size": 4053,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/76170377cbebaa6ffad52c40bd3c3db01341564b"
+    },
+    {
+      "path": "data/analysis_val_gpt/by_perturbation.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83feb000bf97c2eb128531e9993a768a549f871e",
+      "size": 3804,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/83feb000bf97c2eb128531e9993a768a549f871e"
+    },
+    {
+      "path": "data/analysis_val_gpt/runs_flat.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27c9d38281cc817861408bb61f08dce5d5cfbb7f",
+      "size": 70690,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/27c9d38281cc817861408bb61f08dce5d5cfbb7f"
+    },
+    {
+      "path": "data/analysis_val_gpt/token_usage.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12b5200c220d3b8dd4377a2daf90aa54a3c855eb",
+      "size": 44291,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/12b5200c220d3b8dd4377a2daf90aa54a3c855eb"
+    },
+    {
+      "path": "data/analysis_val_llama/by_perturbation.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8481dd0691382bcfc5da9d6f79346bc1cd8989e",
+      "size": 4408,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/e8481dd0691382bcfc5da9d6f79346bc1cd8989e"
+    },
+    {
+      "path": "data/analysis_val_llama/runs_flat.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa0d70db0fcfe6401867381c5d90c6f55094d9e3",
+      "size": 84972,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/fa0d70db0fcfe6401867381c5d90c6f55094d9e3"
+    },
+    {
+      "path": "data/analysis_val_llama/token_usage.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9d0a29bff7b19b27d7a58af861549a5977d3462",
+      "size": 51451,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/b9d0a29bff7b19b27d7a58af861549a5977d3462"
+    },
+    {
+      "path": "data/analysis_val_qwen/by_perturbation.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "138fe795a83a6bb4f1c48b15a75c15120bd0aacb",
+      "size": 4428,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/138fe795a83a6bb4f1c48b15a75c15120bd0aacb"
+    },
+    {
+      "path": "data/analysis_val_qwen/runs_flat.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6419e5d88371376a48d50bae77344a88d92ad62",
+      "size": 85016,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/e6419e5d88371376a48d50bae77344a88d92ad62"
+    },
+    {
+      "path": "data/analysis_val_qwen/token_usage.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a9495fa49b59e2eef0c27caec8d38a003e4c11e",
+      "size": 51602,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/4a9495fa49b59e2eef0c27caec8d38a003e4c11e"
+    },
+    {
+      "path": "scripts/aggregate_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3d9a8027ded5e0558efd3a463e1a419dd52dd4d",
+      "size": 36803,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/d3d9a8027ded5e0558efd3a463e1a419dd52dd4d"
+    },
+    {
+      "path": "scripts/paper_plots.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e6d58bd99602f45d4d4baa81d776c8016021dd5",
+      "size": 31191,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/4e6d58bd99602f45d4d4baa81d776c8016021dd5"
+    },
+    {
+      "path": "scripts/paper_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0425d9385f0f8e90cd70e05ba3bfb40077757532",
+      "size": 23572,
+      "url": "https://api.github.com/repos/anna-mazhar/trace-level-contamination-mas/git/blobs/0425d9385f0f8e90cd70e05ba3bfb40077757532"
+    }
+  ]
+}

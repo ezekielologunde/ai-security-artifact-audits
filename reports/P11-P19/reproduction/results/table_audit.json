@@ -1,0 +1,137 @@
+{
+  "source_hashes_verified": 12,
+  "models": {
+    "gpt": {
+      "trace_rows": 179,
+      "token_rows": 188,
+      "trace_unique_keys": 179,
+      "token_unique_keys": 188,
+      "duplicate_trace_keys": [],
+      "duplicate_token_keys": [],
+      "matched_keys": 179,
+      "token_only_keys": [
+        [
+          "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "number_corruption"
+        ],
+        [
+          "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "ocr_noise"
+        ],
+        [
+          "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "blur"
+        ],
+        [
+          "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "low_resolution"
+        ],
+        [
+          "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "noise"
+        ],
+        [
+          "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "partial_occlusion"
+        ],
+        [
+          "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "number_corruption"
+        ],
+        [
+          "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "ocr_noise"
+        ],
+        [
+          "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "text_redaction"
+        ]
+      ],
+      "trace_only_keys": [],
+      "manifestation_counts": {
+        "strategy_reroute": 28,
+        "early_termination": 33,
+        "catastrophic_failure": 44,
+        "loop_or_extended_execution": 59,
+        "silent_semantic_corruption": 15
+      },
+      "independent_correctness_fields": []
+    },
+    "llama": {
+      "trace_rows": 218,
+      "token_rows": 218,
+      "trace_unique_keys": 218,
+      "token_unique_keys": 218,
+      "duplicate_trace_keys": [],
+      "duplicate_token_keys": [],
+      "matched_keys": 218,
+      "token_only_keys": [],
+      "trace_only_keys": [],
+      "manifestation_counts": {
+        "strategy_reroute": 13,
+        "loop_or_extended_execution": 64,
+        "catastrophic_failure": 31,
+        "silent_semantic_corruption": 62,
+        "early_termination": 46,
+        "no_observable_effect": 2
+      },
+      "independent_correctness_fields": []
+    },
+    "qwen": {
+      "trace_rows": 217,
+      "token_rows": 218,
+      "trace_unique_keys": 217,
+      "token_unique_keys": 218,
+      "duplicate_trace_keys": [],
+      "duplicate_token_keys": [],
+      "matched_keys": 217,
+      "token_only_keys": [
+        [
+          "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "blur"
+        ]
+      ],
+      "trace_only_keys": [],
+      "manifestation_counts": {
+        "early_termination": 57,
+        "catastrophic_failure": 34,
+        "strategy_reroute": 46,
+        "no_observable_effect": 19,
+        "silent_semantic_corruption": 17,
+        "loop_or_extended_execution": 37,
+        "structural_divergence_with_outcome_change": 3,
+        "structural_divergence_recovered": 4
+      },
+      "independent_correctness_fields": []
+    }
+  },
+  "independent_correctness_labels_available": false,
+  "new_model_runs": 0,
+  "no_correctness_imputation": true,
+  "pooled": {
+    "trace_rows": 614,
+    "unique_task_ids": 32,
+    "manifestation_counts": {
+      "strategy_reroute": 87,
+      "early_termination": 136,
+      "catastrophic_failure": 109,
+      "loop_or_extended_execution": 160,
+      "silent_semantic_corruption": 94,
+      "no_observable_effect": 21,
+      "structural_divergence_with_outcome_change": 3,
+      "structural_divergence_recovered": 4
+    },
+    "manifestation_pct": {
+      "catastrophic_failure": 17.752442996742673,
+      "early_termination": 22.149837133550488,
+      "loop_or_extended_execution": 26.058631921824105,
+      "no_observable_effect": 3.420195439739414,
+      "silent_semantic_corruption": 15.309446254071661,
+      "strategy_reroute": 14.169381107491857,
+      "structural_divergence_recovered": 0.6514657980456026,
+      "structural_divergence_with_outcome_change": 0.48859934853420195
+    },
+    "matched_positive_baseline_token_rows": 614,
+    "median_token_multiplier_matched_only": 1.0298543933719269
+  }
+}

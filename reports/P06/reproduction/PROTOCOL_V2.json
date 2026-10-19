@@ -1,0 +1,23 @@
+{
+  "version": "lexical-v2",
+  "frozen_local_date": "2026-10-18",
+  "external_preregistration": false,
+  "dataset_revision": "ee05b9b6e6c1c91688db45b187da68f6b2ecb8e7",
+  "code_sha256": "cece791bd849e7d60817dd34eaecdb0d491bc4164e5587307a96e8189e68feef",
+  "pre_scoring_exposure": "Schemas, class balances and first-record examples inspected; no lexical test predictions inspected before this freeze.",
+  "hypotheses": "Description-inclusive lexical scoring improves macro-F1 versus names/constant controls on held-out ASTRA; ASTRA calibration may transfer poorly to TOUCAN.",
+  "features": "Visible input.task and zipped input.tools/input.mcp_servers; public catalog tool names/descriptions only. Groundtruth and match_tag used solely for evaluation.",
+  "representations": "TF-IDF: NFKC/camel-case tokenization, fixed generic stopwords, 1+log(TF), smoothed IDF, L2 normalization; request score is minimum requested-tool cosine.",
+  "calibration": "Choose a separate threshold per representation on all ASTRA validation complexities; grid 0..1 step .01; maximize macro-F1 with higher threshold winning ties. Apply unchanged to all ASTRA and TOUCAN tests.",
+  "unknown_policy": "Missing catalog mappings yield indeterminate; report coverage and covered confusion counts. Do not silently count unknown as correct.",
+  "interpretation": "Per-example semantic-match labels do not establish organizational authorization, actual tokens, least privilege, attacker reachability, or superiority over authors neural models.",
+  "statistics": "Descriptive per-source/per-complexity counts; repeated same-task variants are not independent samples; no significance or population estimates.",
+  "data_manifest_sha256": "507100364688e8ce7da8eb8a3db03b3e4b2c8c3660e0255c29231acaec6f72d7",
+  "amendment": {
+    "previous_version": "lexical-v1",
+    "previous_code_sha256": "4a3ff6211d04b8f28b3b3a36016895bc46e976c49b47af08361df73ea1fa7655",
+    "reason": "Initial run failed during catalog loading: a broad *.json glob included acquisition receipts, producing KeyError name before any validation/test scores were computed.",
+    "change": "Enumerate only catalog payload paths declared by the frozen acquisition manifest. Feature definitions, calibration rule, outcomes and splits remain unchanged.",
+    "test_outcomes_seen_before_amendment": false
+  }
+}

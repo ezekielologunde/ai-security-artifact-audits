@@ -1,0 +1,9 @@
+{
+  "cases": 56,
+  "selection": "4 below and 4 above threshold per source/complexity plus all primary unknowns; not prevalence sampling",
+  "primary_unknown_cases": 8,
+  "archive": "C:\\Users\\Ezekiel\\Documents\\AI Security Research\\P06-P13-P14-P15-authorization-review\\output\\independent_semantic_review_blinded.zip",
+  "sha256": "bf5ea82ac9c2e699f7a7f43e156ab9ae0b81493929a81bc7b9639ef8dd79ea57",
+  "key_separate": true,
+  "independent_reviews_completed": 0
+}

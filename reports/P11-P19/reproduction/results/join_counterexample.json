@@ -1,0 +1,37 @@
+{
+  "original_script_sha256": "08986d3a21b48d87e69c0aa9113d7e19cbccc709921f68b25f5132db016152ee",
+  "controlled_fixture": {
+    "original": {
+      "high_cost_correct_pct": 50.0,
+      "low_cost_incorrect_pct": 50.0,
+      "high_cost_count": 2,
+      "low_cost_count": 2
+    },
+    "strict": {
+      "high_cost_correct_pct": 100.0,
+      "low_cost_incorrect_pct": 100.0,
+      "high_cost_labeled_rows": 1,
+      "low_cost_labeled_rows": 1,
+      "unknown_correctness_rows": 0
+    }
+  },
+  "equal_correctness_control": {
+    "original": {
+      "high_cost_correct_pct": 100.0,
+      "low_cost_incorrect_pct": 0.0,
+      "high_cost_count": 2,
+      "low_cost_count": 2
+    },
+    "strict": {
+      "high_cost_correct_pct": 100.0,
+      "low_cost_incorrect_pct": 0.0,
+      "high_cost_labeled_rows": 1,
+      "low_cost_labeled_rows": 1,
+      "unknown_correctness_rows": 0
+    }
+  },
+  "tests_run": 6,
+  "tests_passed": true,
+  "raw_author_correctness_available": false,
+  "natural_effect_size_estimated": false
+}

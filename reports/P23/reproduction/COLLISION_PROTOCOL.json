@@ -1,0 +1,10 @@
+{
+  "question": "Does source revocation preserve current ownership and hash binding after an accepted chunk-ID reuse?",
+  "source_revision": "c11da0ba9e6071773b11113c47a69bf80fcb916a",
+  "exploratory_information": "Gate, datastore, traceback, revocation, documentation and original core tests inspected before freezing. Original offline suite: 32 passed, one optional pyarrow contrast skipped. No collision experiment scored yet.",
+  "design": "All eight combinations of same/different chunk ID, principal and text in a two-ingestion sequence; real fresh Ed25519 signatures, no model calls or malicious payloads.",
+  "observables": ["accepted replacement", "live record signature validity", "principal-index agreement with current record", "hash-index agreement with current record", "traceback for prior content", "removal of a current other-source record after revoking old principal"],
+  "controls": ["Different IDs", "Same text versus changed text", "Same source versus changed source", "Immutable-ID admission repair", "New versioned IDs preserve replacement availability"],
+  "repair_contract": "Reject an existing chunk ID before mutation; admit changed versions with a new globally unique ID. This is an admission restriction, not transparent upsert or a concurrent transaction guarantee.",
+  "boundary": "Local in-memory API behavior after controlled ID reuse; no claim of cryptographic break, production exploitability, poisoning-detection improvement, storage erasure or new general revocation algorithm. External caller authorization and global-ID allocation assumptions remain outside this experiment."
+}

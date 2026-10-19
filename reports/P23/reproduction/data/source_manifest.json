@@ -1,0 +1,650 @@
+[
+  {
+    "repository": "CristhianKapelinski/sbseg2026-ragtrap",
+    "revision": "c11da0ba9e6071773b11113c47a69bf80fcb916a",
+    "license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "files": [
+      {
+        "path": ".github/workflows/artifact.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a97c41b135f520e978dcb89fd9e92ac92a2ebfb",
+        "size": 1641,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/8a97c41b135f520e978dcb89fd9e92ac92a2ebfb"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c23e2dfc1c31bca409b97ae5394159b6685ca15",
+        "size": 1018,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/3c23e2dfc1c31bca409b97ae5394159b6685ca15"
+      },
+      {
+        "path": "CITATION.cff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b50cebb36b35a58a780fd56582de8d25c222803c",
+        "size": 1479,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/b50cebb36b35a58a780fd56582de8d25c222803c"
+      },
+      {
+        "path": "DOCUMENTATION.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b96ac3b9f9ec1ee9fc602330f8ba2bafdd5ee369",
+        "size": 35133,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/b96ac3b9f9ec1ee9fc602330f8ba2bafdd5ee369"
+      },
+      {
+        "path": "Dockerfile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05d6684a30a652ae20a13b710ee33a8c9453ab1a",
+        "size": 1212,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/05d6684a30a652ae20a13b710ee33a8c9453ab1a"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c7e1aaf8a8e524bae053ac74a8b6915cb1f69607",
+        "size": 1072,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/c7e1aaf8a8e524bae053ac74a8b6915cb1f69607"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a68551db1a2b0a804b4be76b59f9ead45586155a",
+        "size": 29783,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/a68551db1a2b0a804b4be76b59f9ead45586155a"
+      },
+      {
+        "path": "cleanup.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "9f238b0765de2db0ea93f40a839150edbd904a8e",
+        "size": 1224,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/9f238b0765de2db0ea93f40a839150edbd904a8e"
+      },
+      {
+        "path": "data/beir_nq_sample.parquet",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2376de2f86f30d13a5a8955fead54221fcfb8a9d",
+        "size": 337536,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/2376de2f86f30d13a5a8955fead54221fcfb8a9d"
+      },
+      {
+        "path": "docs/assets/seals/SBRC25_SF_SeloD.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "563992705147380dae3b026117ae721af74bb81c",
+        "size": 140612,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/563992705147380dae3b026117ae721af74bb81c"
+      },
+      {
+        "path": "docs/assets/seals/SBRC25_SF_SeloF.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7bd4e3c6cd72238a281a60ea4aac8f6b4ca4260f",
+        "size": 138027,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/7bd4e3c6cd72238a281a60ea4aac8f6b4ca4260f"
+      },
+      {
+        "path": "docs/assets/seals/SBRC25_SF_SeloR.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e0f500bef9abb735cf031306039255913bea96b",
+        "size": 143001,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/8e0f500bef9abb735cf031306039255913bea96b"
+      },
+      {
+        "path": "docs/assets/seals/SBRC25_SF_SeloS.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f8686228e57625e152526334e9050ad17818d91",
+        "size": 135671,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/4f8686228e57625e152526334e9050ad17818d91"
+      },
+      {
+        "path": "expected/paper_macros.tex",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5f021bbc2a1fac5c2d68c895fb0bf9c27b14749",
+        "size": 3464,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/f5f021bbc2a1fac5c2d68c895fb0bf9c27b14749"
+      },
+      {
+        "path": "figs/prompts/01_concept_traceback.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84d8fc4eb4ef438eacb7d4b5a32740d01ad89cd2",
+        "size": 1813,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/84d8fc4eb4ef438eacb7d4b5a32740d01ad89cd2"
+      },
+      {
+        "path": "figs/prompts/02_pipeline.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc6ba87e81d4f7a3bb3f6d3c3e41672bc49d12f6",
+        "size": 1532,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/fc6ba87e81d4f7a3bb3f6d3c3e41672bc49d12f6"
+      },
+      {
+        "path": "figs/prompts/03_concept_perchunk.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "474fdb23e161506016a7d737f5a2f0ad0ccdec10",
+        "size": 1510,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/474fdb23e161506016a7d737f5a2f0ad0ccdec10"
+      },
+      {
+        "path": "pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7dc64401070110edc833091324e68382c3c30506",
+        "size": 1823,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/7dc64401070110edc833091324e68382c3c30506"
+      },
+      {
+        "path": "results/aux_results.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06e81fc6328df480a9a60f49a22eca313dce7c0b",
+        "size": 5182,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/06e81fc6328df480a9a60f49a22eca313dce7c0b"
+      },
+      {
+        "path": "results/e0_results.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "478756c7cd822bd5b6ce577262428fe63472bb60",
+        "size": 858,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/478756c7cd822bd5b6ce577262428fe63472bb60"
+      },
+      {
+        "path": "results/macros.tex",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5f021bbc2a1fac5c2d68c895fb0bf9c27b14749",
+        "size": 3464,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/f5f021bbc2a1fac5c2d68c895fb0bf9c27b14749"
+      },
+      {
+        "path": "results/main_results.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c9ad18abf394af9853ea87002d383d824517864",
+        "size": 10230,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/3c9ad18abf394af9853ea87002d383d824517864"
+      },
+      {
+        "path": "results/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf02d589536a6a09ff9fb1b54b505f5aa422bfcf",
+        "size": 841,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/bf02d589536a6a09ff9fb1b54b505f5aa422bfcf"
+      },
+      {
+        "path": "results/real_results.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e9b95cc7b49bb59b86c7e7c7dd48438277a77874",
+        "size": 7607,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/e9b95cc7b49bb59b86c7e7c7dd48438277a77874"
+      },
+      {
+        "path": "results/results.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c54d8623d4c8fddbc1d21e226df0eaa57b1ea1de",
+        "size": 17229,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/c54d8623d4c8fddbc1d21e226df0eaa57b1ea1de"
+      },
+      {
+        "path": "results/results_panels.pdf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "887798fe417afc089f43e0bac81334cdbbcc5936",
+        "size": 24711,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/887798fe417afc089f43e0bac81334cdbbcc5936"
+      },
+      {
+        "path": "results/scaling_results.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34385e87ba54695a69a45740ef4964710009face",
+        "size": 3265,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/34385e87ba54695a69a45740ef4964710009face"
+      },
+      {
+        "path": "results/scaling_rows.tex",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39abde2554fd137eaa5c2c7c61666b1c5cdc0c09",
+        "size": 224,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/39abde2554fd137eaa5c2c7c61666b1c5cdc0c09"
+      },
+      {
+        "path": "scripts/_claim_common.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31471e708b1fec44c51ac7fb923ba2e4891c246b",
+        "size": 5199,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/31471e708b1fec44c51ac7fb923ba2e4891c246b"
+      },
+      {
+        "path": "scripts/aggregate_results.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f418d00a1b1ee46775c429a2ad2c162eea7efac",
+        "size": 12687,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/3f418d00a1b1ee46775c429a2ad2c162eea7efac"
+      },
+      {
+        "path": "scripts/claim1.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "5adc27098ba0938e60df29ab8bab46321122f6a7",
+        "size": 278,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/5adc27098ba0938e60df29ab8bab46321122f6a7"
+      },
+      {
+        "path": "scripts/claim2.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "2744be11be4249e3d6182b8e0204f4fb1c99e553",
+        "size": 278,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/2744be11be4249e3d6182b8e0204f4fb1c99e553"
+      },
+      {
+        "path": "scripts/claim3.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "701fb283515e96b638bfe134322edee3c440dfac",
+        "size": 635,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/701fb283515e96b638bfe134322edee3c440dfac"
+      },
+      {
+        "path": "scripts/experiment_main.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "dbe6d685e0f2ad3dc263dde469e2d56ac6a10973",
+        "size": 3029,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/dbe6d685e0f2ad3dc263dde469e2d56ac6a10973"
+      },
+      {
+        "path": "scripts/fetch_data.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "c8f953b2ac65f63e62b1371bd88c268ae0732aea",
+        "size": 3330,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/c8f953b2ac65f63e62b1371bd88c268ae0732aea"
+      },
+      {
+        "path": "scripts/fetch_inputs.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "625a844ad4330b0f887eafea0718939bc551edb2",
+        "size": 5108,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/625a844ad4330b0f887eafea0718939bc551edb2"
+      },
+      {
+        "path": "scripts/make_figures.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8f0952a1726f8fa3dceb48e55fbfc5af5c84853",
+        "size": 6010,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/c8f0952a1726f8fa3dceb48e55fbfc5af5c84853"
+      },
+      {
+        "path": "scripts/minimal_test.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "930bc335e516d03ffdc8ba2a2a7b188d5b58ffe9",
+        "size": 1163,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/930bc335e516d03ffdc8ba2a2a7b188d5b58ffe9"
+      },
+      {
+        "path": "scripts/reproduce.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "13b2e8600efd4e2ab8047600370fa257e82fcbdd",
+        "size": 397,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/13b2e8600efd4e2ab8047600370fa257e82fcbdd"
+      },
+      {
+        "path": "scripts/reproduce_main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "653fc5b58c7c0b5adff17b29a30f77a275721ee7",
+        "size": 12253,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/653fc5b58c7c0b5adff17b29a30f77a275721ee7"
+      },
+      {
+        "path": "scripts/run_check_exp2_exp3.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce8ae1d520099e4ae9483e8f50dca2391d33bfce",
+        "size": 3303,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/ce8ae1d520099e4ae9483e8f50dca2391d33bfce"
+      },
+      {
+        "path": "scripts/run_ragorigin_baseline.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1f50ceb3b5cdd1592936d42ac6ae289049c2e92",
+        "size": 2379,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/f1f50ceb3b5cdd1592936d42ac6ae289049c2e92"
+      },
+      {
+        "path": "scripts/run_real_eval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a25fa075b732d765527bdabbf3fd8a8cdd0c132",
+        "size": 4389,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/4a25fa075b732d765527bdabbf3fd8a8cdd0c132"
+      },
+      {
+        "path": "scripts/run_scaling.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd003bbe68bfad1985a4a6e9375640bbd96feebb",
+        "size": 3153,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/fd003bbe68bfad1985a4a6e9375640bbd96feebb"
+      },
+      {
+        "path": "scripts/show_claim.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e266d3a16486c94849a1f7946a11e228261a46ab",
+        "size": 5239,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/e266d3a16486c94849a1f7946a11e228261a46ab"
+      },
+      {
+        "path": "scripts/verify_paper_values.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8aca9b981fc223966de261b66bdb74bbb29b426",
+        "size": 1721,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/f8aca9b981fc223966de261b66bdb74bbb29b426"
+      },
+      {
+        "path": "src/ragtrap/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3650e43d9f8797b0daed84423a25de5d7dbd94d",
+        "size": 707,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/b3650e43d9f8797b0daed84423a25de5d7dbd94d"
+      },
+      {
+        "path": "src/ragtrap/asr.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b914ed7f617ba869cded8ec4cc96ca17e00e000b",
+        "size": 2822,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/b914ed7f617ba869cded8ec4cc96ca17e00e000b"
+      },
+      {
+        "path": "src/ragtrap/cli.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0204e1bdb4ef7d9d3630fa6b5ea2060fe97b103",
+        "size": 6430,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/d0204e1bdb4ef7d9d3630fa6b5ea2060fe97b103"
+      },
+      {
+        "path": "src/ragtrap/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "febf5103baf0d47471e4ed44070f97c48a1aaf5e",
+        "size": 3552,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/febf5103baf0d47471e4ed44070f97c48a1aaf5e"
+      },
+      {
+        "path": "src/ragtrap/corpus.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "706c9b066d4957a6f30fc80f3f3001c549485817",
+        "size": 4246,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/706c9b066d4957a6f30fc80f3f3001c549485817"
+      },
+      {
+        "path": "src/ragtrap/datastore.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa512f35391ed67f59ee175d47ebe1f5718c6b98",
+        "size": 4092,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/fa512f35391ed67f59ee175d47ebe1f5718c6b98"
+      },
+      {
+        "path": "src/ragtrap/detectors.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "211703dc4b2f07ce17ac6cd0aaf3274ae46b4391",
+        "size": 2585,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/211703dc4b2f07ce17ac6cd0aaf3274ae46b4391"
+      },
+      {
+        "path": "src/ragtrap/experiments.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de60b7814bffd1ac44ea9c4eb642b0710f4272e1",
+        "size": 3999,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/de60b7814bffd1ac44ea9c4eb642b0710f4272e1"
+      },
+      {
+        "path": "src/ragtrap/gate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "718096a6fbb8ba92bb30d498b8a20aa30445748a",
+        "size": 6844,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/718096a6fbb8ba92bb30d498b8a20aa30445748a"
+      },
+      {
+        "path": "src/ragtrap/hashing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f418526565687514c78b252f9fbda6a80f42e5d2",
+        "size": 1003,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/f418526565687514c78b252f9fbda6a80f42e5d2"
+      },
+      {
+        "path": "src/ragtrap/llm_judge.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ce8f919cf7cb5f6b22a2fc1b8a51b34e9f137e2",
+        "size": 4629,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/4ce8f919cf7cb5f6b22a2fc1b8a51b34e9f137e2"
+      },
+      {
+        "path": "src/ragtrap/logging_setup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d18d79e05c6e4604738b5e4778d3fa0eefb8c38f",
+        "size": 2229,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/d18d79e05c6e4604738b5e4778d3fa0eefb8c38f"
+      },
+      {
+        "path": "src/ragtrap/manifest.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a56646f5cfe71d0b1558e14638d235e75a21ba8",
+        "size": 2099,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/9a56646f5cfe71d0b1558e14638d235e75a21ba8"
+      },
+      {
+        "path": "src/ragtrap/realdata.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7cd803baa644ba06449327f45505c46d28b9098",
+        "size": 6509,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/e7cd803baa644ba06449327f45505c46d28b9098"
+      },
+      {
+        "path": "src/ragtrap/realeval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bf1baaab3641860ca41fb31ecb12f2c2e45fb0d",
+        "size": 15110,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/3bf1baaab3641860ca41fb31ecb12f2c2e45fb0d"
+      },
+      {
+        "path": "src/ragtrap/realeval3.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3df003c2db50cd6e6806a0b3d26dc421829ac92",
+        "size": 8944,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/f3df003c2db50cd6e6806a0b3d26dc421829ac92"
+      },
+      {
+        "path": "src/ragtrap/records.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d3f378b2653926373d674eb66c5c9e5a8cb6715",
+        "size": 3431,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/0d3f378b2653926373d674eb66c5c9e5a8cb6715"
+      },
+      {
+        "path": "src/ragtrap/revocation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20307ff3e44eb24c4b32b60326108b9d280e7e00",
+        "size": 3321,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/20307ff3e44eb24c4b32b60326108b9d280e7e00"
+      },
+      {
+        "path": "src/ragtrap/scaling.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "277800a397f11af014b38146bf138b0f9374fb1f",
+        "size": 8565,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/277800a397f11af014b38146bf138b0f9374fb1f"
+      },
+      {
+        "path": "src/ragtrap/signing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c893502096d899a3417814e42e755be71a00ccb4",
+        "size": 4582,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/c893502096d899a3417814e42e755be71a00ccb4"
+      },
+      {
+        "path": "src/ragtrap/stats.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cfc90f2615fb4755eb8e81e8c01161efd3652f59",
+        "size": 2206,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/cfc90f2615fb4755eb8e81e8c01161efd3652f59"
+      },
+      {
+        "path": "src/ragtrap/synthetic.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b47d0d2d31ce33229abbc01b4c18f9360eca4295",
+        "size": 3531,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/b47d0d2d31ce33229abbc01b4c18f9360eca4295"
+      },
+      {
+        "path": "src/ragtrap/traceback.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d60657735e5fbfc3083f4e285ae6e6b5bf5037de",
+        "size": 2942,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/d60657735e5fbfc3083f4e285ae6e6b5bf5037de"
+      },
+      {
+        "path": "tests/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/test_gate_and_traceback.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6ae0917dc9911da9fd35d46b3585f2cd23f20b7",
+        "size": 4310,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/c6ae0917dc9911da9fd35d46b3585f2cd23f20b7"
+      },
+      {
+        "path": "tests/test_realdata.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77345f5b214dc9dfb971b9264d61937e26d4df59",
+        "size": 4541,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/77345f5b214dc9dfb971b9264d61937e26d4df59"
+      },
+      {
+        "path": "tests/test_revocation_and_synthetic.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8683cc40fc00cec14a8c25b56bfdfcbce2d381b4",
+        "size": 3359,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/8683cc40fc00cec14a8c25b56bfdfcbce2d381b4"
+      },
+      {
+        "path": "tests/test_sample_and_fastpath.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0763ea5cbe605dc52845c28b9ea30bc3021eeebe",
+        "size": 1740,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/0763ea5cbe605dc52845c28b9ea30bc3021eeebe"
+      },
+      {
+        "path": "tests/test_signing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "280edeb4a7461a27d4b5810b1260052e0600308f",
+        "size": 1874,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/280edeb4a7461a27d4b5810b1260052e0600308f"
+      },
+      {
+        "path": "uv.lock",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50d60238efa82f33339c6aa0cf0c35a0882c9941",
+        "size": 832367,
+        "url": "https://api.github.com/repos/CristhianKapelinski/sbseg2026-ragtrap/git/blobs/50d60238efa82f33339c6aa0cf0c35a0882c9941"
+      }
+    ],
+    "selected_receipts": [
+      {
+        "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/LICENSE",
+        "path": "data/sources/CristhianKapelinski__sbseg2026-ragtrap/files/LICENSE",
+        "bytes": 1072,
+        "sha256": "c3862c186ecaa33c532e8fdae1dc35e26e16eff3a2758a8ac31223fc1de95285",
+        "retrieved_at_utc": "2026-10-18T16:17:00Z"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/pyproject.toml",
+        "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/pyproject.toml",
+        "path": "data/sources/CristhianKapelinski__sbseg2026-ragtrap/files/pyproject.toml",
+        "bytes": 1823,
+        "sha256": "2260ed1ab3036a045e82c3ac30c5d157bc173bccc8e092fbd83b303d4f5da1e1",
+        "retrieved_at_utc": "2026-10-18T16:17:00Z"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/README.md",
+        "path": "data/sources/CristhianKapelinski__sbseg2026-ragtrap/files/README.md",
+        "bytes": 29783,
+        "sha256": "74f42c00ffd9e6741ffe476eae54a6daf0733f42d4a1b3299f9e3703f664bd9f",
+        "retrieved_at_utc": "2026-10-18T16:17:00Z"
+      }
+    ],
+    "errors": []
+  }
+]

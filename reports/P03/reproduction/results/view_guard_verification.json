@@ -1,0 +1,17 @@
+{
+  "boundary_tests": 5,
+  "failed": 0,
+  "runs": [
+    {
+      "run": 1,
+      "rows_projected": 191370,
+      "original_sha256_unchanged": "79318870bbbcb9cfaedf664557f9b02e8a6dba73484125331668ce2049043bc5"
+    },
+    {
+      "run": 2,
+      "rows_projected": 191370,
+      "original_sha256_unchanged": "726b8daa295d09c065effad55f8ec22d01b8114156e7bcad2d55781bc0609255"
+    }
+  ],
+  "limitation": "Successful projection enforces the declared schema; it is not proof of exhaustive statistical leakage removal or field observability in a real network."
+}

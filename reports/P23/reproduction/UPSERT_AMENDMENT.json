@@ -1,0 +1,8 @@
+{
+  "kind": "Post-hoc comparator extension",
+  "prior_outcomes_seen": "Eight original and eight immutable-overlay outcomes, plus seven verification checks",
+  "change": "Add a single-threaded index-consistent upsert comparator: validate admission before removing old indexes, then insert the new record.",
+  "reason": "Separate consistency repair from the immutable overlay's rejection of repeated identities.",
+  "unchanged": "Original and immutable implementations, eight-case factors, source revision and primary observables remain unchanged.",
+  "limits": "No concurrent atomicity, migration of already-corrupt stores, ownership-transfer authorization, or independently held-out efficacy claim. This comparator was designed after seeing primary results."
+}

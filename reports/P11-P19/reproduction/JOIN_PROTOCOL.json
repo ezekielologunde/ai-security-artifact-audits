@@ -1,0 +1,9 @@
+{
+  "question": "Can the source's correctness join mix outcomes across model identities when task/perturbation identifiers are shared?",
+  "source_revision": "a6aaf30ccdb15d774ac8bad136e52491db3e2a4a",
+  "prior_information": "Source loader and merge keys inspected; public table coverage and author aggregate statistics already recomputed. Raw correctness records are not released in the acquired artifact.",
+  "design": "Two controlled model rows share task/perturbation. The high-cost row is correct and the low-cost row incorrect. Supply corresponding two correctness rows. Compare original source aggregation against explicitly model-keyed one-to-one aggregation.",
+  "expected_valid_statistics": {"high_cost_correct_pct": 100.0, "low_cost_incorrect_pct": 100.0},
+  "checks": ["Reverse input order", "Equal per-model correctness as negative control", "Missing model identity must fail the repaired join", "Unmatched correctness remains unknown", "Duplicate complete keys must fail rather than expand rows"],
+  "claims_boundary": "A controlled counterexample identifies a source-code failure condition, not the magnitude or occurrence of error in unreleased author runs. No new agent/LLM invocation or natural correctness claim."
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "date": "2026-10-19",
+  "author": "Ezekiel Ologunde",
+  "reports": [
+    {
+      "study": "P03",
+      "report": "reports/P03/shadow_ai_dataset_audit.pdf",
+      "pdf_sha256": "e352441f3203f77f1e90166adee53bbf32f15bf94c5b6bb7dcfbb3b061c63019",
+      "status": "preliminary technical report; not peer reviewed",
+      "independent_review_complete": false
+    },
+    {
+      "study": "P06",
+      "report": "reports/P06/task_tool_transfer_audit.pdf",
+      "pdf_sha256": "f169097a01532d59b4ae6c99378589fbc8e04fcb0b1e9b91b697af0f43d00719",
+      "status": "preliminary technical report; not peer reviewed",
+      "independent_review_complete": false
+    },
+    {
+      "study": "P11-P19",
+      "report": "reports/P11-P19/model_identity_join_audit.pdf",
+      "pdf_sha256": "813df7d82ea1f51340b695297598b53a8feb5ad26a518a492c32f96cb208cf31",
+      "status": "preliminary technical report; not peer reviewed",
+      "independent_review_complete": false
+    },
+    {
+      "study": "P23",
+      "report": "reports/P23/rag_identity_revocation_audit.pdf",
+      "pdf_sha256": "cd09832aaccbc707a53a7f9ea235dece23c2421daf3f33fff0fda789452fdb7f",
+      "status": "preliminary technical report; not peer reviewed",
+      "independent_review_complete": false
+    }
+  ],
+  "upstream_raw_data_included": false,
+  "independent_review_complete": false
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/data/beir_nq_sample.parquet",
+  "resolved_url": "https://raw.githubusercontent.com/CristhianKapelinski/sbseg2026-ragtrap/c11da0ba9e6071773b11113c47a69bf80fcb916a/data/beir_nq_sample.parquet",
+  "path": "data/source-code/data/beir_nq_sample.parquet",
+  "bytes": 337536,
+  "sha256": "b31332809dbc08cea7bb90e82a325e01928b85ae507682cce42b0f44d75a7c41",
+  "retrieved_at_utc": "2026-10-18T16:18:19Z"
+}

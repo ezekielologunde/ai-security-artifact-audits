@@ -1,0 +1,138 @@
+{
+  "protocol": "source-audit-v1; exploratory mechanism confirmation, not held-out validation",
+  "source_revision": "b1d2966939edde18edc08a08f52145fc1378d567",
+  "runs": [
+    {
+      "run": 1,
+      "rows": 191370,
+      "positive_labels": 43,
+      "prevalence": 0.00022469561582275175,
+      "detector_columns": [
+        "session_id",
+        "employee_id",
+        "timestamp",
+        "date",
+        "weekday",
+        "hour",
+        "after_hours",
+        "browser_used",
+        "client_type",
+        "ja4_archetype",
+        "tls_version",
+        "destination_domain",
+        "session_duration_sec",
+        "requests",
+        "dns_queries",
+        "upload_kb",
+        "download_kb",
+        "vpn_used",
+        "session_type",
+        "minutes_since_resource",
+        "upload_download_ratio"
+      ],
+      "session_type_counts": {
+        "normal": 111817,
+        "ai_normal": 79510,
+        "shadow_ai_violation": 43
+      },
+      "direct_alias_shortcut": {
+        "tp": 43,
+        "fp": 0,
+        "fn": 0,
+        "tn": 191327,
+        "precision": 1.0,
+        "recall": 1.0,
+        "accuracy": 1.0
+      },
+      "always_negative": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 43,
+        "tn": 191327,
+        "precision": null,
+        "recall": 0.0,
+        "accuracy": 0.9997753043841773
+      },
+      "original_validator_accepts_detector_view": true,
+      "network_nonidentifier_multiset_sha256": "d8d016874569873237ad3605eff32618830764960684943d49dd912a3f6e746b",
+      "labeled_nonidentifier_multiset_sha256": "e08ec1b44a679213a52904f960a3234388289a2c8a968fb12674c78a9182ff1d",
+      "ai_domain_as_violation_baseline": {
+        "tp": 43,
+        "fp": 79510,
+        "fn": 0,
+        "tn": 111817,
+        "precision": 0.0005405201563737382,
+        "recall": 1.0,
+        "accuracy": 0.5845221299054189
+      }
+    },
+    {
+      "run": 2,
+      "rows": 191370,
+      "positive_labels": 43,
+      "prevalence": 0.00022469561582275175,
+      "detector_columns": [
+        "session_id",
+        "employee_id",
+        "timestamp",
+        "date",
+        "weekday",
+        "hour",
+        "after_hours",
+        "browser_used",
+        "client_type",
+        "ja4_archetype",
+        "tls_version",
+        "destination_domain",
+        "session_duration_sec",
+        "requests",
+        "dns_queries",
+        "upload_kb",
+        "download_kb",
+        "vpn_used",
+        "session_type",
+        "minutes_since_resource",
+        "upload_download_ratio"
+      ],
+      "session_type_counts": {
+        "normal": 111817,
+        "ai_normal": 79510,
+        "shadow_ai_violation": 43
+      },
+      "direct_alias_shortcut": {
+        "tp": 43,
+        "fp": 0,
+        "fn": 0,
+        "tn": 191327,
+        "precision": 1.0,
+        "recall": 1.0,
+        "accuracy": 1.0
+      },
+      "always_negative": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 43,
+        "tn": 191327,
+        "precision": null,
+        "recall": 0.0,
+        "accuracy": 0.9997753043841773
+      },
+      "original_validator_accepts_detector_view": true,
+      "network_nonidentifier_multiset_sha256": "d8d016874569873237ad3605eff32618830764960684943d49dd912a3f6e746b",
+      "labeled_nonidentifier_multiset_sha256": "e08ec1b44a679213a52904f960a3234388289a2c8a968fb12674c78a9182ff1d",
+      "ai_domain_as_violation_baseline": {
+        "tp": 43,
+        "fp": 79510,
+        "fn": 0,
+        "tn": 111817,
+        "precision": 0.0005405201563737382,
+        "recall": 1.0,
+        "accuracy": 0.5845221299054189
+      }
+    }
+  ],
+  "raw_detector_files_identical": false,
+  "network_rows_identical_ignoring_session_ids_and_order": true,
+  "labeled_rows_identical_ignoring_session_ids_and_order": true,
+  "interpretation": "Perfect direct-alias prediction is an invalid detection result; class labels leak through session_type. Generated sessions are synthetic. No author-published model result was evaluated."
+}

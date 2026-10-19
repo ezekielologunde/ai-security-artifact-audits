@@ -1,0 +1,7 @@
+{
+  "pages": 2,
+  "text_and_bounds_issues": [],
+  "pdf_sha256": "e352441f3203f77f1e90166adee53bbf32f15bf94c5b6bb7dcfbb3b061c63019",
+  "compiler": "project-local Tectonic; native editor has platform-directory error",
+  "visual_review": "Both rendered pages inspected: legible body, table and references; no clipping observed"
+}
