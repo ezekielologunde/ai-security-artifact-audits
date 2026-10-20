@@ -1,0 +1,3 @@
+{"phase": "calibration", "root": "A"}
+{"phase": "calibration", "root": "B"}
+{"phase": "graph-after-cut", "root": "B"}

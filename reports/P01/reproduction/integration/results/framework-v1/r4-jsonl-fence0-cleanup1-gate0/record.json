@@ -1,0 +1,44 @@
+{
+  "backend": "jsonl",
+  "fenced": false,
+  "cleanup": true,
+  "graph_gate": false,
+  "retired_effects": 2,
+  "independent_effects": 1,
+  "checkpoint_after_cleanup": false,
+  "checkpoint_recreated_by_late_graph": true,
+  "pending_after_cleanup": false,
+  "receipts": [
+    {
+      "root": "A",
+      "phase": "calibration",
+      "status": 201
+    },
+    {
+      "root": "B",
+      "phase": "calibration",
+      "status": 201
+    },
+    {
+      "root": "B",
+      "phase": "forged",
+      "status": 403
+    },
+    {
+      "root": "A",
+      "phase": "in-flight-after-cut",
+      "status": 201
+    },
+    {
+      "root": "A",
+      "phase": "graph-after-cut",
+      "status": 201
+    },
+    {
+      "root": "B",
+      "phase": "graph-after-cut",
+      "status": 201
+    }
+  ],
+  "effects_sha256": "09cd90bcb3f6e2e47ffcd0ed5767cd696efa0fbd3476bc857cbb16e840b8dec5"
+}

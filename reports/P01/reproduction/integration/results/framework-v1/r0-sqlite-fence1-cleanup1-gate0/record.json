@@ -1,0 +1,44 @@
+{
+  "backend": "sqlite",
+  "fenced": true,
+  "cleanup": true,
+  "graph_gate": false,
+  "retired_effects": 0,
+  "independent_effects": 1,
+  "checkpoint_after_cleanup": false,
+  "checkpoint_recreated_by_late_graph": true,
+  "pending_after_cleanup": false,
+  "receipts": [
+    {
+      "root": "A",
+      "phase": "calibration",
+      "status": 201
+    },
+    {
+      "root": "B",
+      "phase": "calibration",
+      "status": 201
+    },
+    {
+      "root": "B",
+      "phase": "forged",
+      "status": 403
+    },
+    {
+      "root": "A",
+      "phase": "in-flight-after-cut",
+      "status": 403
+    },
+    {
+      "root": "A",
+      "phase": "graph-after-cut",
+      "status": 403
+    },
+    {
+      "root": "B",
+      "phase": "graph-after-cut",
+      "status": 201
+    }
+  ],
+  "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+}
