@@ -1,8 +1,8 @@
 # AI Security Artifact Audits — Preliminary Technical Reports
 
-Ezekiel Ologunde · Version 1 · 19 October 2026
+Ezekiel Ologunde · Collection version 2 · 20 October 2026
 
-Four bounded, reproducible audit notes. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established.
+Five bounded, reproducible audit notes. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
 
 | Report | Evidence and scope |
 |---|---|
@@ -10,6 +10,7 @@ Four bounded, reproducible audit notes. These reports have **not undergone indep
 | [Task–tool matching transfer](reports/P06/task_tool_transfer_audit.pdf) | Catalog-aware lexical baseline on ASTRA and processed TOUCAN; transfer errors and unresolved names remain visible. This is not a new authorization mechanism. |
 | [Cross-model correctness join](reports/P11-P19/model_identity_join_audit.pdf) | Recounted published tables and controlled evidence of a join dropping model identity. No effect on unreleased correctness data is estimated. |
 | [RAG chunk identity and revocation](reports/P23/rag_identity_revocation_audit.pdf) | Eight controlled ID-reuse cases expose stale indexes despite valid signatures. No production incidence, cryptographic break, or attacker access is established. |
+| [HelpBench scoring-helper audit](reports/P04/helpbench_scoring_audit.pdf) | All 450 overall expert scores reproduce. Two negative helpers lose 19/439 and 39/450 defined numeric endpoints. Conditional aggregation is an expert-sample illustration, not a reconstruction of published model rankings. |
 
 Each report folder contains its PDF, Overleaf source ZIP, and an unpacked reproduction directory with protocols, results, acquisition scripts and source manifests. Read its local README and limitations before running anything. No model API call, cloud deployment or vulnerable upstream program is required by this release. Some acquisition steps require Internet access; larger original datasets and upstream source must be reacquired under their own terms.
 

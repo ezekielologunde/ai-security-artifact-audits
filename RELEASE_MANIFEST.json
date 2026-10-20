@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "date": "2026-10-19",
+  "version": 2,
+  "date": "2026-10-20",
   "author": "Ezekiel Ologunde",
   "reports": [
     {
@@ -28,6 +28,13 @@
       "study": "P23",
       "report": "reports/P23/rag_identity_revocation_audit.pdf",
       "pdf_sha256": "cd09832aaccbc707a53a7f9ea235dece23c2421daf3f33fff0fda789452fdb7f",
+      "status": "preliminary technical report; not peer reviewed",
+      "independent_review_complete": false
+    },
+    {
+      "study": "P04",
+      "report": "reports/P04/helpbench_scoring_audit.pdf",
+      "pdf_sha256": "550e7ac0fdd952a3aae346f09118e073dbd0067d71c8a0cb24a7225ad88b14e0",
       "status": "preliminary technical report; not peer reviewed",
       "independent_review_complete": false
     }

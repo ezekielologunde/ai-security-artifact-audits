@@ -1,0 +1,72 @@
+\documentclass[sigconf,nonacm]{acmart}
+\setcopyright{none}
+\settopmatter{printacmref=false,printfolios=true}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\setlength{\emergencystretch}{2em}
+\title{When Zero Becomes Missing: A Reproducibility Audit of HelpBench's Scoring Helpers}
+\author{Ezekiel Ologunde}
+\renewcommand{\shortauthors}{Ezekiel Ologunde}
+\begin{document}
+\begin{abstract}
+Security-advice benchmarks depend on numerical scoring after judgments have been produced. We audit the content-pinned public HelpBench scorer using all 450 released expert-scored responses and ten controlled input cases. Every overall score agrees with the released expert score. However, two negative-criterion helpers collapse a defined numerical endpoint into an unavailable value: 19 of 439 applicable factual endpoints and 39 of 450 delivery endpoints return None instead of 1 under their specified inversion. The cause is a truthiness check on a valid intermediate zero. A minimal explicit-None comparator recovers these endpoints. Separate controlled cases expose omitted-criterion, duplicate-criterion and decision-token boundaries under an explicitly complete-rubric contract; these malformed cases were not observed in the expert records. Nine original tests and nine independent audit checks pass. A post-hoc conditional aggregation illustrates denominator effects on this expert sample, not on the paper's full model evaluation. The contribution is a bounded artifact audit, not a new judging algorithm, demonstrated improvement in advice safety, or a reconstruction of published model rankings.
+\end{abstract}
+\keywords{security advice, benchmark integrity, missing values, rubric scoring, reproducibility}
+\maketitle
+
+\section{Question and Prior Capability}
+HelpBench already evaluates digital privacy, safety and security advice using question-specific expert rubrics and an automatic rater~\cite{helpbench}. Our question concerns the numerical layer after a judgment exists: does the released scorer distinguish an unfavorable but defined endpoint from an unavailable subscale? This is separate from whether advice is factually sound, whether an evaluator labels it correctly, and whether a person acts safely.
+
+We examine three source-informed questions: preservation of numerical endpoints; behavior on incomplete or malformed judgments under a complete-rubric contract; and whether released expert records reach an affected endpoint. Input validation and missing-data effects are established concerns. Python explicitly treats numerical zero as false~\cite{python}; an explicit None check is not an algorithmic invention. Our increment is a reproducible, content-specific counterexample and released-record recount, without a first-discovery or field-wide novelty claim.
+
+\section{Artifact and Exploratory Protocol}
+The primary paper links an anonymized repository~\cite{artifact}. On 19 October 2026 we acquire ten compact files: questions/rubrics, expert records, scoring and rater source, original tests/fixtures, README and Apache-2.0 licence. They total 3,787,321 bytes. SHA-256 receipts pin exact content; the service does not expose a full source commit. The scorer digest begins \texttt{9d75162b153101a3}; its full digest is retained in the manifest. A displayed anonymization date is not evidence of when every file became public.
+
+We inspect source and original tests, then freeze a local protocol before computing score outcomes. This is exploratory auditing, not blinded discovery or external preregistration. The first identity check fails because question IDs are integers and expert IDs decimal strings. A recorded amendment accepts only canonical decimal representations, rejects ambiguous conversions/collisions, and requires exact coverage and question-text agreement. The old code and failure are preserved. All 450 questions then join one-to-one with 450 expert responses, with complete, unique and valid judgments.
+
+We independently compute weighted scores from rubric signs and expert decisions: positive met criteria and negative unmet criteria earn their absolute weights, divided by the total absolute weight of the selected rubric. Source delivery-criterion membership and subscale selection are retained. An explicitly selected smaller rubric remains valid; an incomplete judgment set for a supplied full rubric is a different condition.
+
+No advice is generated, no model API is called, and no new human labels are created. We do not acquire the full 40,500-response evaluation or a generator identity for each released expert response. These 450 examples cannot support a new 18-model ranking.
+
+\section{Numerical Endpoint Results}
+All 450 overall scores match the released \texttt{expert\_score} within $10^{-9}$. Positive factual and positive delivery helpers also agree wherever applicable. Table~\ref{tab:endpoints} distinguishes truly absent subscales from defined values that become unavailable.
+
+\begin{table}[t]
+\caption{Released expert records. Applicable means the selected rubric contains criteria. Lost values all equal 1 under explicit negative-subscale inversion.}
+\label{tab:endpoints}\centering\small
+\begin{tabular}{lrrr}\toprule
+Endpoint & Applicable & Numeric & Lost\\\midrule
+Overall & 450 & 450 & 0\\
+Positive factual & 450 & 450 & 0\\
+Negative factual & 439 & 420 & 19\\
+Positive delivery & 190 & 190 & 0\\
+Negative delivery & 450 & 411 & 39\\\bottomrule
+\end{tabular}
+\end{table}
+
+For a negative-only subset, the intermediate score is zero when every negative criterion is marked met. The helpers invert that score so the intended endpoint is 1. Their conditional tests the intermediate value's truthiness; zero therefore follows the unavailable branch. Replacing only that test with an explicit None comparison recovers every affected endpoint. Subscales with no applicable criteria remain unavailable. A maximal rubric endpoint is not a measured rate of real-world harm.
+
+The 19 and 39 counts describe endpoint values, not necessarily distinct responses. There are no corresponding changes to overall scores. We neither infer that the paper's headline results are wrong nor establish which private aggregation/version produced its reported subscale figures.
+
+\section{Controlled Contract Boundaries}
+Ten fixed cases include valid complete scoring, a numerical-zero endpoint, one omitted unfavorable criterion, a repeated favorable criterion, an unknown decision token, a non-string decision, an unknown ID, empty judgments, explicit subset scoring and an absent negative subscale.
+
+With a two-criterion fixture whose complete score is 0.5, omission yields 1 and favorable duplication yields $2/3$ in the original function. An unknown decision token is treated as no and yields 1 in that fixture; a boolean decision raises AttributeError. Original unknown-ID and empty-input checks already return unavailable. These are API boundary cases, not observed failures in the expert sample or estimates of malformed LLM output frequency.
+
+Our separate adapter declares a complete-selected-subset contract: unique identities, valid signed weights, exact yes/no tokens, complete coverage, and explicit scored/invalid/not-applicable states. It rejects the malformed fixtures and preserves legitimate selected-subset scoring and both numerical inversion endpoints. This changes an explicit input contract; it does not validate the semantic truth of a judgment. The minimal numerical correction and the broader validation adapter are separate comparators.
+
+\section{Conditional Aggregation and Verification}
+After the primary results, a dated amendment examines a consumer that averages only numeric helper outputs. On the released expert sample, the negative-factual helper mean is 0.0812 over 420 original numeric values versus 0.1210 over all 439 applicable reference values. Negative delivery is 0.2672 over 411 versus 0.3307 over 450. The omitted values are all 1, so this consumer drops the selected subscale's unfavorable endpoint. These are weighted helper-value means, not fractions of unsafe responses. A consumer using another missingness policy may behave differently; this is not a reconstruction of the authors' complete pipeline.
+
+All nine original tests pass unchanged. Nine audit checks independently recount identity/text coverage, all overall scores, the affected endpoint conditions, controlled validation boundaries, selected-subset/unavailable controls, both inversion endpoints, original test evidence, aggregation-denominator arithmetic and all acquired hashes. Python 3.12.14, absl-py 2.3.1 and pytest 8.4.2 are recorded; original bytes remain unchanged. Protocols, amendments, per-endpoint results and acquisition scripts are retained.
+
+\section{Limits and Research Decision}
+The observation is specific to the acquired scorer content and released expert labels. Expert judgments are source-provided, not independently re-adjudicated here. Anonymous source history is unavailable; bounded searches did not establish an earlier primary report, but sparse search results do not prove novelty. A newer private or later public implementation may differ.
+
+This note supports correcting a numerical representation boundary and testing complete-judgment contracts. It does not establish an improved advice model, safer user behavior, successful remediation, general evaluator robustness or an erroneous published model ranking. The broader end-user security question still requires independently grounded outcomes. Independent reproduction and peer review remain pending. Generative AI assisted source inspection, implementation and drafting. This is a preliminary technical report in ACM-style layout, not an ACM publication.
+
+\begin{thebibliography}{3}
+\bibitem{helpbench} Sarah Meiklejohn, Sunny Consolvo, Patrick Gage Kelley, Tara Matthews, Sai Teja Peddinti, Renee Shelby, Lenin Simicich, and Kurt Thomas. 2026. HelpBench: Assessing the Ability of LLMs to Provide Privacy, Safety, and Security Advice. arXiv:2606.24819. \url{https://arxiv.org/abs/2606.24819}.
+\bibitem{artifact} HelpBench authors. 2026. Help-seeking and help-giving artifact. Content acquired 19 October 2026; exact hashes in the accompanying manifest. \url{https://anonymous.4open.science/r/helpseeking-3829/}.
+\bibitem{python} Python Software Foundation. Python 3.12 Library Reference: Truth Value Testing. \url{https://docs.python.org/3.12/library/stdtypes.html#truth-value-testing}.
+\end{thebibliography}
+\end{document}

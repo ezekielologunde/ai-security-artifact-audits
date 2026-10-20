@@ -1,0 +1,93 @@
+{
+  "author_link": "https://arxiv.org/html/2606.24819v1",
+  "repository": "https://anonymous.4open.science/r/helpseeking-3829/",
+  "source_full_commit_not_exposed": true,
+  "content_pinned_by_SHA256": true,
+  "displayed_anonymization_date": "2026-05-06",
+  "snapshot_publication_date_not_recorded": true,
+  "receipts": [
+    {
+      "url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/README.md",
+      "resolved_url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/README.md",
+      "path": "data/helpbench/files/README.md",
+      "bytes": 7399,
+      "sha256": "1112eca98729b2fcbeffd70156b8a8d3d20d7166ebd4afda05bf67e48164efed",
+      "retrieved_at_utc": "2026-10-19T21:17:56Z"
+    },
+    {
+      "url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/LICENSE",
+      "resolved_url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/LICENSE",
+      "path": "data/helpbench/files/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "retrieved_at_utc": "2026-10-19T21:17:57Z"
+    },
+    {
+      "url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/datasets/helpbench.jsonl",
+      "resolved_url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/datasets/helpbench.jsonl",
+      "path": "data/helpbench/files/datasets/helpbench.jsonl",
+      "bytes": 1185697,
+      "sha256": "d1bc8ed2b43f1603657bc4525ada6d5febedb6a31e09bc42b0ad19a0b8745bb2",
+      "retrieved_at_utc": "2026-10-19T21:17:58Z"
+    },
+    {
+      "url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/datasets/helpbench_expert_rater.jsonl",
+      "resolved_url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/datasets/helpbench_expert_rater.jsonl",
+      "path": "data/helpbench/files/datasets/helpbench_expert_rater.jsonl",
+      "bytes": 2558102,
+      "sha256": "7257e9b684bf2c34df26a4e1b302455c2e87f8211e97ab563b1630d606dc5b95",
+      "retrieved_at_utc": "2026-10-19T21:18:01Z"
+    },
+    {
+      "url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/scripts/autorater.py",
+      "resolved_url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/scripts/autorater.py",
+      "path": "data/helpbench/files/scripts/autorater.py",
+      "bytes": 5769,
+      "sha256": "a51cebca5009680860998320759588ed5343be12c903b8cda8e9f235d2022424",
+      "retrieved_at_utc": "2026-10-19T21:18:01Z"
+    },
+    {
+      "url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/scripts/scoring.py",
+      "resolved_url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/scripts/scoring.py",
+      "path": "data/helpbench/files/scripts/scoring.py",
+      "bytes": 6437,
+      "sha256": "9d75162b153101a3498e4fd3f851ace1d984194d8bb0d177257bfbbff20a413a",
+      "retrieved_at_utc": "2026-10-19T21:18:02Z"
+    },
+    {
+      "url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/tests/test_scoring.py",
+      "resolved_url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/tests/test_scoring.py",
+      "path": "data/helpbench/files/tests/test_scoring.py",
+      "bytes": 3546,
+      "sha256": "dd1a62f64d2e1168d6dc3c0465d240c2c3fc39307b126a03211ae02b1830f616",
+      "retrieved_at_utc": "2026-10-19T21:18:03Z"
+    },
+    {
+      "url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/tests/sample_scored_rubric.json",
+      "resolved_url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/tests/sample_scored_rubric.json",
+      "path": "data/helpbench/files/tests/sample_scored_rubric.json",
+      "bytes": 4225,
+      "sha256": "d6a99eb8ce55699a5db0e56d3942ac4316fb1fb9a08396ab2b1a8bb75d5f3e14",
+      "retrieved_at_utc": "2026-10-19T21:18:04Z"
+    },
+    {
+      "url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/tests/sample_rubric_minimal_criteria.json",
+      "resolved_url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/tests/sample_rubric_minimal_criteria.json",
+      "path": "data/helpbench/files/tests/sample_rubric_minimal_criteria.json",
+      "bytes": 2097,
+      "sha256": "c0dc95f38b30d6031f416b588a8fac9a19343a76ed514432a6c36f7b5a605176",
+      "retrieved_at_utc": "2026-10-19T21:18:05Z"
+    },
+    {
+      "url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/tests/sample_rubric.json",
+      "resolved_url": "https://anonymous.4open.science/api/repo/helpseeking-3829/file/tests/sample_rubric.json",
+      "path": "data/helpbench/files/tests/sample_rubric.json",
+      "bytes": 2691,
+      "sha256": "0220e3186f9cad70133b5d9ade0e58105c44d838658250855d266a5a445f2afd",
+      "retrieved_at_utc": "2026-10-19T21:18:06Z"
+    }
+  ],
+  "errors": [],
+  "large_Reddit_link_collection_downloaded": false,
+  "source_executed": false
+}

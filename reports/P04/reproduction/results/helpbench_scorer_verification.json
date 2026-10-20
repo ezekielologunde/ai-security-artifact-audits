@@ -1,0 +1,21 @@
+{
+  "checks_passed": 9,
+  "checks": [
+    "independent_ID_and_text_join",
+    "independent_full_weighted_score_and_zero_endpoint_recount",
+    "all_observed_disagreements_are_defined_maximum_inverted_endpoints",
+    "missing_duplicate_unknown_and_nonstring_judgments_rejected",
+    "legitimate_selected_subset_and_unavailable_controls",
+    "both_numeric_inversion_endpoints_preserved",
+    "nine_original_tests_pass_without_source_changes",
+    "conditional_consumer_denominator_identity",
+    "all_ten_original_source_and_data_hashes_unchanged"
+  ],
+  "overall_scores_independently_reproduced": 450,
+  "zero_endpoint_counts": {
+    "negative_factual": 19,
+    "negative_delivery": 39
+  },
+  "new_model_calls": 0,
+  "independent_external_review": false
+}

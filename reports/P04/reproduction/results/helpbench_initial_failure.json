@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-19",
+  "stage": "Identity checks before expert-score arithmetic",
+  "failure": "Exact Python ID equality found zero overlap: question IDs are integers, expert IDs are decimal strings. Both sets contain 450 unique IDs.",
+  "outcomes_produced": false,
+  "upstream_tests": "Nine original tests passed independently.",
+  "interpretation": "Authored join type assumption, not evidence of missing questions or incorrect expert labels.",
+  "original_code": "work/frozen/audit_helpbench_scorer_v1.py",
+  "amendment": "Explicitly canonicalize non-boolean integer IDs and canonical decimal string IDs to integers, rejecting ambiguous/noncanonical strings and collisions. Require exact normalized coverage and identical question text before scoring."
+}

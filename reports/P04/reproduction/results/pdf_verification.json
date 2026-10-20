@@ -1,0 +1,8 @@
+{
+  "pages": 2,
+  "pdf_sha256": "550e7ac0fdd952a3aae346f09118e073dbd0067d71c8a0cb24a7225ad88b14e0",
+  "issues": [],
+  "visual_review": "Both rendered pages inspected: readable text and table, no clipping or overlapping content.",
+  "compiler": "Portable Tectonic 0.17.0; desktop editor also reported compilation success",
+  "generated_ACM_class_in_public_sources": false
+}

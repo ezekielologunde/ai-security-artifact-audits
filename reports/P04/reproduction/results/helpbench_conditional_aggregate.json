@@ -1,0 +1,22 @@
+{
+  "primary_endpoint_records_sha256": "e1e28b0983ce6876d7768f4a6c0fae9c98f25c8be14df6dc78e4668f3f50937e",
+  "scope": "conditional skip-None consumer on released expert samples only",
+  "endpoints": {
+    "negative_factual": {
+      "source_numeric_denominator": 420,
+      "all_applicable_reference_denominator": 439,
+      "source_skip_None_mean": 0.08123193726175525,
+      "reference_all_applicable_mean": 0.12099638644632621,
+      "source_omitted_numeric_one_count": 19
+    },
+    "negative_delivery": {
+      "source_numeric_denominator": 411,
+      "all_applicable_reference_denominator": 450,
+      "source_skip_None_mean": 0.2671532846715328,
+      "reference_all_applicable_mean": 0.33066666666666666,
+      "source_omitted_numeric_one_count": 39
+    }
+  },
+  "authors_full_model_aggregates_reconstructed": false,
+  "new_model_ranking": false
+}

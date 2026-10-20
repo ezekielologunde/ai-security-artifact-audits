@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-19",
+  "stage": "Exploratory source-inspected audit; frozen after reading scorer/tests and inspecting dataset schema/counts, before evaluating expert scores or boundary outcomes.",
+  "source": "Author-linked anonymous HelpBench repository; exact acquired bytes pinned by data/helpbench_manifest.json, full source commit not exposed.",
+  "questions": ["Does the released scorer preserve a numeric zero as distinct from unavailable when inverting negative-criterion subscales?", "How does the scorer behave on missing, duplicate or malformed auto-rater judgments under an explicitly complete-rubric contract?", "Do any released expert labels reach the affected numerical endpoint?"],
+  "natural_records": "All 450 released expert-scored responses joined by exact question ID to all 450 rubrics. Inspect missing/duplicate IDs and text mismatch before arithmetic. Compare overall score to expert_score using absolute tolerance 1e-9; retain disagreements.",
+  "subscales": "Use existing source delivery-criteria set, exact sign and string stripping rules. Independent reference awards positive met and negative unmet points and uses the full selected rubric denominator when its complete judgment set is present.",
+  "controlled_cases": ["complete valid", "complete numeric-zero score", "one omitted unfavorable criterion with full rubric supplied", "duplicate favorable criterion", "unknown decision token", "non-string decision", "unknown criterion ID", "empty judgment set", "explicit partial rubric with exactly its selected judgments", "no applicable negative criterion"],
+  "comparators": ["Original unmodified scoring module", "Minimal numerical-zero comparator replacing truthiness with explicit None test only", "Explicit complete-subset validation adapter; not a new algorithm"],
+  "outcomes": "Scored value, None or exception per case; released complete-case score agreement; count and identity of endpoint None/numeric disagreements, kept separate from malformed controlled cases.",
+  "limitations": "No model calls, no new advice or expert labels, no user behavior or secure-execution measurement. Released expert samples do not provide all 40,500 model responses or model identities for a new ranking. No field-wide novelty or publication-readiness claim.",
+  "preserve": "Never edit original source/datasets. Freeze source hashes; retain original unit-test outcomes and all primary results."
+}

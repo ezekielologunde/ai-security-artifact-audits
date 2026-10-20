@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-19",
+  "stage": "After ID-only join failure; before expert-score arithmetic",
+  "change": "Normalize canonical decimal-string question IDs to integer IDs for the question/expert join only.",
+  "guards": ["No bool IDs", "No leading-zero or other noncanonical string coercion", "Unique normalized IDs in each table", "Exact normalized ID set equality", "Exact question-text equality per joined record"],
+  "criterion_IDs": "Remain unchanged; scoring identity validation remains exact.",
+  "no_outcome_or_label_change": true
+}

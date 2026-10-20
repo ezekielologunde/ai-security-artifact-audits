@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-19",
+  "stage": "Post-hoc after the primary 450-expert-record endpoint audit",
+  "known": "19 negative-factual and 39 negative-delivery applicable endpoints return None where explicit inversion returns 1; all 450 overall scores match released expert_score.",
+  "question": "What happens if a downstream consumer averages only numeric returned subscale values?",
+  "method": "Within the released expert sample only, compare the mean over original numeric outputs with the mean over every applicable explicit-reference output, showing both denominators. This is a conditional consumer illustration, not a reconstruction of the authors' 18-model results.",
+  "no_new_model_ranking": true,
+  "full_model_responses_unavailable": true,
+  "source_overall_scores_preserved": true
+}
