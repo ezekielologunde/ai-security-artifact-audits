@@ -1,0 +1,104 @@
+[
+  {
+    "case_id": "unrecognized-format-paraphrase",
+    "mode": "overlay",
+    "expected_contradiction": true,
+    "predicted_contradiction": false,
+    "expected_exposure": true,
+    "predicted_exposure": true,
+    "result": {
+      "schema_version": "0.1",
+      "target": {
+        "model_id": "controlled/unrecognized-format-paraphrase",
+        "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "upstream_report": null,
+      "overlay": {
+        "mode": "overlay",
+        "scanner_binding": "absent",
+        "claim_assessments": [],
+        "provenance_comparison": {
+          "card_bases": [],
+          "adapter_load_dependency": null,
+          "consistency": "unverifiable",
+          "candidate_disagreement": false,
+          "reason": "A comparable card declaration or adapter dependency is absent."
+        },
+        "loading_exposure": "observed-loading-exposure",
+        "limitations": [
+          "Only the implemented explicit-claim grammar is assessed.",
+          "Agreement does not authenticate provenance or establish safety.",
+          "No model code or weight deserialization was executed."
+        ]
+      }
+    }
+  },
+  {
+    "case_id": "unrecognized-base-paraphrase",
+    "mode": "overlay",
+    "expected_contradiction": true,
+    "predicted_contradiction": false,
+    "expected_exposure": false,
+    "predicted_exposure": false,
+    "result": {
+      "schema_version": "0.1",
+      "target": {
+        "model_id": "controlled/unrecognized-base-paraphrase",
+        "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "upstream_report": null,
+      "overlay": {
+        "mode": "overlay",
+        "scanner_binding": "absent",
+        "claim_assessments": [],
+        "provenance_comparison": {
+          "card_bases": [],
+          "adapter_load_dependency": "org/B",
+          "consistency": "unverifiable",
+          "candidate_disagreement": false,
+          "reason": "A comparable card declaration or adapter dependency is absent."
+        },
+        "loading_exposure": "indeterminate",
+        "limitations": [
+          "Only the implemented explicit-claim grammar is assessed.",
+          "Agreement does not authenticate provenance or establish safety.",
+          "No model code or weight deserialization was executed."
+        ]
+      }
+    }
+  },
+  {
+    "case_id": "unrecognized-code-paraphrase",
+    "mode": "overlay",
+    "expected_contradiction": true,
+    "predicted_contradiction": false,
+    "expected_exposure": true,
+    "predicted_exposure": true,
+    "result": {
+      "schema_version": "0.1",
+      "target": {
+        "model_id": "controlled/unrecognized-code-paraphrase",
+        "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "upstream_report": null,
+      "overlay": {
+        "mode": "overlay",
+        "scanner_binding": "absent",
+        "claim_assessments": [],
+        "provenance_comparison": {
+          "card_bases": [],
+          "adapter_load_dependency": null,
+          "consistency": "unverifiable",
+          "candidate_disagreement": false,
+          "reason": "A comparable card declaration or adapter dependency is absent."
+        },
+        "loading_exposure": "observed-loading-exposure",
+        "limitations": [
+          "Only the implemented explicit-claim grammar is assessed.",
+          "Agreement does not authenticate provenance or establish safety.",
+          "No model code or weight deserialization was executed."
+        ]
+      }
+    }
+  }
+]

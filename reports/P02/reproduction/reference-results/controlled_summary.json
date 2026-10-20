@@ -1,0 +1,133 @@
+{
+  "cases": 36,
+  "positive_contradictions": 11,
+  "positive_exposures": 11,
+  "families": {
+    "serialization": 14,
+    "adapter-base": 10,
+    "custom-code": 12
+  },
+  "systems": {
+    "documentation_only": {
+      "contradiction": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 11,
+        "TN": 25,
+        "precision": null,
+        "recall": 0.0,
+        "F1": 0.0
+      },
+      "exposure": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 11,
+        "TN": 25,
+        "precision": null,
+        "recall": 0.0,
+        "F1": 0.0
+      },
+      "cases_without_extracted_claim": 9,
+      "unverifiable_claims": 27,
+      "upstream_reports_preserved": 36,
+      "runtime_seconds": 0.0026294999988749623
+    },
+    "filename_rule": {
+      "contradiction": {
+        "TP": 8,
+        "FP": 4,
+        "FN": 3,
+        "TN": 21,
+        "precision": 0.6666666666666666,
+        "recall": 0.7272727272727273,
+        "F1": 0.6956521739130435
+      },
+      "exposure": {
+        "TP": 11,
+        "FP": 9,
+        "FN": 0,
+        "TN": 16,
+        "precision": 0.55,
+        "recall": 1.0,
+        "F1": 0.7096774193548387
+      },
+      "cases_without_extracted_claim": 9,
+      "unverifiable_claims": 4,
+      "upstream_reports_preserved": 36,
+      "runtime_seconds": 0.0021262000082060695
+    },
+    "overlay": {
+      "contradiction": {
+        "TP": 8,
+        "FP": 0,
+        "FN": 3,
+        "TN": 25,
+        "precision": 1.0,
+        "recall": 0.7272727272727273,
+        "F1": 0.8421052631578947
+      },
+      "exposure": {
+        "TP": 11,
+        "FP": 0,
+        "FN": 0,
+        "TN": 25,
+        "precision": 1.0,
+        "recall": 1.0,
+        "F1": 1.0
+      },
+      "cases_without_extracted_claim": 9,
+      "unverifiable_claims": 8,
+      "upstream_reports_preserved": 36,
+      "runtime_seconds": 0.0019860999891534448
+    },
+    "overlay_without_scope": {
+      "contradiction": {
+        "TP": 8,
+        "FP": 1,
+        "FN": 3,
+        "TN": 24,
+        "precision": 0.8888888888888888,
+        "recall": 0.7272727272727273,
+        "F1": 0.8
+      },
+      "exposure": {
+        "TP": 11,
+        "FP": 5,
+        "FN": 0,
+        "TN": 20,
+        "precision": 0.6875,
+        "recall": 1.0,
+        "F1": 0.8148148148148148
+      },
+      "cases_without_extracted_claim": 9,
+      "unverifiable_claims": 8,
+      "upstream_reports_preserved": 36,
+      "runtime_seconds": 0.001893799999379553
+    },
+    "overlay_without_revision_binding": {
+      "contradiction": {
+        "TP": 8,
+        "FP": 2,
+        "FN": 3,
+        "TN": 23,
+        "precision": 0.8,
+        "recall": 0.7272727272727273,
+        "F1": 0.7619047619047619
+      },
+      "exposure": {
+        "TP": 11,
+        "FP": 2,
+        "FN": 0,
+        "TN": 23,
+        "precision": 0.8461538461538461,
+        "recall": 1.0,
+        "F1": 0.9166666666666666
+      },
+      "cases_without_extracted_claim": 9,
+      "unverifiable_claims": 6,
+      "upstream_reports_preserved": 36,
+      "runtime_seconds": 0.0019561999943107367
+    }
+  },
+  "evaluation_boundary": "developer-authored controlled conformance cases, no independent annotation, no real-world precision claim"
+}

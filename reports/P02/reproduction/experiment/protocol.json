@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "study_type": "completed preliminary observational and developer-authored controlled study",
+  "frame": "one public API page: 100 PEFT-tagged repositories ranked by downloads",
+  "sample": {"requested": 60, "seed": 20261004, "without_replacement": true},
+  "primary_observational_target": "availability and agreement of declared card base models and adapter loading dependencies",
+  "ground_truth_policy": "controlled labels are assigned by construction; real disagreements are candidate discrepancies, not authenticated false lineage",
+  "controlled_suite": "36 unique authored scenarios; no independent annotators or blinded held-out evaluation",
+  "systems": ["documentation_only", "filename_rule", "overlay", "overlay_without_scope", "overlay_without_revision_binding"],
+  "metrics": ["contradiction TP FP FN TN precision recall F1", "loading-exposure TP FP FN TN", "unverifiable count", "upstream preservation"],
+  "inference": "descriptive counts only; authored cases are not a random population sample",
+  "H1": "artifact evidence adds contradiction detections in controlled cases; real-world generalization remains untested",
+  "H2": "scope handling reduces controlled false warnings while reporting recall",
+  "H3": "not tested: no independently annotated real-world exposure ground truth",
+  "model_execution": false,
+  "weight_download_limit_bytes": 20000000
+}

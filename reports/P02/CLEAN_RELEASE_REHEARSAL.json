@@ -1,0 +1,33 @@
+{
+  "archive_sha256": "14c7fb8cba65f100b8494c513decccafd8d49637f820acd57517db7818639ed1",
+  "release_files_hash_verified": 18,
+  "commands": [
+    {
+      "arguments": [
+        "run_controlled.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "arguments": [
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "natural_repositories_reproduced": 0,
+  "controlled_results": {
+    "controlled_cases": 36,
+    "reference_comparisons": {
+      "controlled_summary.json": true,
+      "controlled_predictions.json": true,
+      "error_analysis.json": true
+    },
+    "natural_repositories_replayed": 0,
+    "independent_labels": false,
+    "excluded_comparison_field": "controlled_summary.systems.*.runtime_seconds"
+  },
+  "release_files_unchanged_after_commands": true
+}

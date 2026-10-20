@@ -1,0 +1,1145 @@
+[
+  {
+    "case_id": "exclusive-pickle",
+    "family": "serialization",
+    "expected_contradiction": true,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/exclusive-pickle",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case exclusive-pickle\n\nWeights are only Safetensors.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "pickle",
+          "bytes": 35
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "benign.pkl"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "exclusive-safe",
+    "family": "serialization",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/exclusive-safe",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case exclusive-safe\n\nWeights are exclusively Safetensors.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "no-pickle-opaque",
+    "family": "serialization",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/no-pickle-opaque",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case no-pickle-opaque\n\nThere are no pickle files in this repository.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "opaque.bin",
+          "sha256": "4beede967a551990dee9e30bf98804308389b08a63f7deb44ffffd9d8cdfbb00",
+          "format": "unknown",
+          "bytes": 42
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "opaque.bin"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "path-mixed",
+    "family": "serialization",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/path-mixed",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case path-mixed\n\nThe selected loading path is pickle-free.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "pickle",
+          "bytes": 35
+        },
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "repository-mixed",
+    "family": "serialization",
+    "expected_contradiction": true,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/repository-mixed",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case repository-mixed\n\nThis repository is pickle-free.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "pickle",
+          "bytes": 35
+        },
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "availability",
+    "family": "serialization",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/availability",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case availability\n\nSafetensors weights are available.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "pickle",
+          "bytes": 35
+        },
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "not-only",
+    "family": "serialization",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/not-only",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case not-only\n\nWeights are not only Safetensors; a legacy pickle is available.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "pickle",
+          "bytes": 35
+        },
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "quoted",
+    "family": "serialization",
+    "expected_contradiction": false,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/quoted",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case quoted\n\n> Example: only Safetensors weights.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "pickle",
+          "bytes": 35
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "benign.pkl"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "stale-scanner",
+    "family": "serialization",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/stale-scanner",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case stale-scanner\n\nThere are no pickle weights.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "unknown",
+          "bytes": 35
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "benign.pkl"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": {
+      "scanner": "PickleScan",
+      "version": "1.0.5",
+      "target": {
+        "model_id": "controlled/stale-scanner",
+        "revision": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "artifact_sha256": {
+        "benign.pkl": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110"
+      },
+      "verified_formats": {
+        "benign.pkl": "pickle"
+      },
+      "original_result": {
+        "globals": [],
+        "scanned_files": 1,
+        "issues_count": 0,
+        "infected_files": 0,
+        "scan_err": false,
+        "suspicious_count": 0
+      }
+    }
+  },
+  {
+    "case_id": "bound-scanner",
+    "family": "serialization",
+    "expected_contradiction": true,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/bound-scanner",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case bound-scanner\n\nThere are no pickle weights.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "unknown",
+          "bytes": 35
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "benign.pkl"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": {
+      "scanner": "PickleScan",
+      "version": "1.0.5",
+      "target": {
+        "model_id": "controlled/bound-scanner",
+        "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "artifact_sha256": {
+        "benign.pkl": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110"
+      },
+      "verified_formats": {
+        "benign.pkl": "pickle"
+      },
+      "original_result": {
+        "globals": [],
+        "scanned_files": 1,
+        "issues_count": 0,
+        "infected_files": 0,
+        "scan_err": false,
+        "suspicious_count": 0
+      }
+    }
+  },
+  {
+    "case_id": "bad-hash",
+    "family": "serialization",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/bad-hash",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case bad-hash\n\nThere are no pickle artifacts.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "unknown",
+          "bytes": 35
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "benign.pkl"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": {
+      "scanner": "PickleScan",
+      "version": "1.0.5",
+      "target": {
+        "model_id": "controlled/bad-hash",
+        "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "artifact_sha256": {
+        "benign.pkl": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "verified_formats": {
+        "benign.pkl": "pickle"
+      },
+      "original_result": {
+        "globals": [],
+        "scanned_files": 1,
+        "issues_count": 0,
+        "infected_files": 0,
+        "scan_err": false,
+        "suspicious_count": 0
+      }
+    }
+  },
+  {
+    "case_id": "suspicious-global",
+    "family": "serialization",
+    "expected_contradiction": true,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/suspicious-global",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case suspicious-global\n\nThis repository is pickle-free.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "suspicious.pkl",
+          "sha256": "9b7587a8de25e0f044d167b15bb916676cfed1617f60b2a32916d61798b16852",
+          "format": "pickle",
+          "bytes": 16
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "suspicious.pkl"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "unrecognized-format-paraphrase",
+    "family": "serialization",
+    "expected_contradiction": true,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/unrecognized-format-paraphrase",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case unrecognized-format-paraphrase\n\nAll checkpoints use the safe tensor format, with no Python serialization.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "pickle",
+          "bytes": 35
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "benign.pkl"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "unknown-format",
+    "family": "serialization",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/unknown-format",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case unknown-format\n\nWeights are only Safetensors.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "opaque.bin",
+          "sha256": "4beede967a551990dee9e30bf98804308389b08a63f7deb44ffffd9d8cdfbb00",
+          "format": "unknown",
+          "bytes": 42
+        }
+      ],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "base-disagrees",
+    "family": "adapter-base",
+    "expected_contradiction": true,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/base-disagrees",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case base-disagrees\n\nAdapter requires base model `org/A`.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {
+        "base_model_name_or_path": "org/B"
+      },
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "base-agrees",
+    "family": "adapter-base",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/base-agrees",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case base-agrees\n\nAdapter requires base model `org/A`.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {
+        "base_model_name_or_path": "org/A"
+      },
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "base-url",
+    "family": "adapter-base",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/base-url",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case base-url\n\nAdapter loads https://huggingface.co/org/A.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {
+        "base_model_name_or_path": "org/A"
+      },
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "base-missing",
+    "family": "adapter-base",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/base-missing",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case base-missing\n\nAdapter uses org/A.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "base-local",
+    "family": "adapter-base",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/base-local",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case base-local\n\nAdapter base: org/A.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {
+        "base_model_name_or_path": "./checkpoint"
+      },
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "ancestral",
+    "family": "adapter-base",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/ancestral",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case ancestral\n\nFine-tuned from org/A; adapter deployment uses a later checkpoint.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {
+        "base_model_name_or_path": "org/B"
+      },
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "merge-input",
+    "family": "adapter-base",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/merge-input",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case merge-input\n\nMerge inputs include org/A and org/C.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {
+        "base_model_name_or_path": "org/B"
+      },
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "case-sensitive",
+    "family": "adapter-base",
+    "expected_contradiction": true,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/case-sensitive",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case case-sensitive\n\nAdapter requires base model org/A.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {
+        "base_model_name_or_path": "org/a"
+      },
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "unrecognized-base-paraphrase",
+    "family": "adapter-base",
+    "expected_contradiction": true,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/unrecognized-base-paraphrase",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case unrecognized-base-paraphrase\n\nThe adapter must be attached to org/A at inference time.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {
+        "base_model_name_or_path": "org/B"
+      },
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "base-hyphen",
+    "family": "adapter-base",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/base-hyphen",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case base-hyphen\n\nAdapter base model: org/Model-A.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {
+        "base_model_name_or_path": "org/Model-A"
+      },
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "code-required",
+    "family": "custom-code",
+    "expected_contradiction": true,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/code-required",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case code-required\n\nNo custom Python code is required.\n\n```python\nAutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.CustomModel"
+        }
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        },
+        {
+          "path": "modeling_custom.py",
+          "sha256": "9f9abf50c17e2199d93fda0d220e8fe409221ed5e9fdbe14cd5d2f8003f4f587",
+          "format": "unknown",
+          "bytes": 24
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "code-present-only",
+    "family": "custom-code",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/code-present-only",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case code-present-only\n\nNo custom code is required.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        },
+        {
+          "path": "modeling_custom.py",
+          "sha256": "9f9abf50c17e2199d93fda0d220e8fe409221ed5e9fdbe14cd5d2f8003f4f587",
+          "format": "unknown",
+          "bytes": 24
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "trust-without-mapping",
+    "family": "custom-code",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/trust-without-mapping",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case trust-without-mapping\n\nNo custom code is required.\n\n```python\nAutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "mapping-without-trust",
+    "family": "custom-code",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/mapping-without-trust",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case mapping-without-trust\n\nNo custom code is required.\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.CustomModel"
+        }
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        },
+        {
+          "path": "modeling_custom.py",
+          "sha256": "9f9abf50c17e2199d93fda0d220e8fe409221ed5e9fdbe14cd5d2f8003f4f587",
+          "format": "unknown",
+          "bytes": 24
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "disclosed-code",
+    "family": "custom-code",
+    "expected_contradiction": false,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/disclosed-code",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case disclosed-code\n\nCustom Python code is required; review it before loading.\n\n```python\nAutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.CustomModel"
+        }
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        },
+        {
+          "path": "modeling_custom.py",
+          "sha256": "9f9abf50c17e2199d93fda0d220e8fe409221ed5e9fdbe14cd5d2f8003f4f587",
+          "format": "unknown",
+          "bytes": 24
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "source-missing",
+    "family": "custom-code",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/source-missing",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case source-missing\n\nNo custom code is required.\n\n```python\nAutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.CustomModel"
+        }
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "no-code-negation",
+    "family": "custom-code",
+    "expected_contradiction": true,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/no-code-negation",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case no-code-negation\n\nThis model does not require custom code.\n\n```python\nAutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.CustomModel"
+        }
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "sha256": "9f9abf50c17e2199d93fda0d220e8fe409221ed5e9fdbe14cd5d2f8003f4f587",
+          "format": "unknown",
+          "bytes": 24
+        }
+      ],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "unrecognized-code-paraphrase",
+    "family": "custom-code",
+    "expected_contradiction": true,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/unrecognized-code-paraphrase",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case unrecognized-code-paraphrase\n\nLoading executes exclusively the standard library implementation.\n\n```python\nAutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.CustomModel"
+        }
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "sha256": "9f9abf50c17e2199d93fda0d220e8fe409221ed5e9fdbe14cd5d2f8003f4f587",
+          "format": "unknown",
+          "bytes": 24
+        }
+      ],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "safe-weights-code",
+    "family": "custom-code",
+    "expected_contradiction": false,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/safe-weights-code",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case safe-weights-code\n\nWeights are only Safetensors.\n\n```python\nAutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.CustomModel"
+        }
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        },
+        {
+          "path": "modeling_custom.py",
+          "sha256": "9f9abf50c17e2199d93fda0d220e8fe409221ed5e9fdbe14cd5d2f8003f4f587",
+          "format": "unknown",
+          "bytes": 24
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "legacy-unused",
+    "family": "custom-code",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/legacy-unused",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case legacy-unused\n\nNo custom code is required.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "pickle",
+          "bytes": 35
+        },
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "model.safetensors"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "legacy-selected",
+    "family": "custom-code",
+    "expected_contradiction": false,
+    "expected_exposure": true,
+    "snapshot": {
+      "model_id": "controlled/legacy-selected",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case legacy-selected\n\nNo custom code is required.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [
+        {
+          "path": "benign.pkl",
+          "sha256": "cc2e521d3675a66c592507897da31b8aefc97e00ec08cc972ef02a94e2223110",
+          "format": "pickle",
+          "bytes": 35
+        },
+        {
+          "path": "model.safetensors",
+          "sha256": "bca65602a4ecc3154e8936b63778429f7bf3234a6efb87dbca8c3d947f06f712",
+          "format": "safetensors",
+          "bytes": 68
+        }
+      ],
+      "loading_path": {
+        "artifacts": [
+          "benign.pkl"
+        ],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  },
+  {
+    "case_id": "no-artifacts",
+    "family": "custom-code",
+    "expected_contradiction": false,
+    "expected_exposure": false,
+    "snapshot": {
+      "model_id": "controlled/no-artifacts",
+      "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "readme": "# Controlled case no-artifacts\n\nNo custom code is required.\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "adapter_config": {},
+      "artifacts": [],
+      "loading_path": {
+        "artifacts": [],
+        "auto_class": "AutoModel"
+      }
+    },
+    "scanner_report": null
+  }
+]

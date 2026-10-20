@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "date": "2026-10-20",
   "author": "Ezekiel Ologunde",
   "reports": [
@@ -45,9 +45,18 @@
       "status": "existing controlled study; synchronized named technical report; not peer reviewed",
       "independent_review_complete": false,
       "new_model_inference_in_release_validation": false
+    },
+    {
+      "study": "P02",
+      "report": "reports/P02/model_consistency_preliminary_study.pdf",
+      "pdf_sha256": "b2bf70a76e0b105ac939dbdd7787ddb395eb9032ba8bf9d88d79ab14190d5317",
+      "status": "existing preliminary study; controlled-only public reproduction; not peer reviewed",
+      "independent_review_complete": false,
+      "natural_case_accuracy_established": false
     }
   ],
   "upstream_raw_data_included": false,
   "P12_recorded_prompts_contain_attributed_corpus_excerpts": true,
+  "P02_reproduction_is_controlled_only": true,
   "independent_review_complete": false
 }
