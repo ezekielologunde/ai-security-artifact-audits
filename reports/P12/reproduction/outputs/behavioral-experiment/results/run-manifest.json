@@ -1,0 +1,28 @@
+{
+  "protocol_sha256": "8dacaace2bd696e70154733db9eea48fdb5209d06e551f0aadc4459cd45dbec5",
+  "source_sha256": {
+    "cache_audit.py": "88314dbde867d5062efdb9a07ab3bfe2e31e487d597e4281c5a57c3f1c2b62c5",
+    "run_behavior.py": "acdf54290858fbfa642576db0bb9af12e085ef98b38c0fb80d41920d2d08b791"
+  },
+  "v1_source_sha256": {
+    "analyze.py": "0a431eeca69dd8fd5c4c5606d1c0ee699f16590bd76cd5052bfe90f8b398112c",
+    "build_paper.py": "15909e1cac23889066679c18e518306bd13a9d1091b7ec01c2de4927e422e1ab",
+    "download_data.py": "e53e33267109d8d48a693f34df2486a267c858e0713ec95ce5195da6e817115c",
+    "overlay.py": "bd4b37599abd9f1085f478a12b340397f596df54b53da8b5f91fd69cb6865a6a",
+    "run_experiment.py": "f7a990dd46b034043465b9dc3ac2137066b1529f939ac42f7ce4c4794a1677e6",
+    "test_overlay.py": "0498a4ce2f5692dfafea892b7b374d44d8c2b09188c6d9267c89faa3e7caa6f5"
+  },
+  "model_manifest_sha256": "37da1f7c874d8e053e463916f66e31fea768bf34c9d633bfeec34d58e88b7ed3",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "started_unix": 1791336336.1021593,
+  "episodes": 24,
+  "planned_probes": 720,
+  "server_args": "-c 4096 -t 8 -tb 8 -np 1 --no-cache-prompt --cache-ram 0 --no-cache-idle-slots --offline",
+  "corpus_sha256": {
+    "datasets\\longmemeval\\longmemeval_oracle.json": "821a2034d219ab45846873dd14c14f12cfe7776e73527a483f9dac095d38620c",
+    "datasets\\locomo\\data\\locomo10.json": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4"
+  },
+  "finished_unix": 1791338590.7817714,
+  "actual_probes": 720,
+  "summary_calls": 24
+}

@@ -1,0 +1,38 @@
+{
+  "archive_sha256": "3a13fb4b333ac8be0d20cc7cf10d27f93de76ccb1291b74beeb8c53ebe790025",
+  "verified_release_files": 69,
+  "commands": [
+    {
+      "arguments": [
+        "outputs/experiment/download_data.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "outputs/experiment",
+        "-p",
+        "test_overlay.py",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "arguments": [
+        "recheck_memory_evidence.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "arguments": [
+        "rerun_cache_audit.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "new_model_calls": 0
+}

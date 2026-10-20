@@ -1,0 +1,23 @@
+test_authority_rollback_negative_control (test_overlay.OverlayTests.test_authority_rollback_negative_control) ... ok
+test_authority_scope_isolation (test_overlay.OverlayTests.test_authority_scope_isolation) ... ok
+test_bypass_negative_control (test_overlay.OverlayTests.test_bypass_negative_control) ... ok
+test_commit_ablation (test_overlay.OverlayTests.test_commit_ablation) ... ok
+test_distinct_layer_without_literal_canary (test_overlay.OverlayTests.test_distinct_layer_without_literal_canary) ... ok
+test_full_blocks_stale_commit (test_overlay.OverlayTests.test_full_blocks_stale_commit) ... ok
+test_full_filters_restore (test_overlay.OverlayTests.test_full_filters_restore) ... ok
+test_full_immediate (test_overlay.OverlayTests.test_full_immediate) ... ok
+test_index_matches_records (test_overlay.OverlayTests.test_index_matches_records) ... ok
+test_lineage_ablation (test_overlay.OverlayTests.test_lineage_ablation) ... ok
+test_native_derived_residue (test_overlay.OverlayTests.test_native_derived_residue) ... ok
+test_one_time_purge_immediate (test_overlay.OverlayTests.test_one_time_purge_immediate) ... ok
+test_one_time_purge_restore (test_overlay.OverlayTests.test_one_time_purge_restore) ... ok
+test_raw_bytes_after_purge (test_overlay.OverlayTests.test_raw_bytes_after_purge) ... ok
+test_repeat_delete_idempotence (test_overlay.OverlayTests.test_repeat_delete_idempotence) ... ok
+test_restart_preserves_authority (test_overlay.OverlayTests.test_restart_preserves_authority) ... ok
+test_restore_ablation (test_overlay.OverlayTests.test_restore_ablation) ... ok
+test_vectors_reproducible (test_overlay.OverlayTests.test_vectors_reproducible) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 1.578s
+
+OK

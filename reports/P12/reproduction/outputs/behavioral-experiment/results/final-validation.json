@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "primary_probe_calls": 720,
+  "summary_calls": 24,
+  "exploratory_calls": 48,
+  "total_model_calls": 792,
+  "cache_cases": 96,
+  "baseline_trials": 15680,
+  "robustness_all_expected_evidence_swaps": true,
+  "robustness_private_code_and_task_preserved": true,
+  "robustness_runner_and_protocol_hashes_match": true,
+  "original_storage_source_hashes_unchanged": true,
+  "primary_validation": {
+    "status": "pass",
+    "complete_unique_design": true,
+    "source_hashes_match_frozen_manifest": true,
+    "unchanged_protocol": true,
+    "no_excluded_episodes": true,
+    "all_prompts_and_responses_recorded": true,
+    "full_prompt_matches_clean_world": true,
+    "not_a_universal_erasure_claim": true,
+    "result_sha256": "c5a1e0a0b980a70cf2ef1645c5ef1f8184969402ca90fde38522fa7419e8bc59"
+  },
+  "analysis_code_sha256": "f9537e8c22889788d6dfe3b33ad22ddc11ab219a4283985c31f9a5c4502f88da",
+  "manuscript_builder_sha256": "99ad587d4326e46ab2be4b5a38c24f82370de85e2dd47b406daed7ee00739a28"
+}

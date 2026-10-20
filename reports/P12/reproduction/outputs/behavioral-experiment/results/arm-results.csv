@@ -1,0 +1,7 @@
+arm,n_episodes,code_any_n,target_route_rate,valid_route_rate,day_correct_n,active_code_n,caller_context_code_n
+never_seen,24,0,0.5,1.0,19,0,0
+sham_delete,24,21,1.0,1.0,24,24,24
+source_only,24,20,0.875,1.0,24,24,24
+purge_then_restore,24,21,1.0,1.0,24,24,24
+full_then_restore,24,0,0.5,1.0,19,0,0
+full_live_summary,24,8,0.8958333333333334,1.0,24,0,24

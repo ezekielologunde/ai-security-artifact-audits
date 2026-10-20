@@ -1,0 +1,13 @@
+{
+  "expected_trial_count": true,
+  "unique_trial_keys": true,
+  "code_hashes_match": true,
+  "protocol_hashes_match": true,
+  "pre_acquisition_all": true,
+  "semantic_backend_agreement": true,
+  "full_overlay_active_record_absence": true,
+  "full_overlay_active_byte_absence": true,
+  "negative_controls_detect_failures": true,
+  "replay_fixtures_reported_as_recoverable": true,
+  "result_scope": "Managed active artifacts; replay fixtures remain recoverable; no model behavior evaluated."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "exploratory, designed after early primary results",
+  "calls": 48,
+  "episodes": 24,
+  "follows_swapped_preference_n": 42,
+  "opposite_choice_n": 37,
+  "valid_n": 47,
+  "same_prompt_token_count_n": 0,
+  "prompt_tokens_difference_range": [
+    -1,
+    1
+  ],
+  "primary_code_unchanged": true,
+  "no_episode_excluded": true
+}

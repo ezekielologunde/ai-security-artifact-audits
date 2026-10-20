@@ -1,0 +1,53 @@
+{
+  "n_episodes": 140,
+  "n_trials": 15680,
+  "managed_trials": 15120,
+  "boundary_trials": 560,
+  "datasets": {
+    "LongMemEval": 120,
+    "LoCoMo": 20
+  },
+  "protocol_sha256": "a978d6b90b5cf899d0a1cb7cc19217e07572b0319ca3949e60adb68d99b12034",
+  "all_pre_acquired": true,
+  "full_overlay": {
+    "managed_trials": 2520,
+    "record_recoveries": 0,
+    "byte_recoveries": 0,
+    "retrieval_recoveries": 0,
+    "foil_preserved": 2520,
+    "background_unchanged": 2520,
+    "ranking_unchanged": 2520,
+    "mean_gold_session_recall_at3": 0.8876190476190476,
+    "evidence_bearing_unique_backend_episodes": 280
+  },
+  "boundary_record_recoveries": 560,
+  "fixture_recoverability_rate": 1.0,
+  "cross_backend_semantic_mismatches": [],
+  "reference_zero_failure_one_sided95_upper_per140_iid": 0.02117077284486879,
+  "statistical_caution": "The last bound assumes iid episodes and is not a calibrated real-world risk bound; trials are deterministic contract tests with repeated episode/event pairs.",
+  "paired_contrasts": [
+    {
+      "backend": "sqlite_wal",
+      "contrast": "full minus dependency worst-event",
+      "n_episodes": 140,
+      "difference": -1.0,
+      "bootstrap95_percentile": [
+        -1.0,
+        -1.0
+      ],
+      "caution": "Descriptive finite-stress-set bootstrap; all identical episode contrasts make it degenerate. Not proof of universal safety."
+    },
+    {
+      "backend": "json_files",
+      "contrast": "full minus dependency worst-event",
+      "n_episodes": 140,
+      "difference": -1.0,
+      "bootstrap95_percentile": [
+        -1.0,
+        -1.0
+      ],
+      "caution": "Descriptive finite-stress-set bootstrap; all identical episode contrasts make it degenerate. Not proof of universal safety."
+    }
+  ]
+}
+VALIDATION {"expected_trial_count": true, "unique_trial_keys": true, "code_hashes_match": true, "protocol_hashes_match": true, "pre_acquisition_all": true, "semantic_backend_agreement": true, "full_overlay_active_record_absence": true, "full_overlay_active_byte_absence": true, "negative_controls_detect_failures": true, "replay_fixtures_reported_as_recoverable": true, "result_scope": "Managed active artifacts; replay fixtures remain recoverable; no model behavior evaluated."}

@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "method": "Extract authored experiment ZIP into separate workspace and rerun both analyzers",
+  "storage_analyzer_exit_code": 0,
+  "behavioral_analyzer_exit_code": 0,
+  "reference_observations_not_regenerated": true,
+  "all_original_shards_included": true,
+  "project_layout_verified": true
+}

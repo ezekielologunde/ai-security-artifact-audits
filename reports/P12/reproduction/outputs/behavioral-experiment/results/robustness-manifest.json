@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "a99bf53d741c22a191b999262434abd0ca45b3d4cded080308ede04b31d2b563",
+  "runner_sha256": "c1efb4397bc39c0cce28d142372057d9bd665bb85023f7d29c3288b7d34653a3",
+  "primary_results_sha256": "c5a1e0a0b980a70cf2ef1645c5ef1f8184969402ca90fde38522fa7419e8bc59",
+  "started_unix": 1791521166.6321044,
+  "status": "post-pilot exploratory robustness check",
+  "finished_unix": 1791521304.0986044,
+  "calls": 48
+}

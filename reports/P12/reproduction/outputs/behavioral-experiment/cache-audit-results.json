@@ -1,0 +1,870 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "method": "gc.get_referents of functools.lru_cache wrapper, string keys only",
+  "trials": [
+    {
+      "backend": "sqlite_wal",
+      "episode": 0,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 0,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 1,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 1,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 2,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 2,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 3,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 3,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 4,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 4,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 5,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 5,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 6,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 6,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 7,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 7,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 8,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 8,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 9,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 9,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 10,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 10,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 11,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 11,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 12,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 12,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 13,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 13,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 14,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 14,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 15,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 15,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 16,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 16,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 17,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 17,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 18,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 18,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 19,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 19,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 20,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 20,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 21,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 21,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 22,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 22,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 23,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "sqlite_wal",
+      "episode": 23,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 0,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 0,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 1,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 1,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 2,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 2,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 3,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 3,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 4,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 4,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 5,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 5,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 6,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 6,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 7,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 7,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 8,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 8,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 9,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 9,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 10,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 10,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 11,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 11,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 12,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 12,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 13,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 13,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 14,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 14,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 15,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 15,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 16,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 16,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 17,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 17,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 18,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 18,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 19,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 19,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 20,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 20,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 21,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 21,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 22,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 22,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 23,
+      "arm": "v1_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": true,
+      "foil_preserved": true
+    },
+    {
+      "backend": "json_files",
+      "episode": 23,
+      "arm": "cache_clearing_full",
+      "acquired": true,
+      "active_byte_recovery": false,
+      "cache_key_recovery": false,
+      "foil_preserved": true
+    }
+  ]
+}

@@ -1,0 +1,1203 @@
+[
+  {
+    "id": "lme_1cea1afa",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_a55b4c7d5d2b17317065",
+      "bg_2b5a028715c22cec3f2c"
+    ]
+  },
+  {
+    "id": "lme_603deb26",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_3e0305209f3e136a63a6",
+      "bg_42eaacaff982d76e5add"
+    ]
+  },
+  {
+    "id": "lme_b01defab",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_744df784721ac9be2565",
+      "bg_4140e99a72d116e607d4"
+    ]
+  },
+  {
+    "id": "lme_c7dc5443",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_58762258e9777cee9fb8",
+      "bg_7a67472a2c63d30bd62b"
+    ]
+  },
+  {
+    "id": "lme_07741c45",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_289d96c1ef759f6b117f",
+      "bg_b696e0cd7bb83d194e2b"
+    ]
+  },
+  {
+    "id": "lme_5a7937c8",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_bab13aa8711007874ff9",
+      "bg_5e03f6c9c6d0f65d3dc7",
+      "bg_1fd398945934bc58ea94"
+    ]
+  },
+  {
+    "id": "lme_e5ba910e_abs",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_6d6bb3930681a1d536f7",
+      "bg_61c77dba31a0ab46eeba"
+    ]
+  },
+  {
+    "id": "lme_gpt4_372c3eed_abs",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_3494143d9766cb265a3b",
+      "bg_7941eaad2452aecb04ae",
+      "bg_015ae7319fdf93acf03b"
+    ]
+  },
+  {
+    "id": "lme_80ec1f4f_abs",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_2282290894e3e8a45d76",
+      "bg_648c0b7802476522ef0b",
+      "bg_f8bded3d5ab07d299575"
+    ]
+  },
+  {
+    "id": "lme_gpt4_15e38248",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_95280dceaf434f545fa4",
+      "bg_223366911515daeb587d",
+      "bg_16e0ae23f78c57d1ded8",
+      "bg_bcc79c095cc47068fb8b"
+    ]
+  },
+  {
+    "id": "lme_7e00a6cb",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_51ac5f75545a2ebde285"
+    ]
+  },
+  {
+    "id": "lme_fea54f57",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_716298d65b43b1271d78"
+    ]
+  },
+  {
+    "id": "lme_4388e9dd",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_4b74fddf475dea989f66"
+    ]
+  },
+  {
+    "id": "lme_1de5cff2",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_e1c676dcfb6134cfda00"
+    ]
+  },
+  {
+    "id": "lme_7a8d0b71",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_d80af9ef083ea9627135"
+    ]
+  },
+  {
+    "id": "lme_0a34ad58",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_2d9b32930e90470416d5"
+    ]
+  },
+  {
+    "id": "lme_75832dbd",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_25e36fd5142cb7c6f519"
+    ]
+  },
+  {
+    "id": "lme_1a1907b4",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_f88f323dd59d256d708a"
+    ]
+  },
+  {
+    "id": "lme_6b7dfb22",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_e67d9adb5475d6be1415"
+    ]
+  },
+  {
+    "id": "lme_06f04340",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_fe1086f0bf487e9fa545"
+    ]
+  },
+  {
+    "id": "lme_f4f1d8a4_abs",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_769482c67bf306ec85ea"
+    ]
+  },
+  {
+    "id": "lme_caf9ead2",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_d668f8bff26a3c1f1da0"
+    ]
+  },
+  {
+    "id": "lme_c960da58",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_aaca2ed80c80d75b985f"
+    ]
+  },
+  {
+    "id": "lme_577d4d32",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_82084ca14c9c31aee25f"
+    ]
+  },
+  {
+    "id": "lme_c5e8278d",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_1f84f4e0507a001aad82"
+    ]
+  },
+  {
+    "id": "lme_gpt4_4ef30696",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_3b86b37b915cca1ed6cd",
+      "bg_44278adeeb1bbe793680"
+    ]
+  },
+  {
+    "id": "lme_2c63a862",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_9f1a32ae81fcb93032b8",
+      "bg_4f98c8dc3a9abcdc38fe"
+    ]
+  },
+  {
+    "id": "lme_gpt4_4cd9eba1",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_3ddfcc18403013f1a285",
+      "bg_dcbbe1aff87c98909321"
+    ]
+  },
+  {
+    "id": "lme_c8090214",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_b88bd81bf276054f33eb",
+      "bg_7d5893d955aaa1d716af"
+    ]
+  },
+  {
+    "id": "lme_982b5123_abs",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_f764bdd52b264d49f71f",
+      "bg_a7799fa269156939381d"
+    ]
+  },
+  {
+    "id": "locomo_0_134",
+    "dataset": "LoCoMo",
+    "group": "conversation_0",
+    "gold_ids": [
+      "bg_0dc8f8234891bb5d2736"
+    ]
+  },
+  {
+    "id": "locomo_2_106",
+    "dataset": "LoCoMo",
+    "group": "conversation_2",
+    "gold_ids": [
+      "bg_98a93728e4f519de9125"
+    ]
+  },
+  {
+    "id": "locomo_4_167",
+    "dataset": "LoCoMo",
+    "group": "conversation_4",
+    "gold_ids": [
+      "bg_24327376065765db574a"
+    ]
+  },
+  {
+    "id": "locomo_6_139",
+    "dataset": "LoCoMo",
+    "group": "conversation_6",
+    "gold_ids": [
+      "bg_6b048c111d9c3ca803e6"
+    ]
+  },
+  {
+    "id": "locomo_8_129",
+    "dataset": "LoCoMo",
+    "group": "conversation_8",
+    "gold_ids": [
+      "bg_4a8e493e92db675dc5d8"
+    ]
+  },
+  {
+    "id": "lme_0977f2af",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_390ad49a5eb80aaa1d28",
+      "bg_a527b7698cd5e018c033"
+    ]
+  },
+  {
+    "id": "lme_cc5ded98",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_de0557bf4bd27d3ffb1e",
+      "bg_2203bb996fba684d2a8f"
+    ]
+  },
+  {
+    "id": "lme_ed4ddc30",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_9093f7cfee13fa8c1fdb",
+      "bg_ff7222b332b94d53b4fa"
+    ]
+  },
+  {
+    "id": "lme_4d6b87c8",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_7e60344fc4ac86ce5429",
+      "bg_2e4fd10c620c8c63c6c0"
+    ]
+  },
+  {
+    "id": "lme_f685340e_abs",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_70fe86181c155295f766",
+      "bg_5442e1177f2a91362bb4"
+    ]
+  },
+  {
+    "id": "lme_a9f6b44c",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_ced13ee3d70979a850de",
+      "bg_d2d4dcf411c53451f41d",
+      "bg_58265a94bc8a6d45cf5f"
+    ]
+  },
+  {
+    "id": "lme_2788b940",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_86f4ebce3b844e59978e",
+      "bg_ef95cb781cef74c9783f",
+      "bg_a55e6a84f1a959eb6e4f",
+      "bg_03edf94642bf12a2a082"
+    ]
+  },
+  {
+    "id": "lme_4bc144e2",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_c07a3aab066436695e52",
+      "bg_81144bc6a1b2c99aa4e8"
+    ]
+  },
+  {
+    "id": "lme_10d9b85a",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_521737fe3c7de63de212",
+      "bg_5cb57f4467119a01250c"
+    ]
+  },
+  {
+    "id": "lme_d23cf73b",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_6f7d35d21e51a9e8ea9f",
+      "bg_224e6df14face6d3f097",
+      "bg_c5d1dd5e0143fb335ee6",
+      "bg_c504fbe9db7aae266c00"
+    ]
+  },
+  {
+    "id": "lme_e9327a54",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_77d615ef28d5d627b8a2"
+    ]
+  },
+  {
+    "id": "lme_8752c811",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_9d8b98145691cbb21f9f"
+    ]
+  },
+  {
+    "id": "lme_b759caee",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_a656fe857db15c361332"
+    ]
+  },
+  {
+    "id": "lme_a40e080f",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_96ff435a8cb7057ce5ea"
+    ]
+  },
+  {
+    "id": "lme_8cf51dda",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_0c256de5e7c656bc3d3f"
+    ]
+  },
+  {
+    "id": "lme_54026fce",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_0877469aec214f70929b"
+    ]
+  },
+  {
+    "id": "lme_505af2f5",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_10dc857af77b2bcb06df"
+    ]
+  },
+  {
+    "id": "lme_b0479f84",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_8ca2d3d63861bcef3b9b"
+    ]
+  },
+  {
+    "id": "lme_8a2466db",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_cac89ba313ac15587a70"
+    ]
+  },
+  {
+    "id": "lme_a89d7624",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_e5a0aae2739fa4d7535c"
+    ]
+  },
+  {
+    "id": "lme_545bd2b5",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_bf90dc8f4141382a3013"
+    ]
+  },
+  {
+    "id": "lme_19b5f2b3",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_dbbf1ac3866b50292f62"
+    ]
+  },
+  {
+    "id": "lme_8ebdbe50",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_91e13e518520fdb0dca2"
+    ]
+  },
+  {
+    "id": "lme_001be529",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_e78850a7e062f8102d2c"
+    ]
+  },
+  {
+    "id": "lme_e47becba",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_7745597747da10e9b45e"
+    ]
+  },
+  {
+    "id": "lme_gpt4_385a5000",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_a4b77ce1d427fc2771c8",
+      "bg_2e8320a39cb12b269e3c"
+    ]
+  },
+  {
+    "id": "lme_b29f3365",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_3b896c3512c64f4b5bba",
+      "bg_548348aeeccb3c97b1bb"
+    ]
+  },
+  {
+    "id": "lme_gpt4_e072b769",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_3b56ca94e892ed0789c4"
+    ]
+  },
+  {
+    "id": "lme_gpt4_fa19884d",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_95ea2e00a1f3fbdeb7f7",
+      "bg_c12f87dd194fda163b8b"
+    ]
+  },
+  {
+    "id": "lme_8c18457d",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_49c6d6513f27b635704e",
+      "bg_530c3c190b8b94244fa4"
+    ]
+  },
+  {
+    "id": "locomo_0_8",
+    "dataset": "LoCoMo",
+    "group": "conversation_0",
+    "gold_ids": [
+      "bg_8bf5ae668bdc5360b87b"
+    ]
+  },
+  {
+    "id": "locomo_2_128",
+    "dataset": "LoCoMo",
+    "group": "conversation_2",
+    "gold_ids": [
+      "bg_977a66fda7005d2a8c6d"
+    ]
+  },
+  {
+    "id": "locomo_4_130",
+    "dataset": "LoCoMo",
+    "group": "conversation_4",
+    "gold_ids": [
+      "bg_9950481eaf0698c62b31"
+    ]
+  },
+  {
+    "id": "locomo_6_45",
+    "dataset": "LoCoMo",
+    "group": "conversation_6",
+    "gold_ids": [
+      "bg_bee147e2efd478a64e82",
+      "bg_6caba72e5464d045b10d"
+    ]
+  },
+  {
+    "id": "locomo_8_79",
+    "dataset": "LoCoMo",
+    "group": "conversation_8",
+    "gold_ids": [
+      "bg_dbd6accfc20d3ad8dca0"
+    ]
+  },
+  {
+    "id": "lme_22d2cb42",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_42ebd07351facc0d9bed",
+      "bg_c8ee025f7f565bd08bd1"
+    ]
+  },
+  {
+    "id": "lme_2133c1b5",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_b11382f7257f3df37405",
+      "bg_ca04948fc2d5f278fe74"
+    ]
+  },
+  {
+    "id": "lme_69fee5aa",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_6ad4fde70a3ada8f52c6",
+      "bg_0e15b3d60e59e59a2ac1"
+    ]
+  },
+  {
+    "id": "lme_8fb83627",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_04018fa05de42f2561c7",
+      "bg_f20e8b6fbebb8afe873f"
+    ]
+  },
+  {
+    "id": "lme_7e974930",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_566f0f97ad974e7d0818",
+      "bg_8d70ee89964d3178daae"
+    ]
+  },
+  {
+    "id": "lme_e6041065",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_a16d1fc74bf2a2533eaf",
+      "bg_9e36079c380eae4f33c4"
+    ]
+  },
+  {
+    "id": "lme_gpt4_2f8be40d",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_6fb9ec6824144ceceee6",
+      "bg_d0093e4f4217d2964ba8",
+      "bg_7851663dcbfa9859a5a7"
+    ]
+  },
+  {
+    "id": "lme_2ce6a0f2",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_2b81e468b32272f958cb",
+      "bg_b77701eed776c25c35b7",
+      "bg_fc2db0846c1cbe96fe7d",
+      "bg_add4508488f1c11ae380"
+    ]
+  },
+  {
+    "id": "lme_60bf93ed",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_df59b1570b94661b6f2a",
+      "bg_16a42837d3f240f9ad44"
+    ]
+  },
+  {
+    "id": "lme_c18a7dc8",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_ff08391df07a9b0fa4a8",
+      "bg_c174292e10af152b0c23"
+    ]
+  },
+  {
+    "id": "lme_ac031881",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_67b24e48ad4f5af112da"
+    ]
+  },
+  {
+    "id": "lme_fca762bc",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_465438d08b858d3987b6"
+    ]
+  },
+  {
+    "id": "lme_70b3e69b",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_b64af4778e48bba6e3e2"
+    ]
+  },
+  {
+    "id": "lme_c7cf7dfd",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_ac7f46ddfad40f4001d0"
+    ]
+  },
+  {
+    "id": "lme_e982271f",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_ea5783032a970424675e"
+    ]
+  },
+  {
+    "id": "lme_0edc2aef",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_8bc573d432f333716f8e"
+    ]
+  },
+  {
+    "id": "lme_75f70248",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_e8a134d65940f52ed0b4"
+    ]
+  },
+  {
+    "id": "lme_195a1a1b",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_97c7db738372cc39c99f"
+    ]
+  },
+  {
+    "id": "lme_06878be2",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_2b7431b4857dec29d494"
+    ]
+  },
+  {
+    "id": "lme_b6025781",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_aab434591548f05c3cec"
+    ]
+  },
+  {
+    "id": "lme_15745da0_abs",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_019108fb322dfdad4c34"
+    ]
+  },
+  {
+    "id": "lme_ccb36322",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_0f1d45c64c2388c0a654"
+    ]
+  },
+  {
+    "id": "lme_1e043500",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_fd67db7212cd340346e6"
+    ]
+  },
+  {
+    "id": "lme_36580ce8",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_313f86d9dc6563fabf93"
+    ]
+  },
+  {
+    "id": "lme_dccbc061",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_83822b19eebb747d2234"
+    ]
+  },
+  {
+    "id": "lme_gpt4_59149c77",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_0de8f5449522dcf0071c",
+      "bg_87aab481edb0f5a22b82"
+    ]
+  },
+  {
+    "id": "lme_gpt4_0a05b494",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_abede4e8314e1b5f6c57",
+      "bg_5bcfae14fb6ff2d095ed"
+    ]
+  },
+  {
+    "id": "lme_gpt4_1e4a8aec",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_f849a07d53f9c3bef672",
+      "bg_25e1ab8039e02b7cc5a2"
+    ]
+  },
+  {
+    "id": "lme_gpt4_1a1dc16d",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_f7811e5c831aee08caed",
+      "bg_fd09ef272593e04bef12"
+    ]
+  },
+  {
+    "id": "lme_gpt4_93f6379c",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_d1df7a24ac8c99f96280",
+      "bg_43a072f157ba1943c8a0",
+      "bg_fb967e87f20ba062a694"
+    ]
+  },
+  {
+    "id": "locomo_1_17",
+    "dataset": "LoCoMo",
+    "group": "conversation_1",
+    "gold_ids": [
+      "bg_a94c806406395937016f",
+      "bg_a21b801c0af239841c97"
+    ]
+  },
+  {
+    "id": "locomo_3_87",
+    "dataset": "LoCoMo",
+    "group": "conversation_3",
+    "gold_ids": [
+      "bg_6af2529fc345045d6780"
+    ]
+  },
+  {
+    "id": "locomo_5_14",
+    "dataset": "LoCoMo",
+    "group": "conversation_5",
+    "gold_ids": [
+      "bg_81cb188eac09ded3961e",
+      "bg_eef1b8c8e001efd963c2"
+    ]
+  },
+  {
+    "id": "locomo_7_126",
+    "dataset": "LoCoMo",
+    "group": "conversation_7",
+    "gold_ids": [
+      "bg_048de727f432fbf964aa"
+    ]
+  },
+  {
+    "id": "locomo_9_38",
+    "dataset": "LoCoMo",
+    "group": "conversation_9",
+    "gold_ids": [
+      "bg_9439aba99fe17bfc4ce6"
+    ]
+  },
+  {
+    "id": "lme_031748ae_abs",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_a6143f5b0e24a8752758",
+      "bg_03f1d4b353585f288ffd"
+    ]
+  },
+  {
+    "id": "lme_0ddfec37",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_371865fb015162caecc5",
+      "bg_ac2573d3720bfcf2c159"
+    ]
+  },
+  {
+    "id": "lme_6a27ffc2",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_2f1ac82f6cae3af4a281",
+      "bg_e7077b92b8acf9ad7eeb"
+    ]
+  },
+  {
+    "id": "lme_01493427",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_b676891310cd434e94a9",
+      "bg_c063d09f4300185b16f0"
+    ]
+  },
+  {
+    "id": "lme_89941a94",
+    "dataset": "LongMemEval",
+    "group": "knowledge-update",
+    "gold_ids": [
+      "bg_9a83c413f03a387300d6",
+      "bg_ef7cfe952dda7620a3f2"
+    ]
+  },
+  {
+    "id": "lme_bb7c3b45",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_d5fc88393dbb0c03a172",
+      "bg_d63b111bc296448a56dd"
+    ]
+  },
+  {
+    "id": "lme_f35224e0",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_dc2ef2e956ccadc58691",
+      "bg_830c520fa01f3d64de1c"
+    ]
+  },
+  {
+    "id": "lme_bf659f65",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_164a5011121af6acbd8d",
+      "bg_9d3935685c1f6db54b1e",
+      "bg_9e6f7f2cbe2845bac5a4"
+    ]
+  },
+  {
+    "id": "lme_2311e44b_abs",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_ac880c30def0baa389bf",
+      "bg_e3a2fea94f6055438e29"
+    ]
+  },
+  {
+    "id": "lme_85fa3a3f",
+    "dataset": "LongMemEval",
+    "group": "multi-session",
+    "gold_ids": [
+      "bg_321914b2b97c2cdd7f46",
+      "bg_0a4e04703637c468bb45"
+    ]
+  },
+  {
+    "id": "lme_778164c6",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_e538d24aab58bb467cae"
+    ]
+  },
+  {
+    "id": "lme_f523d9fe",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_8fc01a0b523022af46ce"
+    ]
+  },
+  {
+    "id": "lme_89527b6b",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_6f274e4493afebcd27c7"
+    ]
+  },
+  {
+    "id": "lme_561fabcd",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_f0ed4d21d01f64e263c1"
+    ]
+  },
+  {
+    "id": "lme_8b9d4367",
+    "dataset": "LongMemEval",
+    "group": "single-session-assistant",
+    "gold_ids": [
+      "bg_b8876131881ad2ebd399"
+    ]
+  },
+  {
+    "id": "lme_d6233ab6",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_0e4bd567f64402ec3a20"
+    ]
+  },
+  {
+    "id": "lme_1da05512",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_a79241484702cbb0d33e"
+    ]
+  },
+  {
+    "id": "lme_38146c39",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_56d3e0502d3f29482169"
+    ]
+  },
+  {
+    "id": "lme_caf03d32",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_6d551ad19961e8f6da28"
+    ]
+  },
+  {
+    "id": "lme_32260d93",
+    "dataset": "LongMemEval",
+    "group": "single-session-preference",
+    "gold_ids": [
+      "bg_1040d901464c5fd60d81"
+    ]
+  },
+  {
+    "id": "lme_15745da0",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_00bc77a3263752669c77"
+    ]
+  },
+  {
+    "id": "lme_21436231",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_db453f110409cf1aeafa"
+    ]
+  },
+  {
+    "id": "lme_c19f7a0b",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_5fe4b34ec70c44faf088"
+    ]
+  },
+  {
+    "id": "lme_66f24dbb",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_b831e4dbdc7b349515dd"
+    ]
+  },
+  {
+    "id": "lme_c14c00dd",
+    "dataset": "LongMemEval",
+    "group": "single-session-user",
+    "gold_ids": [
+      "bg_a7f50b49d52aa1a96e9b"
+    ]
+  },
+  {
+    "id": "lme_gpt4_b5700ca0",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_72d3f1186e60656fe014"
+    ]
+  },
+  {
+    "id": "lme_0bc8ad92",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_de38c72cbd9024f27e58",
+      "bg_2ad6dd5ee4a357ece313",
+      "bg_7ee484c72eec49a33733"
+    ]
+  },
+  {
+    "id": "lme_2a1811e2",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_55d727a7bced037ad2ed",
+      "bg_8d839c07e0eeafe18859"
+    ]
+  },
+  {
+    "id": "lme_gpt4_76048e76",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_5168ffe72dcc3cee18fa",
+      "bg_a84dca62c2e80ddc5240"
+    ]
+  },
+  {
+    "id": "lme_gpt4_d6585ce9",
+    "dataset": "LongMemEval",
+    "group": "temporal-reasoning",
+    "gold_ids": [
+      "bg_302fc535f1767e7261fe",
+      "bg_13140f2a3d377abf54c4",
+      "bg_2e1f3cfe71af78b3f1c8",
+      "bg_56a1b80baa43e86bfce1",
+      "bg_32134acc1413b715ae06"
+    ]
+  },
+  {
+    "id": "locomo_1_31",
+    "dataset": "LoCoMo",
+    "group": "conversation_1",
+    "gold_ids": [
+      "bg_a0e9a12b62971064fc10",
+      "bg_3b9abe340e16680d4255"
+    ]
+  },
+  {
+    "id": "locomo_3_196",
+    "dataset": "LoCoMo",
+    "group": "conversation_3",
+    "gold_ids": [
+      "bg_f6d29a6bf7489d2a7907"
+    ]
+  },
+  {
+    "id": "locomo_5_98",
+    "dataset": "LoCoMo",
+    "group": "conversation_5",
+    "gold_ids": [
+      "bg_3eaaea1d52e5afda86e5"
+    ]
+  },
+  {
+    "id": "locomo_7_128",
+    "dataset": "LoCoMo",
+    "group": "conversation_7",
+    "gold_ids": [
+      "bg_f56640684464e89d33cc"
+    ]
+  },
+  {
+    "id": "locomo_9_116",
+    "dataset": "LoCoMo",
+    "group": "conversation_9",
+    "gold_ids": [
+      "bg_0a56153cffdb1bd49d41"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "protocol_sha256": "a978d6b90b5cf899d0a1cb7cc19217e07572b0319ca3949e60adb68d99b12034",
+  "code_sha256": {
+    "overlay.py": "bd4b37599abd9f1085f478a12b340397f596df54b53da8b5f91fd69cb6865a6a",
+    "run_experiment.py": "f7a990dd46b034043465b9dc3ac2137066b1529f939ac42f7ce4c4794a1677e6",
+    "test_overlay.py": "0498a4ce2f5692dfafea892b7b374d44d8c2b09188c6d9267c89faa3e7caa6f5"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sqlite_version": "3.53.1",
+  "clock": "namespace(implementation='QueryPerformanceCounter()', monotonic=True, adjustable=False, resolution=1e-07)",
+  "data_sha256": {
+    "longmemeval": "821a2034d219ab45846873dd14c14f12cfe7776e73527a483f9dac095d38620c",
+    "locomo": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4"
+  },
+  "n_episodes": 35,
+  "run_started_unix": 1791132636.1654065,
+  "model_inference": false,
+  "n_trials": 3920,
+  "elapsed_seconds": 3262.6729036,
+  "run_finished_unix": 1791135898.8416326
+}

@@ -1,0 +1,26 @@
+{
+  "version": "scope-revocation-v1",
+  "frozen_before_measurement": "2026-10-04",
+  "study_type": "controlled deterministic storage-system experiment",
+  "model_inference": false,
+  "sampling": "20 SHA256-ranked questions from each of six LongMemEval-oracle types; 2 SHA256-ranked evidence-bearing QA per LoCoMo conversation",
+  "episodes": 140,
+  "backends": ["sqlite_wal", "json_files"],
+  "arms": ["native_source_delete", "dependency_purge", "full_overlay", "without_commit_guard", "without_restore_guard", "without_lineage_purge"],
+  "events": ["immediate", "restart", "index_rebuild", "source_reprocessing", "snapshot_restore", "delayed_commit", "peer_sync", "restore_then_commit", "commit_then_restart"],
+  "boundary_events": ["authority_rollback", "adapter_bypass"],
+  "layers": ["raw", "summary", "cache", "checkpoint", "index_payload"],
+  "managed_scope": "active persistent store and materialized hashed lexical index; external fault-replay fixtures are measured separately",
+  "primary_outcome": "target exact-canary occurrence in active record content or persisted bytes, reported separately; worst-case union across nine managed events",
+  "secondary_outcomes": ["target-preference literal residue", "unrelated-control recovery", "unchanged background retrieval at k=3", "unmodified reference answer evidence recall at k=3", "operation timings", "retained snapshot marker presence"],
+  "statistics": "paired episode-cluster bootstrap for recovery contrasts; Wilson intervals for descriptive proportions; no population-wide efficacy inference from deterministic contract cases",
+  "bootstrap_seed": 20261004,
+  "bootstrap_repetitions": 10000,
+  "hypotheses": {
+    "H1": "dependency purge can pass immediately yet fail after a selected lifecycle transition",
+    "H2": "full overlay lowers worst-event active recovery relative to dependency purge",
+    "H3": "removing each guard worsens its corresponding event",
+    "H4": "the overlay preserves unrelated content and matched background retrieval"
+  },
+  "limitations": ["No LLM behavior or neural embedding inversion", "Reference backends rather than Mem0/Letta product evaluation", "Deterministic summary copies deliberately materialize target content", "Controlled interleavings rather than probabilistic network scheduling", "Fault replay fixtures retain synthetic targets and are not erased", "Scope labels are assumed correct", "Effect sizes reflect the specified stress distribution"]
+}

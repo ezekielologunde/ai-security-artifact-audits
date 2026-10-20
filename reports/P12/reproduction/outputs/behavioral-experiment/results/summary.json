@@ -1,0 +1,126 @@
+{
+  "episodes": 24,
+  "summary_calls": 24,
+  "probe_calls": 720,
+  "total_inferences": 744,
+  "model": "Qwen2.5-1.5B-Instruct Q4_K_M",
+  "temperature": 0,
+  "summary_code_acquired_n": 24,
+  "summary_route_label_present_n": 24,
+  "arms": {
+    "never_seen": {
+      "n_episodes": 24,
+      "code_any_n": 0,
+      "target_route_rate": 0.5,
+      "valid_route_rate": 1.0,
+      "day_correct_n": 19,
+      "active_code_n": 0,
+      "caller_context_code_n": 0
+    },
+    "sham_delete": {
+      "n_episodes": 24,
+      "code_any_n": 21,
+      "target_route_rate": 1.0,
+      "valid_route_rate": 1.0,
+      "day_correct_n": 24,
+      "active_code_n": 24,
+      "caller_context_code_n": 24
+    },
+    "source_only": {
+      "n_episodes": 24,
+      "code_any_n": 20,
+      "target_route_rate": 0.875,
+      "valid_route_rate": 1.0,
+      "day_correct_n": 24,
+      "active_code_n": 24,
+      "caller_context_code_n": 24
+    },
+    "purge_then_restore": {
+      "n_episodes": 24,
+      "code_any_n": 21,
+      "target_route_rate": 1.0,
+      "valid_route_rate": 1.0,
+      "day_correct_n": 24,
+      "active_code_n": 24,
+      "caller_context_code_n": 24
+    },
+    "full_then_restore": {
+      "n_episodes": 24,
+      "code_any_n": 0,
+      "target_route_rate": 0.5,
+      "valid_route_rate": 1.0,
+      "day_correct_n": 19,
+      "active_code_n": 0,
+      "caller_context_code_n": 0
+    },
+    "full_live_summary": {
+      "n_episodes": 24,
+      "code_any_n": 8,
+      "target_route_rate": 0.8958333333333334,
+      "valid_route_rate": 1.0,
+      "day_correct_n": 24,
+      "active_code_n": 0,
+      "caller_context_code_n": 24
+    }
+  },
+  "route_contrasts_vs_never_seen": {
+    "never_seen": {
+      "paired_difference": 0.0,
+      "episode_bootstrap_95_percentile": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "descriptive conditional contrast; failure to reject is not equivalence"
+    },
+    "sham_delete": {
+      "paired_difference": 0.5,
+      "episode_bootstrap_95_percentile": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "interpretation": "descriptive conditional contrast; failure to reject is not equivalence"
+    },
+    "source_only": {
+      "paired_difference": 0.375,
+      "episode_bootstrap_95_percentile": [
+        0.22916666666666666,
+        0.5208333333333334
+      ],
+      "interpretation": "descriptive conditional contrast; failure to reject is not equivalence"
+    },
+    "purge_then_restore": {
+      "paired_difference": 0.5,
+      "episode_bootstrap_95_percentile": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "interpretation": "descriptive conditional contrast; failure to reject is not equivalence"
+    },
+    "full_then_restore": {
+      "paired_difference": 0.0,
+      "episode_bootstrap_95_percentile": [
+        0.0,
+        0.0
+      ],
+      "interpretation": "descriptive conditional contrast; failure to reject is not equivalence"
+    },
+    "full_live_summary": {
+      "paired_difference": 0.3958333333333333,
+      "episode_bootstrap_95_percentile": [
+        0.22916666666666666,
+        0.5625
+      ],
+      "interpretation": "descriptive conditional contrast; failure to reject is not equivalence"
+    }
+  },
+  "full_vs_never_seen": {
+    "identical_prompt_n": 120,
+    "identical_response_n": 120,
+    "n": 120,
+    "construction_check_only": true
+  },
+  "max_prompt_tokens": 603,
+  "truncated_response_n": 0,
+  "cached_prompt_tokens_n": 0,
+  "elapsed_seconds": 2254.679612159729
+}

@@ -1,0 +1,22 @@
+{
+  "version": "behavior-and-cache-v2",
+  "frozen_date": "2026-10-06",
+  "episodes": 24,
+  "selection": "First two episodes in each sorted LongMemEval v1 question-type group (12); first 12 SHA256-ranked LoCoMo v1 episodes (12). Corpus text supplies background only; this is not benchmark QA accuracy.",
+  "model": "Qwen2.5-1.5B-Instruct official Q4_K_M GGUF",
+  "decoding": {"temperature": 0, "seed": 20261006, "summary_max_tokens": 160, "probe_max_tokens": 48},
+  "arms": ["never_seen", "sham_delete", "source_only", "purge_then_restore", "full_then_restore", "full_live_summary"],
+  "probes": ["direct_code", "direct_cued", "route_alpha_first", "route_beta_first", "retained_day"],
+  "target": "Unique deterministic 24-hex synthetic code plus balanced randomly assigned ALPHA/BETA route preference; all evidence generated after training.",
+  "summary": "One actual model-generated summary per episode, retained unchanged across paired arms; no filtering by success.",
+  "primary": "Paired difference in target-route selection rate versus never-seen, averaged across two option orders within episode.",
+  "secondary": ["exact code emission on either direct probe", "unrelated Project Y day accuracy", "source and summary acquisition rates", "active record/file recovery", "reachable CPython memoization-cache key recovery before and after explicit clear"],
+  "analysis": "All 24 episodes, no exclusion; 10000 episode-cluster paired bootstrap samples with fixed seed; no pooling option-order trials as independent episodes.",
+  "hypotheses": {
+    "H5": "Source-only deletion and one-time purge followed by snapshot replay permit more behavioral influence than never-seen.",
+    "H6": "The full overlay with fresh caller context yields the same supplied evidence as never-seen after snapshot replay; resulting equality is a construction check, not proof of model unlearning.",
+    "H7": "An unmanaged model-written live summary can retain influence despite clean managed storage.",
+    "H8": "The v1 memoizer retains reachable plaintext keys after deletion; explicitly clearing it removes those keys from this reachable cache."
+  },
+  "boundaries": ["One small quantized model, temperature zero", "Oracle scope labels and serialized storage operations", "No neural embedding inversion or KV-tensor forensics", "No physical heap erasure, provider log deletion, or model weight unlearning", "Research response logs intentionally retain synthetic targets", "Prompt caching disabled but no physical cache erasure claimed"]
+}

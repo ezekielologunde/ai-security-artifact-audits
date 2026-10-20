@@ -1,0 +1,11 @@
+{
+  "version": "route-label-swap-v1",
+  "status": "exploratory robustness check designed after inspecting early primary-run outputs",
+  "episodes": "all 24 primary episodes, no exclusion",
+  "calls": 48,
+  "intervention": "Swap every whole-word ALPHA/BETA label only in the evidence portion of each full_live_summary route prompt; leave task option order, private code, and unrelated facts unchanged.",
+  "control": "Compare with the recorded original full_live_summary response for the identical episode and option order.",
+  "decoding": "same model, temperature, seed, context capacity and output limit as primary",
+  "outcomes": ["response selects swapped preference", "route choice changes to its opposite", "valid route response", "same prompt token count"],
+  "limits": "Post-pilot exploratory design, not a preregistered hypothesis test; label swapping can change tokenization and wording; record exact token-count differences. This checks evidence sensitivity, not weight or KV unlearning."
+}
