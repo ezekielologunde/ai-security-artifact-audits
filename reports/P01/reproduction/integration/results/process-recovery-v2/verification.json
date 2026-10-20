@@ -1,0 +1,7 @@
+{
+  "runs": 80,
+  "source_hash_verified": true,
+  "three_database_hashes_per_run_verified": true,
+  "raw_checkpoint_and_authority_state_verified": true,
+  "independent_external_review": false
+}

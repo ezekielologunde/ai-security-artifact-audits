@@ -1,0 +1,8 @@
+{
+  "runs": 80,
+  "fenced_retired_effects": 0,
+  "unfenced_retired_effects": 80,
+  "independent_effects": 80,
+  "late_checkpoint_recreations": 60,
+  "all_assertions_passed": true
+}

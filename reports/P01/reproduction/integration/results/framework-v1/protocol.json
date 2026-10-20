@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-07T01:34:39.627807+00:00",
+  "source_sha256": "15088e1ffcfc761a7a72eb55562634a8f67f3db354806ffa0e556217e13d60d5",
+  "python": "3.13.15",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "langgraph": "1.2.14",
+    "langgraph-checkpoint": "4.2.0",
+    "APScheduler": "3.11.3"
+  },
+  "repeats": 5,
+  "backends": [
+    "sqlite",
+    "jsonl"
+  ],
+  "factors": [
+    "sink fencing",
+    "cleanup",
+    "sequential graph admission gate"
+  ],
+  "limits": [
+    "No LLM/provider calls",
+    "In-process HTTP server and ephemeral HMAC key",
+    "InMemorySaver is not durable or physical erasure",
+    "Controlled barrier interleaving",
+    "No distributed fault or independent external auditor",
+    "No closure certificate computed",
+    "Graph admission check is not atomic with execution; checkpoint races remain untested"
+  ]
+}

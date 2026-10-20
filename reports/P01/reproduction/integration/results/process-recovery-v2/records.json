@@ -1,0 +1,6082 @@
+[
+  {
+    "run_id": "r0-unmediated-restore0-late_start",
+    "control": "unmediated",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "90536b7c330bed662af517455aea7e6c71d08b65e49344e9267200d5c61b1b80",
+      "backup.sqlite": "d9736f99de506de1e5c1fb8c74fcdf81181b89253433a2a1e5662833096d2cdd",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r0-unmediated-restore0-mid_graph",
+    "control": "unmediated",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 1,
+      "B": 3
+    },
+    "final": {
+      "A": 1,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "e3c33edcb82bc99185c25796df95087968a341ea1be334c7eb40b326836113e5",
+      "backup.sqlite": "f4acceb1a8e9e2acfcda560fc1e8a0cfef63c33c707d460acefd47a4192602af",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r0-unmediated-restore1-late_start",
+    "control": "unmediated",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 6,
+      "B": 3
+    },
+    "final": {
+      "A": 6,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "344fd658f70f1e92744dd94da20f44f588146c02bd9bc05f9b7d4c3f8a9e7015",
+      "backup.sqlite": "c4eb79edfaef70d2647024faed81fb4a8da87d5055063369ae6f58609e7849c4",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r0-unmediated-restore1-mid_graph",
+    "control": "unmediated",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 4,
+      "B": 3
+    },
+    "final": {
+      "A": 4,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "485ddb160eb66fc6ec1ef15d84333b28c364be27df35f60a270a4b32161e093d",
+      "backup.sqlite": "25e2da4c7ad7cd515aaf50b9676e355de3c9eb8407f2e0c1d757137480587313",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r0-cached-restore0-late_start",
+    "control": "cached",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "07a60e3ea41c4734715dba81d3e0386dc0f79f6f6698650584d19f1087427d3a",
+      "backup.sqlite": "95ec2fd54b1d82c9b31e2b27d4b779646cc52a1ca206295da6194fe1b8ae61a9",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r0-cached-restore0-mid_graph",
+    "control": "cached",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 1,
+      "B": 3
+    },
+    "final": {
+      "A": 1,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "f1b55367b9c49dbb6ae86e0402b3b601e313d9d29fcd11a92641091326cad38a",
+      "backup.sqlite": "ebb89a6105f87574102e7d9cab93727a0ec6ae53c63d66f538cde5758eb75f89",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r0-cached-restore1-late_start",
+    "control": "cached",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 6,
+      "B": 3
+    },
+    "final": {
+      "A": 6,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "41a9c3ad3ce43d43ec911345e4dcd30b5017e1fa399a51a8207aba0f17acd250",
+      "backup.sqlite": "56e4a406889dc52a60c8a17c4fb6588bdad944689eb1196a2e0566bf7bcc8ef8",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r0-cached-restore1-mid_graph",
+    "control": "cached",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 4,
+      "B": 3
+    },
+    "final": {
+      "A": 4,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "1ca2182387a6e3718c3caa7c2e4613e4349aba95dd49cc2cc60274ad8aac0e1f",
+      "backup.sqlite": "55ae068df56db88c6c9ca824675c45fd900d3ea55cfadda567afc562b335f050",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r0-durable-restore0-late_start",
+    "control": "durable",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        4,
+        "B",
+        "put",
+        1
+      ],
+      [
+        5,
+        "B",
+        "put",
+        1
+      ],
+      [
+        6,
+        "B",
+        "put",
+        1
+      ],
+      [
+        7,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        8,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "78acc15b56cf01f937ac4a08bcb934de0c28b27cfad8c0194742827f886aefb7",
+      "backup.sqlite": "c1d9dc0a9e48b5ff4a6b0783aad6db98b250acd2cd0bbfb7c89f2c7d95061d07",
+      "authority.sqlite": "59036d3637f71ecc5d021ecc37646b26c20221c8e5c868b480df284db10408b9"
+    }
+  },
+  {
+    "run_id": "r0-durable-restore0-mid_graph",
+    "control": "durable",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        5,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        9,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        10,
+        "B",
+        "put",
+        1
+      ],
+      [
+        11,
+        "B",
+        "put",
+        1
+      ],
+      [
+        12,
+        "B",
+        "put",
+        1
+      ],
+      [
+        13,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        14,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "0c7aa80f797522c35138e81e7b7ad9aa191df5d67f76c67e3dcc0b0a76b0cbb7",
+      "backup.sqlite": "7ad74b6c015dfd3996e9acee43bfe6f28389414b687625da37169cabd1e4b7b0",
+      "authority.sqlite": "edca939c954e08119a1c8f904f3c3a236412a51b5646d566f42218ecab08cbb3"
+    }
+  },
+  {
+    "run_id": "r0-durable-restore1-late_start",
+    "control": "durable",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        4,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        5,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        6,
+        "B",
+        "put",
+        1
+      ],
+      [
+        7,
+        "B",
+        "put",
+        1
+      ],
+      [
+        8,
+        "B",
+        "put",
+        1
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "bb20463d088b53d55df4c10323c1de0c732e2aee5610c0e44e587d577cbb6588",
+      "backup.sqlite": "28f08e51de09c291ea971f16a77abc7a13e8d8f3b6318333efda078ef1973150",
+      "authority.sqlite": "965f4efeb858fc0cfacd2458906fd34aa8e46c1a00e256fc91bea2be3008cd2b"
+    }
+  },
+  {
+    "run_id": "r0-durable-restore1-mid_graph",
+    "control": "durable",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        9,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        10,
+        "B",
+        "put",
+        1
+      ],
+      [
+        11,
+        "B",
+        "put",
+        1
+      ],
+      [
+        12,
+        "B",
+        "put",
+        1
+      ],
+      [
+        13,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        14,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "7b984765acdac17d060d17ca4bc70c480ca9940ba730c2d3bf4aee156ba9e8ba",
+      "backup.sqlite": "238e48bc5373cf516e2e3b54f662dce24d96d9645183082e98d28b01c671ab26",
+      "authority.sqlite": "c7c802f8ae8bb0a2e3577f857d137ae6d93c10dc5851dba5f657f7ba7078001a"
+    }
+  },
+  {
+    "run_id": "r0-blanket-restore0-late_start",
+    "control": "blanket",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        4,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "2b662b8c38ec131be59e6d7efd24a6134f4aa3b861c400bcaa0d201a1f4b065d",
+      "backup.sqlite": "a33fecb441c8220a9cdb633a6323b4bc85de2aa2320d98270afca6465f5f35f8",
+      "authority.sqlite": "75795ed8d2da5c6f780d6cb42ed36bd68fbe79640b4a51030f8a334f91ef9438"
+    }
+  },
+  {
+    "run_id": "r0-blanket-restore0-mid_graph",
+    "control": "blanket",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        5,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "568c0d81f048f2bc7e6545d9c1e809427e5d2b124b28145344405c156cc46192",
+      "backup.sqlite": "e26986e5c50e29b700f8b65ba1e56aac7a175d9b6c05c2504f01c64d817db0a7",
+      "authority.sqlite": "7297508fcfc895d53fb130ed5a08dab90b7a8d30a41f421a5c9bfc10d9e689da"
+    }
+  },
+  {
+    "run_id": "r0-blanket-restore1-late_start",
+    "control": "blanket",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        4,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "816d5729338f8f44f825ef0181e63218cfcc73d903455e780a2a2f204b2431a1",
+      "backup.sqlite": "f004b42bcb1852c5d67a3857bc87b1037a65b0b56fb7eb3dbceb0eaaab03a504",
+      "authority.sqlite": "75795ed8d2da5c6f780d6cb42ed36bd68fbe79640b4a51030f8a334f91ef9438"
+    }
+  },
+  {
+    "run_id": "r0-blanket-restore1-mid_graph",
+    "control": "blanket",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        3,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        4,
+        "A",
+        "put",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "c827c24ba475bf43705942cbfef7d74e498419d2b79565129cb641aba802edd3",
+      "backup.sqlite": "148ba08bc508f727e5a24baf2390d231d5b036999e11c076cc7c25dca7fcd970",
+      "authority.sqlite": "ef7ca46bde617e1f80338f552f3bc4496f686afffe3eea4074c7fbc7a7f60382"
+    }
+  },
+  {
+    "run_id": "r1-unmediated-restore0-late_start",
+    "control": "unmediated",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "f787b7ecff036adf80f37706e31ca346f2f83a18484b4249ec2ec16738c542fc",
+      "backup.sqlite": "4eec3ecfb3c7070f65db6d64921a8abad7eda55b5422493741e019aca12c74f9",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r1-unmediated-restore0-mid_graph",
+    "control": "unmediated",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 1,
+      "B": 3
+    },
+    "final": {
+      "A": 1,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "ec7eb8c2d977e93915cc1fffb7a6185bd91ee25f3b77be0dae65a6015fc8d246",
+      "backup.sqlite": "7815ee1c80e4b3dcfa6be41178dfacc89abfd433ee767619a3742da0f4b19755",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r1-unmediated-restore1-late_start",
+    "control": "unmediated",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 6,
+      "B": 3
+    },
+    "final": {
+      "A": 6,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "5db8497d2fe262e4f209b2f996d3649e71495de107be150ddc0dd975c188b965",
+      "backup.sqlite": "7ddc15ce0753fc8837c1a970e3e2c78582f8d085c65ecf3d769ce65f19de768f",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r1-unmediated-restore1-mid_graph",
+    "control": "unmediated",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 4,
+      "B": 3
+    },
+    "final": {
+      "A": 4,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "77a66cd15cf7beeaa85a7343a7a5ff072b56f395df80e5a2bdfd8ac1ddffce9e",
+      "backup.sqlite": "08bdb186b647e804e6232af0520f0cb7e4e6e14001bab0995f74250aa69ab222",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r1-cached-restore0-late_start",
+    "control": "cached",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "665fc14c79d5b99d99b0fb7ec91a534a233aa00470b8746cbcb353237ba26823",
+      "backup.sqlite": "b9152fb79f4429b745f4fd9a5cd009bf874a948bb2cdaf0aa613827815ac816f",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r1-cached-restore0-mid_graph",
+    "control": "cached",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 1,
+      "B": 3
+    },
+    "final": {
+      "A": 1,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "0db8ccb4397ae55269f59611312ed1261e5e7d2da1d0dcdc2b9f7a29e53c7dbd",
+      "backup.sqlite": "335c26d4deea9f085965c661193698d1cd666f8e067a782bb0a13b285dea8805",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r1-cached-restore1-late_start",
+    "control": "cached",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 6,
+      "B": 3
+    },
+    "final": {
+      "A": 6,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "758b038b719f2a121a00672c0077c60c434a9a97d7f7a9df55f100f1d8308dfe",
+      "backup.sqlite": "2a4c471f7effb1ea3be137b595118631156340f0bf87c49fab3b4caa8d06d63e",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r1-cached-restore1-mid_graph",
+    "control": "cached",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 4,
+      "B": 3
+    },
+    "final": {
+      "A": 4,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "0d40d03e33a8c6c3f7b3480fa77ce7738ed501d4a25828bd6cff66e7c31271b2",
+      "backup.sqlite": "96e08bf45abbe066c959ca3b1ffb0a9c3dc880057c56a28cd90bb3ee463da6d3",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r1-durable-restore0-late_start",
+    "control": "durable",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        4,
+        "B",
+        "put",
+        1
+      ],
+      [
+        5,
+        "B",
+        "put",
+        1
+      ],
+      [
+        6,
+        "B",
+        "put",
+        1
+      ],
+      [
+        7,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        8,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "85bfa7e37dd049a59bd6e53584cc425fabc8389a203c788a277969933e9f7cc0",
+      "backup.sqlite": "3b631e6d2ccdd66a455fbfa0e90cc4042275a37e8685b2acfbed79e2168f2d4d",
+      "authority.sqlite": "59036d3637f71ecc5d021ecc37646b26c20221c8e5c868b480df284db10408b9"
+    }
+  },
+  {
+    "run_id": "r1-durable-restore0-mid_graph",
+    "control": "durable",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        4,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        9,
+        "B",
+        "put",
+        1
+      ],
+      [
+        10,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        11,
+        "B",
+        "put",
+        1
+      ],
+      [
+        12,
+        "B",
+        "put",
+        1
+      ],
+      [
+        13,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        14,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "feec1a0b6ab8115c3719b52fbfa76150a2176782dd881d4a5e33be7904b65e3a",
+      "backup.sqlite": "fa1a898f4275d29cda876c1a779da75d776c58286103dba5f0e916c74046a3fc",
+      "authority.sqlite": "44f9dab6917057e0ec44de686a178e6d5c671f60821cee1f8efe23e1cccbbb07"
+    }
+  },
+  {
+    "run_id": "r1-durable-restore1-late_start",
+    "control": "durable",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        4,
+        "B",
+        "put",
+        1
+      ],
+      [
+        5,
+        "B",
+        "put",
+        1
+      ],
+      [
+        6,
+        "B",
+        "put",
+        1
+      ],
+      [
+        7,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        8,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "9ac3a9ff3c9eeb0f840cc23713f0cfab7a41d5716b2db4f9997e696424956146",
+      "backup.sqlite": "9cdd8b57b72ff548fc2b88fe7c85aa5af6486899f7b97f46306dcaa54c887933",
+      "authority.sqlite": "59036d3637f71ecc5d021ecc37646b26c20221c8e5c868b480df284db10408b9"
+    }
+  },
+  {
+    "run_id": "r1-durable-restore1-mid_graph",
+    "control": "durable",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        3,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        4,
+        "A",
+        "put",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        9,
+        "B",
+        "put",
+        1
+      ],
+      [
+        10,
+        "B",
+        "put",
+        1
+      ],
+      [
+        11,
+        "B",
+        "put",
+        1
+      ],
+      [
+        12,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        13,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        14,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "0f61ee584dfa4b44a3726367eb968f595251c43fdb90c55e6692f4b23b0c8e4e",
+      "backup.sqlite": "f860487d4bc1ef50cf4951a6b3a0fc1c63c7ba8ee601a85519606781a46f8d03",
+      "authority.sqlite": "b3a246a12122c758b4d86ece5e8b8f34a9e29cbebcc555c36925fe9d80af71f6"
+    }
+  },
+  {
+    "run_id": "r1-blanket-restore0-late_start",
+    "control": "blanket",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        4,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "f158134a0eb3ece2e46b05dab791913611e710074a2fd54c0c402d48ec88cadc",
+      "backup.sqlite": "8199bb204412e5b578472c67c65542828ee57c64d04dffcb20109b967342709c",
+      "authority.sqlite": "75795ed8d2da5c6f780d6cb42ed36bd68fbe79640b4a51030f8a334f91ef9438"
+    }
+  },
+  {
+    "run_id": "r1-blanket-restore0-mid_graph",
+    "control": "blanket",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        3,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        4,
+        "A",
+        "put",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "e20ee6e8c21567a85d8f5b197fdc59626335ec8627ac5e33f29211aca5c90774",
+      "backup.sqlite": "d637cf43a0581a512f8361e89cb84d5331e8f55997b866f351b98f82c49daf6e",
+      "authority.sqlite": "71cefcb0e10a24559a0409cad3d0fa920ad1bd42458ddef51f6c0bb529f90de5"
+    }
+  },
+  {
+    "run_id": "r1-blanket-restore1-late_start",
+    "control": "blanket",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        4,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "45a4ce5454ac283c0ec133ac816dc97942203fe3bdb688e62aa85adbf126067b",
+      "backup.sqlite": "11fea364da76ae7ce986573b1be001ae2f9096747272e3da332a3ab8bf446e9c",
+      "authority.sqlite": "75795ed8d2da5c6f780d6cb42ed36bd68fbe79640b4a51030f8a334f91ef9438"
+    }
+  },
+  {
+    "run_id": "r1-blanket-restore1-mid_graph",
+    "control": "blanket",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        5,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "8b02c8edece7715cf12c3832c3dc5b8387b91a16d56827f087366ac7bf67358c",
+      "backup.sqlite": "260b1128c37c9662e3c4dd75db1c6587d7d8b89c16c026425fe9cb26f4eb3999",
+      "authority.sqlite": "7297508fcfc895d53fb130ed5a08dab90b7a8d30a41f421a5c9bfc10d9e689da"
+    }
+  },
+  {
+    "run_id": "r2-unmediated-restore0-late_start",
+    "control": "unmediated",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "827065ff2f0c152aee17c0a1d1298861704c3633e651b4bb2dede94468f43c2a",
+      "backup.sqlite": "3816a7dfd86143932922ffa5a6a00a14b9d864036ff8ad463c1c73f41bc35704",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r2-unmediated-restore0-mid_graph",
+    "control": "unmediated",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 1,
+      "B": 3
+    },
+    "final": {
+      "A": 1,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "a8df40230652dea2a271dfa3c04193118de0e502d6ae4651b0d56637c1cd54ec",
+      "backup.sqlite": "a02e1cd8d1493ef10193e918f1acfe9ccacc2468664d736e345d6f85ef46770e",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r2-unmediated-restore1-late_start",
+    "control": "unmediated",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 6,
+      "B": 3
+    },
+    "final": {
+      "A": 6,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "364d465ad2b81bec8f9b320354efbd2b16f49e26ebe291ffbe8012cf1519f481",
+      "backup.sqlite": "db8acc108b9d1b6a60dba3a59e1901febc719dc7d6b42299293a4d77782d8a83",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r2-unmediated-restore1-mid_graph",
+    "control": "unmediated",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 4,
+      "B": 3
+    },
+    "final": {
+      "A": 4,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "7f1b618ba33b4de99a2cea1d5f241d8e8377accde4a2174f766db979eab577c5",
+      "backup.sqlite": "32369652b1cef829707928c4615fe0fb202d86411b5405bbc1bfaa852cde255f",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r2-cached-restore0-late_start",
+    "control": "cached",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "b7b8ceb6a9f55bbfc8a69f1840d8e412d2df06f8a6566ae91acec7dbf70186e0",
+      "backup.sqlite": "c7d39fa4bc1c2eb46fc86dac29964f9156f13b2aa7a9c3f621abcc38c03a41c2",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r2-cached-restore0-mid_graph",
+    "control": "cached",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 1,
+      "B": 3
+    },
+    "final": {
+      "A": 1,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "903812316d5c0c9845003a9c7f48dad06f79e8d97ad4867cb62dad850006a430",
+      "backup.sqlite": "6420f4f40219f30adebfeccc133cc3253ef24935837d4d2edd1e58b1f1bf9373",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r2-cached-restore1-late_start",
+    "control": "cached",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 6,
+      "B": 3
+    },
+    "final": {
+      "A": 6,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "a1db02879a3bdfd96f2a93d8fd3e30bebc6ca83939c1d10870fd8648f5bf06e1",
+      "backup.sqlite": "4457b3de30f7f321d7a423b60d914293cd48d2f129144d373df81451b4b919c2",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r2-cached-restore1-mid_graph",
+    "control": "cached",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 4,
+      "B": 3
+    },
+    "final": {
+      "A": 4,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "cf59515f424db6c41a269d8de1598d4d19d630b15d32bac86b39cd79e5201b43",
+      "backup.sqlite": "f4664670dac0f0a32731460890775ebf43fc615af47fe9c775a3e5d1c85c8a4a",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r2-durable-restore0-late_start",
+    "control": "durable",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        4,
+        "B",
+        "put",
+        1
+      ],
+      [
+        5,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        6,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        7,
+        "B",
+        "put",
+        1
+      ],
+      [
+        8,
+        "B",
+        "put",
+        1
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "a94cd1e9f744508c7614b84196af6ab44a52818f39a682899a08d5c260dd1bf4",
+      "backup.sqlite": "aae6f28d7a389cafb238a6bb5e92a96d870ef740ed389c8a19ed359d137e552a",
+      "authority.sqlite": "383ef8e46e94793240ee07b2d4be8be8449a89824c42ec3b89b5b22915a3a251"
+    }
+  },
+  {
+    "run_id": "r2-durable-restore0-mid_graph",
+    "control": "durable",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        3,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        4,
+        "A",
+        "put",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        9,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        10,
+        "B",
+        "put",
+        1
+      ],
+      [
+        11,
+        "B",
+        "put",
+        1
+      ],
+      [
+        12,
+        "B",
+        "put",
+        1
+      ],
+      [
+        13,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        14,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "7239f9b94b8efe9c5f12869e0c3e94b9d59ab97cc8d8efa05c51087fa4797ff3",
+      "backup.sqlite": "f62bc8bebc02527e742a97df00dd27e8eb33055a2d3fc3ee8668e4aa83a48ba1",
+      "authority.sqlite": "850a82242965eea0d7a6d0fe76cb1a502b950c764c609e9e97da1f00df3b1f6f"
+    }
+  },
+  {
+    "run_id": "r2-durable-restore1-late_start",
+    "control": "durable",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        4,
+        "B",
+        "put",
+        1
+      ],
+      [
+        5,
+        "B",
+        "put",
+        1
+      ],
+      [
+        6,
+        "B",
+        "put",
+        1
+      ],
+      [
+        7,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        8,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "75a2fca25c0312ca757c91aa1bc0119d4a6bb32460c9029d8a943a3ba728a527",
+      "backup.sqlite": "f1608ac6e73e23fc16d934b809d5c9a674dff30257a31fd382f678ace819bf9e",
+      "authority.sqlite": "59036d3637f71ecc5d021ecc37646b26c20221c8e5c868b480df284db10408b9"
+    }
+  },
+  {
+    "run_id": "r2-durable-restore1-mid_graph",
+    "control": "durable",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        4,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        9,
+        "B",
+        "put",
+        1
+      ],
+      [
+        10,
+        "B",
+        "put",
+        1
+      ],
+      [
+        11,
+        "B",
+        "put",
+        1
+      ],
+      [
+        12,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        13,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        14,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "aefdbf3fc0f39b148b9278d7ff64dc00ebcbd4a2f97db7b601350726ec423516",
+      "backup.sqlite": "c624db5153b528f441bd37747ab8ee2fb5b42867560ae256fba446c2352bee43",
+      "authority.sqlite": "8fa474d955ed1ee13c7811988b92ecfcfe0f5c8683f60561d9c9fb0cfd4a4bd4"
+    }
+  },
+  {
+    "run_id": "r2-blanket-restore0-late_start",
+    "control": "blanket",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        4,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "fe62c32ab91d01d5bff9b9e012c1af6490c4d9558ce75eb6b14aa3d2e9b09a7c",
+      "backup.sqlite": "1372152c3a296b894f893a8f2c331a56f5772d708e5d420fc2d4687b408655bf",
+      "authority.sqlite": "75795ed8d2da5c6f780d6cb42ed36bd68fbe79640b4a51030f8a334f91ef9438"
+    }
+  },
+  {
+    "run_id": "r2-blanket-restore0-mid_graph",
+    "control": "blanket",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "83b9c5d62bd5366ffbcfad6b67fa68432df6009639bfed90f546fff014d412d2",
+      "backup.sqlite": "7a6717bfbc270fe9eafc15b937a149690ac2b0eea0965078c2ffa942d9813846",
+      "authority.sqlite": "2cd1229e7014001078593edfb6ac7e0b7c920557c16dbd65cf65b3eaea424671"
+    }
+  },
+  {
+    "run_id": "r2-blanket-restore1-late_start",
+    "control": "blanket",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        4,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "a0353c75c4fdb113063e5b0612996e83524a22e4a7748bd6a55a9fcc0734123e",
+      "backup.sqlite": "1a9ce0867d64207ff957f4e7070ed4080bb6677f7748db3193d1cd51c9793964",
+      "authority.sqlite": "75795ed8d2da5c6f780d6cb42ed36bd68fbe79640b4a51030f8a334f91ef9438"
+    }
+  },
+  {
+    "run_id": "r2-blanket-restore1-mid_graph",
+    "control": "blanket",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "put",
+        1
+      ],
+      [
+        5,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "b3f6f0083f39696f5561d6bf080bd729c8a461f5628ed456dbeae320f37f720c",
+      "backup.sqlite": "e9a2255ae7fbd21d6cb5473255b5e9577a1bafd323a064cbb1aef54e124159c6",
+      "authority.sqlite": "fd88919324081bf689045aabb4a603dea450d2a81a7c2028c7ff20070372560d"
+    }
+  },
+  {
+    "run_id": "r3-unmediated-restore0-late_start",
+    "control": "unmediated",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "d618b4182982dd5e0054cbf122fc044c1915f7789861dcb45676870648960a64",
+      "backup.sqlite": "d31b638a5268ac353a81d632b7476e185dbb24d39373d86b4956100aeac3bee3",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r3-unmediated-restore0-mid_graph",
+    "control": "unmediated",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 1,
+      "B": 3
+    },
+    "final": {
+      "A": 1,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "9fbffc054ba6ca6934759ad1d5f244b41c0af77a35ba93cee2786b65b281e10c",
+      "backup.sqlite": "55e59abbad982798d834002d175ca0fe95fb18d3588cb4274126dbdcc368029e",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r3-unmediated-restore1-late_start",
+    "control": "unmediated",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 6,
+      "B": 3
+    },
+    "final": {
+      "A": 6,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "2e9715de2c96463d6f09954e3db33069c1898f17671dbe442d24b68de33fa4f2",
+      "backup.sqlite": "3b03b6d95c186727812a4770bfbd03f58d097ce1032b0f96ccae253e99068e36",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r3-unmediated-restore1-mid_graph",
+    "control": "unmediated",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 4,
+      "B": 3
+    },
+    "final": {
+      "A": 4,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "e71856b47d2c197c0aed6fb96e4615a8078986f289d0cf4888035aafe9ff5ed5",
+      "backup.sqlite": "c67ccca205f04fa32d0f21f8a15cb0d4a0f97ecafeeea2a2f7ea4619c48e0b5e",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r3-cached-restore0-late_start",
+    "control": "cached",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "17f4042341007edcb07cfa8303f9ff5bde7a5864a2a8d2d1ac401e92731f4679",
+      "backup.sqlite": "d323d8d92703862bd7e21d44f22ea42a9fca7a72512e80e46e09eb04ef804fe4",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r3-cached-restore0-mid_graph",
+    "control": "cached",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 1,
+      "B": 3
+    },
+    "final": {
+      "A": 1,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "a1630ad1ad0a49c8cfe5d8a73a36835bd357ba9d0e5f273f12913b0b10f36d38",
+      "backup.sqlite": "656cdea23f9ca43dffacc5ab0f48e7fc5dac095c408f2088c78db7f22db34f51",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r3-cached-restore1-late_start",
+    "control": "cached",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 6,
+      "B": 3
+    },
+    "final": {
+      "A": 6,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "a463f00d5acb7287767ea7aba9be432b6342fd9003e90c1a5869b37ff923e5e1",
+      "backup.sqlite": "e806a70ee1d7f88a65f651a7f036ca994d3ac7afc37d200b58eb083a1e636749",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r3-cached-restore1-mid_graph",
+    "control": "cached",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 4,
+      "B": 3
+    },
+    "final": {
+      "A": 4,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "c097cf5c4714ccdaaa7e6ec3ea8c33f706adafc7668d9cefc92450d51e04dbf6",
+      "backup.sqlite": "20f1d0550a1f46feb89a83af8b1a59eaba1b795117ddcfac8831ad11119f5016",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r3-durable-restore0-late_start",
+    "control": "durable",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        4,
+        "B",
+        "put",
+        1
+      ],
+      [
+        5,
+        "B",
+        "put",
+        1
+      ],
+      [
+        6,
+        "B",
+        "put",
+        1
+      ],
+      [
+        7,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        8,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "8a8143d37a3f04cae4821ac5c0616877d4bedc9ab1b067a2f0e5c8c4afe221a3",
+      "backup.sqlite": "6b73f131e5da9b9a2c29cb9958932f19b7bf9ba55af911a5025ff7d1119a68f9",
+      "authority.sqlite": "59036d3637f71ecc5d021ecc37646b26c20221c8e5c868b480df284db10408b9"
+    }
+  },
+  {
+    "run_id": "r3-durable-restore0-mid_graph",
+    "control": "durable",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        5,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        9,
+        "B",
+        "put",
+        1
+      ],
+      [
+        10,
+        "B",
+        "put",
+        1
+      ],
+      [
+        11,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        12,
+        "B",
+        "put",
+        1
+      ],
+      [
+        13,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        14,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "c3ba50600aa62cbc15d91f9821495aacd34dc21fdfbc3ac05deea96669739e39",
+      "backup.sqlite": "b3f4408ee2269cee160b5dbbf534a6d8f34be783875b3a50e0c76788f008c848",
+      "authority.sqlite": "f62b01a26006f915623a9db6a7355ff6d02a9109a9217cedce7038de4cd76021"
+    }
+  },
+  {
+    "run_id": "r3-durable-restore1-late_start",
+    "control": "durable",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        4,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        5,
+        "B",
+        "put",
+        1
+      ],
+      [
+        6,
+        "B",
+        "put",
+        1
+      ],
+      [
+        7,
+        "B",
+        "put",
+        1
+      ],
+      [
+        8,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "40397428f3e35bd760a1a1701b76314c8b9db108b1360e2710f373e0449b389e",
+      "backup.sqlite": "71f04d14c7880ee593ea1fb41f32b41494f393d648104d006defa4980da933db",
+      "authority.sqlite": "eff5b39ab8bdcd3444bc08a1473fffd16955e8e74af813d8c52a03c2dfdd0d7c"
+    }
+  },
+  {
+    "run_id": "r3-durable-restore1-mid_graph",
+    "control": "durable",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        4,
+        "A",
+        "put",
+        1
+      ],
+      [
+        5,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        9,
+        "B",
+        "put",
+        1
+      ],
+      [
+        10,
+        "B",
+        "put",
+        1
+      ],
+      [
+        11,
+        "B",
+        "put",
+        1
+      ],
+      [
+        12,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        13,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        14,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "81caadddeafc1fa3746bb093e8f36f3c70b7e16417fbaf2d75aa4ca29d44d4bc",
+      "backup.sqlite": "6fb2359914afb98b914a73c9308fa16c79a01d62eaf2ebd4f30e885a9025f645",
+      "authority.sqlite": "be9cf8a83e0e987c1a43a67087086bddc9981d651f8d724bc9267aa7b3c35286"
+    }
+  },
+  {
+    "run_id": "r3-blanket-restore0-late_start",
+    "control": "blanket",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        4,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "2d13afb99e85322fa4e36472946c4f00fced0ff849bd2d621468695d0a0256c9",
+      "backup.sqlite": "4b32494317b0468edf14ce0810fc6ee644dd3d5a666985ed4bbcadc55bb3e60e",
+      "authority.sqlite": "75795ed8d2da5c6f780d6cb42ed36bd68fbe79640b4a51030f8a334f91ef9438"
+    }
+  },
+  {
+    "run_id": "r3-blanket-restore0-mid_graph",
+    "control": "blanket",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "72835764fb119c25c835a363e94971993fe5c44837277086a967d158a94a1fb6",
+      "backup.sqlite": "523fab9f555b93be1ae090872a4632445646add2129d910f6dff4afcdaf90756",
+      "authority.sqlite": "2cd1229e7014001078593edfb6ac7e0b7c920557c16dbd65cf65b3eaea424671"
+    }
+  },
+  {
+    "run_id": "r3-blanket-restore1-late_start",
+    "control": "blanket",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        4,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "358504b2e68d1b03a7b45a179a576dda718ba4a7411dd48bf0b25ae05b830e48",
+      "backup.sqlite": "1a47858a192e791dedfba23aaf97820310382ed92c34af9bacb75f2ec02a0104",
+      "authority.sqlite": "75795ed8d2da5c6f780d6cb42ed36bd68fbe79640b4a51030f8a334f91ef9438"
+    }
+  },
+  {
+    "run_id": "r3-blanket-restore1-mid_graph",
+    "control": "blanket",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "put",
+        1
+      ],
+      [
+        5,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "e7f716cfbb174a7b3d8f5f44f3c079af145125dfbb16f648e98e6de629dd0981",
+      "backup.sqlite": "92d4ca61b15f80085af2bd1d7812809e7dd49720ecc89e899ec43fa1b5076d57",
+      "authority.sqlite": "e24f93d57135366f9474f587838a2a634a0dca1b0cead426ae20af3c7df436f0"
+    }
+  },
+  {
+    "run_id": "r4-unmediated-restore0-late_start",
+    "control": "unmediated",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "120e238ebee33bf10c467c61e543c741b82f7a5d62597ed4f5f864c73ba11390",
+      "backup.sqlite": "9c7ed36269512d0112716a96937fe07abfdda745edef15f38c52bc9f0a34bbf0",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r4-unmediated-restore0-mid_graph",
+    "control": "unmediated",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 1,
+      "B": 3
+    },
+    "final": {
+      "A": 1,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "f5d06df4eb03350de7a8724894656ee9144af3d9f7ab975850c6bd630b499630",
+      "backup.sqlite": "529e0147488437819180f837045ddb1e824c128e973bd550046bc50e5f93610a",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r4-unmediated-restore1-late_start",
+    "control": "unmediated",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 6,
+      "B": 3
+    },
+    "final": {
+      "A": 6,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "2b55af44a4a04c8d64f575ebb63f6a84cf7918af750f40abc2b84226d220ca89",
+      "backup.sqlite": "f89a5ab40512bc816dab9de2167047f9a17dfc583d549c86d71534a45756108c",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r4-unmediated-restore1-mid_graph",
+    "control": "unmediated",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 4,
+      "B": 3
+    },
+    "final": {
+      "A": 4,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "1d974529f19b5f1620fd00998f2d077cc75cff8fcfe71a538dbe257aed4b80e6",
+      "backup.sqlite": "3134fe42f807dd58ce9d21b4fa7a351f303e6366f3fb72c910fe0440e9d61018",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r4-cached-restore0-late_start",
+    "control": "cached",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "15bf2899c2893105f543991f7e4df169d6a6300db9e2c639efb5116f78f7c7ca",
+      "backup.sqlite": "4a6e333e1b7054f383a2619a3b2c325b4b9a2160471e04a507b22a2d3f063321",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r4-cached-restore0-mid_graph",
+    "control": "cached",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 1,
+      "B": 3
+    },
+    "final": {
+      "A": 1,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "0e1563523172306a88dc3602109adf3b7bd355ec194966e5e454eb93f99e89c6",
+      "backup.sqlite": "ecccb5eda7534fd4afd196ce080ab4114093f10b91901bd94ecd0dfa40cc7c24",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r4-cached-restore1-late_start",
+    "control": "cached",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 6,
+      "B": 3
+    },
+    "final": {
+      "A": 6,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "b2489bb39bf6e968f3c43adb4f190f7b32cc0de34eb792e12570d7490672a1b8",
+      "backup.sqlite": "b89a02d0393f8f4e140a8d14063e295d494b8fba76a8101296d79057a6d4cca9",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r4-cached-restore1-mid_graph",
+    "control": "cached",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 4,
+      "B": 3
+    },
+    "final": {
+      "A": 4,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "completed"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "readable"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "c5f1051b3bbc9c71e5fb5ffe9d6ef2ef262aa721e8345aba5502577b5291005a",
+      "backup.sqlite": "a71d5073c73b35ed4abf4e7e092fc84698055767b7cb97cdb705fa881f4979c0",
+      "authority.sqlite": "bc87daff96d1930f12b1b352455acec0ebb03d8bd633017f81df0c819b25240b"
+    }
+  },
+  {
+    "run_id": "r4-durable-restore0-late_start",
+    "control": "durable",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        4,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        5,
+        "B",
+        "put",
+        1
+      ],
+      [
+        6,
+        "B",
+        "put",
+        1
+      ],
+      [
+        7,
+        "B",
+        "put",
+        1
+      ],
+      [
+        8,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "6f1f9d885387aad46451a412c2e54352ca72d296cb84f192c586a62d58edb81b",
+      "backup.sqlite": "6b01273ebe39380d2f4b5367ee75ac3948a211d382f805081d0decf1bf5cdff9",
+      "authority.sqlite": "eff5b39ab8bdcd3444bc08a1473fffd16955e8e74af813d8c52a03c2dfdd0d7c"
+    }
+  },
+  {
+    "run_id": "r4-durable-restore0-mid_graph",
+    "control": "durable",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        9,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        10,
+        "B",
+        "put",
+        1
+      ],
+      [
+        11,
+        "B",
+        "put",
+        1
+      ],
+      [
+        12,
+        "B",
+        "put",
+        1
+      ],
+      [
+        13,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        14,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "9c5556fc3ff43483de9d719ec2d94fe95da1d860ded73c1251d4cb9c843bb8d1",
+      "backup.sqlite": "6e6df83a54b36fd8ba8060b5f8f57fcd931509e2e251376f01e1667ce5edc463",
+      "authority.sqlite": "c7c802f8ae8bb0a2e3577f857d137ae6d93c10dc5851dba5f657f7ba7078001a"
+    }
+  },
+  {
+    "run_id": "r4-durable-restore1-late_start",
+    "control": "durable",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        4,
+        "B",
+        "put",
+        1
+      ],
+      [
+        5,
+        "B",
+        "put",
+        1
+      ],
+      [
+        6,
+        "B",
+        "put",
+        1
+      ],
+      [
+        7,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        8,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "40c8b108e5e55110f404b4a629f1f8e0f2e86b342b53d5c432af425a0e91610f",
+      "backup.sqlite": "9bb844600d4d306fb558ec84bb6dd6398e04207f9bf58f2a7f8c81cffce23313",
+      "authority.sqlite": "59036d3637f71ecc5d021ecc37646b26c20221c8e5c868b480df284db10408b9"
+    }
+  },
+  {
+    "run_id": "r4-durable-restore1-mid_graph",
+    "control": "durable",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 6
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "completed"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "put",
+        1
+      ],
+      [
+        5,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        1
+      ],
+      [
+        9,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        10,
+        "B",
+        "put_writes",
+        1
+      ],
+      [
+        11,
+        "B",
+        "put",
+        1
+      ],
+      [
+        12,
+        "B",
+        "put",
+        1
+      ],
+      [
+        13,
+        "B",
+        "put",
+        1
+      ],
+      [
+        14,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "75e2a29da2270dcb9ca57ef7501aef59b88fc54c3d3485f8ae6a95eba0f3cdca",
+      "backup.sqlite": "47896af4cc4a00ea6284d17a71fa3ab6cd2fb7fc108330424096c190eb829a41",
+      "authority.sqlite": "309ec539e5c694a39b01fd16d1bee4cae6c6da51e14560472958aed802e5a922"
+    }
+  },
+  {
+    "run_id": "r4-blanket-restore0-late_start",
+    "control": "blanket",
+    "restore": false,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        4,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "9784bf789b115bda03d084e92337726e85072fd69a46bf9caac95882638ce7bc",
+      "backup.sqlite": "2c382980f91811c3a5d7971f2ff4f23cecbc838750f1bd6d87d19ce852f57223",
+      "authority.sqlite": "75795ed8d2da5c6f780d6cb42ed36bd68fbe79640b4a51030f8a334f91ef9438"
+    }
+  },
+  {
+    "run_id": "r4-blanket-restore0-mid_graph",
+    "control": "blanket",
+    "restore": false,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "final": {
+      "A": 0,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        3,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        4,
+        "A",
+        "put",
+        0
+      ],
+      [
+        5,
+        "A",
+        "put",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "8c80e4efaf313a723da4b51f640a82bca7039e576648ba7d2274be403c439abc",
+      "backup.sqlite": "2f2314301fa1faa4397d43581f61137cb291187f81ccb936fe16afa86a7dc3db",
+      "authority.sqlite": "ef7ca46bde617e1f80338f552f3bc4496f686afffe3eea4074c7fbc7a7f60382"
+    }
+  },
+  {
+    "run_id": "r4-blanket-restore1-late_start",
+    "control": "blanket",
+    "restore": true,
+    "interleaving": "late_start",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        2,
+        "A",
+        "get_tuple",
+        0
+      ],
+      [
+        3,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        4,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "1ce9a748ade3cc448819f174e5395f873a3b9498c929edab0bbdcd7cb9b6f87d",
+      "backup.sqlite": "bfece5db18f3ff26a76cfe8bedfec3fb23e38d33fe16b62cf0a677a956a75e68",
+      "authority.sqlite": "75795ed8d2da5c6f780d6cb42ed36bd68fbe79640b4a51030f8a334f91ef9438"
+    }
+  },
+  {
+    "run_id": "r4-blanket-restore1-mid_graph",
+    "control": "blanket",
+    "restore": true,
+    "interleaving": "mid_graph",
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_restore": {
+      "A": 3,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "final": {
+      "A": 3,
+      "B": 3
+    },
+    "backup": {
+      "A": 3,
+      "B": 3
+    },
+    "worker": {
+      "status": "denied"
+    },
+    "independent": {
+      "status": "denied"
+    },
+    "access_probe": {
+      "status": "denied"
+    },
+    "audit": [
+      [
+        1,
+        "A",
+        "get_tuple",
+        1
+      ],
+      [
+        2,
+        "A",
+        "put",
+        1
+      ],
+      [
+        3,
+        "A",
+        "put",
+        1
+      ],
+      [
+        4,
+        "A",
+        "put_writes",
+        1
+      ],
+      [
+        5,
+        "A",
+        "retire",
+        0
+      ],
+      [
+        6,
+        "A",
+        "put",
+        0
+      ],
+      [
+        7,
+        "A",
+        "put_writes",
+        0
+      ],
+      [
+        8,
+        "B",
+        "get_tuple",
+        0
+      ],
+      [
+        9,
+        "A",
+        "get_tuple",
+        0
+      ]
+    ],
+    "sha256": {
+      "checkpoints.sqlite": "bf052cf57326479bee43e178c8dfc81ae50b1ff47594edd7ad3388f504a5ccbe",
+      "backup.sqlite": "e9f310b28631e1d7d190d296b93532743172e255427da9d2e324f8a09f8327cf",
+      "authority.sqlite": "55df2358fbb677e883c6d3ba39b9fc562e627c0e70e3f27e7e47fb161680fe89"
+    }
+  }
+]

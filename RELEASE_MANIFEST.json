@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "date": "2026-10-20",
   "author": "Ezekiel Ologunde",
   "reports": [
@@ -53,10 +53,23 @@
       "status": "existing preliminary study; controlled-only public reproduction; not peer reviewed",
       "independent_review_complete": false,
       "natural_case_accuracy_established": false
+    },
+    {
+      "study": "P01",
+      "report": "reports/P01/offboarding_controlled_study.pdf",
+      "pdf_sha256": "32108a3e779b3ac3fce5e8988a299931c29a31029382246bf73eda9a678d5625",
+      "status": "existing controlled study; preliminary technical report; not peer reviewed",
+      "independent_review_complete": false,
+      "raw_inert_SQLite_files": 1020,
+      "upstream_task_description_templates": 722,
+      "fresh_full_fixture_runs_in_separate_validation": 720,
+      "fresh_framework_extension_execution": false
     }
   ],
   "upstream_raw_data_included": false,
   "P12_recorded_prompts_contain_attributed_corpus_excerpts": true,
   "P02_reproduction_is_controlled_only": true,
+  "P01_authored_inert_SQLite_files": 1020,
+  "P01_task_prose_restored_from_pinned_origin": true,
   "independent_review_complete": false
 }

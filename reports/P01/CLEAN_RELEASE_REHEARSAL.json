@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-20",
+  "archive_sha256": "a94acfde5b527e22bdecbed25992bd1e8759270587ee96295fc12703177055ba",
+  "release_files_hash_verified": 3184,
+  "raw_SQLite_files": 1020,
+  "commands": [
+    {
+      "label": "restore-reference",
+      "arguments": [
+        "C:\\Users\\Ezekiel\\Documents\\Res 2\\.venv\\Scripts\\python.exe",
+        "restore_reference_metadata.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "frozen-artifact",
+      "arguments": [
+        "C:\\Users\\Ezekiel\\Documents\\Res 2\\.venv\\Scripts\\python.exe",
+        "scripts/verify_artifact.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "python-boundaries",
+      "arguments": [
+        "C:\\Users\\Ezekiel\\Documents\\Res 2\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiment",
+        "-p",
+        "test_experiment.py",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "raw-process-readback",
+      "arguments": [
+        "C:\\Users\\Ezekiel\\Documents\\Res 2\\.venv\\Scripts\\python.exe",
+        "integration/verify_process_recovery.py",
+        "--name",
+        "process-recovery-v2"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "npm-locked-install",
+      "arguments": [
+        "C:\\Users\\Ezekiel\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.19.0-win-x64\\node.EXE",
+        "C:\\Users\\Ezekiel\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.19.0-win-x64\\node_modules\\npm\\bin\\npm-cli.js",
+        "ci",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "npm-runtime-override",
+      "arguments": [
+        "C:\\Users\\Ezekiel\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.19.0-win-x64\\node.EXE",
+        "C:\\Users\\Ezekiel\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.19.0-win-x64\\node_modules\\npm\\bin\\npm-cli.js",
+        "install",
+        "--no-save",
+        "--package-lock=false",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund",
+        "fast-uri@3.1.8"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "inspector-fixtures",
+      "arguments": [
+        "C:\\Users\\Ezekiel\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.19.0-win-x64\\node.EXE",
+        "inspector/generate-public.mjs"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "original-node-tests",
+      "arguments": [
+        "C:\\Users\\Ezekiel\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe\\node-v24.19.0-win-x64\\node.EXE",
+        "--test"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "full_720_fixture_reexecuted_in_this_archive_rehearsal": false,
+  "separate_full_fixture_reproduction_receipt": "results/reproduction_receipt.json",
+  "reference_templates_restored_and_original_hashes_verified": 722,
+  "original_python_tests_passed": 5,
+  "original_Node_tests_passed": 75,
+  "existing_process_recovery_cases_raw_verified": 80,
+  "baseline_lockfile_unchanged": true,
+  "changed_release_files": [],
+  "change_scope": "Only the derived process readback verification report may be rewritten with equal JSON values; source/raw databases/templates remain unchanged."
+}

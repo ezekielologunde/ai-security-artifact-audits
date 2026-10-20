@@ -1,0 +1,262 @@
+[
+  {
+    "run_id": "r0-guard0",
+    "commit_guard": false,
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "fresh_connection": {
+      "A": 3,
+      "B": 3
+    },
+    "retained_backup": {
+      "A": 3,
+      "B": 3
+    },
+    "checkpoint_sha256": "5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab",
+    "backup_sha256": "38fb427efe3949cf925fe56a9a3c08a638b2316ea78f251b83a59b07140bb3bd"
+  },
+  {
+    "run_id": "r0-guard1",
+    "commit_guard": true,
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "fresh_connection": {
+      "A": 0,
+      "B": 3
+    },
+    "retained_backup": {
+      "A": 3,
+      "B": 3
+    },
+    "checkpoint_sha256": "5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab",
+    "backup_sha256": "12f8c2434e83bc58c6d2bbe930e041fd67b1e9541e559a683e9e567eee48a742"
+  },
+  {
+    "run_id": "r1-guard0",
+    "commit_guard": false,
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "fresh_connection": {
+      "A": 3,
+      "B": 3
+    },
+    "retained_backup": {
+      "A": 3,
+      "B": 3
+    },
+    "checkpoint_sha256": "5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab",
+    "backup_sha256": "d795f7aba944a05f538a1f3b923d25f17aff68c4e423a45ee6347ac72abf57c5"
+  },
+  {
+    "run_id": "r1-guard1",
+    "commit_guard": true,
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "fresh_connection": {
+      "A": 0,
+      "B": 3
+    },
+    "retained_backup": {
+      "A": 3,
+      "B": 3
+    },
+    "checkpoint_sha256": "5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab",
+    "backup_sha256": "5c2678365a4f94232b5193434cf7c356c4e42f5fbd08e7a43dae8a8be67c19d7"
+  },
+  {
+    "run_id": "r2-guard0",
+    "commit_guard": false,
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "fresh_connection": {
+      "A": 3,
+      "B": 3
+    },
+    "retained_backup": {
+      "A": 3,
+      "B": 3
+    },
+    "checkpoint_sha256": "5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab",
+    "backup_sha256": "da5da00fe503460f22e3e797c45919c10adcbea3e543d8e31efdc21f111e863d"
+  },
+  {
+    "run_id": "r2-guard1",
+    "commit_guard": true,
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "fresh_connection": {
+      "A": 0,
+      "B": 3
+    },
+    "retained_backup": {
+      "A": 3,
+      "B": 3
+    },
+    "checkpoint_sha256": "5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab",
+    "backup_sha256": "b2fded34738beab6871a3c4ef687e918ec26bacc2ea3da871a33c157fe8ecbe8"
+  },
+  {
+    "run_id": "r3-guard0",
+    "commit_guard": false,
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "fresh_connection": {
+      "A": 3,
+      "B": 3
+    },
+    "retained_backup": {
+      "A": 3,
+      "B": 3
+    },
+    "checkpoint_sha256": "5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab",
+    "backup_sha256": "6b9d05a2b3f362d5ed6d84d7f07a4cb6d32207552156a34beebd5eae23f9b891"
+  },
+  {
+    "run_id": "r3-guard1",
+    "commit_guard": true,
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "fresh_connection": {
+      "A": 0,
+      "B": 3
+    },
+    "retained_backup": {
+      "A": 3,
+      "B": 3
+    },
+    "checkpoint_sha256": "5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab",
+    "backup_sha256": "323e1c6e76170a192c3d51e91f9e7a2b4a53590c6150cd55bffc6c2da23e0c2e"
+  },
+  {
+    "run_id": "r4-guard0",
+    "commit_guard": false,
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 3,
+      "B": 3
+    },
+    "fresh_connection": {
+      "A": 3,
+      "B": 3
+    },
+    "retained_backup": {
+      "A": 3,
+      "B": 3
+    },
+    "checkpoint_sha256": "5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab",
+    "backup_sha256": "6793a4e32ed99ea37370d377ebcfcb71edf88b46e7a38ad87b8b8c28db39fdde"
+  },
+  {
+    "run_id": "r4-guard1",
+    "commit_guard": true,
+    "before": {
+      "A": 3,
+      "B": 3
+    },
+    "after_delete": {
+      "A": 0,
+      "B": 3
+    },
+    "after_late": {
+      "A": 0,
+      "B": 3
+    },
+    "fresh_connection": {
+      "A": 0,
+      "B": 3
+    },
+    "retained_backup": {
+      "A": 3,
+      "B": 3
+    },
+    "checkpoint_sha256": "5c9dec1886cc01f5f2307ee1ea87f9b32a4cef0f8f9a2c68beebc558013bedab",
+    "backup_sha256": "11f1e6f567f0dfcacfd837fa839698eb8cc133f3919ce8318f4cf8ad96334b75"
+  }
+]

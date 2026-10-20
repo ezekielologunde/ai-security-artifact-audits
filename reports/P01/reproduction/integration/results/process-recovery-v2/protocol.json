@@ -1,0 +1,30 @@
+{
+  "frozen_utc": "2026-10-07T18:13:12.116936+00:00",
+  "source_file": "process_recovery_v2.py",
+  "source_sha256": "c87037d18e23199ee7295bb89beaab3719849664f5dffec10d9939cb858b1ce9",
+  "repeats": 5,
+  "controls": [
+    "unmediated",
+    "cached",
+    "durable",
+    "blanket"
+  ],
+  "restores": [
+    false,
+    true
+  ],
+  "interleavings": [
+    "late_start",
+    "mid_graph"
+  ],
+  "packages": {
+    "langgraph": "1.2.14",
+    "langgraph-checkpoint-sqlite": "3.1.1"
+  },
+  "limits": [
+    "Trusted root and initial epoch; synchronous APIs only",
+    "All mediated operations serialize through external authority SQLite",
+    "Checkpoint-only restoration; authority is not restored",
+    "No physical erasure, model, effect sink, distributed guarantee or crash atomicity"
+  ]
+}

@@ -1,0 +1,3602 @@
+[
+  {
+    "run_id": "r0-sqlite-fence0-cleanup0-gate0",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 3,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "705e525e2c5190706c5c96db45d408d1206f083836b673ebc584a34d8f6e299d"
+  },
+  {
+    "run_id": "r0-sqlite-fence0-cleanup0-gate1",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "cd6da85cc44f72577bcfc35d95c62d81882c509c50df398b539f38a9bb6cfebc"
+  },
+  {
+    "run_id": "r0-sqlite-fence0-cleanup1-gate0",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "af6c6bcf775c2b379cbb8284a68709427f4bd365d93c10aedd3418148abc65cd"
+  },
+  {
+    "run_id": "r0-sqlite-fence0-cleanup1-gate1",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 1,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "05798280c6d939351b3d6bd8819f75a02068923c5d4c4c87a2e300e36514be1b"
+  },
+  {
+    "run_id": "r0-sqlite-fence1-cleanup0-gate0",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r0-sqlite-fence1-cleanup0-gate1",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r0-sqlite-fence1-cleanup1-gate0",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r0-sqlite-fence1-cleanup1-gate1",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r0-jsonl-fence0-cleanup0-gate0",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 3,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "e41264278028ff1bc115d405213a25c0a4714dbfb93c150b274542db3e418ce9"
+  },
+  {
+    "run_id": "r0-jsonl-fence0-cleanup0-gate1",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "f11752bc96b20def78b5c7dcf1db5df46d3a10ebdf5ae3c879de13d454f5d57d"
+  },
+  {
+    "run_id": "r0-jsonl-fence0-cleanup1-gate0",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "09cd90bcb3f6e2e47ffcd0ed5767cd696efa0fbd3476bc857cbb16e840b8dec5"
+  },
+  {
+    "run_id": "r0-jsonl-fence0-cleanup1-gate1",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 1,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "40f5550282eadb0b76dc73cc6010fa81f523d95601e38622b0481431fc2dbf6e"
+  },
+  {
+    "run_id": "r0-jsonl-fence1-cleanup0-gate0",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r0-jsonl-fence1-cleanup0-gate1",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r0-jsonl-fence1-cleanup1-gate0",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r0-jsonl-fence1-cleanup1-gate1",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r1-sqlite-fence0-cleanup0-gate0",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 3,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "705e525e2c5190706c5c96db45d408d1206f083836b673ebc584a34d8f6e299d"
+  },
+  {
+    "run_id": "r1-sqlite-fence0-cleanup0-gate1",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "cd6da85cc44f72577bcfc35d95c62d81882c509c50df398b539f38a9bb6cfebc"
+  },
+  {
+    "run_id": "r1-sqlite-fence0-cleanup1-gate0",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "af6c6bcf775c2b379cbb8284a68709427f4bd365d93c10aedd3418148abc65cd"
+  },
+  {
+    "run_id": "r1-sqlite-fence0-cleanup1-gate1",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 1,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "05798280c6d939351b3d6bd8819f75a02068923c5d4c4c87a2e300e36514be1b"
+  },
+  {
+    "run_id": "r1-sqlite-fence1-cleanup0-gate0",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r1-sqlite-fence1-cleanup0-gate1",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r1-sqlite-fence1-cleanup1-gate0",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r1-sqlite-fence1-cleanup1-gate1",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r1-jsonl-fence0-cleanup0-gate0",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 3,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "e41264278028ff1bc115d405213a25c0a4714dbfb93c150b274542db3e418ce9"
+  },
+  {
+    "run_id": "r1-jsonl-fence0-cleanup0-gate1",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "f11752bc96b20def78b5c7dcf1db5df46d3a10ebdf5ae3c879de13d454f5d57d"
+  },
+  {
+    "run_id": "r1-jsonl-fence0-cleanup1-gate0",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "09cd90bcb3f6e2e47ffcd0ed5767cd696efa0fbd3476bc857cbb16e840b8dec5"
+  },
+  {
+    "run_id": "r1-jsonl-fence0-cleanup1-gate1",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 1,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "40f5550282eadb0b76dc73cc6010fa81f523d95601e38622b0481431fc2dbf6e"
+  },
+  {
+    "run_id": "r1-jsonl-fence1-cleanup0-gate0",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r1-jsonl-fence1-cleanup0-gate1",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r1-jsonl-fence1-cleanup1-gate0",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r1-jsonl-fence1-cleanup1-gate1",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r2-sqlite-fence0-cleanup0-gate0",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 3,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "705e525e2c5190706c5c96db45d408d1206f083836b673ebc584a34d8f6e299d"
+  },
+  {
+    "run_id": "r2-sqlite-fence0-cleanup0-gate1",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "cd6da85cc44f72577bcfc35d95c62d81882c509c50df398b539f38a9bb6cfebc"
+  },
+  {
+    "run_id": "r2-sqlite-fence0-cleanup1-gate0",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "af6c6bcf775c2b379cbb8284a68709427f4bd365d93c10aedd3418148abc65cd"
+  },
+  {
+    "run_id": "r2-sqlite-fence0-cleanup1-gate1",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 1,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "05798280c6d939351b3d6bd8819f75a02068923c5d4c4c87a2e300e36514be1b"
+  },
+  {
+    "run_id": "r2-sqlite-fence1-cleanup0-gate0",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r2-sqlite-fence1-cleanup0-gate1",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r2-sqlite-fence1-cleanup1-gate0",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r2-sqlite-fence1-cleanup1-gate1",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r2-jsonl-fence0-cleanup0-gate0",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 3,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "e41264278028ff1bc115d405213a25c0a4714dbfb93c150b274542db3e418ce9"
+  },
+  {
+    "run_id": "r2-jsonl-fence0-cleanup0-gate1",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "f11752bc96b20def78b5c7dcf1db5df46d3a10ebdf5ae3c879de13d454f5d57d"
+  },
+  {
+    "run_id": "r2-jsonl-fence0-cleanup1-gate0",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "09cd90bcb3f6e2e47ffcd0ed5767cd696efa0fbd3476bc857cbb16e840b8dec5"
+  },
+  {
+    "run_id": "r2-jsonl-fence0-cleanup1-gate1",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 1,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "40f5550282eadb0b76dc73cc6010fa81f523d95601e38622b0481431fc2dbf6e"
+  },
+  {
+    "run_id": "r2-jsonl-fence1-cleanup0-gate0",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r2-jsonl-fence1-cleanup0-gate1",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r2-jsonl-fence1-cleanup1-gate0",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r2-jsonl-fence1-cleanup1-gate1",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r3-sqlite-fence0-cleanup0-gate0",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 3,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "705e525e2c5190706c5c96db45d408d1206f083836b673ebc584a34d8f6e299d"
+  },
+  {
+    "run_id": "r3-sqlite-fence0-cleanup0-gate1",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "cd6da85cc44f72577bcfc35d95c62d81882c509c50df398b539f38a9bb6cfebc"
+  },
+  {
+    "run_id": "r3-sqlite-fence0-cleanup1-gate0",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "af6c6bcf775c2b379cbb8284a68709427f4bd365d93c10aedd3418148abc65cd"
+  },
+  {
+    "run_id": "r3-sqlite-fence0-cleanup1-gate1",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 1,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "05798280c6d939351b3d6bd8819f75a02068923c5d4c4c87a2e300e36514be1b"
+  },
+  {
+    "run_id": "r3-sqlite-fence1-cleanup0-gate0",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r3-sqlite-fence1-cleanup0-gate1",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r3-sqlite-fence1-cleanup1-gate0",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r3-sqlite-fence1-cleanup1-gate1",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r3-jsonl-fence0-cleanup0-gate0",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 3,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "e41264278028ff1bc115d405213a25c0a4714dbfb93c150b274542db3e418ce9"
+  },
+  {
+    "run_id": "r3-jsonl-fence0-cleanup0-gate1",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "f11752bc96b20def78b5c7dcf1db5df46d3a10ebdf5ae3c879de13d454f5d57d"
+  },
+  {
+    "run_id": "r3-jsonl-fence0-cleanup1-gate0",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "09cd90bcb3f6e2e47ffcd0ed5767cd696efa0fbd3476bc857cbb16e840b8dec5"
+  },
+  {
+    "run_id": "r3-jsonl-fence0-cleanup1-gate1",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 1,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "40f5550282eadb0b76dc73cc6010fa81f523d95601e38622b0481431fc2dbf6e"
+  },
+  {
+    "run_id": "r3-jsonl-fence1-cleanup0-gate0",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r3-jsonl-fence1-cleanup0-gate1",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r3-jsonl-fence1-cleanup1-gate0",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r3-jsonl-fence1-cleanup1-gate1",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r4-sqlite-fence0-cleanup0-gate0",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 3,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "705e525e2c5190706c5c96db45d408d1206f083836b673ebc584a34d8f6e299d"
+  },
+  {
+    "run_id": "r4-sqlite-fence0-cleanup0-gate1",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "cd6da85cc44f72577bcfc35d95c62d81882c509c50df398b539f38a9bb6cfebc"
+  },
+  {
+    "run_id": "r4-sqlite-fence0-cleanup1-gate0",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "af6c6bcf775c2b379cbb8284a68709427f4bd365d93c10aedd3418148abc65cd"
+  },
+  {
+    "run_id": "r4-sqlite-fence0-cleanup1-gate1",
+    "backend": "sqlite",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 1,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "05798280c6d939351b3d6bd8819f75a02068923c5d4c4c87a2e300e36514be1b"
+  },
+  {
+    "run_id": "r4-sqlite-fence1-cleanup0-gate0",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r4-sqlite-fence1-cleanup0-gate1",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r4-sqlite-fence1-cleanup1-gate0",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r4-sqlite-fence1-cleanup1-gate1",
+    "backend": "sqlite",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "61afee6ee900b6a16a71ca103221d41bf12a1cf5cd2d8e6c56a966b62d9996e9"
+  },
+  {
+    "run_id": "r4-jsonl-fence0-cleanup0-gate0",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 3,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "e41264278028ff1bc115d405213a25c0a4714dbfb93c150b274542db3e418ce9"
+  },
+  {
+    "run_id": "r4-jsonl-fence0-cleanup0-gate1",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "f11752bc96b20def78b5c7dcf1db5df46d3a10ebdf5ae3c879de13d454f5d57d"
+  },
+  {
+    "run_id": "r4-jsonl-fence0-cleanup1-gate0",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 2,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "09cd90bcb3f6e2e47ffcd0ed5767cd696efa0fbd3476bc857cbb16e840b8dec5"
+  },
+  {
+    "run_id": "r4-jsonl-fence0-cleanup1-gate1",
+    "backend": "jsonl",
+    "fenced": false,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 1,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "40f5550282eadb0b76dc73cc6010fa81f523d95601e38622b0481431fc2dbf6e"
+  },
+  {
+    "run_id": "r4-jsonl-fence1-cleanup0-gate0",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r4-jsonl-fence1-cleanup0-gate1",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": false,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": true,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": true,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "pending-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r4-jsonl-fence1-cleanup1-gate0",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": false,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": true,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "graph-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  },
+  {
+    "run_id": "r4-jsonl-fence1-cleanup1-gate1",
+    "backend": "jsonl",
+    "fenced": true,
+    "cleanup": true,
+    "graph_gate": true,
+    "retired_effects": 0,
+    "independent_effects": 1,
+    "checkpoint_after_cleanup": false,
+    "checkpoint_recreated_by_late_graph": false,
+    "pending_after_cleanup": false,
+    "receipts": [
+      {
+        "root": "A",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "calibration",
+        "status": 201
+      },
+      {
+        "root": "B",
+        "phase": "forged",
+        "status": 403
+      },
+      {
+        "root": "A",
+        "phase": "in-flight-after-cut",
+        "status": 403
+      },
+      {
+        "root": "B",
+        "phase": "graph-after-cut",
+        "status": 201
+      }
+    ],
+    "effects_sha256": "3cfca858b4ea47bf877345c6f859fd781a726896c559a6124f2055a9bc1ad4dc"
+  }
+]

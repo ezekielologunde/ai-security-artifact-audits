@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-10-07T17:47:52.745826+00:00",
+  "source_sha256": "9b482a4f69848c92b02b3e009af5dad4870b7e4790de8273621ed93a280ce349",
+  "repeats": 5,
+  "packages": {
+    "langgraph": "1.2.14",
+    "langgraph-checkpoint-sqlite": "3.1.1"
+  },
+  "limits": [
+    "Local trusted authority flag",
+    "Thread barriers force one selected interleaving",
+    "No LLM or provider",
+    "No physical erasure; retained backup is intentionally observable",
+    "No effects or closure certificates measured"
+  ]
+}

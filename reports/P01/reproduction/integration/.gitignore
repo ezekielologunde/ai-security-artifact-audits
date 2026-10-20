@@ -1,0 +1,17 @@
+results/**
+!results/framework-v1/
+results/framework-v1/**
+!results/framework-v1/protocol.json
+!results/framework-v1/records.json
+!results/framework-v1/summary.json
+!results/durable-race-v1/
+results/durable-race-v1/**
+!results/durable-race-v1/protocol.json
+!results/durable-race-v1/records.json
+!results/durable-race-v1/summary.json
+!results/process-recovery-v2/
+results/process-recovery-v2/**
+!results/process-recovery-v2/protocol.json
+!results/process-recovery-v2/records.json
+!results/process-recovery-v2/summary.json
+!results/process-recovery-v2/verification.json

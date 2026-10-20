@@ -1,0 +1,8 @@
+{
+  "runs": 10,
+  "weak_gate_recreated": 5,
+  "guarded_recreated": 0,
+  "retained_backups_with_A": 10,
+  "independent_B_preserved": true,
+  "assertions_passed": true
+}
