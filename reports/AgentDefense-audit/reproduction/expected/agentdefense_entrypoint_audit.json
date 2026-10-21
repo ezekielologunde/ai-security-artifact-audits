@@ -1,0 +1,156 @@
+{
+  "revision": "b5dfdf3c6cf33fb3c0b39865384b9ca833aa4183",
+  "frames": {
+    "attacks/combined_attacks.json": {
+      "records": 319,
+      "published": {
+        "total": 319,
+        "true_positives": 65,
+        "false_positives": 0,
+        "true_negatives": 0,
+        "false_negatives": 254
+      },
+      "normalized": {
+        "total": 319,
+        "true_positives": 65,
+        "false_positives": 0,
+        "true_negatives": 0,
+        "false_negatives": 254
+      },
+      "empty_requests": 0,
+      "unchanged_adapter_decisions": true
+    },
+    "attacks/novel_2024_2025.json": {
+      "records": 100,
+      "published": {
+        "total": 100,
+        "true_positives": 17,
+        "false_positives": 0,
+        "true_negatives": 15,
+        "false_negatives": 68
+      },
+      "normalized": {
+        "total": 100,
+        "true_positives": 17,
+        "false_positives": 0,
+        "true_negatives": 15,
+        "false_negatives": 68
+      },
+      "empty_requests": 0,
+      "unchanged_adapter_decisions": true
+    },
+    "benign_baseline/benign_baseline.json": {
+      "records": 93,
+      "published": {
+        "total": 93,
+        "true_positives": 0,
+        "false_positives": 0,
+        "true_negatives": 93,
+        "false_negatives": 0
+      },
+      "normalized": {
+        "total": 93,
+        "true_positives": 0,
+        "false_positives": 0,
+        "true_negatives": 93,
+        "false_negatives": 0
+      },
+      "empty_requests": 0,
+      "unchanged_adapter_decisions": true
+    },
+    "consolidated/tier1_critical_tests.json": {
+      "records": 640,
+      "published": {
+        "total": 640,
+        "true_positives": 0,
+        "false_positives": 39,
+        "true_negatives": 601,
+        "false_negatives": 0
+      },
+      "normalized": {
+        "total": 640,
+        "true_positives": 39,
+        "false_positives": 0,
+        "true_negatives": 0,
+        "false_negatives": 601
+      },
+      "empty_requests": 0,
+      "unchanged_adapter_decisions": true
+    },
+    "consolidated/tier2_high_tests.json": {
+      "records": 27122,
+      "published": {
+        "total": 27122,
+        "true_positives": 0,
+        "false_positives": 30,
+        "true_negatives": 27092,
+        "false_negatives": 0
+      },
+      "normalized": {
+        "total": 27122,
+        "true_positives": 30,
+        "false_positives": 0,
+        "true_negatives": 0,
+        "false_negatives": 27092
+      },
+      "empty_requests": 0,
+      "unchanged_adapter_decisions": true
+    },
+    "consolidated/tier3_medium_tests.json": {
+      "records": 5606,
+      "published": {
+        "total": 5606,
+        "true_positives": 0,
+        "false_positives": 102,
+        "true_negatives": 5504,
+        "false_negatives": 0
+      },
+      "normalized": {
+        "total": 5606,
+        "true_positives": 102,
+        "false_positives": 0,
+        "true_negatives": 250,
+        "false_negatives": 5254
+      },
+      "empty_requests": 3,
+      "unchanged_adapter_decisions": true
+    },
+    "consolidated/benign_tests.json": {
+      "records": 250,
+      "published": {
+        "total": 250,
+        "true_positives": 0,
+        "false_positives": 0,
+        "true_negatives": 250,
+        "false_negatives": 0
+      },
+      "normalized": {
+        "total": 250,
+        "true_positives": 0,
+        "false_positives": 0,
+        "true_negatives": 250,
+        "false_negatives": 0
+      },
+      "empty_requests": 250,
+      "unchanged_adapter_decisions": true
+    }
+  },
+  "README_programmatic_selected_attacks_rows": 0,
+  "actual_tier1_tests_rows": 640,
+  "source_SHA256": {
+    "data\\agentdefense-review\\source\\attacks\\combined_attacks.json": "85123242df2d8e0dc545cf517fcdcb2e08e59642092d7be80943c39976f5c0f0",
+    "data\\agentdefense-review\\source\\attacks\\novel_2024_2025.json": "81326da8c5095d048dbd12d3e18ed6676a2bac87069d55284fb5b3dac0d3704b",
+    "data\\agentdefense-review\\source\\benign_baseline\\benign_baseline.json": "623de02486998266af57deb6a51baa2120cb9c4d890feeef478b3aee02d4038e",
+    "data\\agentdefense-review\\source\\consolidated\\tier1_critical_tests.json": "76c26c94a77a8b22f0d0f26a01de94ceec550701cf7ca02b7c17928af990031d",
+    "data\\agentdefense-review\\source\\consolidated\\tier2_high_tests.json": "8da4f973b8925d9b6fe8348f5b804b503ab8cd9a32236744e5c37665dd060b53",
+    "data\\agentdefense-review\\source\\consolidated\\tier3_medium_tests.json": "102aed286274bc0ced0646911de7f8c5eaaf695fb234c7d6df5e3373d375b26d",
+    "data\\agentdefense-review\\source\\consolidated\\benign_tests.json": "df220515823d38ea7fd6730c6cb7c73a50604e347881a7e854233c258dfd45a9",
+    "data\\agentdefense-review\\source\\scripts\\defense_adapters.py": "98cd19152acaecfa24011a7828f6b1f77e46ef1b3b637982cfd1e9072242709a",
+    "data\\agentdefense-review\\source\\scripts\\evaluate.py": "1156ccf1a44088b53e9bd50e207c3b80d31f5bfdb82f312fd55982d7fcfa10eb",
+    "AGENTDEFENSE_ENTRYPOINT_PROTOCOL.md": "1fa2fb60fa6f97dac095ab5b9510e4f6174016db2c1735664d5061567d52bc0f"
+  },
+  "source_bytes_unchanged": true,
+  "adapter": "upstream MockDefense, AST-selected unchanged definitions",
+  "network_or_model_or_attack_execution": false,
+  "scope": "Documented tier1 entry point primary; remaining frames secondary. Label-schema normalization only; natural labels not independently validated."
+}

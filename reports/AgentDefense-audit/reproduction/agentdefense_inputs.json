@@ -1,0 +1,90 @@
+{
+  "repository": "arunsanna/AgentDefense-Bench",
+  "revision": "b5dfdf3c6cf33fb3c0b39865384b9ca833aa4183",
+  "files": [
+    {
+      "path": "docs/DATASHEET.md",
+      "bytes": 6272,
+      "git_blob_sha1": "75a6d291c6969a6f8ec23fab840982ced8eb010b",
+      "sha256": "0196639411d1581d25a5ae9e57dea0f855f42c2ff87c04f2a8fdad36a722e6e0"
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "bytes": 11747,
+      "git_blob_sha1": "a8903d2ff1b5e9abf9c68252310a4311c0be16c4",
+      "sha256": "1156ccf1a44088b53e9bd50e207c3b80d31f5bfdb82f312fd55982d7fcfa10eb"
+    },
+    {
+      "path": "CHECKSUMS.sha256",
+      "bytes": 548,
+      "git_blob_sha1": "246ed86b550204799f001e3555d8d0d5e750607e",
+      "sha256": "8e5d57e3551445aac1286204d2c8a4f77957d7ed242b61fa2d7d75b131de7ae4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10759,
+      "git_blob_sha1": "e062243a3d6ebfda86e591f94d1e641ddcb6eb98",
+      "sha256": "963ee1e280a60fbe86e43a41b01819e8204d0daca053994c09d535cd7d4379ee"
+    },
+    {
+      "path": "attacks/novel_2024_2025.json",
+      "bytes": 64926,
+      "git_blob_sha1": "ca1771eefff04debd2fbf16bfd944d9b81e199f3",
+      "sha256": "81326da8c5095d048dbd12d3e18ed6676a2bac87069d55284fb5b3dac0d3704b"
+    },
+    {
+      "path": "attacks/combined_attacks.json",
+      "bytes": 194654,
+      "git_blob_sha1": "dd562edb8d4a6398c3c73a02f2325060272d77d8",
+      "sha256": "85123242df2d8e0dc545cf517fcdcb2e08e59642092d7be80943c39976f5c0f0"
+    },
+    {
+      "path": "benign_baseline/benign_baseline.json",
+      "bytes": 54298,
+      "git_blob_sha1": "5adc9272985883203ec5677bc5fbc79ab1a6dfa2",
+      "sha256": "623de02486998266af57deb6a51baa2120cb9c4d890feeef478b3aee02d4038e"
+    },
+    {
+      "path": "consolidated/tier1_critical_tests.json",
+      "bytes": 618953,
+      "sha256": "76c26c94a77a8b22f0d0f26a01de94ceec550701cf7ca02b7c17928af990031d",
+      "git_blob_sha1": "1e6575d571a5aba21e67ff8e689b2942a0ec2cf2"
+    },
+    {
+      "path": "consolidated/tier2_high_tests.json",
+      "bytes": 19329788,
+      "sha256": "8da4f973b8925d9b6fe8348f5b804b503ab8cd9a32236744e5c37665dd060b53",
+      "git_blob_sha1": "a947487942cc7fcedcff8c0e594d6e022f5b0f98"
+    },
+    {
+      "path": "consolidated/tier3_medium_tests.json",
+      "bytes": 25925540,
+      "sha256": "102aed286274bc0ced0646911de7f8c5eaaf695fb234c7d6df5e3373d375b26d",
+      "git_blob_sha1": "91bd8af8af4fe8dad396a361fe38897824711881"
+    },
+    {
+      "path": "consolidated/benign_tests.json",
+      "bytes": 49013,
+      "sha256": "df220515823d38ea7fd6730c6cb7c73a50604e347881a7e854233c258dfd45a9",
+      "git_blob_sha1": "6cf823be1ebdbd12e01b0cd5e1f1b28c20f33b1e"
+    },
+    {
+      "path": "scripts/defense_adapters.py",
+      "bytes": 14529,
+      "sha256": "98cd19152acaecfa24011a7828f6b1f77e46ef1b3b637982cfd1e9072242709a",
+      "git_blob_sha1": "56617466b161bd7855716510a25ef00639af20f3"
+    },
+    {
+      "path": "docs/INTEGRATION.md",
+      "bytes": 10399,
+      "sha256": "985223be68fc9fbef178766aef1102d4265595a5fdf24d5216708e2e11637905",
+      "git_blob_sha1": "34c89f561f1dc5902a21e1eb725ebf7bfbf7735f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14640,
+      "sha256": "086777912fa12183364c24c0a6d4c94a569f2ceaa5a61e2d202f49d7507aa886",
+      "git_blob_sha1": "182b9ce8990d2b05fb132a1d4dc980970502090a"
+    }
+  ]
+}

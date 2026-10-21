@@ -1,8 +1,8 @@
 # AI Security Artifact Audits — Preliminary Technical Reports
 
-Ezekiel Ologunde · Collection version 5 · 20 October 2026
+Ezekiel Ologunde · Collection version 6 · 21 October 2026
 
-Five bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
+Six bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
 
 | Report | Evidence and scope |
 |---|---|
@@ -14,6 +14,7 @@ Five bounded, reproducible audit notes, plus three separately identified existin
 | [Memory deletion and reachable-cache remanence](reports/P12/memory_deletion_controlled_study.pdf) | Existing 14-page controlled study. Release validation reanalyzed 15,680 recorded storage trials and 792 recorded model calls; it freshly reproduced the separate 96-case cache audit. No new model inference or full storage rerun. |
 | [Model-provenance consistency overlay](reports/P02/model_consistency_preliminary_study.pdf) | Existing six-page preliminary study. Public supplement reproduces 36 developer-authored cases and seven tests; natural evidence and independent annotations are excluded. The controlled 8/11 result does not establish natural accuracy. |
 | [Agent offboarding correspondence study](reports/P01/offboarding_controlled_study.pdf) | Existing seven-page study. Fresh validation reran 720 fixture cases and matched 1,440 verdicts; separate raw-state readback checked existing 80-case process-recovery evidence. Pinned-origin restoration reconstructs 722 reference files before verification. |
+| [AgentDefense-Bench entry-point audit](reports/AgentDefense-audit/agentdefense_entrypoint_audit.pdf) | Documented 640-record tier-1 path misinterprets labels; paired mock decisions stay unchanged. Seven exports replay separately. No published-score effect or temporal authority defense is established. |
 
 Each report folder contains its PDF, Overleaf source ZIP, and an unpacked reproduction directory with protocols, results, acquisition scripts and source manifests. Read its local README and limitations before running anything. No model API call, cloud deployment or vulnerable upstream program is required by this release. Some acquisition steps require Internet access; larger original datasets and upstream source must be reacquired under their own terms.
 

@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "date": "2026-10-20",
+  "version": 6,
+  "date": "2026-10-21",
   "author": "Ezekiel Ologunde",
   "reports": [
     {
@@ -64,6 +64,19 @@
       "upstream_task_description_templates": 722,
       "fresh_full_fixture_runs_in_separate_validation": 720,
       "fresh_framework_extension_execution": false
+    },
+    {
+      "study": "AgentDefense-audit",
+      "shared_topics": [
+        "P13",
+        "P14",
+        "P15",
+        "P17"
+      ],
+      "report": "reports/AgentDefense-audit/agentdefense_entrypoint_audit.pdf",
+      "pdf_sha256": "da4a3dfe150e1e91bc2f54a2cfb9da50ff54104cbca2da493d7c4df4eb4d7ba2",
+      "status": "bounded artifact audit; not peer reviewed; temporal authority questions unresolved",
+      "independent_review_complete": false
     }
   ],
   "upstream_raw_data_included": false,

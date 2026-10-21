@@ -1,0 +1,19 @@
+{
+  "clean_stage": "C:\\Users\\Ezekiel\\Documents\\AI Security Research\\P13-P14-P15-P17-authority-drift\\work\\clean-entrypoint-replay-v1",
+  "commands_passed": [
+    "restore_agentdefense.py",
+    "audit_agentdefense_entrypoints.py",
+    "verify_agentdefense_replay.py"
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "git": "git version 2.51.0.windows.2",
+  "package_files_hash_verified": 10,
+  "exact_result_match": true,
+  "restoration": {
+    "repository": "arunsanna/AgentDefense-Bench",
+    "revision": "b5dfdf3c6cf33fb3c0b39865384b9ca833aa4183",
+    "files_verified": 14,
+    "bytes": 46306066,
+    "payload_or_source_execution": false
+  }
+}
