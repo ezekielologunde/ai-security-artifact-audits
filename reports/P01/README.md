@@ -7,3 +7,5 @@ See reproduction/README.md before running commands. The package includes source,
 The canonical source repository remains private; this separate explicit package supplies reproduction material. Fresh validation reran the 720-run core fixture and matched all 1,440 verifier verdicts. Existing process-recovery evidence was reread, not freshly reexecuted. All results are finite controlled correspondence evidence, not independent external assurance, physical erasure, production efficacy or a new revocation calculus.
 
 Authored material retains its rights; no broad reuse licence selected. Original verifier/dependency terms remain separate. No archival DOI or preprint-server submission is claimed.
+
+Publication revision, 21 October 2026: added the Safe to Resume? comparison. PUBLICATION_EQUIVALENCE.json verifies that all 3,180 reproduction members match the previously rehearsed archive. CLEAN_RELEASE_REHEARSAL.json records that earlier execution; no new experiments were run for this literature-only revision.

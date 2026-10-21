@@ -1,10 +1,10 @@
 {
   "date": "2026-10-20",
   "release_files": {
-    "PDF_VERIFICATION.json": "addc3d07adb77185f22b584466f6925b7e90bd82d887b5789abbf6250881500d",
+    "PDF_VERIFICATION.json": "f97718c884a713791b89b422fc8c9e0d16c16671a528531bd901935f4ca5afa1",
     "README.md": "90e55a73354b0f4a0b61e7ac51e39ab8cf18e56cecafdce39e320c778211e6a5",
-    "offboarding_controlled_study.pdf": "32108a3e779b3ac3fce5e8988a299931c29a31029382246bf73eda9a678d5625",
-    "overleaf_source.zip": "bcfaf53379d59a973df355d6956454cb8fdc6d6cce77ecaeec24314cf944fa01",
+    "offboarding_controlled_study.pdf": "f421ae635da7188fe440613ee6c082f1e4a242b7b04f6c5b964961a150b5b6ef",
+    "overleaf_source.zip": "d2317cdd0e00e5ef6f101b61e4866df36061a9b85b23f2d2b36ae70208af6dc0",
     "reproduction/LICENSE.md": "e5c10c357a3150907f2a4dd5c27fd10e22dd438c864cb4178644c667fbd04dce",
     "reproduction/README.md": "1cd97dac130ca229d78ec8789d46830033aa054f64dc69034a0dd317fbd5b546",
     "reproduction/REFERENCE_HYDRATION_MANIFEST.json": "da9755840c8ea12ba3888d70c0180129fab1d69f3320cd50f99899d0550c9875",

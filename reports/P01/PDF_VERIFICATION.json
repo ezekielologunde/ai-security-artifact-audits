@@ -1,16 +1,17 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "pages": 7,
   "all_pages_visually_inspected": true,
   "native_compile_succeeded": true,
   "portable_export_succeeded": true,
   "text_spans_outside_page": [],
-  "pdf_sha256": "32108a3e779b3ac3fce5e8988a299931c29a31029382246bf73eda9a678d5625",
+  "pdf_sha256": "f421ae635da7188fe440613ee6c082f1e4a242b7b04f6c5b964961a150b5b6ef",
   "experimental_outcomes_changed": false,
   "publication_copy_changes": [
     "name-only author metadata",
     "explicit public package/restore scope",
     "20 October retrospective validation",
-    "Kubernetes prior-work acknowledgment"
+    "Kubernetes prior-work acknowledgment",
+    "21 October Safe to Resume closest-work comparison; numerical outcomes unchanged"
   ]
 }

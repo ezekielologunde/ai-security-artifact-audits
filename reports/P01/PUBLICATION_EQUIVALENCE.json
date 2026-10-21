@@ -1,0 +1,14 @@
+{
+  "old_archive_sha256": "a94acfde5b527e22bdecbed25992bd1e8759270587ee96295fc12703177055ba",
+  "new_archive_sha256": "435880bf71c08f0a11fc4f2de8715685786fc0f1ee673b9fce04eb86c6409fcc",
+  "changed_members": [
+    "PDF_VERIFICATION.json",
+    "PUBLICATION_MANIFEST.json",
+    "offboarding_controlled_study.pdf",
+    "overleaf_source.zip"
+  ],
+  "reproduction_members_byte_identical": 3180,
+  "scientific_outcomes_changed": false,
+  "new_experiment_runs": 0,
+  "scope": "Literature-only publication revision; prior clean execution applies to identical reproduction members, not a fresh eight-command run of this archive."
+}
