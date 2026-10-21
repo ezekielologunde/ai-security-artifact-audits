@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "date": "2026-10-21",
   "author": "Ezekiel Ologunde",
   "reports": [
@@ -41,7 +41,7 @@
     {
       "study": "P12",
       "report": "reports/P12/memory_deletion_controlled_study.pdf",
-      "pdf_sha256": "28f04840ec86130c3c559242005f394a38b703af1259d32d1a34276b6ef70c77",
+      "pdf_sha256": "684a4c7a081a3abe35fc6c44019b2d9bd75cb6fb156179525d4ec9e214e13afd",
       "status": "existing controlled study; synchronized named technical report; not peer reviewed",
       "independent_review_complete": false,
       "new_model_inference_in_release_validation": false

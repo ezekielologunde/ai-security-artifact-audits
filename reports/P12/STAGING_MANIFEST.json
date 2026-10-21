@@ -12,9 +12,9 @@
   "original_project_modified": false,
   "audit_wrapper_change": "SOURCE path only; relative outputs directory",
   "release_files": {
-    "README.md": "c4b4e63ab6427c555af2247f17bc0adb036507725bff13408916f5b7bf117a1c",
-    "memory_deletion_controlled_study.pdf": "28f04840ec86130c3c559242005f394a38b703af1259d32d1a34276b6ef70c77",
-    "overleaf_source.zip": "fa13a51c735616eb2e861567e7950d33309a8ac0c65617bf6f912e609f8e453e",
+    "README.md": "cf2bd17b4e24b975c5b2590a7179b236df9c49e2f933f47e2801392db2e965e0",
+    "memory_deletion_controlled_study.pdf": "684a4c7a081a3abe35fc6c44019b2d9bd75cb6fb156179525d4ec9e214e13afd",
+    "overleaf_source.zip": "f8f1630b4291862e1fd107e772750a568981ac8c5ac0b5a0b2e20043e2e61f1a",
     "reproduction/README.md": "8d4a14434afb78527b849c46cd84f76b3347d028d9d117b6b22ec6a409173f30",
     "reproduction/outputs/README.md": "2bd9c84af7e620247fc7294e434df822c0a2f9dd692c94260daeed9daedaa978",
     "reproduction/outputs/behavioral-experiment/MODEL-CARD.md": "57c72d4010fb11a98fc8e62dc8ef112b23a7a7525b71e571ca978d35cb3b2eec",
