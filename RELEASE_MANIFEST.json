@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "date": "2026-10-21",
+  "version": 9,
+  "date": "2026-11-12",
   "author": "Ezekiel Ologunde",
   "reports": [
     {
@@ -77,9 +77,20 @@
       "pdf_sha256": "da4a3dfe150e1e91bc2f54a2cfb9da50ff54104cbca2da493d7c4df4eb4d7ba2",
       "status": "bounded artifact audit; not peer reviewed; temporal authority questions unresolved",
       "independent_review_complete": false
+    },
+    {
+      "study": "SABench-correspondence",
+      "shared_topic": "P06",
+      "report": "reports/SABench-correspondence/sabench_replay_correspondence.pdf",
+      "pdf_sha256": "c218ce08ef0054ad07c257ad836c593263878990e408453fdf8088250dba0c6c",
+      "pages": 2,
+      "status": "bounded artifact correspondence report; not peer reviewed",
+      "independent_review_complete": false,
+      "bundled_upstream_records": "MIT code and CC BY 4.0 synthetic traces/tasks; notices preserved"
     }
   ],
-  "upstream_raw_data_included": false,
+  "upstream_raw_data_included": true,
+  "upstream_data_exception": "SABench synthetic tasks/traces under CC BY 4.0; code MIT",
   "P12_recorded_prompts_contain_attributed_corpus_excerpts": true,
   "P02_reproduction_is_controlled_only": true,
   "P01_authored_inert_SQLite_files": 1020,

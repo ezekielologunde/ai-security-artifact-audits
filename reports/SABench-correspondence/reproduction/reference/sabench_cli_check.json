@@ -1,0 +1,93 @@
+{
+  "cases": [
+    {
+      "model": "deepseek-v3.2",
+      "task_id": "D-MT-2-001",
+      "changed_case": true,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "deepseek-v3.2",
+      "task_id": "D-MT-2-002",
+      "changed_case": true,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "deepseek-v3.2",
+      "task_id": "D-MT-2-003",
+      "changed_case": true,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "deepseek-v3.2",
+      "task_id": "D-MT-2-004",
+      "changed_case": true,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "glm-5",
+      "task_id": "D-MT-2-001",
+      "changed_case": true,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "glm-5",
+      "task_id": "D-MT-2-003",
+      "changed_case": true,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "minimax-m2.5",
+      "task_id": "D-MT-2-001",
+      "changed_case": true,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "minimax-m2.5",
+      "task_id": "D-MT-2-003",
+      "changed_case": true,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "minimax-m2.5",
+      "task_id": "D-MT-2-004",
+      "changed_case": true,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "gpt-5.4",
+      "task_id": "CT-AB-1-001",
+      "changed_case": false,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "claude-opus-4.6",
+      "task_id": "CT-AB-1-001",
+      "changed_case": false,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    },
+    {
+      "model": "qwen-3.5-plus",
+      "task_id": "CT-AB-1-001",
+      "changed_case": false,
+      "exit_code": 0,
+      "full_report_matches_direct_replay": true
+    }
+  ],
+  "changed_cases_checked": 9,
+  "unchanged_controls_checked": 3,
+  "cli_matches_initial_direct_replay": true,
+  "new_inferences": 0,
+  "scope": "Independent subprocess/entry-point check; not independent human semantic validation."
+}

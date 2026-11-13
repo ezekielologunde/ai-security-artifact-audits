@@ -1,8 +1,8 @@
 # AI Security Artifact Audits — Preliminary Technical Reports
 
-Ezekiel Ologunde · Collection version 8 · 21 October 2026
+Ezekiel Ologunde · Collection version 9 · 12 November 2026
 
-Six bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
+Seven bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
 
 | Report | Evidence and scope |
 |---|---|
@@ -15,6 +15,7 @@ Six bounded, reproducible audit notes, plus three separately identified existing
 | [Model-provenance consistency overlay](reports/P02/model_consistency_preliminary_study.pdf) | Existing six-page preliminary study. Public supplement reproduces 36 developer-authored cases and seven tests; natural evidence and independent annotations are excluded. The controlled 8/11 result does not establish natural accuracy. |
 | [Agent offboarding correspondence study](reports/P01/offboarding_controlled_study.pdf) | Existing seven-page study. Fresh validation reran 720 fixture cases and matched 1,440 verdicts; separate raw-state readback checked existing 80-case process-recovery evidence. Pinned-origin restoration reconstructs 722 reference files before verification. |
 | [AgentDefense-Bench entry-point audit](reports/AgentDefense-audit/agentdefense_entrypoint_audit.pdf) | Documented 640-record tier-1 path misinterprets labels; paired mock decisions stay unchanged. Seven exports replay separately. No published-score effect or temporal authority defense is established. |
+| [SABench replay correspondence](reports/SABench-correspondence/sabench_replay_correspondence.pdf) | Direct and runtime-normalized replay of 2,211 released traces; thirteen normalized calls and nine changed classifications. Reuses upstream logic and recovers the main reported counts. Four-command clean replay; no new inference or defense-efficacy claim. |
 
 Each report folder contains its PDF, Overleaf source ZIP, and an unpacked reproduction directory with protocols, results, acquisition scripts and source manifests. Read its local README and limitations before running anything. No model API call, cloud deployment or vulnerable upstream program is required by this release. Some acquisition steps require Internet access; larger original datasets and upstream source must be reacquired under their own terms.
 
@@ -22,7 +23,7 @@ Each report folder contains its PDF, Overleaf source ZIP, and an unpacked reprod
 
 The preserved reproduction READMEs describe the original private preparation state and local tool paths. This root README and RELEASE_MANIFEST.json describe the public release. Original measurement files are preserved; publication copies identify manuscript availability or literature updates. A standard installed `acmart` class is required to rebuild TeX; the generated third-party class is deliberately not bundled.
 
-Raw upstream datasets, downloaded paper copies, private working folders, and independent-review answer keys are excluded. Upstream notices inside reproduction directories apply only to their identified material. No blanket reuse licence is assigned to the authored reports or code in this release; contact the author before reuse beyond applicable rights. This does not replace or restrict upstream licences.
+The SABench correspondence supplement includes its pinned synthetic upstream tasks/traces under CC BY 4.0 and code under MIT, with explicit attribution. Other raw upstream datasets, downloaded paper copies, private working folders, and independent-review answer keys are excluded. Upstream notices inside reproduction directories apply only to their identified material. No blanket reuse licence is assigned to the authored reports or code in this release; contact the author before reuse beyond applicable rights. This does not replace or restrict upstream licences.
 
 Independent review remains pending. Please distinguish a reproducible artifact-specific observation from a general claim about model or system safety. Publication here is a public technical-report release, not an external preprint-server submission or peer-reviewed acceptance.
 

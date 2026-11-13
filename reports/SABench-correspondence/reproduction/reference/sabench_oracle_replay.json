@@ -1,0 +1,137 @@
+{
+  "code_revision": "1baf318fbdc55df2d190467a1b6bf91dfc5f6524",
+  "task_revision": "21b40adec3f49d954c524c5c5aa95f30c2cb91fd",
+  "models": {
+    "claude-opus-4.6": {
+      "traces": 201,
+      "goal": 176,
+      "cd": 27,
+      "goal_and_cd": 18,
+      "ab_tasks": 45,
+      "ab_cd": 14,
+      "non_ab_cd": 13,
+      "external_cd": 10
+    },
+    "claude-sonnet-4.6": {
+      "traces": 201,
+      "goal": 185,
+      "cd": 25,
+      "goal_and_cd": 21,
+      "ab_tasks": 45,
+      "ab_cd": 17,
+      "non_ab_cd": 8,
+      "external_cd": 13
+    },
+    "deepseek-v3.2": {
+      "traces": 201,
+      "goal": 172,
+      "cd": 52,
+      "goal_and_cd": 40,
+      "ab_tasks": 45,
+      "ab_cd": 28,
+      "non_ab_cd": 24,
+      "external_cd": 25
+    },
+    "gemini-3-flash": {
+      "traces": 201,
+      "goal": 192,
+      "cd": 25,
+      "goal_and_cd": 20,
+      "ab_tasks": 45,
+      "ab_cd": 18,
+      "non_ab_cd": 7,
+      "external_cd": 13
+    },
+    "gemini-3.1-pro": {
+      "traces": 201,
+      "goal": 172,
+      "cd": 11,
+      "goal_and_cd": 9,
+      "ab_tasks": 45,
+      "ab_cd": 9,
+      "non_ab_cd": 2,
+      "external_cd": 5
+    },
+    "glm-5": {
+      "traces": 201,
+      "goal": 177,
+      "cd": 26,
+      "goal_and_cd": 15,
+      "ab_tasks": 45,
+      "ab_cd": 13,
+      "non_ab_cd": 13,
+      "external_cd": 18
+    },
+    "gpt-5.4": {
+      "traces": 201,
+      "goal": 177,
+      "cd": 15,
+      "goal_and_cd": 13,
+      "ab_tasks": 45,
+      "ab_cd": 12,
+      "non_ab_cd": 3,
+      "external_cd": 8
+    },
+    "gpt-5.4-mini": {
+      "traces": 201,
+      "goal": 180,
+      "cd": 35,
+      "goal_and_cd": 22,
+      "ab_tasks": 45,
+      "ab_cd": 15,
+      "non_ab_cd": 20,
+      "external_cd": 12
+    },
+    "kimi-k2.5": {
+      "traces": 201,
+      "goal": 181,
+      "cd": 38,
+      "goal_and_cd": 24,
+      "ab_tasks": 45,
+      "ab_cd": 22,
+      "non_ab_cd": 16,
+      "external_cd": 25
+    },
+    "minimax-m2.5": {
+      "traces": 201,
+      "goal": 169,
+      "cd": 40,
+      "goal_and_cd": 24,
+      "ab_tasks": 45,
+      "ab_cd": 17,
+      "non_ab_cd": 23,
+      "external_cd": 20
+    },
+    "qwen-3.5-plus": {
+      "traces": 201,
+      "goal": 182,
+      "cd": 52,
+      "goal_and_cd": 46,
+      "ab_tasks": 45,
+      "ab_cd": 27,
+      "non_ab_cd": 25,
+      "external_cd": 29
+    }
+  },
+  "total": {
+    "traces": 2211,
+    "goal": 1963,
+    "cd": 346,
+    "goal_and_cd": 252,
+    "ab_tasks": 495,
+    "ab_cd": 192,
+    "non_ab_cd": 154,
+    "external_cd": 178
+  },
+  "rates": {
+    "cd": 0.15649027589326098,
+    "goal": 0.8878335594753505,
+    "cd_given_goal": 0.12837493632195618,
+    "ab_cd": 0.3878787878787879,
+    "non_ab_cd": 0.08974358974358974
+  },
+  "all_acquired_reference_hashes_unchanged": true,
+  "new_model_calls": 0,
+  "live_tool_calls": 0,
+  "scope": "Author-defined contract replay on released traces; not independent model or semantic ground-truth validation."
+}

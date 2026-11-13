@@ -1,0 +1,9 @@
+{
+  "path": "C:\\Users\\Ezekiel\\Documents\\AI Security Research\\P06-P13-P14-P15-authorization-review\\output\\sabench_correspondence_replay.zip",
+  "bytes": 1452576,
+  "sha256": "272cf5ccc68a6506d6d5877a27cbf53128f4d737c84e514d99948323cf6b8469",
+  "packaged_input_files": 2233,
+  "reference_result_receipts": 3,
+  "upstream_source_traces_tasks_included_under_separate_notices": true,
+  "public_upload_completed": false
+}

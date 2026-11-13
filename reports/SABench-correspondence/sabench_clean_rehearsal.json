@@ -1,0 +1,23 @@
+{
+  "archive_sha256": "272cf5ccc68a6506d6d5877a27cbf53128f4d737c84e514d99948323cf6b8469",
+  "commands": [
+    {
+      "script": "replay_sabench.py",
+      "exit_code": 0
+    },
+    {
+      "script": "compare_sabench_normalization.py",
+      "exit_code": 0
+    },
+    {
+      "script": "check_sabench_cli.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_replay.py",
+      "exit_code": 0
+    }
+  ],
+  "new_model_calls": 0,
+  "complete": true
+}

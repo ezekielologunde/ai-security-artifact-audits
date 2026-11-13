@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-12",
+  "pages": 2,
+  "native_compilation": "success",
+  "portable_compilation": "success",
+  "all_pages_visually_inspected": true,
+  "outside_page_words": [],
+  "pdf_sha256": "c218ce08ef0054ad07c257ad836c593263878990e408453fdf8088250dba0c6c",
+  "tex_sha256": "5e3443191cf35d8eb7208222abc6c3f9919ac7ac487de6dcaf765e010e1b3018",
+  "overleaf_sha256": "ff2e852e1b350d83044acb35ea445c8878f86da78449e7a4bacc967608282281",
+  "public_upload_completed": false,
+  "independent_review_complete": false
+}
