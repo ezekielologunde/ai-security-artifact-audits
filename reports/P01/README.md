@@ -8,4 +8,8 @@ The canonical source repository remains private; this separate explicit package 
 
 Authored material retains its rights; no broad reuse licence selected. Original verifier/dependency terms remain separate. No archival DOI or preprint-server submission is claimed.
 
+16 November 2026 publication-only revision: added ACRFence closest-work comparison. All 3,180 reproduction members are byte-identical to the preceding release; zero new experiments. This does not add independent validation or a new rollback mechanism.
+
 Publication revision, 21 October 2026: added the Safe to Resume? comparison. PUBLICATION_EQUIVALENCE.json verifies that all 3,180 reproduction members match the previously rehearsed archive. CLEAN_RELEASE_REHEARSAL.json records that earlier execution; no new experiments were run for this literature-only revision.
+
+ACRFENCE_PUBLICATION_EQUIVALENCE.json records the incremental 16 November comparison to the preceding release. All 3,180 reproduction members remain byte-identical; historical rehearsal commands were not rerun.

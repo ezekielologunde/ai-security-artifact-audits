@@ -1,17 +1,15 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-11-16",
   "pages": 7,
   "all_pages_visually_inspected": true,
-  "native_compile_succeeded": true,
+  "native_compile_succeeded": false,
   "portable_export_succeeded": true,
+  "compiler": "Tectonic 0.17.0; exit 0; font and underfull-box warnings",
   "text_spans_outside_page": [],
-  "pdf_sha256": "f421ae635da7188fe440613ee6c082f1e4a242b7b04f6c5b964961a150b5b6ef",
+  "pdf_sha256": "06e326e5228f873c9ae43b7eeff8d732dba95429a63df1a9875e9be0d1290571",
   "experimental_outcomes_changed": false,
+  "new_experiment_runs": 0,
   "publication_copy_changes": [
-    "name-only author metadata",
-    "explicit public package/restore scope",
-    "20 October retrospective validation",
-    "Kubernetes prior-work acknowledgment",
-    "21 October Safe to Resume closest-work comparison; numerical outcomes unchanged"
+    "ACRFence comparison and bibliography entry; literature-only"
   ]
 }
