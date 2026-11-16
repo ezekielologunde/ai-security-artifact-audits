@@ -1,6 +1,6 @@
 {
   "old_archive_sha256": "3a13fb4b333ac8be0d20cc7cf10d27f93de76ccb1291b74beeb8c53ebe790025",
-  "new_archive_sha256": "b0dee4f6c14135e2dc52dfbfe6504f0d08cb7a36fd9c2c2641c9b93b664c6f27",
+  "new_archive_sha256": "c1cc3271705497510d06b4ff59ced1ba9566e8e623eb01a85da9e5d22221bf6a",
   "changed_members": [
     "README.md",
     "STAGING_MANIFEST.json",

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-16",
+  "old_archive_sha256": "b0dee4f6c14135e2dc52dfbfe6504f0d08cb7a36fd9c2c2641c9b93b664c6f27",
+  "new_archive_sha256": "c1cc3271705497510d06b4ff59ced1ba9566e8e623eb01a85da9e5d22221bf6a",
+  "changed_members": [
+    "README.md",
+    "STAGING_MANIFEST.json",
+    "memory_deletion_controlled_study.pdf",
+    "overleaf_source.zip"
+  ],
+  "reproduction_members_byte_identical": 66,
+  "new_experiment_runs": 0,
+  "scientific_outcomes_changed": false,
+  "pages": 15,
+  "pdf_sha256": "d13c56b1ec19a3e3bd299cdb9afafcb8ffeee8ac71fa2808c94a75da23b10c85"
+}

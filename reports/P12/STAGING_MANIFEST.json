@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-11-16",
   "excluded_original_members": [
     "README.md",
     "outputs/datasets/locomo/data/locomo10.json",
@@ -12,9 +12,9 @@
   "original_project_modified": false,
   "audit_wrapper_change": "SOURCE path only; relative outputs directory",
   "release_files": {
-    "README.md": "cf2bd17b4e24b975c5b2590a7179b236df9c49e2f933f47e2801392db2e965e0",
-    "memory_deletion_controlled_study.pdf": "684a4c7a081a3abe35fc6c44019b2d9bd75cb6fb156179525d4ec9e214e13afd",
-    "overleaf_source.zip": "f8f1630b4291862e1fd107e772750a568981ac8c5ac0b5a0b2e20043e2e61f1a",
+    "README.md": "e87a38ee07cb9ec71fc71bef74d0f7922fe85de7480c42adc6d690478427cc58",
+    "memory_deletion_controlled_study.pdf": "d13c56b1ec19a3e3bd299cdb9afafcb8ffeee8ac71fa2808c94a75da23b10c85",
+    "overleaf_source.zip": "88de2ffcfcdfe26ce5cfa6c503b1dba0971764aca2195bacdac3916b8c6a24ce",
     "reproduction/README.md": "8d4a14434afb78527b849c46cd84f76b3347d028d9d117b6b22ec6a409173f30",
     "reproduction/outputs/README.md": "2bd9c84af7e620247fc7294e434df822c0a2f9dd692c94260daeed9daedaa978",
     "reproduction/outputs/behavioral-experiment/MODEL-CARD.md": "57c72d4010fb11a98fc8e62dc8ef112b23a7a7525b71e571ca978d35cb3b2eec",
@@ -81,5 +81,6 @@
     "reproduction/outputs/research-conclusions.md": "0c3aa78ea3d31d50d3aa3e2166f330438d11155a316ed24fb733b60930a73435",
     "reproduction/recheck_memory_evidence.py": "7f86937d0add8d7888b783b2b18dc86edb355e16a8ab61824953a4316e02b4a3",
     "reproduction/rerun_cache_audit.py": "977f0d9ad66566ba5f4ad92e94b183b9e3bc0e7ab9ebf0728bdf2f6f6204582c"
-  }
+  },
+  "publication_revision": "AfterDeleteBench literature comparison; no fresh experiment execution"
 }
