@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-17",
+  "archive_sha256": "9ef0ee36d9b43fe37f6a958373150d77217d78560ad379382c64ad9636da942e",
+  "clean_directory": "C:\\Users\\Ezekiel\\Documents\\AI Security Research\\P11-P19-memory-integrity\\work\\overlap-clean-replay-v1",
+  "pinned_inputs_reacquired_and_verified": 12,
+  "inputs": [
+    {
+      "path": "data/trace-tables/data/analysis_val_gpt/by_perturbation.csv",
+      "sha256": "9d7249d6d86858f7dc7e4ec4da366f642850128b0deb137b48940be42d01045a"
+    },
+    {
+      "path": "data/trace-tables/data/analysis_val_gpt/runs_flat.csv",
+      "sha256": "ad634013ea3c4fbdfcf125899e6d004aba9c1a02afc3b5b266fa119a48433d6a"
+    },
+    {
+      "path": "data/trace-tables/data/analysis_val_gpt/token_usage.csv",
+      "sha256": "204841cc897f271d08ca9f7f1fa39abba0cca0aa77328c6673f82feb7f55e224"
+    },
+    {
+      "path": "data/trace-tables/data/analysis_val_llama/by_perturbation.csv",
+      "sha256": "78fd4e6271cbbf864000daa48616b36eb1217c02534305d481458f4d47dcbb51"
+    },
+    {
+      "path": "data/trace-tables/data/analysis_val_llama/runs_flat.csv",
+      "sha256": "84c62900d5d488c6a9e619e3bd1a2cb0cb63252a7591fc62d43f29fe52ec448b"
+    },
+    {
+      "path": "data/trace-tables/data/analysis_val_llama/token_usage.csv",
+      "sha256": "6ffd3ca59c4441f0def06fa93972107dacb760a7084877a9fccc11832bdf4415"
+    },
+    {
+      "path": "data/trace-tables/data/analysis_val_qwen/by_perturbation.csv",
+      "sha256": "417c14f39c69b2739c07866286c8b152796d7d5d16fcc8de76e8d30d28f062a9"
+    },
+    {
+      "path": "data/trace-tables/data/analysis_val_qwen/runs_flat.csv",
+      "sha256": "8f02cb9a584f55e03f45def858003d732fe6c248a47aaf081661446081c03ff6"
+    },
+    {
+      "path": "data/trace-tables/data/analysis_val_qwen/token_usage.csv",
+      "sha256": "745b972ee453885c4a549c22aee7e12b28f2083f9d82c17d83a0a0e0177414fc"
+    },
+    {
+      "path": "data/trace-tables/reference/paper_stats.txt",
+      "sha256": "140788be0f7e7b676cb976adaa91d2fc3e31aacc5faf8d75ed9eccc08d23716a"
+    },
+    {
+      "path": "data/trace-tables/reference/paper_stats_gpt.txt",
+      "sha256": "64319d41e983e3cc57c81de3bcafaf15a781dcd4bd6c34c6681f6fba33cb883c"
+    },
+    {
+      "path": "data/trace-tables/scripts/paper_stats.py",
+      "sha256": "08986d3a21b48d87e69c0aa9113d7e19cbccc709921f68b25f5132db016152ee"
+    }
+  ],
+  "command": [
+    "C:\\Users\\Ezekiel\\Documents\\Res 2\\.venv\\Scripts\\python.exe",
+    "audit_key_overlap.py",
+    "--tables-only",
+    "--output",
+    "results/replayed_key_overlap.json"
+  ],
+  "exit_code": 0,
+  "primary_populations_match": true,
+  "included_archive_members_unchanged": 26,
+  "source_archive_unchanged": true,
+  "new_analysis_command_executed": true,
+  "upstream_downloaded_code_executed": false,
+  "model_calls": 0,
+  "correctness_labels_generated": 0,
+  "published_score_effect_established": false
+}

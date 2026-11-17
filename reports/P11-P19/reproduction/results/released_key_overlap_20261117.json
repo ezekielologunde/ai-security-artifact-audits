@@ -1,0 +1,3919 @@
+{
+  "date": "2026-11-17",
+  "source_revision": "a6aaf30ccdb15d774ac8bad136e52491db3e2a4a",
+  "inputs_reverified": 12,
+  "populations": {
+    "trace": {
+      "released_rows": 614,
+      "complete_unique_keys": 614,
+      "reduced_unique_keys": 218,
+      "reduced_key_model_multiplicity": {
+        "3": 178,
+        "2": 40
+      },
+      "rows_with_shared_reduced_keys": 614,
+      "pairwise_shared_reduced_keys": {
+        "gpt/llama": 179,
+        "gpt/qwen": 178,
+        "llama/qwen": 217
+      },
+      "hypothetical_one_outcome_per_complete_key": {
+        "reduced_key_join_rows": 1762,
+        "complete_key_join_rows": 614,
+        "additional_rows": 1148,
+        "assumption_is_diagnostic_not_actual_correctness_data": true
+      },
+      "key_membership": [
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+          "perturbation_type": "background_noise",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+          "perturbation_type": "low_pass_filter",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+          "perturbation_type": "speed_change",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "section_removal",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "section_removal",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "section_removal",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "column_swap",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "unit_change",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "blur",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "noise",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "watermark",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3",
+          "perturbation_type": "background_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3",
+          "perturbation_type": "low_pass_filter",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3",
+          "perturbation_type": "speed_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "section_removal",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "blur",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "noise",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "watermark",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "section_removal",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "section_removal",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        }
+      ]
+    },
+    "token": {
+      "released_rows": 624,
+      "complete_unique_keys": 624,
+      "reduced_unique_keys": 218,
+      "reduced_key_model_multiplicity": {
+        "3": 188,
+        "2": 30
+      },
+      "rows_with_shared_reduced_keys": 624,
+      "pairwise_shared_reduced_keys": {
+        "gpt/llama": 188,
+        "gpt/qwen": 188,
+        "llama/qwen": 218
+      },
+      "hypothetical_one_outcome_per_complete_key": {
+        "reduced_key_join_rows": 1812,
+        "complete_key_join_rows": 624,
+        "additional_rows": 1188,
+        "assumption_is_diagnostic_not_actual_correctness_data": true
+      },
+      "key_membership": [
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+          "perturbation_type": "background_noise",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+          "perturbation_type": "low_pass_filter",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "1f975693-876d-457b-a649-393859e79bf3",
+          "perturbation_type": "speed_change",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "section_removal",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "366e2f2b-8632-4ef2-81eb-bc3877489217",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "section_removal",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "389793a7-ca17-4e82-81cb-2b3a2391b4b9",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "3da89939-209c-4086-8520-7eb734e6b4ef",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d0aa727-86b1-406b-9b33-f870dd14a4a5",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5b2a14e8-6e59-479c-80e3-4696e8980152",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "section_removal",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "67e8878b-5cef-4375-804e-e6291fdbe78a",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7bd855d8-463d-4ed5-93ca-5fe35145f733",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "7cc4acfa-63fd-4acc-a1a1-e8e529e0a97f",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "column_swap",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+          "perturbation_type": "unit_change",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "blur",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "noise",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+          "perturbation_type": "watermark",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3",
+          "perturbation_type": "background_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3",
+          "perturbation_type": "low_pass_filter",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3",
+          "perturbation_type": "speed_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "section_removal",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b2c257e0-3ad7-4f05-b8e3-d9da973be36e",
+          "perturbation_type": "watermark",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "c526d8d6-5987-4da9-b24c-83466fa172f3",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cca70ce6-1952-45d2-acd4-80c903b0bc49",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "section_removal",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "d8152ad6-e4d5-4c12-8bb7-8d57dc10c6de",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "da52d699-e8d2-4dc5-9191-a2199e0b6a9b",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "blur",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "contrast_reduction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "low_resolution",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "partial_occlusion",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+          "perturbation_type": "watermark",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "encoding_error",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "null_content",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "number_corruption",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "ocr_noise",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "paragraph_shuffle",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "section_removal",
+          "models": [
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "e9a2c537-8232-4c3f-85b0-b52de6bcba99",
+          "perturbation_type": "text_redaction",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "column_swap",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "data_type_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "irrelevant_columns",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "label_corrupt",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "null_content",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "row_duplicate",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        },
+        {
+          "task_id": "edd4d4f2-1a58-45c4-b038-67337af4e029",
+          "perturbation_type": "unit_change",
+          "models": [
+            "gpt",
+            "llama",
+            "qwen"
+          ]
+        }
+      ]
+    }
+  },
+  "current_tree_blobs": 18,
+  "github_releases_count": 0,
+  "new_correctness_records_acquired": false,
+  "correctness_labels_generated": 0,
+  "model_calls": 0,
+  "author_contacted": false,
+  "published_outcome_effect_established": false,
+  "retrieval_sha256": {
+    "head.json": "116351ea6acfafd15d33858efe0ba05377024a235a6cf30eb0a5e423275d153a",
+    "tree.json": "d97b51ee9397d38da58d7219eae064c7e30babd849360e30f706423d183ba43d",
+    "releases.json": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d"
+  }
+}

@@ -24,4 +24,6 @@ The finding identifies a source-code failure condition. It **does not** establis
 
 ## Decision
 
+17 November follow-up: `RELEASED_KEY_OVERLAP_RESULTS_20261117.md` records that all 614 trace rows and 624 token rows have task/perturbation keys shared across models. Conditional label-free join counts are not actual correctness-merge outputs. Current primary repository/release checks yielded no new raw correctness records; published-score impact remains unresolved. Original results and public paper bytes were not changed.
+
 Preserve this as a revision-specific reproducibility technical note. Broad memory-integrity/contamination novelty is not established. Standalone venue suitability remains unestablished; a broader independent benchmark audit or author-provided raw correctness data would strengthen the evidence. Do not convert this artifact issue into a claim that a new memory-security gap has been solved. P11 and P19 share this audit and are not separate completed defense papers.

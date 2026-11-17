@@ -1,6 +1,6 @@
 {
-  "version": 11,
-  "date": "2026-11-16",
+  "version": 12,
+  "date": "2026-11-17",
   "author": "Ezekiel Ologunde",
   "reports": [
     {
@@ -20,7 +20,7 @@
     {
       "study": "P11-P19",
       "report": "reports/P11-P19/model_identity_join_audit.pdf",
-      "pdf_sha256": "813df7d82ea1f51340b695297598b53a8feb5ad26a518a492c32f96cb208cf31",
+      "pdf_sha256": "a4585e4abff26e4ddfebb8bae22383e8351234e3151596144a31336e1c44fd83",
       "status": "preliminary technical report; not peer reviewed",
       "independent_review_complete": false
     },
