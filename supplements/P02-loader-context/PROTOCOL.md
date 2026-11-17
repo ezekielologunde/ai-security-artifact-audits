@@ -1,0 +1,9 @@
+# Loader-context engineering extension
+
+17 November 2026, following the four-case exploratory replay. This is source-informed implementation work, not a new novelty claim or independent efficacy experiment.
+
+Add lexical loader and version-qualification observations to the CLI overlay without changing existing extraction or consistency decisions. Retain exact README lines, revision, and whether the line is inside a fenced code block or blockquote. Loader names near a claim are candidates, not established execution paths. Document-wide conditions may be relevant but must not be silently attached to every claim. Keep selected loading_path evidence separate from prose observations.
+
+Use explicit lexical names for Transformers, MLX/mlx-lm, and llama.cpp. Record nearby candidates within four source lines of each extracted claim; retain other document-wide candidates separately. Collect explicit dependency/version qualifications containing a loader name or words such as version/recent; do not claim comprehensive natural-language parsing. No inferred loader selection or new security verdict follows from these observations.
+
+Before mutation, retain the old implementation. Compare every preexisting output field under all five existing experiment modes on the frozen controlled cases; strip only the newly added context fields for that comparison. Test claim-local context versus a distant alternate loader, code/blockquote provenance, version qualification, absence of a lexical loader, and input/report immutability. Then replay all four pinned discovery snapshots and require original assessments to remain unchanged after stripping the new fields. These are regression and engineering checks, not independent truth annotations. No models, weights, remote code, upstream scanners, or new packages.

@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "date": "2026-11-17",
   "author": "Ezekiel Ologunde",
   "reports": [
@@ -87,6 +87,20 @@
       "status": "bounded artifact correspondence report; not peer reviewed",
       "independent_review_complete": false,
       "bundled_upstream_records": "MIT code and CC BY 4.0 synthetic traces/tasks; notices preserved"
+    }
+  ],
+  "technical_supplements": [
+    {
+      "id": "P02-loader-context",
+      "path": "supplements/P02-loader-context",
+      "status": "engineering extension; not independent efficacy validation",
+      "files": 14,
+      "raw_natural_files_bundled": false,
+      "controlled_comparisons": 180,
+      "targeted_discovery_cases": 4,
+      "pinned_compact_files_reacquired": 7,
+      "paper_revised": false,
+      "independent_review_complete": false
     }
   ],
   "upstream_raw_data_included": true,

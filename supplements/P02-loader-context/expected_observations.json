@@ -1,0 +1,48 @@
+{
+  "D001": {
+    "claims": 1,
+    "dispositions": [
+      "unverifiable"
+    ],
+    "loader_observations": 11,
+    "nearby_context_lines": [
+      [
+        20,
+        22
+      ]
+    ]
+  },
+  "D002": {
+    "claims": 1,
+    "dispositions": [
+      "unverifiable"
+    ],
+    "loader_observations": 12,
+    "nearby_context_lines": [
+      [
+        19,
+        21,
+        22
+      ]
+    ]
+  },
+  "D003": {
+    "claims": 0,
+    "dispositions": [],
+    "loader_observations": 3,
+    "nearby_context_lines": []
+  },
+  "D004": {
+    "claims": 1,
+    "dispositions": [
+      "unverifiable"
+    ],
+    "loader_observations": 4,
+    "nearby_context_lines": [
+      [
+        32,
+        35
+      ]
+    ]
+  }
+}

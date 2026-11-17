@@ -1,0 +1,131 @@
+[
+  {
+    "case_id": "D001",
+    "model_id": "jacob9706/Qwen3.6-35B-A3B-QOR-4bit",
+    "revision": "91694f99291dfa7c29fc814ee2594313660aae23",
+    "inventory": [
+      ".gitattributes",
+      "README.md",
+      "chat_template.jinja",
+      "config.json",
+      "generation_config.json",
+      "merges.txt",
+      "model-00001-of-00004.safetensors",
+      "model-00002-of-00004.safetensors",
+      "model-00003-of-00004.safetensors",
+      "model-00004-of-00004.safetensors",
+      "model.safetensors.index.json",
+      "preprocessor_config.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.json"
+    ],
+    "files": [
+      {
+        "name": "README.md",
+        "url": "https://huggingface.co/jacob9706/Qwen3.6-35B-A3B-QOR-4bit/resolve/91694f99291dfa7c29fc814ee2594313660aae23/README.md",
+        "sha256": "1c0c33d4f55b085595d20c2484b19235ddaaf2677b88625d0f8726438e66bf77",
+        "bytes": 5189
+      },
+      {
+        "name": "config.json",
+        "url": "https://huggingface.co/jacob9706/Qwen3.6-35B-A3B-QOR-4bit/resolve/91694f99291dfa7c29fc814ee2594313660aae23/config.json",
+        "sha256": "32d591059579e41a5de1ae7529314626f06887c8c24d928ea220c4ca71714023",
+        "bytes": 3894
+      }
+    ]
+  },
+  {
+    "case_id": "D002",
+    "model_id": "neopolita/Qwen3.6-19B-A3B-Niwaki-v2-4bit-gguf",
+    "revision": "47c30724f2c8bef75a8a3c4f62b16af7a1b06d18",
+    "inventory": [
+      ".gitattributes",
+      "Qwen3.6-19B-A3B-Niwaki-v2-4bit-Q4_K_M.gguf",
+      "Qwen3.6-19B-A3B-Niwaki-v2-4bit-UD-Q3K.gguf",
+      "README.md",
+      "niwaki.png"
+    ],
+    "files": [
+      {
+        "name": "README.md",
+        "url": "https://huggingface.co/neopolita/Qwen3.6-19B-A3B-Niwaki-v2-4bit-gguf/resolve/47c30724f2c8bef75a8a3c4f62b16af7a1b06d18/README.md",
+        "sha256": "9a495d15eabc52cdab90cc536521149df4bb55f771b822da307d26c39b9cfe59",
+        "bytes": 4148
+      }
+    ]
+  },
+  {
+    "case_id": "D003",
+    "model_id": "HarleyCooper/nanochat561",
+    "revision": "38059efd855e5138c82f2bd1d49f8cf613dc6b37",
+    "inventory": [
+      ".gitattributes",
+      "250nano.png",
+      "DEPLOYMENT.md",
+      "HFmistake.png",
+      "README.md",
+      "__init__.py",
+      "config.json",
+      "configuration_nanochat.py",
+      "model.safetensors",
+      "modeling_nanochat.py",
+      "requirements.txt",
+      "special_tokens_map.json",
+      "tokenization_nanochat.py",
+      "tokenizer.json",
+      "tokenizer.pkl",
+      "tokenizer/tokenizer.pkl",
+      "tokenizer_config.json"
+    ],
+    "files": [
+      {
+        "name": "README.md",
+        "url": "https://huggingface.co/HarleyCooper/nanochat561/resolve/38059efd855e5138c82f2bd1d49f8cf613dc6b37/README.md",
+        "sha256": "0103b459f2a3892f6e65f27178eaf297a071838ec1deb06f2699c5094a35399d",
+        "bytes": 29025
+      },
+      {
+        "name": "config.json",
+        "url": "https://huggingface.co/HarleyCooper/nanochat561/resolve/38059efd855e5138c82f2bd1d49f8cf613dc6b37/config.json",
+        "sha256": "c3b7ac21789f706597f5132e85d6e504d6e94a6f9776c43752ac83ad1feba353",
+        "bytes": 1190
+      }
+    ]
+  },
+  {
+    "case_id": "D004",
+    "model_id": "bbidpa/Qwen2.5-Coder-0.5B-Flutter-direct",
+    "revision": "07e49c565230ca624efb137081722e1f176643d1",
+    "inventory": [
+      ".gitattributes",
+      "README.md",
+      "added_tokens.json",
+      "chat_template.jinja",
+      "config.json",
+      "curve.txt",
+      "generation_config.json",
+      "merges.txt",
+      "model.safetensors",
+      "special_tokens_map.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "training_log.txt",
+      "vocab.json"
+    ],
+    "files": [
+      {
+        "name": "README.md",
+        "url": "https://huggingface.co/bbidpa/Qwen2.5-Coder-0.5B-Flutter-direct/resolve/07e49c565230ca624efb137081722e1f176643d1/README.md",
+        "sha256": "af620a30fcb6bd73014ce973f35a2117c12c97416b21973c522e0121ae0835ba",
+        "bytes": 9767
+      },
+      {
+        "name": "config.json",
+        "url": "https://huggingface.co/bbidpa/Qwen2.5-Coder-0.5B-Flutter-direct/resolve/07e49c565230ca624efb137081722e1f176643d1/config.json",
+        "sha256": "c0cf5daaa312c71d00144629d11a145eb23ccff1c0f05c24f41d9cec033b9c8f",
+        "bytes": 1282
+      }
+    ]
+  }
+]

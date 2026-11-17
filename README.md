@@ -1,6 +1,6 @@
 # AI Security Artifact Audits — Preliminary Technical Reports
 
-Ezekiel Ologunde · Collection version 12 · 17 November 2026
+Ezekiel Ologunde · Collection version 13 · 17 November 2026
 
 Seven bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
 
@@ -32,3 +32,7 @@ The P12 supplement preserves recorded prompts containing corpus-derived public e
 The P02 report has a controlled-only public supplement. Its complete natural-cohort evidence and comparator archive remain private; neither its public commands nor the GitHub release supply independent natural labels. Its publication copy updates availability/reproduction wording while preserving scientific outcomes.
 
 The P01 package includes 1,020 authored inert SQLite reference files, original verifier notices and task-prose templates. Its restore step fetches the pinned AgentTrap ledger from origin and checks reconstructed original hashes; the source ledger and copied task descriptions are excluded. Readback checks of stored framework evidence are distinct from freshly executing those extensions. Its canonical source repository remains private.
+
+## Separate engineering supplement
+
+[Loader-context CLI extension](supplements/P02-loader-context/README.md) adds lexical context fields while preserving the earlier verdicts. A clean replay checked 180 controlled comparisons and reacquired seven pinned compact files for four discovery cases. This is not a paper revision or independent natural validation; the P02 published study and its controlled reproduction remain unchanged.
