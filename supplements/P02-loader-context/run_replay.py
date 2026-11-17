@@ -23,6 +23,8 @@ def strip_context(value):
     result['overlay'].pop('loader_context')
     for claim in result['overlay']['claim_assessments']:
         claim.pop('nearby_loader_context_lines')
+        for evidence in claim['evidence']:
+            evidence.pop('selected_trust_remote_code',None)
     return result
 
 
@@ -50,6 +52,12 @@ def main():
             assert strip_context(new)==old,(case['case_id'],mode)
             assert snap==case['snapshot'] and report==case['scanner_report']
             checked+=1
+    diagnostic=json.loads((ROOT/'selected_flag_case.json').read_text(encoding='utf-8'))
+    old_diagnostic=before.analyze(diagnostic)['overlay']
+    new_diagnostic=after.analyze(diagnostic)['overlay']
+    assert old_diagnostic['claim_assessments'][0]['consistency']=='contradicted'
+    assert new_diagnostic['claim_assessments'][0]['consistency']=='unverifiable'
+    assert new_diagnostic['loading_exposure']=='indeterminate'
     discoveries=[]; downloaded=[]
     if args.acquire:
         expected=json.loads((ROOT/'expected_observations.json').read_text(encoding='utf-8'))
@@ -86,6 +94,7 @@ def main():
             (folder/'augmented.json').write_text(json.dumps(new,indent=2)+'\n',encoding='utf-8')
     assert all(hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest for name,digest in hashes.items())
     receipt={'controlled_comparisons':checked,'discoveries':discoveries,'downloaded_files':downloaded,
+             'selected_flag_diagnostic':{'before':'contradicted','after':'unverifiable','after_exposure':'indeterminate'},
              'input_sha256':hashes,'input_bytes_unchanged':True,'previous_fields_unchanged':True,
              'independent_annotations':0,'model_calls':0,'scanner_runs':0,
              'scope':'source-informed regression and observability, not natural accuracy'}

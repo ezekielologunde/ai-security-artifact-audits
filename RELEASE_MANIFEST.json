@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "date": "2026-11-17",
   "author": "Ezekiel Ologunde",
   "reports": [
@@ -94,12 +94,13 @@
       "id": "P02-loader-context",
       "path": "supplements/P02-loader-context",
       "status": "engineering extension; not independent efficacy validation",
-      "files": 14,
+      "files": 17,
       "raw_natural_files_bundled": false,
       "controlled_comparisons": 180,
       "targeted_discovery_cases": 4,
       "pinned_compact_files_reacquired": 7,
       "paper_revised": false,
+      "selected_remote_code_flag_diagnostic": "contradicted before; unverifiable after",
       "independent_review_complete": false
     }
   ],

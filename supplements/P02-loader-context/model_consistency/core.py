@@ -92,6 +92,9 @@ def analyze(snapshot,report=None,mode='overlay'):
     config={} if docs_only else snapshot.get('config',{})
     adapter={} if docs_only else snapshot.get('adapter_config',{})
     trust=bool(re.search(r'trust_remote_code\s*=\s*True',snapshot.get('readme','')))
+    selected_trust=snapshot.get('loading_path',{}).get('trust_remote_code')
+    if 'trust_remote_code' in snapshot.get('loading_path',{}) and not isinstance(selected_trust,bool):
+        raise ValueError('loading_path.trust_remote_code must be a JSON boolean')
     local_py={a['path'][:-3].replace('/','.') for a in artifacts if a['path'].endswith('.py')}
     auto=config.get('auto_map',{})
     references=[]
@@ -101,7 +104,7 @@ def analyze(snapshot,report=None,mode='overlay'):
     selected_class=snapshot.get('loading_path',{}).get('auto_class')
     selected_refs=auto.get(selected_class) if selected_class else None
     if isinstance(selected_refs,str):selected_refs=[selected_refs]
-    code_used=bool(trust and selected_refs and any(isinstance(r,str) and '--' not in r and r.rsplit('.',1)[0] in local_py for r in selected_refs))
+    code_used=bool(trust and selected_trust is not False and selected_refs and any(isinstance(r,str) and '--' not in r and r.rsplit('.',1)[0] in local_py for r in selected_refs))
     for claim in extract_claims(snapshot.get('readme','')):
         claim['source']['revision']=snapshot['revision']
         claim['nearby_loader_context_lines']=[o['source']['line'] for o in loader_context['observations']
@@ -124,7 +127,8 @@ def analyze(snapshot,report=None,mode='overlay'):
                     status=CONSISTENT if normalize_model_id(observed)==claim['claim_value'] else CONTRADICTED
                     reason='Compared declarations of the same adapter loading dependency; this does not authenticate training lineage.'
         elif claim['claim_type']=='custom-code':
-            evidence=[{'documented_trust_remote_code':trust,'selected_auto_class':selected_class,'selected_auto_map':selected_refs}]
+            evidence=[{'documented_trust_remote_code':trust,'selected_auto_class':selected_class,'selected_auto_map':selected_refs,
+                       'selected_trust_remote_code':selected_trust}]
             if code_used:status=CONTRADICTED;reason='The documented selected loader enables a referenced custom module present at this revision.'
             elif selected_class and selected_class not in auto and config and not docs_only:
                 status=CONSISTENT;reason='No custom mapping exists for the selected loader in the inspected configuration.'

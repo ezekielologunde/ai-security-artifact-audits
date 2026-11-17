@@ -1,0 +1,21 @@
+{
+  "model_id": "org/target",
+  "revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "readme": "No custom code is required for org/target.\n\n```python\nAutoModel.from_pretrained(\"org/target\", trust_remote_code=False)\n```\n\nFor another model:\n```python\nAutoModel.from_pretrained(\"org/other\", trust_remote_code=True)\n```",
+  "config": {
+    "model_type": "bert",
+    "auto_map": {
+      "AutoModel": "modeling_optional.Model"
+    }
+  },
+  "loading_path": {
+    "auto_class": "AutoModel",
+    "trust_remote_code": false
+  },
+  "artifacts": [
+    {
+      "path": "modeling_optional.py",
+      "format": "unknown"
+    }
+  ]
+}
