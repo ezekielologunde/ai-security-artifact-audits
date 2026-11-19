@@ -1,0 +1,2774 @@
+[
+  {
+    "case_id": "B001",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B001",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B001', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B001",
+      "revision": "53d3f0d283904d3b3a7b627a73d9548af55d66e0",
+      "readme": "# B001\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B001', trust_remote_code=False)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B002",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B002",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B002', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B002",
+      "revision": "a00ca8f1316febbf20eea1c3bd35dd44d0d7d135",
+      "readme": "# B002\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B002', trust_remote_code=False)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B003",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B003",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B003',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B003",
+      "revision": "d80edc50c872c250be79eb6df58d918424a68e1e",
+      "readme": "# B003\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B003',\n    trust_remote_code=False,\n)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B004",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B004",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B004',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B004",
+      "revision": "319efb29cb9aeece4f17c31834d37c9ee0bd3e7a",
+      "readme": "# B004\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B004',\n    trust_remote_code=False,\n)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B005",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B005",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B005', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B005",
+      "revision": "56c591d729a77b81cdd5b77c3406899966930c64",
+      "readme": "# B005\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B005', trust_remote_code=False)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B006",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B006",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B006', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B006",
+      "revision": "6e7c3c4ac8240b8fc02feab963556bcf8cea6bd4",
+      "readme": "# B006\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B006', trust_remote_code=False)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B007",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B007",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B007',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B007",
+      "revision": "bbe0f977862c1a7735f6262195f9749b25b9310f",
+      "readme": "# B007\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B007',\n    trust_remote_code=False,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B008",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B008",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B008',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B008",
+      "revision": "0c03c4cea049c067c9d1aac5170aaef0fa092587",
+      "readme": "# B008\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B008',\n    trust_remote_code=False,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B009",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B009",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B009', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B009",
+      "revision": "80e1d2b996dc4dcf64c10d1689ba140c37498476",
+      "readme": "# B009\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B009', trust_remote_code=False)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B010",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B010",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B010', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B010",
+      "revision": "c47266692e4a99334eae2042829c5cc18649a5b8",
+      "readme": "# B010\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B010', trust_remote_code=False)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B011",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B011",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B011',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B011",
+      "revision": "b3b48d35042a8950e66ea3b9059b6052c8ae8757",
+      "readme": "# B011\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B011',\n    trust_remote_code=False,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B012",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B012",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B012',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B012",
+      "revision": "6893e9aa5504330ced7694911d711ce940878c9e",
+      "readme": "# B012\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B012',\n    trust_remote_code=False,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B013",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B013",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B013', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B013",
+      "revision": "526aa64f99d4ff24d368d929417a1422f01e61ea",
+      "readme": "# B013\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B013', trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B014",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B014",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B014', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B014",
+      "revision": "190874118efe992455f1d02f38f8f85f676e71b4",
+      "readme": "# B014\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B014', trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B015",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B015",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B015',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B015",
+      "revision": "e33ebf483be686e565c79b5d84315841ad5755ed",
+      "readme": "# B015\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B015',\n    trust_remote_code=True,\n)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B016",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B016",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B016',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B016",
+      "revision": "b8c204387b51b016d9ab64961cd8af13aafd1e58",
+      "readme": "# B016\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B016',\n    trust_remote_code=True,\n)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B017",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B017",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B017', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B017",
+      "revision": "9c980c3d14fb4c4fd96a9c640f2ae216068bc9eb",
+      "readme": "# B017\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B017', trust_remote_code=True)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B018",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B018",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B018', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B018",
+      "revision": "c6d5dba688ac3305997cc71e822489ed42174dd6",
+      "readme": "# B018\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B018', trust_remote_code=True)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B019",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B019",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B019',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B019",
+      "revision": "220c6028e455ff51f7a01db2561b86c8acefa206",
+      "readme": "# B019\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B019',\n    trust_remote_code=True,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B020",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B020",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B020',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B020",
+      "revision": "cfc1649eef42071e6fd8aabcd6bf17015226108f",
+      "readme": "# B020\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B020',\n    trust_remote_code=True,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B021",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B021",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B021', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B021",
+      "revision": "0f306bcdba15c4a53b0a6cf8d3424a8f589b5aad",
+      "readme": "# B021\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B021', trust_remote_code=True)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B022",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B022",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B022', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B022",
+      "revision": "9aa686b6799979c8a6e294252393ad93ecc6156f",
+      "readme": "# B022\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained('binding-fixture/B022', trust_remote_code=True)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B023",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B023",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B023',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B023",
+      "revision": "0ddd7507cead865c15d2c0bf90a9af33b7c5e0f0",
+      "readme": "# B023\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B023',\n    trust_remote_code=True,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B024",
+    "factors": {
+      "style": "direct-literal",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B024",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B024',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B024",
+      "revision": "575d834d76558e047e33c8c71e61b7bd8ea390a2",
+      "readme": "# B024\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nmodel = AutoModel.from_pretrained(\n    'binding-fixture/B024',\n    trust_remote_code=True,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B025",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B025",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B025'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B025",
+      "revision": "9424f8e5d5cce29d537da29b4915eea7b0c42147",
+      "readme": "# B025\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B025'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B026",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B026",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B026'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B026",
+      "revision": "8ae81a7bb3f476f0be3090e4e3c647ecefdc1dd9",
+      "readme": "# B026\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B026'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B027",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B027",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B027'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B027",
+      "revision": "4161ce57cc3079651a91ea66f2fa36efb316d9e5",
+      "readme": "# B027\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B027'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B028",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B028",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B028'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B028",
+      "revision": "584578f3b53c14a40d870004a14c31187c55037c",
+      "readme": "# B028\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B028'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B029",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B029",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B029'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B029",
+      "revision": "5c7a6149c7ec09cd607190507d2fb6d5c5a887c9",
+      "readme": "# B029\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B029'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B030",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B030",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B030'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B030",
+      "revision": "328fdf3265085a65bf4fb602248e7a0483de724b",
+      "readme": "# B030\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B030'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B031",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B031",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B031'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B031",
+      "revision": "c88790aa0cc45f8249600441df3ab3b032ee29e6",
+      "readme": "# B031\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B031'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B032",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B032",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B032'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B032",
+      "revision": "0e3f649dddb5771d1d506999cbac13d50866a17e",
+      "readme": "# B032\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B032'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B033",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B033",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B033'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B033",
+      "revision": "93df62245d5340c3ece0ab4ade69eaccf8992ca0",
+      "readme": "# B033\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B033'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B034",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B034",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B034'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B034",
+      "revision": "1c6909603f910400b8c611cb9addd0314c006f53",
+      "readme": "# B034\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B034'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=False)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B035",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B035",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B035'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B035",
+      "revision": "5a3119f5967c358d7565848081152356e684a4f9",
+      "readme": "# B035\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B035'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B036",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B036",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B036'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B036",
+      "revision": "6bda2534f90c8d96ff39097132c3b5edd47e2f20",
+      "readme": "# B036\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B036'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=False,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B037",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B037",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B037'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B037",
+      "revision": "4be5ca1910a80ef55bd2c1d725aaf95221d60a9a",
+      "readme": "# B037\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B037'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B038",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B038",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B038'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B038",
+      "revision": "a51537441ff9bcf3668d8ac60b26cfd2921e15f4",
+      "readme": "# B038\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B038'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B039",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B039",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B039'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B039",
+      "revision": "321f6073d91b8b62db7fbfbe44434dfffec797d2",
+      "readme": "# B039\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B039'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B040",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B040",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B040'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B040",
+      "revision": "5494b4674d32469d56e4a6243bc97216d0a267b8",
+      "readme": "# B040\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B040'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B041",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B041",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B041'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B041",
+      "revision": "ddddefd4a3dc942c999117a6170d87147a0d9e4f",
+      "readme": "# B041\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B041'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B042",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B042",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B042'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B042",
+      "revision": "a9a745f18c50ccf7750cba551613badb6a950fc8",
+      "readme": "# B042\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B042'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B043",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B043",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B043'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B043",
+      "revision": "65b65be3c565c153d927c48833f37eb95e376d3c",
+      "readme": "# B043\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B043'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B044",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B044",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B044'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B044",
+      "revision": "587d869720bac904eab8d44db237732ec9ff2082",
+      "readme": "# B044\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B044'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B045",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B045",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B045'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B045",
+      "revision": "68a8da5286dc29899658accb37d6bfc9ba2d7d82",
+      "readme": "# B045\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B045'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B046",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B046",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B046'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B046",
+      "revision": "902a99d3a2735a11fa4a6818aa19b80e684ef982",
+      "readme": "# B046\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B046'\nmodel = AutoModel.from_pretrained(repo, trust_remote_code=True)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B047",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B047",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B047'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B047",
+      "revision": "dc84d55cefeabf452ac1cdb9fbee19813c089ee4",
+      "readme": "# B047\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B047'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B048",
+    "factors": {
+      "style": "assigned-variable",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B048",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "from transformers import AutoModel\nrepo = 'binding-fixture/B048'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B048",
+      "revision": "3ff79cfa40c657d942a5da5ae44fc7be4ce90d66",
+      "readme": "# B048\n\nNo custom code is required.\n\n```python\nfrom transformers import AutoModel\nrepo = 'binding-fixture/B048'\nmodel = AutoModel.from_pretrained(\n    repo,\n    trust_remote_code=True,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 8
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B049",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B049",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B049', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B049",
+      "revision": "aa2ad5a28c2161ad671ab8d0ab9b38a03f504f62",
+      "readme": "# B049\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B049', trust_remote_code=False)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B050",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B050",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B050', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B050",
+      "revision": "879d6c148ce2836fac388a6efff4a897b9557d41",
+      "readme": "# B050\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B050', trust_remote_code=False)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B051",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B051",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B051',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B051",
+      "revision": "dc5b7a86e20ac72b3f8651e37030520e09bd1282",
+      "readme": "# B051\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B051',\n    trust_remote_code=False,\n)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B052",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B052",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B052',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B052",
+      "revision": "d23238bf662736012a051cb7bf86676a9f075a98",
+      "readme": "# B052\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B052',\n    trust_remote_code=False,\n)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B053",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B053",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B053', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B053",
+      "revision": "3f02ce2905e18a1f373ac353e8627aa585698194",
+      "readme": "# B053\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B053', trust_remote_code=False)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B054",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B054",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B054', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B054",
+      "revision": "9f72fa650947f5f31f13801af107441392e40ae2",
+      "readme": "# B054\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B054', trust_remote_code=False)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B055",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B055",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B055',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B055",
+      "revision": "23f60257066336bdf939e000ac95b53e7adcfe11",
+      "readme": "# B055\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B055',\n    trust_remote_code=False,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B056",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B056",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B056',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B056",
+      "revision": "f8eca868818175fffd62dfa8274134e57173235b",
+      "readme": "# B056\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B056',\n    trust_remote_code=False,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B057",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B057",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B057', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B057",
+      "revision": "75ca7c7e05f04c35e9c30500dfebf6ada4471487",
+      "readme": "# B057\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B057', trust_remote_code=False)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B058",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B058",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B058', trust_remote_code=False)",
+    "snapshot": {
+      "model_id": "binding-fixture/B058",
+      "revision": "49ad1de5cab949291d44df5df6ce0ac1930f5456",
+      "readme": "# B058\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B058', trust_remote_code=False)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B059",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B059",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B059',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B059",
+      "revision": "52dedd0d52c3ea25aee1121c969839056812485a",
+      "readme": "# B059\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B059',\n    trust_remote_code=False,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B060",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": false,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B060",
+      "selected_class": "AutoModel",
+      "selected_remote_code": false,
+      "mapping_present": true,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B060',\n    trust_remote_code=False,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B060",
+      "revision": "945cd8e4e8e3062232c1cdbedfdaceb004fa7371",
+      "readme": "# B060\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B060',\n    trust_remote_code=False,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B061",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B061",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B061', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B061",
+      "revision": "cbaded3d143c4268cacd1c98ae17ba86eb05a62a",
+      "readme": "# B061\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B061', trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B062",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B062",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B062', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B062",
+      "revision": "0aa3bdc3727f9277a02cac84112f27105634eb38",
+      "readme": "# B062\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B062', trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B063",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B063",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B063',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B063",
+      "revision": "cb8fa3038217b8b5239e62c1e3805331de794059",
+      "readme": "# B063\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B063',\n    trust_remote_code=True,\n)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B064",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "none",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B064",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B064',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B064",
+      "revision": "d4032c686e3fb4b84910b2dcaf8c7647ae2f432a",
+      "readme": "# B064\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B064',\n    trust_remote_code=True,\n)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B065",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B065",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B065', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B065",
+      "revision": "a70e1eabe93658803e0bb24cccc416fb6dfc9fa2",
+      "readme": "# B065\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B065', trust_remote_code=True)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B066",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B066",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B066', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B066",
+      "revision": "e5ab7d29098a89cc1ebcc63a3b3c54f2b0267b2f",
+      "readme": "# B066\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B066', trust_remote_code=True)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B067",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B067",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B067',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B067",
+      "revision": "fbadae988b346004880bd189233b21e026181705",
+      "readme": "# B067\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B067',\n    trust_remote_code=True,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B068",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "other-model",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B068",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B068',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B068",
+      "revision": "ac866adbefcbbc7ac257d40af84675c2dd7021a8",
+      "readme": "# B068\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B068',\n    trust_remote_code=True,\n)\n```\n\nAnother model example:\n```python\nAutoModel.from_pretrained(\"binding-fixture/other\", trust_remote_code=True)\n```\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B069",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B069",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B069', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B069",
+      "revision": "1724d6611c6c92fa8d1465040b53a3f97a5df50c",
+      "readme": "# B069\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B069', trust_remote_code=True)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B070",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "one-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B070",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B070', trust_remote_code=True)",
+    "snapshot": {
+      "model_id": "binding-fixture/B070",
+      "revision": "5935ed92bdd79aeab7b42c56e3fb53fa13cca9b7",
+      "readme": "# B070\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained('binding-fixture/B070', trust_remote_code=True)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B071",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": false
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B071",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": false,
+      "enabled_declared_custom_route": false,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B071',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B071",
+      "revision": "26430c6c9ff477f57b9bb5c64908d939ccfd34ea",
+      "readme": "# B071\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B071',\n    trust_remote_code=True,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert"
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "B072",
+    "factors": {
+      "style": "qualified-class",
+      "remote_code": true,
+      "distractor": "comment",
+      "layout": "multi-line",
+      "mapping": true
+    },
+    "reference": {
+      "selected_target": "binding-fixture/B072",
+      "selected_class": "AutoModel",
+      "selected_remote_code": true,
+      "mapping_present": true,
+      "enabled_declared_custom_route": true,
+      "scope": "Authored documentation/configuration route; no runtime truth"
+    },
+    "selected_python_example": "import transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B072',\n    trust_remote_code=True,\n)",
+    "snapshot": {
+      "model_id": "binding-fixture/B072",
+      "revision": "39ccb5e1faab26ada72079fcf21768c43e574a9a",
+      "readme": "# B072\n\nNo custom code is required.\n\n```python\nimport transformers\nmodel = transformers.AutoModel.from_pretrained(\n    'binding-fixture/B072',\n    trust_remote_code=True,\n)\n```\n\n<!-- Historical example text: trust_remote_code=True -->\n",
+      "config": {
+        "model_type": "bert",
+        "auto_map": {
+          "AutoModel": "modeling_custom.Model"
+        }
+      },
+      "loading_path": {
+        "auto_class": "AutoModel",
+        "readme_call_line": 7
+      },
+      "artifacts": [
+        {
+          "path": "modeling_custom.py",
+          "format": "unknown"
+        }
+      ]
+    }
+  }
+]

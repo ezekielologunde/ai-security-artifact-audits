@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-19",
+  "archive_sha256": "d30e802f3d233ef05c5649f26f5ffa8e75be2d824a2877a843080b8617e772db",
+  "archive_bytes": 18327,
+  "clean_replay_commands_exit_zero": true,
+  "all_144_outputs_match": true,
+  "packaged_inputs_unchanged": true,
+  "case_count": 72,
+  "counts": {
+    "overlay": {
+      "tp": 18,
+      "fp": 12,
+      "fn": 0,
+      "tn": 42
+    },
+    "overlay_bound_loader": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 12,
+      "tn": 54
+    }
+  },
+  "independent_review": false,
+  "scope": "Source-informed authored evidence-route sensitivity; not natural accuracy or runtime security"
+}

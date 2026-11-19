@@ -1,0 +1,26 @@
+{
+  "case_count": 72,
+  "positive_reference_cases": 18,
+  "counts": {
+    "overlay": {
+      "tp": 18,
+      "fp": 12,
+      "fn": 0,
+      "tn": 42
+    },
+    "overlay_bound_loader": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 12,
+      "tn": 54
+    }
+  },
+  "paired_firings": {
+    "default=False,strict=False": 42,
+    "default=True,strict=False": 24,
+    "default=True,strict=True": 6
+  },
+  "dataset_sha256": "4f995eae0c3993bc5d3690326f354d9319a0718814cf31a02afd4f9cd114ad1c",
+  "implementation_sha256": "f9a6fdf290af6d29ac36b2e93164011ea2e4d3b85cbe5b9dbd619a40f79a75f7",
+  "outputs_sha256": "a5049640770de60dc87a30f916ecaaa4afc63271c72c6bf7fec0c6d16958c766"
+}

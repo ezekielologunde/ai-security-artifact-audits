@@ -1,6 +1,6 @@
 # AI Security Artifact Audits — Preliminary Technical Reports
 
-Ezekiel Ologunde · Collection version 14 · 17 November 2026
+Ezekiel Ologunde · Collection version 15 · 19 November 2026
 
 Seven bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
 
@@ -36,3 +36,7 @@ The P01 package includes 1,020 authored inert SQLite reference files, original v
 ## Separate engineering supplement
 
 [Loader-context CLI extension](supplements/P02-loader-context/README.md) adds lexical context and an explicit selected remote-code flag. The new controlled diagnostic now abstains when that flag is false. Eighteen tests, 180 original-case comparisons and four discovery replays pass, with seven pinned compact files reacquired. General README call/target binding remains incomplete. This is not a paper revision or independent natural validation; all published studies and frozen reproduction directories remain unchanged.
+
+## Authored evidence-attribution sensitivity study
+
+[Separate 72-case P02 sensitivity study](supplements/P02-binding-sensitivity/README.md) reports both sides of a controlled tradeoff: default mode fires on 18 constructed enabled routes and 12 negative routes; strict mode fires on 6 enabled and zero negative routes, missing 12 enabled routes. All 144 outputs reproduce after clean dataset regeneration. These counts are not natural precision/recall, runtime security or evidence of a new algorithm. The earlier six-page paper and its zero-false-positive result remain scoped to the original 36 cases; all existing PDFs and frozen reproduction directories are unchanged.

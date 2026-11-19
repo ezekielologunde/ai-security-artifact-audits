@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "date": "2026-11-17",
+  "version": 15,
+  "date": "2026-11-19",
   "author": "Ezekiel Ologunde",
   "reports": [
     {
@@ -101,6 +101,30 @@
       "pinned_compact_files_reacquired": 7,
       "paper_revised": false,
       "selected_remote_code_flag_diagnostic": "contradicted before; unverifiable after",
+      "independent_review_complete": false
+    },
+    {
+      "id": "P02-binding-sensitivity",
+      "path": "supplements/P02-binding-sensitivity",
+      "status": "authored controlled sensitivity study; independent natural validation pending",
+      "case_count": 72,
+      "mode_case_outputs": 144,
+      "paper_revised": false,
+      "model_calls": 0,
+      "counts": {
+        "overlay": {
+          "tp": 18,
+          "fp": 12,
+          "fn": 0,
+          "tn": 42
+        },
+        "overlay_bound_loader": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 12,
+          "tn": 54
+        }
+      },
       "independent_review_complete": false
     }
   ],
