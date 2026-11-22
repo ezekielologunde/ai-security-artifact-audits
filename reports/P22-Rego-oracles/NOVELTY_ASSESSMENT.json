@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-21",
+  "status": "Artifact-specific empirical audit suitable for a bounded preprint draft; no established field-wide priority",
+  "research_gap": "Whether released generated negative Rego assertions establish a denied decision under an explicitly stated consumer contract, rather than merely succeeding on a defined set-valued expression.",
+  "questions": [
+    "What assertion forms and native outcomes occur in the acquired Rego artifact snapshot under a pinned qualification runtime?",
+    "Can a default-allow change produce a source-request decision difference while the unchanged selected negative assertion group passes?",
+    "Can separately generated typed assertions reject the demonstrated permissive outcomes under a declared deny-overrides contract?"
+  ],
+  "hypothesis": "For some source-informed candidates, bare set-valued deny assertions pass despite allow=true and an empty deny set. Under the authored Boolean-allow/set-deny contract, explicit assertions reject those outcomes.",
+  "hypothesis_status": "Supported for the conditional tested cases, not for unobserved applications or natural authorization intent",
+  "prior_work": [
+    {
+      "title": "Reparo: Synthesizing and Validating Access Control Policies",
+      "url": "https://arxiv.org/html/2610.41800v1",
+      "overlap": "Repository evidence, native validation and generated behavioral oracles are already central contributions; finite coverage, correlated errors and interface omissions are acknowledged limitations."
+    },
+    {
+      "title": "A Fault Model and Mutation Testing of Access Control Policies",
+      "authors": "Evan Martin and Tao Xie",
+      "year": 2007,
+      "url": "https://archives.iw3c2.org/www2007/papers/paper447.pdf",
+      "overlap": "Policy mutation testing and assessment of fault detection are established."
+    },
+    {
+      "title": "regodrill",
+      "url": "https://github.com/adamaKomi/regodrill",
+      "overlap": "Existing Rego mutation tool documents DEFAULT_FLIP false/true and mutation scoring. No novelty claimed for that operator or general Rego mutation tooling.",
+      "commit": "0a58c2948fb83fbdaa7339a3292857f00af0651c",
+      "pinned_readme": "https://github.com/adamaKomi/regodrill/blob/0a58c2948fb83fbdaa7339a3292857f00af0651c/README.md"
+    },
+    {
+      "title": "Introduction to Open Policy Agent",
+      "presenter": "Torin Sandall, hosted by Rawkode",
+      "date": "2020-11-19",
+      "url": "https://rawkode.academy/watch/introduction-to-open-policy-agent?t=3824",
+      "overlap": "At approximately 1:03:44 the presentation explicitly explains why a bare deny set makes a test pass even when empty. The language failure mode is prior knowledge."
+    },
+    {
+      "title": "rego-test-assertions",
+      "url": "https://github.com/adam-sandor/rego-test-assertions",
+      "overlap": "Explicit collection assertions, including emptiness and membership, already exist.",
+      "commit": "7e1afc4ef91fc480f2de10304cfddd40e88be63b",
+      "pinned_readme": "https://github.com/adam-sandor/rego-test-assertions/blob/7e1afc4ef91fc480f2de10304cfddd40e88be63b/README.md"
+    },
+    {
+      "title": "Regal rule index",
+      "url": "https://www.openpolicyagent.org/projects/regal/rules",
+      "overlap": "Existing lint infrastructure and custom rules preclude claims of inventing a policy overlay. The inspected published index does not by itself establish what all configurations detect; no head-to-head effectiveness claim."
+    },
+    {
+      "title": "OPA Policy Testing",
+      "url": "https://www.openpolicyagent.org/docs/policy-testing",
+      "overlap": "Native test semantics and explicit negated Boolean decision tests are documented."
+    }
+  ],
+  "candidate_increment": "Hash-identified artifact replay, conditional per-request evidence from generated assertions, explicit separation of named-group results from full-suite results and semantic non-equivalence, plus a declared-contract diagnostic comparator.",
+  "search_boundary": "Primary paper, official documentation, original tool repositories and original tutorial inspected on 2026-11-21. Targeted search is not systematic review or proof of absence. No claim to be first.",
+  "publication_limits": "No deployed exploit, authenticated application intent, population prevalence, corrected original-paper aggregate score, new mutation-testing algorithm, or measured superiority over Regal/regodrill. External peer review is not a preparation prerequisite."
+}

@@ -1,0 +1,20 @@
+{
+  "analyze_reparo_assertion_overlay.py": "09a1ce6f20bc05a4c1cbd3717ced7bf662385e905b87b72bd3a8cb98114a2b9e",
+  "analyze_reparo_corpus_replay.py": "373b326c38641a370283a08235967832a7f270f1f46596059d365f2953ba32f8",
+  "analyze_reparo_typed_followup.py": "bc1970b5cf7c89329e653d4dcbf8ce67d8806a526189e250421db91ce3af0b7f",
+  "EXPECTED.json": "22eef5df4323bdf43549accaf21f9923894c010fa9e50698bbb2973f7f0f13c5",
+  "followup_reparo_typed_assertions.py": "dce2e75593c61b329ba8a2239432169a8fcdc38b0b54ead65f82aa11a8de98ec",
+  "LICENSE_CODE.txt": "a104ef276c595a45eac15edbf31bf4e835018949f949bf9f1ce8e0cfa3d0720d",
+  "prepare_reparo_replay_inputs.py": "35ece6f79c3cedd227553850f41d35f40f969b2efd97f17c1d9f79c571918fcd",
+  "README.md": "dc132b2129ea8602a353fc380714f4150993a273fa2dd58fb01a848d1b8917b5",
+  "rego_assertion_overlay.py": "bda0003c0695cde086c18c78c9604f5f2d500b1c0ac6099d90771345242bfed0",
+  "REPARO_ASSERTION_OVERLAY_PROTOCOL_20261121.json": "02d5d26ce9da70d67f08411dd213261e10a77027b5d6f7f8f6d47a55b0759de8",
+  "REPARO_CORPUS_REPLAY_PROTOCOL_20261121.json": "5c9cb1e4c090aa42eeed28737ceccfc07420e555e0df22038929f5971857bde0",
+  "REPARO_EMPTY_DENY_FOLLOWUP_PROTOCOL_20261121.json": "c4c0bce459fd2f9ab4201035e7e863d3b174a7d3329e0b456acf30f4aa9be356",
+  "REPARO_ORACLE_SEMANTICS_PROTOCOL_20261121.json": "8988d0a04ceae8654d9ed08e620d22af00cd98e2bb55aff2b72ddb55b44000f1",
+  "REPARO_TYPED_ASSERTION_FOLLOWUP_PROTOCOL_20261121.json": "f9ba846ddc62175932fbdb6f463faff894777c33beebb271c91cb001911b9b81",
+  "replay_reparo_corpus.py": "036fbd3cdf0c864eef8ad2e6b802e84adf98b1d1ccf43d8d8a390c804469bf5d",
+  "run_reparo_assertion_overlay_v2.py": "76c8e19474c99fd0d605bce6577f07eddccccb34838572df9ca8d9e15599a8c4",
+  "run_replay.py": "7a43a55cf5fbe39483d3c5730dcd0a02e79a30e8def1c854773ebef2946d66b5",
+  "verify_results.py": "32914ed164bc27a79daddcc3eb518bb1e3bc9f9ed01457f7b2d7e8185c81e4e5"
+}

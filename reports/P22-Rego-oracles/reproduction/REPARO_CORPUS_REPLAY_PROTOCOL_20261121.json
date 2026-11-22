@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-21",
+  "stage": "Frozen before corpus-wide native execution; follows one source-informed witness",
+  "source_archive_sha256": "8cd430b36a64a130be89be64b9eb4aac97759035f55172b829a1a7e63100714c",
+  "population": "All 100 acquired Rego repository folders and both generation-model folders where present. Expected inventory: 200 policy files, 325 rendered oracle suites and 325 CSV files. The 400 possible repository/model/oracle combinations retain absent suites explicitly; absent is not a native failure or a paper defect.",
+  "runtime": "Official OPA v1.22.4 linux_amd64_static SHA256 35e3b352e715e80624ead6c89930d8585f6f7d94cdc409eb2a9fe36620dcccba; not asserted to be the paper runtime",
+  "execution": "Stage the complete selected inputs and verified binary freshly in one WSL process. For each command, bubblewrap uses private filesystem/network namespaces, read-only binary/corpus, private proc/dev/tmp, cleared environment, no host home/credentials. At most four concurrent processes. Native command timeout 10 seconds, outer subprocess timeout 15 seconds. No hosted calls or policy mutation in this stage.",
+  "commands": [
+    "opa check <one final_policy.rego>",
+    "opa parse --format json <each policy and each rendered oracle module>",
+    "opa test --format json --verbose --timeout 10s <one policy> <one rendered oracle module>"
+  ],
+  "outcomes": "Retain every exit code, stdout/stderr, parsed native JSON, timeouts and missing files. Parse/compile failure, zero tests, test assertion failure and infrastructure failure are distinct. File-local checks follow the released README; no source repair, sibling dependency recovery or compatibility-mode switching in the primary run.",
+  "saved_result_comparison": "Read all released CSV rows as supplied outputs, not true authorization labels. Compare per-suite pass/fail/error counts and per-test-ID outcome multisets where representable. Native #NN suffixes assigned to duplicate test names may be stripped only for this name-level multiset comparison; preserve exact native names and CSV rows. This does not establish exact source-occurrence matching or validate the original paper's aggregate tables.",
+  "static_followup": "Native parsed ASTs may identify candidate single-expression, non-negated bare deny assertions and literal with-input bindings. Such candidates require separate type/decision checks before being called weak tests. Do not count every rule named deny as an authorization decision.",
+  "integrity": "Verify every acquired Rego file against the ZIP inventory before and after execution. Record runtime and protocol identities. Do not overwrite original saved outputs. Checkpoint execution results in append-only JSONL.",
+  "limits": "Selected language only, mutable snapshot, one pinned qualification runtime. No learned-model rerun, natural-intent accuracy, deployment exploit, full-suite mutation escape or field-wide priority claim. Peer review is not a preprint prerequisite."
+}

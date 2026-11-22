@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-21",
+  "status": "Frozen after typed follow-up and before native overlay execution",
+  "intervention": "Generate separate native tests that assert an explicitly configured decision contract, leaving acquired policy and oracle files unchanged.",
+  "declared_contract": "Boolean allow and set-valued deny, with deny overrides: permission requires allow=true and an empty deny set; denial requires allow=false or a nonempty deny set. Both values must be defined and have the declared types. This contract is selected for this diagnostic experiment, not inferred or authenticated as the applications' actual integration contract.",
+  "population": "All 80 mutation-eligible unique suite/name/input cases from the preceding frozen screen, preserving each supplied expected deny label. All nine original and default-allow mutant policy variants. No cases selected by success of the overlay.",
+  "comparison": "Native unchanged named negative groups versus newly generated typed assertions, on original and mutant policies. Report baseline disagreements with the declared contract rather than interpreting every new failure as a repair regression or real intent error. Individual groups and full suites remain separate units.",
+  "controls": "Hand-specified truth-table controls for boolean true/false crossed with empty/nonempty deny sets, and unsupported/missing value types. Include permission as well as denial controls. Unsupported values must not produce an accepted permission or denial assertion.",
+  "outcomes": "All generated test results, exit codes, expected names and types; pass/fail counts in each variant. Specifically check whether the four strict witnesses preserve original denial assertions while rejecting the permissive mutant. No claim to preserve natural legitimate application behavior follows from this contract fixture.",
+  "execution": "Same official OPA v1.22.4 and private bubblewrap runtime, freshly staged, read-only inputs, no network/home/credentials, two workers maximum. Compressed raw command records retained.",
+  "limits": "An explicit contract checker, not an automated authorization-intent oracle, new policy-testing algorithm or demonstrated deployment defense. Research preprint does not require an external reviewer."
+}

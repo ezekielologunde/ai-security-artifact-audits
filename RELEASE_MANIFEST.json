@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "date": "2026-11-21",
   "author": "Ezekiel Ologunde",
   "reports": [
@@ -87,6 +87,20 @@
       "status": "bounded artifact correspondence report; not peer reviewed",
       "independent_review_complete": false,
       "bundled_upstream_records": "MIT code and CC BY 4.0 synthetic traces/tasks; notices preserved"
+    },
+    {
+      "study": "P22-Rego-oracles",
+      "shared_topic": "P22",
+      "report": "reports/P22-Rego-oracles/rego_oracle_semantics_audit.pdf",
+      "pdf_sha256": "0396b70062d0a6a6e5e781e762bc836d1bdeb7f2e063a065451f90f635e7caac",
+      "pages": 5,
+      "status": "bounded empirical audit preprint",
+      "external_review_required_for_preprint": false,
+      "raw_upstream_inputs_included": false,
+      "clean_replay_commands": 1404,
+      "aggregate_fields_verified": 56,
+      "known_prior_mechanism": true,
+      "field_wide_priority_established": false
     }
   ],
   "technical_supplements": [
@@ -144,5 +158,11 @@
     "new_reports_added": 0,
     "new_experiment_runs": 0,
     "upstream_terms_retained": true
+  },
+  "latest_addition": {
+    "study": "P22-Rego-oracles",
+    "previous_report_bytes_unchanged": true,
+    "external_preprint_server_submission": false,
+    "authored_licences_retained": true
   }
 }

@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-21",
+  "status": "Prepared and verified preprint package",
+  "author": "Ezekiel Ologunde",
+  "affiliation": "Independent researcher, Boston, USA",
+  "external_review_required": false,
+  "external_preprint_server_submission": false,
+  "pdf_pages": 5,
+  "visual_pages_checked": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "overfull_boxes": 0,
+  "source_archive_matches": true,
+  "clean_package_code_members_verified": 18,
+  "clean_package_native_commands": 1404,
+  "aggregate_fields_verified": 56,
+  "all_aggregate_fields_equal": true,
+  "clean_replay": "Existing environment and locally held hash-verified inputs; not independent environment replication",
+  "acquired_inputs_unchanged": true,
+  "raw_upstream_inputs_distributed": false,
+  "report_license": "CC-BY-4.0",
+  "authored_code_license": "MIT",
+  "new_model_calls": 0,
+  "artifacts": {
+    "main.pdf": {
+      "sha256": "0396b70062d0a6a6e5e781e762bc836d1bdeb7f2e063a065451f90f635e7caac",
+      "bytes": 84724
+    },
+    "main.tex": {
+      "sha256": "b7f0b8f08556761f21f58f5d8819cf711bffae110b987d3bf4177b8de26f299c",
+      "bytes": 18179
+    },
+    "source.zip": {
+      "sha256": "edca4ed0de0feaad00a27088743719eea9a2c596e183128b0c700d96f3376b12",
+      "bytes": 7613
+    },
+    "reproduction.zip": {
+      "sha256": "ffe9be3998905fa256337a5d9bd87643f66c1e7932d0fc0e946dcbc925d36fda",
+      "bytes": 30546
+    }
+  },
+  "limits": "Known language hazard and existing default-flip operator; conditional artifact evidence, not natural intent, deployment efficacy, field-wide priority or a confirmed semantic escape from an originally passing full suite.",
+  "packaging_corrections": "Preserved early long-path extraction failure; then corrected missing work parent and self-including hash manifest. Successful clean extraction/replay uses final unchanged 18 code/metadata members."
+}

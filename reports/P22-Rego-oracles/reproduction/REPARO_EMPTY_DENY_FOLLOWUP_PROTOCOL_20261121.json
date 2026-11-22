@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-21",
+  "status": "Exploratory follow-up, specified after the first native witness",
+  "reason": "The initial Reader assign_role request produced a nonempty deny set in both original and mutant, leaving ambiguity about consumers that combine allow and deny signals. Preserve that result; do not relabel it an empty-set witness.",
+  "selection": "The already-inspected published test named test_reader_cannot_read_secret in the same lexicographically first repository/model/oracle. Extract its exact JSON request from the unchanged source, rather than inventing a new request.",
+  "hypothesis": "For this selected request, the original and default-allow mutant may both produce an empty deny set, while allow changes from false to true and the unchanged selected negative test continues to pass.",
+  "execution": "Same verified OPA v1.22.4 and private bubblewrap environment. Evaluate both policy signals and run only the named unchanged test via the native test-name filter.",
+  "limits": "Source-informed exploratory single-case witness. Not an unseen confirmatory sample, full-suite evasion, application exploitation, paper score correction or proof of erroneous natural authorization intent. No external reviewer prerequisite."
+}

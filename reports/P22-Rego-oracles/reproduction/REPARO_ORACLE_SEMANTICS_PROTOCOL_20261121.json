@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-21",
+  "status": "Frozen after source inspection and before native policy execution",
+  "artifact_sha256": "8cd430b36a64a130be89be64b9eb4aac97759035f55172b829a1a7e63100714c",
+  "candidate": "Definedness of a set-valued deny rule versus a denied authorization decision",
+  "source_informed_selection": "Lexicographically first Rego repository abhishekbagde__apex-platform, claude-sonnet-5 policy, gpt-5.4 test source. It contains a partial-set deny rule and bare deny expressions in several negative tests. Selection and hypothesis follow inspection, not a random or blinded test.",
+  "hypothesis": "A bare set-valued deny expression may satisfy an OPA test when the set is empty; such a test may keep passing when the same request becomes allowed under a default-allow policy mutation.",
+  "controls": "First a standalone authored language fixture: allow true, deny empty set, bare deny test, not-allow test. Then the unchanged artifact policy and unchanged rendered test suite, and a separately copied policy differing only in default allow=false to default allow=true. Explicitly evaluate the same Reader assign_role request's allow and deny values in both policies.",
+  "native_runtime": "Official OPA v1.22.4 linux_amd64_static, published 12 November 2026. Verify publisher asset SHA256 35e3b352e715e80624ead6c89930d8585f6f7d94cdc409eb2a9fe36620dcccba. This is a pinned qualification runtime, not an established original-paper runtime.",
+  "execution_boundary": "WSL Ubuntu, bubblewrap private filesystem and network namespace, selected case files read-only, no credentials/home mount, bounded command timeout. No model/provider calls.",
+  "measurements": "Native parser/test exit codes, every test name/pass/fail, explicit allow boolean and deny set for the selected fixed request. Compare original versus mutant per test. Passing a weak individual test is not the same as an undetected whole-suite mutant.",
+  "limitations": "One source-informed native witness. No prevalence, general oracle accuracy, wrong-published-score, new mutation-testing algorithm or field-wide priority claim. Only a measured artifact-specific increment can support a later scoped preprint. External review is not a publication prerequisite.",
+  "source_policy": "Original acquired policies/tests remain unchanged. Generated mutants and authored controls are separate outputs with hashes. No raw dataset redistribution without established terms."
+}

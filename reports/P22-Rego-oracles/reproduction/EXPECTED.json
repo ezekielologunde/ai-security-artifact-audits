@@ -1,0 +1,99 @@
+{
+  "reparo_corpus_analysis_20261121.json": {
+    "date": "2026-11-21",
+    "policies": 200,
+    "oracle_suites_present": 325,
+    "possible_suites": 400,
+    "missing_suites": 75,
+    "logical_commands": 1050,
+    "native_exit_codes": {
+      "check": {
+        "0": 198,
+        "1": 2
+      },
+      "parse-policy": {
+        "0": 199,
+        "1": 1
+      },
+      "parse-tests": {
+        "0": 307,
+        "1": 18
+      },
+      "test": {
+        "1": 87,
+        "0": 86,
+        "2": 152
+      }
+    },
+    "saved_csv_rows": 7263,
+    "native_named_test_instances": 4980,
+    "native_suites_with_assertions": 238,
+    "csv_comparison_eligible": 237,
+    "csv_name_outcome_multisets_equal": 115,
+    "csv_name_outcome_multisets_different": 122,
+    "test_ast_parse_failures": 18,
+    "parsed_test_rule_occurrences": 6714,
+    "bare_deny_single_expression_candidates": 347,
+    "typed_expected_deny_literal_candidates": 148,
+    "unique_suite_name_input_candidates": 83,
+    "candidate_suites": 11,
+    "candidate_policy_variants": 10,
+    "candidate_repositories": 8,
+    "new_model_calls": 0,
+    "scope": "Pinned modern-runtime replay and conservative AST candidate inventory; no prevalence of real intent errors, per-request confirmation, paper-score correction or field-wide priority inferred."
+  },
+  "reparo_typed_followup_summary_20261121.json": {
+    "date": "2026-11-21",
+    "source_informed_static_candidates": 83,
+    "mutation_eligible_cases": 80,
+    "mutation_ineligible_cases": 3,
+    "mutant_policies": 9,
+    "mutant_checks": {
+      "0": 9
+    },
+    "native_commands": 335,
+    "strict_mechanistic_witness_cases": 4,
+    "strict_witness_suites": 2,
+    "strict_witness_policy_variants": 2,
+    "strict_witness_repositories": 2,
+    "baseline_allow_true_empty_deny_with_passing_negative_cases": 12,
+    "baseline_counterexample_suites": 4,
+    "named_groups_pass_both_cases": 80,
+    "full_suites_evaluated": 10,
+    "originally_passing_candidate_suites": 5,
+    "passing_suites_unrejecting_default_change": 5,
+    "passing_suites_with_strict_source_request_semantic_witness": 0,
+    "full_suite_interpretation": "A default change remaining un-rejected is not a confirmed semantic mutant escape without a distinguishing request in the stated domain. No such strict source-request witness is established for the originally passing suites here.",
+    "all_acquired_source_hashes_unchanged": true,
+    "new_model_calls": 0,
+    "interpretation": "Conditional native test-semantics observations. No authentication of application intent, paper aggregate score correction, deployment exploit, population prevalence or new mutation-testing algorithm claimed. Native duplicate test instances are grouped; unique cases retain distinct literal inputs.",
+    "runtime": "Official OPA v1.22.4 qualification runtime; paper runtime identity not established"
+  },
+  "reparo_assertion_overlay_analysis_20261121.json": {
+    "date": "2026-11-21",
+    "native_commands": 19,
+    "case_count": 80,
+    "counts": {
+      "contract-controls": {
+        "pass": 12
+      },
+      "overlay-mutant": {
+        "fail": 16,
+        "pass": 64
+      },
+      "overlay-original": {
+        "pass": 68,
+        "fail": 12
+      }
+    },
+    "verified_comparisons": {
+      "strict_witnesses_rejected": 4,
+      "baseline_contract_disagreements": 12
+    },
+    "all_acquired_source_hashes_unchanged": true,
+    "new_model_calls": 0,
+    "contract": "Explicit authored Boolean allow and set-valued deny with deny overrides; application contract not inferred.",
+    "interpretation": "Conditional diagnostic evidence; no deployment efficacy, authenticated natural intent, population prevalence, or complete-suite semantic escape claim.",
+    "prior_control_fixture_failure_preserved": "work/reparo-assertion-overlay-v1"
+  }
+}
