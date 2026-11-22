@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-21",
+  "status": "Frozen after the eight original conditions, before status-guard comparison",
+  "intervention": "An authored executor wrapper uses the unchanged upstream ExplicitStatusStrategy to raise on an explicit compensation error result before the core can mark the record compensated. No upstream source patch, changed tool state transition or claim of new error-checking technique.",
+  "population": "Repeat all eight original authored conditions with fresh fixture databases and identical operations. No cases selected by wrapper success.",
+  "comparison": "Preserve success controls, observe four explicit-error-result conditions, and retain direct-exception and success-returning-no-op controls. A detected partial compensation still leaves partial fixture effects: reporting failure is not restoring state.",
+  "outcome": "Per-case native return/exception, log state and independent SQLite state. No statistical efficacy, production repair or automatic verification of successful external effects claimed.",
+  "analysis_correction": "The first derived counter compared the uppercase ActionStatus value COMPENSATED with lowercase text. Original raw records and initial harness are preserved; reanalysis uses the actual enum value without changing or repeating original observations."
+}

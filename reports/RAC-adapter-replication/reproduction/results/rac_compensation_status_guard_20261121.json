@@ -1,0 +1,647 @@
+{
+  "date": "2026-11-21",
+  "pin": "068c327ab3f9b79a86a39503946e26320b74b97a",
+  "protocol_sha256": "f8dafd0b4028807b7d51f792dd84d6c30c98e23b4d66d7b82d80fd471b29f2cd",
+  "harness_sha256": "cfcdb1ed5d12548d3bff8373526809a5e638b15ab0448ad5a09ae623fc8a6089",
+  "python": "3.12.14",
+  "pydantic": "2.12.5",
+  "loaded_adapter_sha256": "49e214bbc275d5f94b4a11027302cf16eec69d1c08f29cc83997cc008683447c",
+  "summary": {
+    "cases": 8,
+    "explicit_error_bookkeeping_mismatches": 0,
+    "success_claim_with_fixture_residue": 1,
+    "success_returning_noop_is_semantic_limit_control": true,
+    "acquired_sources_unchanged": true,
+    "new_model_calls": 0
+  },
+  "cases": [
+    {
+      "condition": "core-success",
+      "record_id": "388acf3d-b3d1-470b-9d5b-b057422f0ce8",
+      "before": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "after": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": false
+          }
+        ],
+        "active_sessions": 0,
+        "artifact_rows": 0,
+        "artifact_contents": []
+      },
+      "executor_calls": [
+        {
+          "name": "create_session",
+          "params": {},
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "session_id": "s1"
+          },
+          "explicit_status_is_error": false
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "revoked": true,
+            "artifact_removed": true
+          },
+          "explicit_status_is_error": false
+        }
+      ],
+      "actual_tool_invocations": [
+        {
+          "name": "create_session",
+          "params": {}
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          }
+        }
+      ],
+      "rollback": {
+        "kind": "return",
+        "success": true,
+        "compensated": [
+          "388acf3d-b3d1-470b-9d5b-b057422f0ce8"
+        ],
+        "failed": [],
+        "message": "Rolled back 1 actions"
+      },
+      "final_record_status": "COMPENSATED",
+      "explicit_error_returned": false,
+      "compensation_bookkeeping_despite_error": false,
+      "fixture_residue_remains": false,
+      "success_claim_with_residue": false
+    },
+    {
+      "condition": "core-explicit-error",
+      "record_id": "3d925e8f-db70-4db6-acf4-5315f9dc4303",
+      "before": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "after": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "executor_calls": [
+        {
+          "name": "create_session",
+          "params": {},
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "session_id": "s1"
+          },
+          "explicit_status_is_error": false
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "result_type": "SimpleActionResult",
+          "status": "error",
+          "content": "AUTHORED_EXPLICIT_ERROR",
+          "explicit_status_is_error": true
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "exception": "RuntimeError",
+          "message": "AUTHORED_STATUS_GUARD: AUTHORED_EXPLICIT_ERROR"
+        }
+      ],
+      "actual_tool_invocations": [
+        {
+          "name": "create_session",
+          "params": {}
+        }
+      ],
+      "rollback": {
+        "kind": "exception",
+        "exception": "CriticalFailure",
+        "message": "Compensation failed immediately: AUTHORED_STATUS_GUARD: AUTHORED_EXPLICIT_ERROR"
+      },
+      "final_record_status": "COMPLETED",
+      "explicit_error_returned": true,
+      "compensation_bookkeeping_despite_error": false,
+      "fixture_residue_remains": true,
+      "success_claim_with_residue": false
+    },
+    {
+      "condition": "core-raised-exception",
+      "record_id": "f3002821-b7f6-49dd-8c4b-d346526c6a69",
+      "before": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "after": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "executor_calls": [
+        {
+          "name": "create_session",
+          "params": {},
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "session_id": "s1"
+          },
+          "explicit_status_is_error": false
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "exception": "RuntimeError",
+          "message": "AUTHORED_COMPENSATION_FAILURE_BEFORE_CHANGE"
+        }
+      ],
+      "actual_tool_invocations": [
+        {
+          "name": "create_session",
+          "params": {}
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          }
+        }
+      ],
+      "rollback": {
+        "kind": "exception",
+        "exception": "CriticalFailure",
+        "message": "Compensation failed immediately: AUTHORED_COMPENSATION_FAILURE_BEFORE_CHANGE"
+      },
+      "final_record_status": "COMPLETED",
+      "explicit_error_returned": false,
+      "compensation_bookkeeping_despite_error": false,
+      "fixture_residue_remains": true,
+      "success_claim_with_residue": false
+    },
+    {
+      "condition": "native-success",
+      "record_id": "3970fe5a-5d89-4e03-bed1-55dc61861663",
+      "before": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "after": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": false
+          }
+        ],
+        "active_sessions": 0,
+        "artifact_rows": 0,
+        "artifact_contents": []
+      },
+      "executor_calls": [
+        {
+          "name": "create_session",
+          "params": {},
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "session_id": "s1"
+          },
+          "explicit_status_is_error": false
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "revoked": true,
+            "artifact_removed": true
+          },
+          "explicit_status_is_error": false
+        }
+      ],
+      "actual_tool_invocations": [
+        {
+          "name": "create_session",
+          "params": {}
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          }
+        }
+      ],
+      "rollback": {
+        "kind": "return",
+        "success": true,
+        "compensated": [
+          "3970fe5a-5d89-4e03-bed1-55dc61861663"
+        ],
+        "failed": [],
+        "message": "Rolled back 1 actions"
+      },
+      "final_record_status": "COMPENSATED",
+      "explicit_error_returned": false,
+      "compensation_bookkeeping_despite_error": false,
+      "fixture_residue_remains": false,
+      "success_claim_with_residue": false
+    },
+    {
+      "condition": "native-raised-before-change",
+      "record_id": "7f9b4e60-01ae-4f9f-9dec-9c7db7bf4086",
+      "before": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "after": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "executor_calls": [
+        {
+          "name": "create_session",
+          "params": {},
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "session_id": "s1"
+          },
+          "explicit_status_is_error": false
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "result_type": "SimpleActionResult",
+          "status": "error",
+          "content": "Error: AUTHORED_COMPENSATION_FAILURE_BEFORE_CHANGE",
+          "explicit_status_is_error": true
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "exception": "RuntimeError",
+          "message": "AUTHORED_STATUS_GUARD: Error: AUTHORED_COMPENSATION_FAILURE_BEFORE_CHANGE"
+        }
+      ],
+      "actual_tool_invocations": [
+        {
+          "name": "create_session",
+          "params": {}
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          }
+        }
+      ],
+      "rollback": {
+        "kind": "exception",
+        "exception": "CriticalFailure",
+        "message": "Compensation failed immediately: AUTHORED_STATUS_GUARD: Error: AUTHORED_COMPENSATION_FAILURE_BEFORE_CHANGE"
+      },
+      "final_record_status": "COMPLETED",
+      "explicit_error_returned": true,
+      "compensation_bookkeeping_despite_error": false,
+      "fixture_residue_remains": true,
+      "success_claim_with_residue": false
+    },
+    {
+      "condition": "native-partial-change-then-raise",
+      "record_id": "df54f0cd-d0e8-440a-ae0f-5946060e9ce2",
+      "before": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "after": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": false
+          }
+        ],
+        "active_sessions": 0,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "executor_calls": [
+        {
+          "name": "create_session",
+          "params": {},
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "session_id": "s1"
+          },
+          "explicit_status_is_error": false
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "result_type": "SimpleActionResult",
+          "status": "error",
+          "content": "Error: AUTHORED_COMPENSATION_FAILURE_AFTER_SESSION_CHANGE",
+          "explicit_status_is_error": true
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "exception": "RuntimeError",
+          "message": "AUTHORED_STATUS_GUARD: Error: AUTHORED_COMPENSATION_FAILURE_AFTER_SESSION_CHANGE"
+        }
+      ],
+      "actual_tool_invocations": [
+        {
+          "name": "create_session",
+          "params": {}
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          }
+        }
+      ],
+      "rollback": {
+        "kind": "exception",
+        "exception": "CriticalFailure",
+        "message": "Compensation failed immediately: AUTHORED_STATUS_GUARD: Error: AUTHORED_COMPENSATION_FAILURE_AFTER_SESSION_CHANGE"
+      },
+      "final_record_status": "COMPLETED",
+      "explicit_error_returned": true,
+      "compensation_bookkeeping_despite_error": false,
+      "fixture_residue_remains": true,
+      "success_claim_with_residue": false
+    },
+    {
+      "condition": "native-missing-tool",
+      "record_id": "0156d0a2-2725-44be-9824-14d4e69ef6b3",
+      "before": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "after": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "executor_calls": [
+        {
+          "name": "create_session",
+          "params": {},
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "session_id": "s1"
+          },
+          "explicit_status_is_error": false
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "result_type": "SimpleActionResult",
+          "status": "error",
+          "content": "Tool remove_session not found",
+          "explicit_status_is_error": true
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "exception": "RuntimeError",
+          "message": "AUTHORED_STATUS_GUARD: Tool remove_session not found"
+        }
+      ],
+      "actual_tool_invocations": [
+        {
+          "name": "create_session",
+          "params": {}
+        }
+      ],
+      "rollback": {
+        "kind": "exception",
+        "exception": "CriticalFailure",
+        "message": "Compensation failed immediately: AUTHORED_STATUS_GUARD: Tool remove_session not found"
+      },
+      "final_record_status": "COMPLETED",
+      "explicit_error_returned": true,
+      "compensation_bookkeeping_despite_error": false,
+      "fixture_residue_remains": true,
+      "success_claim_with_residue": false
+    },
+    {
+      "condition": "native-success-returning-noop",
+      "record_id": "87ad8d0d-e6d8-458b-b498-1a9da54787cf",
+      "before": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "after": {
+        "sessions": [
+          {
+            "id": "s1",
+            "active": true
+          }
+        ],
+        "active_sessions": 1,
+        "artifact_rows": 1,
+        "artifact_contents": [
+          "SYNTHETIC_RESIDUAL_ARTIFACT"
+        ]
+      },
+      "executor_calls": [
+        {
+          "name": "create_session",
+          "params": {},
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "session_id": "s1"
+          },
+          "explicit_status_is_error": false
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          },
+          "result_type": "SimpleActionResult",
+          "status": "success",
+          "content": {
+            "message": "success claimed without changing fixture state"
+          },
+          "explicit_status_is_error": false
+        }
+      ],
+      "actual_tool_invocations": [
+        {
+          "name": "create_session",
+          "params": {}
+        },
+        {
+          "name": "remove_session",
+          "params": {
+            "session_id": "s1"
+          }
+        }
+      ],
+      "rollback": {
+        "kind": "return",
+        "success": true,
+        "compensated": [
+          "87ad8d0d-e6d8-458b-b498-1a9da54787cf"
+        ],
+        "failed": [],
+        "message": "Rolled back 1 actions"
+      },
+      "final_record_status": "COMPENSATED",
+      "explicit_error_returned": false,
+      "compensation_bookkeeping_despite_error": false,
+      "fixture_residue_remains": true,
+      "success_claim_with_residue": true
+    }
+  ],
+  "scope": "Unchanged native core and adapter, authored local invoke-compatible tools and SQLite fixture state; not full LangChain integration, natural credential efficacy, crash recovery, production exploit or population prevalence.",
+  "authored_status_guard_enabled": true
+}

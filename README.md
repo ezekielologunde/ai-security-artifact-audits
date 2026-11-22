@@ -1,8 +1,8 @@
 # AI Security Artifact Audits — Preliminary Technical Reports
 
-Ezekiel Ologunde · Collection version 18 · 21 November 2026
+Ezekiel Ologunde · Collection version 19 · 22 November 2026
 
-Ten bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
+Eleven bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
 
 | Report | Evidence and scope |
 |---|---|
@@ -19,6 +19,7 @@ Ten bounded, reproducible audit notes, plus three separately identified existing
 | [Generated Rego oracle semantics](reports/P22-Rego-oracles/rego_oracle_semantics_audit.pdf) | Four conditional per-request witnesses across two repositories; explicit-contract assertions reject those outcomes. All 1,404 native commands and 56 aggregate fields reproduce from a clean package. Known language hazard and mutation operator; no confirmed semantic escape from an originally passing full suite or deployment efficacy claim. |
 | [LinEra interrupted compaction](reports/LinEra-compaction/linera_compaction_availability_audit.pdf) | Retained objects become unreadable at one core-store interruption boundary; a journal comparator preserves reads in tested cases. No cryptographic break or physical erasure claim. |
 | [Lightfoot transaction boundary](reports/Lightfoot-transaction/lightfoot_transaction_boundary_audit.pdf) | Two deferred-save storage mismatches; no retired text or final-ranked retired IDs in 16 controlled native query observations. Deterministic embeddings; no learned-model or disclosure claim. |
+| [RAC compensation adapter replication](reports/RAC-adapter-replication/rac_adapter_replication.pdf) | Replicates known core returned-error behavior and extends it to the unchanged native adapter. Four explicit-error bookkeeping cases, three through that adapter; a status guard reports failure without restoring state. All 21 upstream tests and 16 authored conditions reproduce. |
 
 Each report folder contains its PDF, Overleaf source ZIP, and an unpacked reproduction directory with protocols, results, acquisition scripts and source manifests. Read its local README and limitations before running anything. No model API call, cloud deployment or vulnerable upstream program is required by this release. Some acquisition steps require Internet access; larger original datasets and upstream source must be reacquired under their own terms.
 
@@ -55,3 +56,7 @@ Version 17 adds the five-page P22 empirical audit, Overleaf source, authored rep
 ## Lifecycle preprint additions
 
 Version 18 adds the unchanged three-page LinEra and Lightfoot preprints, Overleaf sources and licensed replay archives. Publication checks verify all 16 and 41 listed archive members respectively and retain the recorded clean-replay evidence; no new experiment is claimed. The selected upstream source is MIT licensed with notices preserved. All eleven prior reports and their frozen reproduction files retain their bytes. These are public GitHub preprints; no external preprint-server submission has occurred.
+
+## RAC replication-and-extension addition
+
+Version 19 adds the four-page RAC adapter replication note, Overleaf source and 65-member replay archive. The exact core behavior has prior practitioner evidence; the report claims only a bounded native-adapter extension and comparison. All 13 earlier report PDFs and frozen reproduction files retain their bytes. No new experiment was required to prepare the manuscript, and no external preprint-server submission has occurred.

@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-21",
+  "project": "P18",
+  "status": "Measured replication and native-adapter extension; scoped novelty decision, no new paper or public release yet",
+  "original_question": "Which state must be restored or revoked to remove persistent compromise?",
+  "artifact_pin": "068c327ab3f9b79a86a39503946e26320b74b97a",
+  "baseline": "The exact acquired recovery-manager test file passes all 21 tests. All original 41 acquired file hashes and both additional upstream Git blob identities remain unchanged.",
+  "experiment": "Eight source-informed authored conditions use unchanged RAC core, the exact LangChainToolExecutor file loaded directly, invoke-compatible authored tools, and a local SQLite session/artifact fixture. Eight matched status-guard conditions follow a separately frozen protocol. No full LangChain runtime, real credentials, hosted models, crash or production services.",
+  "measured": {
+    "original_conditions": 8,
+    "explicit_error_followed_by_compensated_bookkeeping": 4,
+    "of_those_using_native_adapter": 3,
+    "native_adapter_conditions": ["exception before change converted to error result", "partial change then exception converted to error result", "missing compensation tool returned as error result"],
+    "original_success_controls_clean_fixture": 2,
+    "direct_exception_control": "CriticalFailure; no false success return",
+    "guard_conditions": 8,
+    "explicit_errors_surfaced_by_guard": 4,
+    "fixture_states_changed_by_guard": 0,
+    "success_returning_noop": "Still reported successful with residue; output-status checking is not external-effect verification."
+  },
+  "closest_prior": {
+    "author": "Antonella Serine",
+    "title": "AI agent rollback: recovering when external actions have already committed",
+    "url": "https://kla.digital/blog/ai-agent-rollback-recovery-compensation",
+    "publication_date": "2026-11-16",
+    "reported_experiment_date": "2026-10-26",
+    "scope": "First-party practitioner report, not peer-reviewed research. Reports 21 upstream tests and six SQLite scenarios, including a returned compensation error recorded as compensated. Explicitly excludes framework-adapter execution.",
+    "decision": "The core returned-error observation is prior work and is not a novel finding here. Candidate increment is the measured unchanged native-adapter path and bounded status-guard comparison; no priority or broad recovery innovation established."
+  },
+  "additional_prior": {
+    "paper": "When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary",
+    "url": "https://arxiv.org/html/2609.15397v2",
+    "scope": "Selected effect-history model, safety-profile and runtime-comparison sections reviewed. Compensation and surviving external effects are already explicit prior work; the paper's broader security exclusions and assumptions are preserved."
+  },
+  "source_trace": "Pinned middleware constructs LangChainToolExecutor and supplies it as RecoveryManager.action_executor. The adapter returns status=error on invocation exceptions or a missing tool. Core rollback ignores that returned result and marks the record compensated. Selected core unit tests cover raised exceptions, not this adapter-produced error result. This trace is not a full middleware execution.",
+  "analysis_correction": "The initial derived counter incorrectly compared enum value COMPENSATED to lowercase text. Initial harness and receipt preserved. Reanalysis establishes four mismatches from the same raw original measurements without re-execution. Current authoritative analysis is results/rac_compensation_analysis_20261121.json.",
+  "receipts": [
+    "data/rac-adapter-followup-20261121/acquisition.json",
+    "results/rac_upstream_baseline_20261121.xml",
+    "results/rac_upstream_baseline_exit_20261121.json",
+    "results/rac_runtime_install_20261121.json",
+    "results/rac_compensation_results_initial_enum_summary_20261121.json",
+    "results/rac_compensation_status_guard_20261121.json",
+    "results/rac_compensation_analysis_20261121.json"
+  ],
+  "remaining_work": "Package and clean-replay the measured native-adapter extension, verify the closest report's pinned revision and disclosure scope, and decide whether the increment merits a replication/extension preprint rather than another generic rollback paper. Full framework integration and real residual-compromise efficacy remain unmeasured, not automatic prerequisites for a correctly scoped preprint.",
+  "publication_policy": "External peer review is not a preprint gate. No first-discovery, natural accuracy, real credential revocation, overall benchmark correction or deployment exploitation claim.",
+  "original_question_completion": false
+}

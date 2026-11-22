@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "date": "2026-11-21",
   "author": "Ezekiel Ologunde",
   "reports": [
@@ -129,6 +129,21 @@
       "prior_clean_replay_verified": true,
       "upstream_source_license": "MIT",
       "field_wide_priority_established": false
+    },
+    {
+      "study": "RAC-adapter-replication",
+      "shared_topic": "P18",
+      "report": "reports/RAC-adapter-replication/rac_adapter_replication.pdf",
+      "pdf_sha256": "32d9993000ecb3e53a395679f48734444868199e2067bd54427c6877f0c97c2f",
+      "pages": 4,
+      "status": "bounded replication-and-extension preprint",
+      "external_review_required_for_preprint": false,
+      "known_core_prior": true,
+      "native_adapter_extension": true,
+      "field_wide_priority_established": false,
+      "clean_replay_verified": true,
+      "upstream_tests_passed": 21,
+      "authored_conditions": 16
     }
   ],
   "technical_supplements": [
@@ -188,12 +203,9 @@
     "upstream_terms_retained": true
   },
   "latest_addition": {
-    "studies": [
-      "LinEra-compaction",
-      "Lightfoot-transaction"
-    ],
+    "study": "RAC-adapter-replication",
     "previous_report_bytes_unchanged": true,
-    "new_experiment_runs": 0,
+    "new_experiment_runs_for_publication": 0,
     "external_preprint_server_submission": false,
     "upstream_terms_retained": true
   }

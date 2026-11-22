@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-21",
+  "original_receipt_sha256": "757a8731e458af5584d13e093aa37c709524242b79bbe357da5f1c691df0958c",
+  "original_case_count": 8,
+  "explicit_error_bookkeeping_mismatches": 4,
+  "native_adapter_mismatches": 3,
+  "original_observations_reexecuted_for_correction": false,
+  "acquired_source_unchanged": true,
+  "counter_correction": "Initial summary compared actual enum string COMPENSATED with lowercase compensated; raw measurements preserved.",
+  "cases": [
+    {
+      "condition": "core-success",
+      "explicit_error_bookkeeping_mismatch": false,
+      "rollback_success": true,
+      "rollback_exception": null,
+      "active_sessions_after": 0,
+      "artifact_rows_after": 0,
+      "final_record_status": "COMPENSATED",
+      "guard_rollback_success": true,
+      "guard_rollback_exception": null,
+      "guard_final_record_status": "COMPENSATED"
+    },
+    {
+      "condition": "core-explicit-error",
+      "explicit_error_bookkeeping_mismatch": true,
+      "rollback_success": true,
+      "rollback_exception": null,
+      "active_sessions_after": 1,
+      "artifact_rows_after": 1,
+      "final_record_status": "COMPENSATED",
+      "guard_rollback_success": null,
+      "guard_rollback_exception": "CriticalFailure",
+      "guard_final_record_status": "COMPLETED"
+    },
+    {
+      "condition": "core-raised-exception",
+      "explicit_error_bookkeeping_mismatch": false,
+      "rollback_success": null,
+      "rollback_exception": "CriticalFailure",
+      "active_sessions_after": 1,
+      "artifact_rows_after": 1,
+      "final_record_status": "COMPLETED",
+      "guard_rollback_success": null,
+      "guard_rollback_exception": "CriticalFailure",
+      "guard_final_record_status": "COMPLETED"
+    },
+    {
+      "condition": "native-success",
+      "explicit_error_bookkeeping_mismatch": false,
+      "rollback_success": true,
+      "rollback_exception": null,
+      "active_sessions_after": 0,
+      "artifact_rows_after": 0,
+      "final_record_status": "COMPENSATED",
+      "guard_rollback_success": true,
+      "guard_rollback_exception": null,
+      "guard_final_record_status": "COMPENSATED"
+    },
+    {
+      "condition": "native-raised-before-change",
+      "explicit_error_bookkeeping_mismatch": true,
+      "rollback_success": true,
+      "rollback_exception": null,
+      "active_sessions_after": 1,
+      "artifact_rows_after": 1,
+      "final_record_status": "COMPENSATED",
+      "guard_rollback_success": null,
+      "guard_rollback_exception": "CriticalFailure",
+      "guard_final_record_status": "COMPLETED"
+    },
+    {
+      "condition": "native-partial-change-then-raise",
+      "explicit_error_bookkeeping_mismatch": true,
+      "rollback_success": true,
+      "rollback_exception": null,
+      "active_sessions_after": 0,
+      "artifact_rows_after": 1,
+      "final_record_status": "COMPENSATED",
+      "guard_rollback_success": null,
+      "guard_rollback_exception": "CriticalFailure",
+      "guard_final_record_status": "COMPLETED"
+    },
+    {
+      "condition": "native-missing-tool",
+      "explicit_error_bookkeeping_mismatch": true,
+      "rollback_success": true,
+      "rollback_exception": null,
+      "active_sessions_after": 1,
+      "artifact_rows_after": 1,
+      "final_record_status": "COMPENSATED",
+      "guard_rollback_success": null,
+      "guard_rollback_exception": "CriticalFailure",
+      "guard_final_record_status": "COMPLETED"
+    },
+    {
+      "condition": "native-success-returning-noop",
+      "explicit_error_bookkeeping_mismatch": false,
+      "rollback_success": true,
+      "rollback_exception": null,
+      "active_sessions_after": 1,
+      "artifact_rows_after": 1,
+      "final_record_status": "COMPENSATED",
+      "guard_rollback_success": true,
+      "guard_rollback_exception": null,
+      "guard_final_record_status": "COMPENSATED"
+    }
+  ],
+  "status_guard": {
+    "cases": 8,
+    "explicit_errors_reported_as_failure": 4,
+    "fixture_states_unchanged": true,
+    "success_controls_preserved": true,
+    "success_returning_noop_still_reported_success": true,
+    "interpretation": "Status interpretation only; the wrapper neither completes failed compensations nor detects a falsely successful no-op from external state."
+  }
+}

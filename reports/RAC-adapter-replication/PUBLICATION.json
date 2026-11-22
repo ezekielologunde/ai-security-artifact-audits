@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-22",
+  "status": "Verified replication-and-extension preprint package",
+  "author": "Ezekiel Ologunde",
+  "affiliation": "Independent researcher, Boston, USA",
+  "pages": 4,
+  "visual_pages_checked": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "overfull_boxes": 0,
+  "title": "Returned Errors and Compensation Bookkeeping: A RAC Adapter Replication and Extension",
+  "report_license": "CC-BY-4.0",
+  "authored_code_license": "MIT",
+  "external_review_required_for_preprint": false,
+  "external_preprint_server_submission": false,
+  "upstream_tests_passed": 21,
+  "original_conditions": 8,
+  "guard_conditions": 8,
+  "explicit_error_bookkeeping_cases": 4,
+  "native_adapter_cases_with_that_outcome": 3,
+  "status_guard_interpretation": "Reports four explicit failures, preserves successful controls, changes no residual state and does not detect success-returning no-op.",
+  "novelty": "Core returned-error behavior has prior first-party evidence at the same revision. Contribution is a measured native-adapter extension and reproducible comparison; no first-discovery or new algorithm claim.",
+  "scope": "Direct native core/adapter execution with authored local tools; no full LangChain application, natural workflows, production compromise removal or real credential efficacy.",
+  "archive_members": 65,
+  "manifest_entries_verified": 64,
+  "clean_replay_verified": true,
+  "qualification_receipt": "P18-rollback-security/results/rac_adapter_clean_replay_20261122.json",
+  "new_experiments_for_manuscript_preparation": 0,
+  "new_hosted_model_calls": 0,
+  "artifacts": {
+    "main.pdf": {
+      "sha256": "32d9993000ecb3e53a395679f48734444868199e2067bd54427c6877f0c97c2f",
+      "bytes": 75554
+    },
+    "main.tex": {
+      "sha256": "5be2aa6848e9f4e05e8e958d95b76da491251531aceaa54faffd320dd127976e",
+      "bytes": 13767
+    },
+    "source.zip": {
+      "sha256": "bf688ce6d0f4ad96fde08969930484234091da35384926212a5b7cfa7e258290",
+      "bytes": 5887
+    },
+    "reproduction.zip": {
+      "sha256": "ec39255dd905cfcf610be467eebc776b44f3463dd73a1e57d1793aeacdc00c7f",
+      "bytes": 119931
+    }
+  },
+  "upstream_rights": "Root Apache-2.0 LICENSE and pyproject MIT declaration both preserved; authored licences do not replace upstream notices."
+}

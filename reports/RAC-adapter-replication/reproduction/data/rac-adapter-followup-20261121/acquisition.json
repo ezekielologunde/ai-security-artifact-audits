@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/wso2-incubator/research-rac",
+  "pin": "068c327ab3f9b79a86a39503946e26320b74b97a",
+  "files": [
+    {
+      "original_path": "src/react_agent_compensation/langchain_adaptor/adapters.py",
+      "local_file": "langchain_adapters.py",
+      "bytes": 5373,
+      "sha256": "49e214bbc275d5f94b4a11027302cf16eec69d1c08f29cc83997cc008683447c",
+      "git_blob": "7abb013c19a3a7ff919653112003b3bd95ca8447"
+    },
+    {
+      "original_path": "tests/core/test_recovery_manager.py",
+      "local_file": "test_recovery_manager.py",
+      "bytes": 12272,
+      "sha256": "c0b641497855bfac13e2a1b9a71326f2f4bbaee6131803012421e1bc7fc1f732",
+      "git_blob": "1104db0456ced5eb16fe1ae81b43471be911f59d"
+    }
+  ],
+  "transport_correction": "Removed one patch-transport trailing newline only after matching exact upstream Git blob identity; before any execution."
+}
