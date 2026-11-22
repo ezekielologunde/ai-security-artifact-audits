@@ -1,0 +1,11 @@
+{
+  "MIT_authored_files": [
+    "run_linera_compaction_audit.py",
+    "verify_linera_compaction_evidence.py",
+    "journaled_linera.py",
+    "run_linera_journal_comparator.py"
+  ],
+  "upstream_files": "data/linera-qualification-20261121/lf/* under UPSTREAM_LICENSE.txt",
+  "authored_protocols_and_reports": "CC BY 4.0",
+  "new_experiments": 0
+}

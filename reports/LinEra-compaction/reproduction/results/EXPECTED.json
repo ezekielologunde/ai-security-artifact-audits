@@ -1,0 +1,9 @@
+{
+  "original_cases": 3,
+  "original_interrupted_survivors_readable": 0,
+  "original_completed_control_survivors_readable": 2,
+  "repair_cases": 5,
+  "repair_survivors_readable_each": 2,
+  "forgotten_readable_each": 0,
+  "mismatch_rejected": true
+}

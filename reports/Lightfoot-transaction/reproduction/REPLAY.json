@@ -1,0 +1,13 @@
+{
+  "commands": [
+    "python run_lightfoot_rollback_controls.py",
+    "python run_lightfoot_native_boundary.py",
+    "python verify_lightfoot_native_boundary.py"
+  ],
+  "install": "python -m pip install numpy==2.2.6 scipy==1.15.3 rank-bm25==0.2.2",
+  "python": "3.12.14",
+  "pin": "fbba969e73eaeaf45e1e8a8ad33a96cfeadbb66d",
+  "scope": "Authored synthetic fixtures; native source unchanged; mock extraction and deterministic injected embedding adapter, not neural-model efficacy or independent validation.",
+  "expected": "Storage mismatch in two file-deferred cells only; native deletion plus abort restores a vector but no deleted text or stale final-ranked ID in tested queries. Survivor remains in context.",
+  "rights": "Authored code MIT; authored reports CC BY 4.0; selected upstream source retains its own MIT LICENSE. No third-party relicensing."
+}

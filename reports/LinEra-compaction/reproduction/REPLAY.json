@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14",
+  "dependency": "cryptography==50.0.2",
+  "commands": [
+    "python -B run_linera_compaction_audit.py",
+    "python -B verify_linera_compaction_evidence.py",
+    "python -B run_linera_journal_comparator.py"
+  ],
+  "working_directory": "Package root",
+  "root_results_directory": "Created by bundled results/EXPECTED.json",
+  "code_scope": "Pinned LinEra core store only, source commit 0037d0cacc860eb5791695858652256e4ddcbabb",
+  "independence": "Authored source-informed replay; no external independent review.",
+  "interpretation": "One synthetic fixture per case; process-exit boundary, not physical power loss. Comparator uses known journaling technique and requires exclusive single-writer access. Key journal must remain inside the secret-state trust boundary.",
+  "rights": "Authored Python harnesses and comparator: MIT (LICENSE_CODE.txt). Authored protocol/report material: CC BY 4.0 (LICENSE_REPORT.txt). Four upstream core files retain UPSTREAM_LICENSE.txt.",
+  "expected_variation": "Random tags, keys, nonces, generation labels and byte hashes vary; compare semantic outcomes.",
+  "submission_or_public_release": false
+}

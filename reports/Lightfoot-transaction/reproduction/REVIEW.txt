@@ -1,0 +1,11 @@
+BLANK INDEPENDENT REVIEW SHEET - no review completed
+Reviewer/date: ______________________
+1. Verify source pin/hashes and transaction contract: __________________
+2. Verify prior operations commit before the later abort: ______________
+3. Reproduce storage-state mismatch and four controls: _________________
+4. Audit deterministic model substitution and disabled components: _____
+5. Reproduce native deletion and inspect dense seeds vs final context: __
+6. Check read-only SQL and on-disk vector corroboration: ________________
+7. Is deleted text recovery established? No in this fixture. Other evidence: ____
+8. Alternative explanations, unsupported claims or qualification issues: _______
+9. Publication recommendation and changes needed: ______________________

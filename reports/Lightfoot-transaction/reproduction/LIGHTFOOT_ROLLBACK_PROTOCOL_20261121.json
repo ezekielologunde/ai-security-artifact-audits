@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-21",
+  "status": "Frozen before the storage rollback experiment",
+  "repository": "https://github.com/udayallu-ml/Lightfoot-GraphRAG",
+  "pin": "fbba969e73eaeaf45e1e8a8ad33a96cfeadbb66d",
+  "contract": "Store.transaction: All writes inside are atomic; vectors are rolled back with rows.",
+  "hypothesis": "For a file-backed store before its periodic vector flush, aborting a later transaction can replace previously committed vector state with the older on-disk snapshot while SQL correctly retains the earlier committed change.",
+  "design": "Two prior committed changes (delete an existing chunk; insert a new chunk) crossed with three storage conditions (default file-backed deferred persistence; file-backed explicit flush after committed change; in-memory). Six deterministic controls, one execution each, not an incidence estimate.",
+  "fixture": "Two synthetic orthogonal 4-dimensional vectors and inert chunk text; initial store explicitly flushed before the tested committed change.",
+  "interruption": "Raise an authored RuntimeError inside a later transaction after adding a third temporary row/vector. No process crash, concurrency or physical failure.",
+  "oracle": "All public SQL rows, all public vector IDs/values and public vector search output immediately before abort must equal those after abort. The temporary row/vector must be absent. In file-backed conditions, close/reopen is observed separately.",
+  "runtime": "Previously isolated Python 3.12.14 / numpy 2.2.6 / scipy 1.15.3 qualification environment. Not the paper's full pinned model runtime.",
+  "source_policy": "Use acquired upstream Python bytes unchanged. No custom embeddings/model classes, no weights, no hosted calls and no source patch.",
+  "scope": "Native SQLite storage transaction semantics only, not full Lightfoot deletion, generated-answer leakage, parameter forgetting, physical erasure, novel transaction algorithms or field-wide priority. No comparator efficacy claim beyond explicit-flush/in-memory controls."
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-21",
+  "status": "Frozen before native pipeline boundary experiment",
+  "pin": "fbba969e73eaeaf45e1e8a8ad33a96cfeadbb66d",
+  "question": "After native document deletion followed by an authored aborted storage transaction, can the restored vector change native retrieval IDs or context?",
+  "design": "Three conditions: file-backed default deferred vector saving, file-backed explicit flush immediately after native deletion, in-memory. Each indexes two lowercase synthetic single-chunk documents via index_documents, explicitly flushes initial state, calls delete_documents on one document, then adds and aborts a temporary storage write.",
+  "model_boundary": "An authored deterministic four-dimensional embedding stand-in is injected through the supported embedder parameter. Native mock extraction yields no capitalised entities for these lowercase documents. Reranking and decomposition disabled; no hosted calls or learned-model efficacy claim. Native graph/retrieval/default rank-list completion and SQL context assembly remain unchanged.",
+  "fixtures": [
+    {"doc_id": "retired", "text": "retiredviolet canaryalpha is the retired source value."},
+    {"doc_id": "survivor", "text": "survivinggreen utilitybeta is the retained source value."}
+  ],
+  "embedding_rule": "Texts containing retiredviolet or canaryalpha map to [1,0,0,0]; texts containing survivinggreen or utilitybeta map to [0,1,0,0]; others map to [0,0,0,1]. Every encode method follows the same rule.",
+  "queries": ["retiredviolet canaryalpha", "survivinggreen utilitybeta"],
+  "stages": ["initial", "after_delete", "after_abort", "after_reopen_for_file_backed"],
+  "measures": "SQL rows, vector IDs/values, native graph fingerprint/counts, dense seed IDs, returned ranked IDs, context chunk IDs, deleted and surviving text presence in context. Independent read-only SQLite connection and on-disk NPZ inspection corroborate persisted state for file-backed conditions.",
+  "assertions": "Setup initially exposes each source in its own query context; deletion removes the retired SQL chunk and context before abort; aborted temporary row/vector absent; vector-saving elapsed window stays below 30 seconds. Outcomes after abort are recorded, not asserted as a desired disclosure.",
+  "limits": "One authored fixture per condition, same existing runtime, no learned embeddings or answer generation, no full-corpus/published accuracy reproduction, no concurrency/physical crash, no arbitrary external-copy erasure or independent validation. Stale IDs do not imply deleted text recovery."
+}

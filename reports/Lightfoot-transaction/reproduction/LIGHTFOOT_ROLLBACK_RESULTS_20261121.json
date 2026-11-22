@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-21",
+  "project": "P23",
+  "status": "New local native-storage contract finding; full RAG reachability and independent review not established",
+  "repository": "https://github.com/udayallu-ml/Lightfoot-GraphRAG",
+  "pin": "fbba969e73eaeaf45e1e8a8ad33a96cfeadbb66d",
+  "protocol": "LIGHTFOOT_ROLLBACK_PROTOCOL_20261121.json",
+  "receipt": "results/lightfoot_rollback_controls_20261121.json",
+  "contract": "Store.transaction promises atomic writes with vectors rolled back alongside rows.",
+  "observed": "Six deterministic controls: both file-deferred conditions preserve SQL rows but change previously committed vector/search state after a later transaction abort. Explicit-flush and in-memory controls preserve all observed state. In the delete case the previously deleted vector returns through the public storage vector/search interface; in the insert case a previously committed new vector disappears. File-backed mismatch is also observed after close/reopen.",
+  "mechanism": "File-backed transaction exception handling reloads the last saved vector snapshot rather than the vector state at transaction entry. Periodic saving leaves an interval where SQL commits are newer than that snapshot.",
+  "comparison_limits": "The explicit-flush condition is a sequencing control, not a new transaction algorithm or benchmarked production repair. Original native erasure tests remain incompletely qualified; these six authored controls are separate.",
+  "novelty": "Artifact-specific observation only; rollback correctness and SQL/vector consistency are established engineering concerns. Bounded web screening found no matching issue report, which cannot establish field-wide priority.",
+  "primary_sources": [
+    "https://github.com/udayallu-ml/Lightfoot-GraphRAG/blob/fbba969e73eaeaf45e1e8a8ad33a96cfeadbb66d/lightfoot/store/base.py",
+    "https://github.com/udayallu-ml/Lightfoot-GraphRAG/blob/fbba969e73eaeaf45e1e8a8ad33a96cfeadbb66d/lightfoot/store/sqlite_store.py",
+    "https://arxiv.org/abs/2611.11010v2"
+  ],
+  "next_required_evidence": "Read-only row/vector corroboration; trace whether native delete_documents and retrieval can reach the mismatch; author/independent review. No generated-answer disclosure or paper-ready novelty claim yet.",
+  "new_model_calls": 0,
+  "upstream_contact_performed": false,
+  "public_release_performed": false,
+  "independent_review_complete": false,
+  "review_archive": "output/lightfoot-rollback-review-20261121-v2.zip",
+  "clean_replay_receipt": "results/lightfoot_rollback_clean_replay_20261121.json",
+  "clean_replay_status": "Exit 0; all six semantic outcomes match. Same existing qualification runtime; not independent validation.",
+  "packaging_correction": "Initial archive lacked parent work directory creation. Original failed ZIP preserved; v2 changes only authored directory setup. No upstream source/protocol/fixture changes."
+}

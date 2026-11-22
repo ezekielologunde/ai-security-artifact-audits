@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-21",
+  "study": "LinEra",
+  "status": "Verified public preprint release candidate",
+  "title": "Interrupted Key Compaction in LinEra: A Bounded Availability Audit",
+  "author": "Ezekiel Ologunde",
+  "affiliation": "Independent researcher, Boston, USA",
+  "pdf_sha256": "5b58dfc58922f87d50e7cb510ccd8a6d71bde2d8b01a722f11660c6857390061",
+  "source_zip_sha256": "006828bf427f30f301a29a73f59fe32e9dc98136d780c0e50963d8b4cafcd140",
+  "pages": 3,
+  "visual_pages_checked": [
+    1,
+    2,
+    3
+  ],
+  "source_archive_matches": true,
+  "manuscript_bytes_unchanged": true,
+  "replay_archive_sha256": "2a016ad217489baa5bcd5f20b8d64b67443acf30c338efefa3c970e4fdff0443",
+  "replay_archive_members": 17,
+  "manifest_entries_verified": 16,
+  "prior_clean_replay_commands": [
+    {
+      "script": "run_linera_compaction_audit.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_linera_compaction_evidence.py",
+      "exit_code": 0
+    },
+    {
+      "script": "run_linera_journal_comparator.py",
+      "exit_code": 0
+    }
+  ],
+  "prior_replay_outcomes_match": true,
+  "upstream_licences_retained": true,
+  "external_review_required_for_preprint": false,
+  "external_preprint_server_submission": false,
+  "new_experiment_runs": 0,
+  "new_hosted_model_calls": 0,
+  "report_license": "CC-BY-4.0",
+  "authored_code_license": "MIT",
+  "scope": "One interrupted core-store compaction makes both retained objects unreadable; a separate single-writer journal comparator preserves retained reads in the tested interruption phases. Forgotten objects remain unreadable. No cryptographic break, physical erasure or production reliability claim.",
+  "replay_scope": "The earlier 14-member scientific archive was replayed from a clean extraction. The 17-member licensed archive preserves all 12 executable/scientific members byte-for-byte, adds authored licence notices, and updates only replay/manifest metadata. Its 16 listed members verify. The paper describes the original scientific archive."
+}

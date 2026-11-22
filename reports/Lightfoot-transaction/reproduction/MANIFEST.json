@@ -1,0 +1,166 @@
+{
+  "LICENSE_CODE.txt": {
+    "bytes": 1073,
+    "sha256": "a104ef276c595a45eac15edbf31bf4e835018949f949bf9f1ce8e0cfa3d0720d"
+  },
+  "LICENSE_REPORT.txt": {
+    "bytes": 264,
+    "sha256": "5976376b0da8e1777c75e94ca765da67459801b9358a599e7ca5024ad65b0963"
+  },
+  "LIGHTFOOT_NATIVE_BOUNDARY_PROTOCOL_20261121.json": {
+    "bytes": 2580,
+    "sha256": "e358647da7c5e1c978d957184f9551090c10828ae193cac28a37ddbbdbd1c697"
+  },
+  "LIGHTFOOT_ROLLBACK_PROTOCOL_20261121.json": {
+    "bytes": 2032,
+    "sha256": "b6904e4e60efdf0f7d62e45344c5a0a586f0df2f87402a2487670bb054725a12"
+  },
+  "LIGHTFOOT_ROLLBACK_RESULTS_20261121.json": {
+    "bytes": 2933,
+    "sha256": "762ccea726560acf531f18b6b7918289ea3d8dace33283c67042a7cfd9fdb13b"
+  },
+  "REPLAY.json": {
+    "bytes": 858,
+    "sha256": "c517541e29115988891f6112e46525f0bbe51c45e9e9122aa8b07a30ec17fb73"
+  },
+  "REVIEW.txt": {
+    "bytes": 767,
+    "sha256": "7eef62c413022df18165f63148bbd77347b0c0717a126a2364c0c68fb262af09"
+  },
+  "data/lightfoot-qualification-20261121/LICENSE": {
+    "bytes": 1066,
+    "sha256": "0da4d4bf4f61c87039cbd83c926503901342e93efe1832efb1d9e5e9459b9296"
+  },
+  "data/lightfoot-qualification-20261121/README.md": {
+    "bytes": 5941,
+    "sha256": "1559b74811116655e5acda27bd17f602552e690de43d8dd2fb49f434fa2633f5"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/__init__.py": {
+    "bytes": 323,
+    "sha256": "0b736f9369654121dd6eea6c1f4e6336b82b7a727f1a34a091388136f5c3f864"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/answer.py": {
+    "bytes": 7364,
+    "sha256": "6c639d4666c9ea3f0612efe6c28cb64a1cb95a7281a3b2be779493758f09d3c9"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/api.py": {
+    "bytes": 16977,
+    "sha256": "8feebaee3e85ebdcb761b23cdd5c24ab4d7ea6242d706cafc4b229a4ebf56e9c"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/chunking.py": {
+    "bytes": 5578,
+    "sha256": "ec7bed1f186f6f502de40a6c58fe35868511679676bf59875437197a16f60eaf"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/config.py": {
+    "bytes": 8093,
+    "sha256": "5927d3330030181b274c8c0111d2a6ce380fbd324d460a2c1f9f1c7bf6e5f717"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/costs.py": {
+    "bytes": 4756,
+    "sha256": "54a9e7e2c8f52b79b75bae8568e6588050d1b4209e342716dcb052745de8eb23"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/embed.py": {
+    "bytes": 5527,
+    "sha256": "4e0ba32a3a38a0258e7e2334cfa94d130674442b5d1ccb4e6123b8a9a86bdc22"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/extract.py": {
+    "bytes": 17876,
+    "sha256": "8aa4a0e2b35bf0f936183405c863745b6838bc418e2025ba93009f692db733cd"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/graph.py": {
+    "bytes": 12485,
+    "sha256": "e2a7dc92ad8af7f94fbc80919d6bc6547189f07133ba278b02395e5d0d4e9397"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/hybrid_es.py": {
+    "bytes": 10888,
+    "sha256": "12a77b5fe3233f3d983007f8f6621f8adfe865b87630c30a3eaf789e41a244fa"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/ledger.py": {
+    "bytes": 27625,
+    "sha256": "73bb2c1a46ab2452eaeffd2224322913bd5f3009672fbc5b4bcb615ec9eb2b5d"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/llm.py": {
+    "bytes": 19627,
+    "sha256": "05df08b48e8f6927ea17e2ef66783043e9947a189908f9c4465c578014f71b4a"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/resolve.py": {
+    "bytes": 30081,
+    "sha256": "dca43d5d3b87ec422b84b47f66a5c0bf1614b9621295b96649ec54c2ff7c964e"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/retrieve.py": {
+    "bytes": 22466,
+    "sha256": "52e8e591750ac160131ddb5c1d8a09081cb16b61c606284e5098d2520a68619e"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/store/__init__.py": {
+    "bytes": 320,
+    "sha256": "2122bccb9115c0d3a694f5dc39b9e381924eb7aebe8b98d899fe304d104ddee1"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/store/base.py": {
+    "bytes": 6033,
+    "sha256": "ccf3c3e5c63509ae934a75d98383c40d27865f5e677ac53fa911f4eb57826823"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/store/postgres_store.py": {
+    "bytes": 10155,
+    "sha256": "ae8a1216f6b5d0b8e024c7bd79cabcbfc77e93608f9f67222ecb70e30eeecaa7"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/store/sql_common.py": {
+    "bytes": 6840,
+    "sha256": "3a14bfb154f14f7b4a33d1fd03e5c070b250adf8168c2bdcd924d6f32c25a491"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/store/sqlite_store.py": {
+    "bytes": 20769,
+    "sha256": "9f01d5deba87e19fd4bbef53f378101e4a9b1dace16ca030bd4792b77d6e3b11"
+  },
+  "data/lightfoot-qualification-20261121/lightfoot/topics.py": {
+    "bytes": 5912,
+    "sha256": "6a4d101734db1ebc656d814e81bf57943da9c75e809adf9775ecaa38038ef4da"
+  },
+  "data/lightfoot-qualification-20261121/requirements.txt": {
+    "bytes": 384,
+    "sha256": "8fa6af4b78ca32462dc8fc7391525748c888a6d3e424d88c1e76b2ffeffa161d"
+  },
+  "data/lightfoot-qualification-20261121/tests/conftest.py": {
+    "bytes": 645,
+    "sha256": "ed13cac16db2fe6fb0d524e21956e0f55348406b29f4f5a8b30cf751fa678ae4"
+  },
+  "data/lightfoot-qualification-20261121/tests/synthetic_docs.py": {
+    "bytes": 1246,
+    "sha256": "f2a3b03c4d111191eb1e4dab5d046d49da2f905092b657086c85c3ef189878f5"
+  },
+  "data/lightfoot-qualification-20261121/tests/test_lightfoot_erasure.py": {
+    "bytes": 4571,
+    "sha256": "424d8e6b79eafa38c01f3a7dc316725ed72eeb133a1ca5f75809bce7869509ef"
+  },
+  "data/lightfoot-qualification-20261121/tests/test_lightfoot_erasure_exact.py": {
+    "bytes": 13553,
+    "sha256": "7c569d869ec6975b7f16e5f0e9f88bcc0dee59773433adfd77f9b2513bd11dd3"
+  },
+  "results/lightfoot_native_boundary_20261121.json": {
+    "bytes": 37473,
+    "sha256": "4dc806d28d1d7114d6a4b96c1f1d1e7d2b5008ba05af292a9fa6dd594e44bd21"
+  },
+  "results/lightfoot_native_boundary_verification_20261121.json": {
+    "bytes": 1962,
+    "sha256": "22a5559e711f3069615450b35b8efef08e89a4db326105127f678bf306cdb2c9"
+  },
+  "results/lightfoot_rollback_controls_20261121.json": {
+    "bytes": 13044,
+    "sha256": "6e4be8409f13c38b1293a08ec5afa9e842cbf96059a6f4f2c63fb410b9095c53"
+  },
+  "results/lightfoot_rollback_public_screening_20261121.json": {
+    "bytes": 2616707,
+    "sha256": "a44de631a48104281212cbaef4cb39d1a953ad84b0c4c3def7e4e9e14fafdecf"
+  },
+  "run_lightfoot_native_boundary.py": {
+    "bytes": 6303,
+    "sha256": "6e130ea4514f3e78cc9c8645077fb28b75ecd00e0fa6b126a433b5d3f05bc5f1"
+  },
+  "run_lightfoot_rollback_controls.py": {
+    "bytes": 3794,
+    "sha256": "fee7bcb7d75f0cb8d430c2108ec3f44607a597120a5c8d804ddf3ec6e263ab15"
+  },
+  "verify_lightfoot_native_boundary.py": {
+    "bytes": 2973,
+    "sha256": "10407c0037efb6d3eca2e09a412eeae2d9143fefe4ee6da8ff45de3111e6cb46"
+  }
+}

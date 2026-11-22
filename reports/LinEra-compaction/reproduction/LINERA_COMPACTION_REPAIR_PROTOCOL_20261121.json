@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-21",
+  "kind": "Post-finding repair-comparator protocol; source-informed, not held-out",
+  "finding": "Interrupted rotate loses unrelated survivor readability after database commit and before fresh state publication. No forgotten plaintext recovered.",
+  "prior_disclosure_check": {
+    "upstream_head": "0037d0cacc860eb5791695858652256e4ddcbabb",
+    "issues_returned": 0,
+    "scope": "First public issues page and bounded exact-name web searches. Not proof of novelty or absence of private/deleted disclosures. No upstream contact."
+  },
+  "proposed_comparator": "Generation-tagged key journal outside the ciphertext database",
+  "sequence": [
+    "Serialize writes and recover any pending transition before accepting new operations.",
+    "Stage a fresh key-state generation in a separate durable journal without moving keys into the ciphertext database. Retain the already-punctured old state during transition.",
+    "Commit all re-encrypted survivor rows and a non-secret generation marker in one SQLite transaction.",
+    "Publish the selected fresh state; clear transition journal after recovery-safe publication.",
+    "On reopen, select old/new key state using the committed database generation marker; fail closed for missing/inconsistent metadata."
+  ],
+  "mandatory_controls": [
+    "Completed rotation preserves unrelated objects.",
+    "Exit before database commit recovers old generation.",
+    "Exit after database commit before key-state publication recovers fresh generation.",
+    "Exit after state publication before journal cleanup recovers fresh generation.",
+    "Forgotten source and derivative never become readable in any tested recovery.",
+    "No plaintext keys added to ciphertext database; no concurrent writer or malicious journal rollback guarantee claimed."
+  ],
+  "limits": [
+    "Known write-ahead journaling and generation binding, not a new cryptographic construction.",
+    "Process interruption only; filesystem power-loss durability and external backup of key journals unvalidated.",
+    "Retaining intermediate key material requires explicit operational handling; cannot claim secure deletion of arbitrary journal copies.",
+    "Prototype would cover core store compaction, not vector index or mem0."
+  ],
+  "execution_status": "not started",
+  "next_action": "Implement an isolated comparator against pinned code and run the declared phase-boundary controls. Preserve original experiment and upstream bytes."
+}

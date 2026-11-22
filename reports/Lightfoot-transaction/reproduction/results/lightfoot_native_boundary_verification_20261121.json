@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-21",
+  "native_receipt_sha256": "4dc806d28d1d7114d6a4b96c1f1d1e7d2b5008ba05af292a9fa6dd594e44bd21",
+  "conditions": [
+    {
+      "condition": "file-deferred",
+      "retired_vector_returned": true,
+      "stale_dense_seed_observations": 2,
+      "stale_final_rank_observations": 0,
+      "deleted_text_context_observations": 0,
+      "survivor_context_observations": 2,
+      "same_sql_graph_and_counts_after_abort": true,
+      "direct_read_only_sql": [
+        [
+          "a542240293fc5783a441bbee92151ece",
+          "survivor",
+          "survivinggreen utilitybeta is the retained source value."
+        ]
+      ]
+    },
+    {
+      "condition": "file-flushed",
+      "retired_vector_returned": false,
+      "stale_dense_seed_observations": 0,
+      "stale_final_rank_observations": 0,
+      "deleted_text_context_observations": 0,
+      "survivor_context_observations": 2,
+      "same_sql_graph_and_counts_after_abort": true,
+      "direct_read_only_sql": [
+        [
+          "a542240293fc5783a441bbee92151ece",
+          "survivor",
+          "survivinggreen utilitybeta is the retained source value."
+        ]
+      ]
+    },
+    {
+      "condition": "memory",
+      "retired_vector_returned": false,
+      "stale_dense_seed_observations": 0,
+      "stale_final_rank_observations": 0,
+      "deleted_text_context_observations": 0,
+      "survivor_context_observations": 2,
+      "same_sql_graph_and_counts_after_abort": true,
+      "direct_read_only_sql": null
+    }
+  ],
+  "post_deletion_query_observations": 16,
+  "all_post_deletion_contexts_exclude_deleted_text": true,
+  "all_post_deletion_contexts_include_survivor": true,
+  "inputs_unchanged": true,
+  "independent_external_validation": false,
+  "scope": "Read-only SQL corroboration plus recorded native pipeline outputs, with authored deterministic embeddings; no generated-answer or learned-model efficacy claim."
+}

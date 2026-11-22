@@ -1,8 +1,8 @@
 # AI Security Artifact Audits — Preliminary Technical Reports
 
-Ezekiel Ologunde · Collection version 17 · 21 November 2026
+Ezekiel Ologunde · Collection version 18 · 21 November 2026
 
-Eight bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
+Ten bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
 
 | Report | Evidence and scope |
 |---|---|
@@ -17,6 +17,8 @@ Eight bounded, reproducible audit notes, plus three separately identified existi
 | [AgentDefense-Bench entry-point audit](reports/AgentDefense-audit/agentdefense_entrypoint_audit.pdf) | Documented 640-record tier-1 path misinterprets labels; paired mock decisions stay unchanged. Seven exports replay separately. No published-score effect or temporal authority defense is established. |
 | [SABench replay correspondence](reports/SABench-correspondence/sabench_replay_correspondence.pdf) | Direct and runtime-normalized replay of 2,211 released traces; thirteen normalized calls and nine changed classifications. Reuses upstream logic and recovers the main reported counts. Four-command clean replay; no new inference or defense-efficacy claim. |
 | [Generated Rego oracle semantics](reports/P22-Rego-oracles/rego_oracle_semantics_audit.pdf) | Four conditional per-request witnesses across two repositories; explicit-contract assertions reject those outcomes. All 1,404 native commands and 56 aggregate fields reproduce from a clean package. Known language hazard and mutation operator; no confirmed semantic escape from an originally passing full suite or deployment efficacy claim. |
+| [LinEra interrupted compaction](reports/LinEra-compaction/linera_compaction_availability_audit.pdf) | Retained objects become unreadable at one core-store interruption boundary; a journal comparator preserves reads in tested cases. No cryptographic break or physical erasure claim. |
+| [Lightfoot transaction boundary](reports/Lightfoot-transaction/lightfoot_transaction_boundary_audit.pdf) | Two deferred-save storage mismatches; no retired text or final-ranked retired IDs in 16 controlled native query observations. Deterministic embeddings; no learned-model or disclosure claim. |
 
 Each report folder contains its PDF, Overleaf source ZIP, and an unpacked reproduction directory with protocols, results, acquisition scripts and source manifests. Read its local README and limitations before running anything. No model API call, cloud deployment or vulnerable upstream program is required by this release. Some acquisition steps require Internet access; larger original datasets and upstream source must be reacquired under their own terms.
 
@@ -49,3 +51,7 @@ Version 16 applies the author-selected CC BY 4.0 report licence and MIT code lic
 ## Rego generated-oracle audit addition
 
 Version 17 adds the five-page P22 empirical audit, Overleaf source, authored replay tooling and aggregate expectations. The raw anonymous artifact and OPA runtime are reacquired under their own terms and verified by hash; they are not redistributed. All ten earlier reports and their reproduction files retain their previous bytes. The new report is a technical preprint release on GitHub; no external preprint-server submission has been made.
+
+## Lifecycle preprint additions
+
+Version 18 adds the unchanged three-page LinEra and Lightfoot preprints, Overleaf sources and licensed replay archives. Publication checks verify all 16 and 41 listed archive members respectively and retain the recorded clean-replay evidence; no new experiment is claimed. The selected upstream source is MIT licensed with notices preserved. All eleven prior reports and their frozen reproduction files retain their bytes. These are public GitHub preprints; no external preprint-server submission has occurred.

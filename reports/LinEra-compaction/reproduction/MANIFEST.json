@@ -1,0 +1,66 @@
+{
+  "run_linera_compaction_audit.py": {
+    "bytes": 3621,
+    "sha256": "9e601e53f840ebce75ed70cc33e32daa18373dfb5e5c15d7c20aff9df50c4157"
+  },
+  "verify_linera_compaction_evidence.py": {
+    "bytes": 2152,
+    "sha256": "4f34f11a4ff18ab4440266234a259f6fba3ae76c79761ef1bb199ac99eaa09e7"
+  },
+  "journaled_linera.py": {
+    "bytes": 4102,
+    "sha256": "4e83aeca62739214a369f2251342f43c51a21add890648b65a06d413b60d543b"
+  },
+  "run_linera_journal_comparator.py": {
+    "bytes": 4309,
+    "sha256": "42aaf3ba56f5e9516811561587b302f64e4f0cb3e020ff1417dff9811bcc29b2"
+  },
+  "LINERA_COMPACTION_PROTOCOL_20261121.json": {
+    "bytes": 2239,
+    "sha256": "41b0387359aa77de110bd1ac6296cc58a0cf951422acdc5e3e61655ceeac4759"
+  },
+  "LINERA_COMPACTION_REPAIR_PROTOCOL_20261121.json": {
+    "bytes": 2508,
+    "sha256": "3e7e840b5bde52f6419d6f9e179373a9be319d61346e2cece7ba0a0688cc1523"
+  },
+  "data/linera-qualification-20261121/lf/__init__.py": {
+    "bytes": 99,
+    "sha256": "789d031da6cf4a241a90a8e6d037497f7180b3a894d8c102a295119366907abb"
+  },
+  "data/linera-qualification-20261121/lf/pprf.py": {
+    "bytes": 2618,
+    "sha256": "cf7966e26b580b10ad78d3c518c28f3bf2fbf98ee5fee8490af1cac997086320"
+  },
+  "data/linera-qualification-20261121/lf/keydag.py": {
+    "bytes": 2795,
+    "sha256": "31d09f603ae446145f799a5542f97de5ee9f267e99ac4cc65381920a3ff8d884"
+  },
+  "data/linera-qualification-20261121/lf/store.py": {
+    "bytes": 3982,
+    "sha256": "7e2dfcad6f47ff3e6a469002ac4d35adb189f7180ba25a9a3cc52fd92fa0fc6a"
+  },
+  "UPSTREAM_LICENSE.txt": {
+    "bytes": 1106,
+    "sha256": "492455a19cfc5107627d0cc44bbd1151ba985a4bff4f493c3a0621a65029a1d2"
+  },
+  "results/EXPECTED.json": {
+    "bytes": 249,
+    "sha256": "68cbd92f4009cfb68ef9c99af45b2803e613f420d917b63f97396959432661a0"
+  },
+  "REPLAY.json": {
+    "bytes": 1158,
+    "sha256": "6a9812904b115ed0200e673018c3c37454e632ec6cf71c70d96be1a91c98150a"
+  },
+  "LICENSE_CODE.txt": {
+    "bytes": 1073,
+    "sha256": "a104ef276c595a45eac15edbf31bf4e835018949f949bf9f1ce8e0cfa3d0720d"
+  },
+  "LICENSE_REPORT.txt": {
+    "bytes": 260,
+    "sha256": "3b50bca30a2494aff2bbaf169fa15ea2e2de585429e9d7cc019702fc33f9f092"
+  },
+  "LICENSE_SCOPE.json": {
+    "bytes": 344,
+    "sha256": "b7feccd1ce48986fc01dc3e6a3372e140eb504f785bd6ff958e661229b0f28f0"
+  }
+}

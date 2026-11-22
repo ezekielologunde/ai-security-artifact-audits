@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-21",
+  "kind": "Source-informed local protocol; not external preregistration",
+  "question": "Does interrupted LinEra compaction preserve readability of unrelated surviving objects after restart while previously forgotten lineage stays unreadable?",
+  "basis": "Pinned rotate commits re-encrypted rows before saving fresh key state; upstream selected test covers completed rotation, not this interruption. This motivates a bounded availability check, not a cryptographic attack claim.",
+  "source_commit": "0037d0cacc860eb5791695858652256e4ddcbabb",
+  "cases": [
+    "completed forget without rotation",
+    "completed rotation",
+    "process exit at rotate state-save entry, after database commit and before fresh state file publication"
+  ],
+  "fixture": "Two sources, one derivative of forgotten source, one derivative of retained source; synthetic canary strings. Single writer, fresh isolated temporary directory per case.",
+  "measurement": [
+    "Exact read outcomes for each object after reopen",
+    "Outcome exception class; do not collapse invalid authentication into readable false silently",
+    "Original source hashes before and after",
+    "Subprocess exit and injected boundary records"
+  ],
+  "expectations": "Complete controls should retain unrelated plaintext and reject forgotten lineage. Interrupted rotate may lose survivor readability; preserve any contrary result.",
+  "instrumentation": "Separate copied source; intercept instance state-save boundary after setup and call os._exit in subprocess. No upstream source edits; no model/remote API/physical-power-loss simulation.",
+  "limits": [
+    "Process exit at an instrumented boundary is not arbitrary filesystem power loss.",
+    "Availability loss is distinct from recovery of forgotten data or breaking the LC-FS theorem.",
+    "No repair comparator or new algorithm claimed.",
+    "Only selected LineageStore compaction, not vector index or mem0 end-to-end."
+  ],
+  "execution_gate": "Inspect/use an existing isolated cryptography runtime or create a small separate pinned environment; shared Python lacks cryptography. Do not execute model acquisition or paper-wide scripts.",
+  "run_status": "not started"
+}

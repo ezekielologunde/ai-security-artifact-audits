@@ -1,0 +1,1080 @@
+{
+  "date": "2026-11-21",
+  "pin": "fbba969e73eaeaf45e1e8a8ad33a96cfeadbb66d",
+  "protocol_sha256": "e358647da7c5e1c978d957184f9551090c10828ae193cac28a37ddbbdbd1c697",
+  "python": "3.12.14",
+  "numpy": "2.2.6",
+  "embedding": "Authored deterministic stand-in through supported public parameter; not a learned model",
+  "source_hashes": {
+    "lightfoot/answer.py": "6c639d4666c9ea3f0612efe6c28cb64a1cb95a7281a3b2be779493758f09d3c9",
+    "lightfoot/api.py": "8feebaee3e85ebdcb761b23cdd5c24ab4d7ea6242d706cafc4b229a4ebf56e9c",
+    "lightfoot/chunking.py": "ec7bed1f186f6f502de40a6c58fe35868511679676bf59875437197a16f60eaf",
+    "lightfoot/config.py": "5927d3330030181b274c8c0111d2a6ce380fbd324d460a2c1f9f1c7bf6e5f717",
+    "lightfoot/costs.py": "54a9e7e2c8f52b79b75bae8568e6588050d1b4209e342716dcb052745de8eb23",
+    "lightfoot/embed.py": "4e0ba32a3a38a0258e7e2334cfa94d130674442b5d1ccb4e6123b8a9a86bdc22",
+    "lightfoot/extract.py": "8aa4a0e2b35bf0f936183405c863745b6838bc418e2025ba93009f692db733cd",
+    "lightfoot/graph.py": "e2a7dc92ad8af7f94fbc80919d6bc6547189f07133ba278b02395e5d0d4e9397",
+    "lightfoot/hybrid_es.py": "12a77b5fe3233f3d983007f8f6621f8adfe865b87630c30a3eaf789e41a244fa",
+    "lightfoot/ledger.py": "73bb2c1a46ab2452eaeffd2224322913bd5f3009672fbc5b4bcb615ec9eb2b5d",
+    "lightfoot/llm.py": "05df08b48e8f6927ea17e2ef66783043e9947a189908f9c4465c578014f71b4a",
+    "lightfoot/resolve.py": "dca43d5d3b87ec422b84b47f66a5c0bf1614b9621295b96649ec54c2ff7c964e",
+    "lightfoot/retrieve.py": "52e8e591750ac160131ddb5c1d8a09081cb16b61c606284e5098d2520a68619e",
+    "lightfoot/topics.py": "6a4d101734db1ebc656d814e81bf57943da9c75e809adf9775ecaa38038ef4da",
+    "lightfoot/__init__.py": "0b736f9369654121dd6eea6c1f4e6336b82b7a727f1a34a091388136f5c3f864",
+    "tests/conftest.py": "ed13cac16db2fe6fb0d524e21956e0f55348406b29f4f5a8b30cf751fa678ae4",
+    "tests/synthetic_docs.py": "f2a3b03c4d111191eb1e4dab5d046d49da2f905092b657086c85c3ef189878f5",
+    "tests/test_lightfoot_erasure.py": "424d8e6b79eafa38c01f3a7dc316725ed72eeb133a1ca5f75809bce7869509ef",
+    "tests/test_lightfoot_erasure_exact.py": "7c569d869ec6975b7f16e5f0e9f88bcc0dee59773433adfd77f9b2513bd11dd3",
+    "lightfoot/store/base.py": "ccf3c3e5c63509ae934a75d98383c40d27865f5e677ac53fa911f4eb57826823",
+    "lightfoot/store/postgres_store.py": "ae8a1216f6b5d0b8e024c7bd79cabcbfc77e93608f9f67222ecb70e30eeecaa7",
+    "lightfoot/store/sqlite_store.py": "9f01d5deba87e19fd4bbef53f378101e4a9b1dace16ca030bd4792b77d6e3b11",
+    "lightfoot/store/sql_common.py": "3a14bfb154f14f7b4a33d1fd03e5c070b250adf8168c2bdcd924d6f32c25a491",
+    "lightfoot/store/__init__.py": "2122bccb9115c0d3a694f5dc39b9e381924eb7aebe8b98d899fe304d104ddee1"
+  },
+  "source_unchanged": true,
+  "conditions": [
+    {
+      "condition": "file-deferred",
+      "ids": {
+        "retired": "02a5b46a01b441c5e5761b9f53a4a70e",
+        "survivor": "a542240293fc5783a441bbee92151ece"
+      },
+      "elapsed_seconds": 0.015999999828636646,
+      "initial": {
+        "sql_chunks": [
+          {
+            "chunk_id": "02a5b46a01b441c5e5761b9f53a4a70e",
+            "doc_id": "retired",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "retiredviolet canaryalpha is the retired source value.",
+            "tokens": 13
+          },
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "02a5b46a01b441c5e5761b9f53a4a70e": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "d4a85868a3234dd0a25455e1e6ffc061012ff5fc0ed00e75f2636168bac3f846",
+        "counts": {
+          "documents": 2,
+          "chunks": 2,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "context": "Passages:\n\n[02a5b46a01b441c5e5761b9f53a4a70e]\nretiredviolet canaryalpha is the retired source value.",
+            "context_chunk_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "dense_seed_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e",
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": true,
+            "survivor_id_ranked": false,
+            "retired_text_in_context": true,
+            "survivor_text_in_context": false,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece",
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ],
+        "read_only_sql_chunks": [
+          [
+            "02a5b46a01b441c5e5761b9f53a4a70e",
+            "retired",
+            "retiredviolet canaryalpha is the retired source value."
+          ],
+          [
+            "a542240293fc5783a441bbee92151ece",
+            "survivor",
+            "survivinggreen utilitybeta is the retained source value."
+          ]
+        ],
+        "on_disk_vectors": {
+          "02a5b46a01b441c5e5761b9f53a4a70e": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "on_disk_vector_sha256": "b7d998e8c0e5eae737f6a36ec24381d31a6a5699e4be8f6b26338b9358c5faab"
+      },
+      "after_delete": {
+        "sql_chunks": [
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "acc490ad437d1ee13561f07b8501b70878bb75f329a35d41e693681dfc9a5a67",
+        "counts": {
+          "documents": 1,
+          "chunks": 1,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ],
+        "read_only_sql_chunks": [
+          [
+            "a542240293fc5783a441bbee92151ece",
+            "survivor",
+            "survivinggreen utilitybeta is the retained source value."
+          ]
+        ],
+        "on_disk_vectors": {
+          "02a5b46a01b441c5e5761b9f53a4a70e": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "on_disk_vector_sha256": "b7d998e8c0e5eae737f6a36ec24381d31a6a5699e4be8f6b26338b9358c5faab"
+      },
+      "after_abort": {
+        "sql_chunks": [
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "02a5b46a01b441c5e5761b9f53a4a70e": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "acc490ad437d1ee13561f07b8501b70878bb75f329a35d41e693681dfc9a5a67",
+        "counts": {
+          "documents": 1,
+          "chunks": 1,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e",
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece",
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ],
+        "read_only_sql_chunks": [
+          [
+            "a542240293fc5783a441bbee92151ece",
+            "survivor",
+            "survivinggreen utilitybeta is the retained source value."
+          ]
+        ],
+        "on_disk_vectors": {
+          "02a5b46a01b441c5e5761b9f53a4a70e": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "on_disk_vector_sha256": "b7d998e8c0e5eae737f6a36ec24381d31a6a5699e4be8f6b26338b9358c5faab"
+      },
+      "after_reopen": {
+        "sql_chunks": [
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "02a5b46a01b441c5e5761b9f53a4a70e": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "acc490ad437d1ee13561f07b8501b70878bb75f329a35d41e693681dfc9a5a67",
+        "counts": {
+          "documents": 1,
+          "chunks": 1,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e",
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece",
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ],
+        "read_only_sql_chunks": [
+          [
+            "a542240293fc5783a441bbee92151ece",
+            "survivor",
+            "survivinggreen utilitybeta is the retained source value."
+          ]
+        ],
+        "on_disk_vectors": {
+          "02a5b46a01b441c5e5761b9f53a4a70e": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "on_disk_vector_sha256": "b7d998e8c0e5eae737f6a36ec24381d31a6a5699e4be8f6b26338b9358c5faab"
+      },
+      "native_deletion_model_calls": 0
+    },
+    {
+      "condition": "file-flushed",
+      "ids": {
+        "retired": "02a5b46a01b441c5e5761b9f53a4a70e",
+        "survivor": "a542240293fc5783a441bbee92151ece"
+      },
+      "elapsed_seconds": 0.0940000000409782,
+      "initial": {
+        "sql_chunks": [
+          {
+            "chunk_id": "02a5b46a01b441c5e5761b9f53a4a70e",
+            "doc_id": "retired",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "retiredviolet canaryalpha is the retired source value.",
+            "tokens": 13
+          },
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "02a5b46a01b441c5e5761b9f53a4a70e": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "d4a85868a3234dd0a25455e1e6ffc061012ff5fc0ed00e75f2636168bac3f846",
+        "counts": {
+          "documents": 2,
+          "chunks": 2,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "context": "Passages:\n\n[02a5b46a01b441c5e5761b9f53a4a70e]\nretiredviolet canaryalpha is the retired source value.",
+            "context_chunk_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "dense_seed_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e",
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": true,
+            "survivor_id_ranked": false,
+            "retired_text_in_context": true,
+            "survivor_text_in_context": false,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece",
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ],
+        "read_only_sql_chunks": [
+          [
+            "02a5b46a01b441c5e5761b9f53a4a70e",
+            "retired",
+            "retiredviolet canaryalpha is the retired source value."
+          ],
+          [
+            "a542240293fc5783a441bbee92151ece",
+            "survivor",
+            "survivinggreen utilitybeta is the retained source value."
+          ]
+        ],
+        "on_disk_vectors": {
+          "02a5b46a01b441c5e5761b9f53a4a70e": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "on_disk_vector_sha256": "b7d998e8c0e5eae737f6a36ec24381d31a6a5699e4be8f6b26338b9358c5faab"
+      },
+      "after_delete": {
+        "sql_chunks": [
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "acc490ad437d1ee13561f07b8501b70878bb75f329a35d41e693681dfc9a5a67",
+        "counts": {
+          "documents": 1,
+          "chunks": 1,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ],
+        "read_only_sql_chunks": [
+          [
+            "a542240293fc5783a441bbee92151ece",
+            "survivor",
+            "survivinggreen utilitybeta is the retained source value."
+          ]
+        ],
+        "on_disk_vectors": {
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "on_disk_vector_sha256": "fc15101a7f910b4044f923e531322d32aea322fc4659208a5892fa09dfc066f3"
+      },
+      "after_abort": {
+        "sql_chunks": [
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "acc490ad437d1ee13561f07b8501b70878bb75f329a35d41e693681dfc9a5a67",
+        "counts": {
+          "documents": 1,
+          "chunks": 1,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ],
+        "read_only_sql_chunks": [
+          [
+            "a542240293fc5783a441bbee92151ece",
+            "survivor",
+            "survivinggreen utilitybeta is the retained source value."
+          ]
+        ],
+        "on_disk_vectors": {
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "on_disk_vector_sha256": "fc15101a7f910b4044f923e531322d32aea322fc4659208a5892fa09dfc066f3"
+      },
+      "after_reopen": {
+        "sql_chunks": [
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "acc490ad437d1ee13561f07b8501b70878bb75f329a35d41e693681dfc9a5a67",
+        "counts": {
+          "documents": 1,
+          "chunks": 1,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ],
+        "read_only_sql_chunks": [
+          [
+            "a542240293fc5783a441bbee92151ece",
+            "survivor",
+            "survivinggreen utilitybeta is the retained source value."
+          ]
+        ],
+        "on_disk_vectors": {
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "on_disk_vector_sha256": "fc15101a7f910b4044f923e531322d32aea322fc4659208a5892fa09dfc066f3"
+      },
+      "native_deletion_model_calls": 0
+    },
+    {
+      "condition": "memory",
+      "ids": {
+        "retired": "02a5b46a01b441c5e5761b9f53a4a70e",
+        "survivor": "a542240293fc5783a441bbee92151ece"
+      },
+      "elapsed_seconds": 0.0,
+      "initial": {
+        "sql_chunks": [
+          {
+            "chunk_id": "02a5b46a01b441c5e5761b9f53a4a70e",
+            "doc_id": "retired",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "retiredviolet canaryalpha is the retired source value.",
+            "tokens": 13
+          },
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "02a5b46a01b441c5e5761b9f53a4a70e": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "d4a85868a3234dd0a25455e1e6ffc061012ff5fc0ed00e75f2636168bac3f846",
+        "counts": {
+          "documents": 2,
+          "chunks": 2,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "context": "Passages:\n\n[02a5b46a01b441c5e5761b9f53a4a70e]\nretiredviolet canaryalpha is the retired source value.",
+            "context_chunk_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "dense_seed_ids": [
+              "02a5b46a01b441c5e5761b9f53a4a70e",
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": true,
+            "survivor_id_ranked": false,
+            "retired_text_in_context": true,
+            "survivor_text_in_context": false,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece",
+              "02a5b46a01b441c5e5761b9f53a4a70e"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ]
+      },
+      "after_delete": {
+        "sql_chunks": [
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "acc490ad437d1ee13561f07b8501b70878bb75f329a35d41e693681dfc9a5a67",
+        "counts": {
+          "documents": 1,
+          "chunks": 1,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ]
+      },
+      "after_abort": {
+        "sql_chunks": [
+          {
+            "chunk_id": "a542240293fc5783a441bbee92151ece",
+            "doc_id": "survivor",
+            "tenant": "default",
+            "ordinal": 0,
+            "text": "survivinggreen utilitybeta is the retained source value.",
+            "tokens": 14
+          }
+        ],
+        "vectors": {
+          "a542240293fc5783a441bbee92151ece": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "graph_fingerprint": "acc490ad437d1ee13561f07b8501b70878bb75f329a35d41e693681dfc9a5a67",
+        "counts": {
+          "documents": 1,
+          "chunks": 1,
+          "entities": 0,
+          "aliases": 0,
+          "mentions": 0,
+          "facts": 0,
+          "fact_sources": 0,
+          "synonyms": 0,
+          "forms": 0,
+          "form_links": 0
+        },
+        "queries": [
+          {
+            "question": "retiredviolet canaryalpha",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          },
+          {
+            "question": "survivinggreen utilitybeta",
+            "ranked_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "context": "Passages:\n\n[a542240293fc5783a441bbee92151ece]\nsurvivinggreen utilitybeta is the retained source value.",
+            "context_chunk_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "dense_seed_ids": [
+              "a542240293fc5783a441bbee92151ece"
+            ],
+            "retired_id_ranked": false,
+            "survivor_id_ranked": true,
+            "retired_text_in_context": false,
+            "survivor_text_in_context": true,
+            "answer_generation_performed": false
+          }
+        ]
+      },
+      "after_reopen": null,
+      "native_deletion_model_calls": 0
+    }
+  ],
+  "new_hosted_model_calls": 0,
+  "independent_review_complete": false
+}
