@@ -1,6 +1,6 @@
 {
-  "version": 20,
-  "date": "2026-11-21",
+  "version": 21,
+  "date": "2026-11-22",
   "author": "Ezekiel Ologunde",
   "reports": [
     {
@@ -34,9 +34,16 @@
     {
       "study": "P04",
       "report": "reports/P04/helpbench_scoring_audit.pdf",
-      "pdf_sha256": "550e7ac0fdd952a3aae346f09118e073dbd0067d71c8a0cb24a7225ad88b14e0",
+      "pdf_sha256": "89d39d2d86feea2aee678073d74541d37213612048e00b436e4f93c3c602bb3c",
       "status": "preliminary technical report; not peer reviewed",
-      "independent_review_complete": false
+      "independent_review_complete": false,
+      "pages": 2,
+      "public_source_commit": "958f29df00cb0f661d65c3c87a0a18e2d0724788",
+      "public_source_followup": "reports/P04/public_source_followup.zip",
+      "followup_archive_sha256": "8e6310dce8c30f3c4668babb8427a8aed6eb05283935a26c9095afe7323f8911",
+      "original_reproduction_files_unchanged": 25,
+      "original_abstract_and_scientific_results_unchanged": true,
+      "followup_authored_conditions": 4
     },
     {
       "study": "P12",
@@ -207,15 +214,5 @@
     "new_experiment_runs": 0,
     "upstream_terms_retained": true
   },
-  "latest_addition": {
-    "study": "P02",
-    "type": "Literature-only revision, no new report",
-    "other_reports_and_reproduction_bytes_unchanged": true,
-    "added_comparators": [
-      "ReleaseSeal",
-      "knowyourai"
-    ],
-    "new_experiment_runs": 0,
-    "external_preprint_server_submission": false
-  }
+  "latest_addition": "P04 public-source provenance revision: original results retained; separate four-condition native scorer follow-up."
 }

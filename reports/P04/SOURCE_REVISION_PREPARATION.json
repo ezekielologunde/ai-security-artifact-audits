@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-22",
+  "public_baseline_pdf_sha256": "550e7ac0fdd952a3aae346f09118e073dbd0067d71c8a0cb24a7225ad88b14e0",
+  "new_pdf_sha256": "89d39d2d86feea2aee678073d74541d37213612048e00b436e4f93c3c602bb3c",
+  "source_zip_sha256": "82436e8ac14825fa4892e0487b2b6602ba306bda1115c0a6381a8cdbb4f42eee",
+  "abstract_unchanged": true,
+  "original_scientific_sections_unchanged": [
+    "\\section{Numerical Endpoint Results}",
+    "\\section{Controlled Contract Boundaries}",
+    "\\section{Conditional Aggregation and Verification}"
+  ],
+  "existing_public_reproduction_files_unchanged": 25,
+  "followup_conditions": 4,
+  "new_450_record_or_model_runs": 0,
+  "compile_exit_code": 0,
+  "visual_review_complete": true,
+  "public_release_performed": false,
+  "pages": 2,
+  "visual_review": "Both final pages rendered and inspected; initial inline full-hash clipping corrected; no residual clipping observed.",
+  "followup_archive_sha256": "8e6310dce8c30f3c4668babb8427a8aed6eb05283935a26c9095afe7323f8911",
+  "followup_archive_members": 11,
+  "packaged_followup_replay_matches": true
+}
