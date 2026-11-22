@@ -1,6 +1,6 @@
 # AI Security Artifact Audits — Preliminary Technical Reports
 
-Ezekiel Ologunde · Collection version 21 · 22 November 2026
+Ezekiel Ologunde · Collection version 22 · 22 November 2026
 
 Eleven bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
 
@@ -64,3 +64,5 @@ Version 19 adds the four-page RAC adapter replication note, Overleaf source and 
 ## Provenance-study literature revision
 
 Version 20 updates only P02 publication files and root release metadata. The seven-page paper adds direct comparators and chronology; its abstract, scientific sections, results and conclusion remain unchanged. All 14 P02 reproduction files, the separate P02 engineering supplements and all other 13 reports retain their bytes. No new experiment or external preprint-server submission occurred for this revision. LITERATURE_REVISION.json records the before/after identities and protected-source checks.
+
+On 22 November 2026, P01 and AgentDefense received publication/authorship metadata corrections. Their scientific text and all 3,192 reproduction files remain unchanged.

@@ -1,0 +1,22 @@
+{
+  "study": "P01",
+  "original_normalized_tex_sha256": "b7989833c682d970db63a7a44333fb983643b9591c1cfe9f8781daa96c52b115",
+  "new_tex_sha256": "d92a85482ad1faa82914ad759648c2eddf64a8a6f26d5703873b1c5ecbb25232",
+  "new_pdf_sha256": "deca11632b0383dc8ce9d151c31fd13288e39aa2950764d8d178a48ef6839e1c",
+  "new_source_zip_sha256": "03955be2a561f82540fdbaaa1ebe4da1d578112c9bb7f0c0319cbf5f1f8b6064",
+  "abstract_unchanged": true,
+  "all_changes_invert_exactly_to_original_normalized_text": true,
+  "changes": [
+    [
+      "the human author must review source fidelity, venue disclosure requirements, and all claims before submission. This publication copy names Ezekiel Ologunde and omits contact and affiliation metadata.",
+      "This publication copy names Ezekiel Ologunde, an independent researcher in Boston, USA; contact metadata is omitted."
+    ]
+  ],
+  "author_affiliation_added": true,
+  "compile_exit_code": 0,
+  "new_experiments": 0,
+  "visual_review_complete": true,
+  "pages": 7,
+  "reproduction_files_unchanged": 3180,
+  "revision_scope": "Publication/authorship metadata only; no experiment or scientific outcome changed."
+}

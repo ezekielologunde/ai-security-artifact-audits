@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "date": "2026-11-22",
   "author": "Ezekiel Ologunde",
   "reports": [
@@ -69,13 +69,17 @@
     {
       "study": "P01",
       "report": "reports/P01/offboarding_controlled_study.pdf",
-      "pdf_sha256": "06e326e5228f873c9ae43b7eeff8d732dba95429a63df1a9875e9be0d1290571",
+      "pdf_sha256": "deca11632b0383dc8ce9d151c31fd13288e39aa2950764d8d178a48ef6839e1c",
       "status": "existing controlled study; preliminary technical report; not peer reviewed",
       "independent_review_complete": false,
       "raw_inert_SQLite_files": 1020,
       "upstream_task_description_templates": 722,
       "fresh_full_fixture_runs_in_separate_validation": 720,
-      "fresh_framework_extension_execution": false
+      "fresh_framework_extension_execution": false,
+      "pages": 7,
+      "metadata_revision": "2026-11-22",
+      "original_reproduction_files_unchanged": 3180,
+      "scientific_text_unchanged": true
     },
     {
       "study": "AgentDefense-audit",
@@ -86,9 +90,13 @@
         "P17"
       ],
       "report": "reports/AgentDefense-audit/agentdefense_entrypoint_audit.pdf",
-      "pdf_sha256": "da4a3dfe150e1e91bc2f54a2cfb9da50ff54104cbca2da493d7c4df4eb4d7ba2",
+      "pdf_sha256": "aa9b1a18dd6faf1c5d28ba21d31428eb67e1e00d44af9ef757034ea018ee5eb5",
       "status": "bounded artifact audit; not peer reviewed; temporal authority questions unresolved",
-      "independent_review_complete": false
+      "independent_review_complete": false,
+      "pages": 2,
+      "metadata_revision": "2026-11-22",
+      "original_reproduction_files_unchanged": 12,
+      "scientific_text_unchanged": true
     },
     {
       "study": "SABench-correspondence",
@@ -214,5 +222,5 @@
     "new_experiment_runs": 0,
     "upstream_terms_retained": true
   },
-  "latest_addition": "P04 public-source provenance revision: original results retained; separate four-condition native scorer follow-up."
+  "latest_addition": "P01 and AgentDefense publication/authorship metadata corrections; scientific text and all3192 reproduction files retained."
 }

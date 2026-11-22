@@ -1,0 +1,22 @@
+{
+  "study": "AgentDefense-audit",
+  "original_normalized_tex_sha256": "837816dc073bfa00eb5f2c0de499929a3dce8ad4d155ea267c75723370da4d86",
+  "new_tex_sha256": "73ec4984882199f9ae222d58e7cca0c5581a77920fd3a42d600902f1c0eb047f",
+  "new_pdf_sha256": "aa9b1a18dd6faf1c5d28ba21d31428eb67e1e00d44af9ef757034ea018ee5eb5",
+  "new_source_zip_sha256": "8c89b9e08d8fab991bc85e1fe835ba9436aa70d5d470da54ae40cd87378d18ad",
+  "abstract_unchanged": true,
+  "all_changes_invert_exactly_to_original_normalized_text": true,
+  "changes": [
+    [
+      "Authored reuse terms have not been selected; rights are reserved. The draft and supplement were locally verified and have not yet been added to the public report collection. Independent review remains pending.",
+      "The report and supplement are publicly available in the AI Security Artifact Audits collection. Authored reports are licensed CC BY 4.0 and authored code MIT; upstream terms remain separate. AI assistance was used for artifact inspection, code, analysis and drafting."
+    ]
+  ],
+  "author_affiliation_added": true,
+  "compile_exit_code": 0,
+  "new_experiments": 0,
+  "visual_review_complete": true,
+  "pages": 2,
+  "reproduction_files_unchanged": 12,
+  "revision_scope": "Publication/authorship metadata only; no experiment or scientific outcome changed."
+}
