@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "date": "2026-11-21",
   "author": "Ezekiel Ologunde",
   "reports": [
@@ -49,10 +49,15 @@
     {
       "study": "P02",
       "report": "reports/P02/model_consistency_preliminary_study.pdf",
-      "pdf_sha256": "b2bf70a76e0b105ac939dbdd7787ddb395eb9032ba8bf9d88d79ab14190d5317",
+      "pdf_sha256": "34c173229458dbc75b873ba308809433e5b9353c4d2767c74a8db1da899e691e",
       "status": "existing preliminary study; controlled-only public reproduction; not peer reviewed",
       "independent_review_complete": false,
-      "natural_case_accuracy_established": false
+      "natural_case_accuracy_established": false,
+      "pages": 7,
+      "publication_revision": "2026-11-22 literature-only direct-comparator update",
+      "new_experiment_runs_for_revision": 0,
+      "scientific_outcomes_changed": false,
+      "reproduction_members_unchanged": 14
     },
     {
       "study": "P01",
@@ -203,10 +208,14 @@
     "upstream_terms_retained": true
   },
   "latest_addition": {
-    "study": "RAC-adapter-replication",
-    "previous_report_bytes_unchanged": true,
-    "new_experiment_runs_for_publication": 0,
-    "external_preprint_server_submission": false,
-    "upstream_terms_retained": true
+    "study": "P02",
+    "type": "Literature-only revision, no new report",
+    "other_reports_and_reproduction_bytes_unchanged": true,
+    "added_comparators": [
+      "ReleaseSeal",
+      "knowyourai"
+    ],
+    "new_experiment_runs": 0,
+    "external_preprint_server_submission": false
   }
 }

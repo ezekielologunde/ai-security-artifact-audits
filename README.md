@@ -1,6 +1,6 @@
 # AI Security Artifact Audits — Preliminary Technical Reports
 
-Ezekiel Ologunde · Collection version 19 · 22 November 2026
+Ezekiel Ologunde · Collection version 20 · 22 November 2026
 
 Eleven bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
 
@@ -12,7 +12,7 @@ Eleven bounded, reproducible audit notes, plus three separately identified exist
 | [RAG chunk identity and revocation](reports/P23/rag_identity_revocation_audit.pdf) | Eight controlled ID-reuse cases expose stale indexes despite valid signatures. No production incidence, cryptographic break, or attacker access is established. |
 | [HelpBench scoring-helper audit](reports/P04/helpbench_scoring_audit.pdf) | All 450 overall expert scores reproduce. Two negative helpers lose 19/439 and 39/450 defined numeric endpoints. Conditional aggregation is an expert-sample illustration, not a reconstruction of published model rankings. |
 | [Memory deletion and reachable-cache remanence](reports/P12/memory_deletion_controlled_study.pdf) | Existing 15-page controlled study. Earlier release validation reanalyzed 15,680 recorded storage trials and 792 recorded model calls and reproduced the separate 96-case cache audit. The literature-only revision preserves all reproduction bytes; no new experiment runs. |
-| [Model-provenance consistency overlay](reports/P02/model_consistency_preliminary_study.pdf) | Existing six-page preliminary study. Public supplement reproduces 36 developer-authored cases and seven tests; natural evidence and independent annotations are excluded. The controlled 8/11 result does not establish natural accuracy. |
+| [Model-provenance consistency overlay](reports/P02/model_consistency_preliminary_study.pdf) | Seven-page preliminary study; literature-only revision adds ReleaseSeal and knowyourai and qualifies novelty. Original 36-case results and all 14 reproduction files unchanged; natural accuracy remains unmeasured. The controlled 8/11 result does not establish natural accuracy. |
 | [Agent offboarding correspondence study](reports/P01/offboarding_controlled_study.pdf) | Existing seven-page study. Fresh validation reran 720 fixture cases and matched 1,440 verdicts; separate raw-state readback checked existing 80-case process-recovery evidence. Pinned-origin restoration reconstructs 722 reference files before verification. |
 | [AgentDefense-Bench entry-point audit](reports/AgentDefense-audit/agentdefense_entrypoint_audit.pdf) | Documented 640-record tier-1 path misinterprets labels; paired mock decisions stay unchanged. Seven exports replay separately. No published-score effect or temporal authority defense is established. |
 | [SABench replay correspondence](reports/SABench-correspondence/sabench_replay_correspondence.pdf) | Direct and runtime-normalized replay of 2,211 released traces; thirteen normalized calls and nine changed classifications. Reuses upstream logic and recovers the main reported counts. Four-command clean replay; no new inference or defense-efficacy claim. |
@@ -60,3 +60,7 @@ Version 18 adds the unchanged three-page LinEra and Lightfoot preprints, Overlea
 ## RAC replication-and-extension addition
 
 Version 19 adds the four-page RAC adapter replication note, Overleaf source and 65-member replay archive. The exact core behavior has prior practitioner evidence; the report claims only a bounded native-adapter extension and comparison. All 13 earlier report PDFs and frozen reproduction files retain their bytes. No new experiment was required to prepare the manuscript, and no external preprint-server submission has occurred.
+
+## Provenance-study literature revision
+
+Version 20 updates only P02 publication files and root release metadata. The seven-page paper adds direct comparators and chronology; its abstract, scientific sections, results and conclusion remain unchanged. All 14 P02 reproduction files, the separate P02 engineering supplements and all other 13 reports retain their bytes. No new experiment or external preprint-server submission occurred for this revision. LITERATURE_REVISION.json records the before/after identities and protected-source checks.

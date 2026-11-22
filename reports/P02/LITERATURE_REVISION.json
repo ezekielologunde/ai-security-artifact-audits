@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-22",
+  "base_commit": "4a9c14c1ee61e6a5be8688daee986785aabd66c1",
+  "revision": "Literature-only direct-comparator update",
+  "old_source_sha256": "aecadec8efed70d96e1ba57a4e8e180914e6a0e65ebfb41fa2ce8b1f4db663ca",
+  "new_source_sha256": "b1f8547891c2d6aab2ed2d756785cb0658d3c0ea037a59789b3a7feebede824c",
+  "old_source_zip_sha256": "2bebe56f28cae77ec8dcacf5dc1ed2b7e7ef933f933d88561cf6ead0db2012ae",
+  "new_source_zip_sha256": "8741efbbdd42f694ec6f106498fca4921c24efff62ee23e8eaa2d109b74862c1",
+  "old_pdf_sha256": "b2bf70a76e0b105ac939dbdd7787ddb395eb9032ba8bf9d88d79ab14190d5317",
+  "protected_source_sections_equal": {
+    "abstract": true,
+    "introduction": true,
+    "research_questions_methods_results_and_discussion": true,
+    "conclusion": true
+  },
+  "original_bibliography_entries_unchanged": true,
+  "old_reproducibility_text_unchanged": true,
+  "new_experiment_runs": 0,
+  "scientific_outcomes_changed": false,
+  "newline_normalization": "Original CRCRLF/CRLF transport normalized to LF for source comparison and compilation; protected text otherwise identical",
+  "source_archive_unchanged_members": [
+    "README.txt"
+  ],
+  "source_archive_new_members": [
+    "LICENSE_REPORT.txt"
+  ],
+  "added_references": [
+    "releaseseal",
+    "knowyourai"
+  ],
+  "external_preprint_server_submission": false,
+  "pages_before": 6,
+  "pages_after": 7,
+  "new_pdf_sha256": "34c173229458dbc75b873ba308809433e5b9353c4d2767c74a8db1da899e691e",
+  "changed_existing_report_files": [
+    "PDF_VERIFICATION.json",
+    "PUBLICATION_MANIFEST.json",
+    "README.md",
+    "model_consistency_preliminary_study.pdf",
+    "overleaf_source.zip"
+  ],
+  "new_report_files": [
+    "LITERATURE_REVISION.json"
+  ],
+  "reproduction_members_unchanged": 14,
+  "reproduction_sha256_before_after": {
+    "reproduction/pytest.ini": "c809c969ec7e11b9ff37784e9c6fcc0b7c5148d168e18b05aed797e03fbd6ead",
+    "reproduction/README.md": "d5c330fd4c895d5662df0dc8438e7557de42b4de45687474f7788ce178fcf3b8",
+    "reproduction/requirements.txt": "73c4fc8f103e5286284c41f5d3a455eb2de7c247e511f07fbde75b06eab147b1",
+    "reproduction/run_controlled.py": "af7403aae6ed4dba20f001d555676f4d8aabb9c371a9cbd9a3bcd8e49fd93d49",
+    "reproduction/experiment/controlled_cases.json": "d76eb490620ff675aa88fee76d4d7a2c25eedd57915bedce981df8bb3fae72a5",
+    "reproduction/experiment/protocol.json": "dcf62bb556d9e943ae4aa0dab8859232f687b3926d03638d30c67b34880fc48e",
+    "reproduction/model_consistency/core.py": "b3d4b927bf645b645dc3e1068203bbd396f5da377860f7d47e6a087376d57639",
+    "reproduction/model_consistency/__init__.py": "e3928aac04071760737b892437e7ae11501c00ed60065fdcccda3a8bb4978cb4",
+    "reproduction/model_consistency/__main__.py": "bd71d37414b2859a4f78fa600e2ae89500c9a77f69156c99b4429eac0b5fd26f",
+    "reproduction/reference-results/controlled_predictions.json": "be23f363923da135356bb09f9a33230e95355d6b931d72abf624885d00b4b11a",
+    "reproduction/reference-results/controlled_summary.json": "d76b8dd4a9ce6c7a1db0eaec1f40af1d133b8871d89899b202fb72ea74c654dc",
+    "reproduction/reference-results/error_analysis.json": "5f1eca22ffbdc67a0df93a3833e74acb915834ad2a3a951db0f0715e3d6a384e",
+    "reproduction/scripts/run_experiment.py": "234cf2316df64d08e9166c9305b65f8e5e51f436d7a93a5c0feebb022d9194b1",
+    "reproduction/tests/test_overlay.py": "4ca5a7b57d5d1e9d18f9d17a332c584977dd35435c9e6fdffb0f7841d8c33039"
+  },
+  "old_report_files_sha256": {
+    "CLEAN_RELEASE_REHEARSAL.json": "80ad470f562fbf0862e57eff06c3381511ac845d78cf6d66af7bf73d45afac5f",
+    "model_consistency_preliminary_study.pdf": "b2bf70a76e0b105ac939dbdd7787ddb395eb9032ba8bf9d88d79ab14190d5317",
+    "overleaf_source.zip": "2bebe56f28cae77ec8dcacf5dc1ed2b7e7ef933f933d88561cf6ead0db2012ae",
+    "PDF_VERIFICATION.json": "5f362c02967647239100fe23ab5cf01d68794b40ff99355ce3b46dd5ddc61a98",
+    "PUBLICATION_MANIFEST.json": "4cf186f82c17c35a5a0856fb171cad61ed67389a2bcfca1e742c211f86b227e4",
+    "README.md": "e93c34afe3e586d92e9fef0ca04cd09dd7628c48c53dd99aef64fdadaf8ba41d",
+    "reproduction/pytest.ini": "c809c969ec7e11b9ff37784e9c6fcc0b7c5148d168e18b05aed797e03fbd6ead",
+    "reproduction/README.md": "d5c330fd4c895d5662df0dc8438e7557de42b4de45687474f7788ce178fcf3b8",
+    "reproduction/requirements.txt": "73c4fc8f103e5286284c41f5d3a455eb2de7c247e511f07fbde75b06eab147b1",
+    "reproduction/run_controlled.py": "af7403aae6ed4dba20f001d555676f4d8aabb9c371a9cbd9a3bcd8e49fd93d49",
+    "reproduction/experiment/controlled_cases.json": "d76eb490620ff675aa88fee76d4d7a2c25eedd57915bedce981df8bb3fae72a5",
+    "reproduction/experiment/protocol.json": "dcf62bb556d9e943ae4aa0dab8859232f687b3926d03638d30c67b34880fc48e",
+    "reproduction/model_consistency/core.py": "b3d4b927bf645b645dc3e1068203bbd396f5da377860f7d47e6a087376d57639",
+    "reproduction/model_consistency/__init__.py": "e3928aac04071760737b892437e7ae11501c00ed60065fdcccda3a8bb4978cb4",
+    "reproduction/model_consistency/__main__.py": "bd71d37414b2859a4f78fa600e2ae89500c9a77f69156c99b4429eac0b5fd26f",
+    "reproduction/reference-results/controlled_predictions.json": "be23f363923da135356bb09f9a33230e95355d6b931d72abf624885d00b4b11a",
+    "reproduction/reference-results/controlled_summary.json": "d76b8dd4a9ce6c7a1db0eaec1f40af1d133b8871d89899b202fb72ea74c654dc",
+    "reproduction/reference-results/error_analysis.json": "5f1eca22ffbdc67a0df93a3833e74acb915834ad2a3a951db0f0715e3d6a384e",
+    "reproduction/scripts/run_experiment.py": "234cf2316df64d08e9166c9305b65f8e5e51f436d7a93a5c0feebb022d9194b1",
+    "reproduction/tests/test_overlay.py": "4ca5a7b57d5d1e9d18f9d17a332c584977dd35435c9e6fdffb0f7841d8c33039"
+  },
+  "new_report_files_sha256": {
+    "CLEAN_RELEASE_REHEARSAL.json": "80ad470f562fbf0862e57eff06c3381511ac845d78cf6d66af7bf73d45afac5f",
+    "model_consistency_preliminary_study.pdf": "34c173229458dbc75b873ba308809433e5b9353c4d2767c74a8db1da899e691e",
+    "overleaf_source.zip": "8741efbbdd42f694ec6f106498fca4921c24efff62ee23e8eaa2d109b74862c1",
+    "PDF_VERIFICATION.json": "589d02955a031399ead91faa451436ba0d268a4ee172539c34e29e4001e42423",
+    "PUBLICATION_MANIFEST.json": "4f0ddd353df668b7816e270ed617a9e3ffdaaf5ad111e8040a8d81eba0de6460",
+    "README.md": "e8ab033f00141d8513dcd8f3dacdba055735c0dae78406107e35941b0ab8f540",
+    "reproduction/pytest.ini": "c809c969ec7e11b9ff37784e9c6fcc0b7c5148d168e18b05aed797e03fbd6ead",
+    "reproduction/README.md": "d5c330fd4c895d5662df0dc8438e7557de42b4de45687474f7788ce178fcf3b8",
+    "reproduction/requirements.txt": "73c4fc8f103e5286284c41f5d3a455eb2de7c247e511f07fbde75b06eab147b1",
+    "reproduction/run_controlled.py": "af7403aae6ed4dba20f001d555676f4d8aabb9c371a9cbd9a3bcd8e49fd93d49",
+    "reproduction/experiment/controlled_cases.json": "d76eb490620ff675aa88fee76d4d7a2c25eedd57915bedce981df8bb3fae72a5",
+    "reproduction/experiment/protocol.json": "dcf62bb556d9e943ae4aa0dab8859232f687b3926d03638d30c67b34880fc48e",
+    "reproduction/model_consistency/core.py": "b3d4b927bf645b645dc3e1068203bbd396f5da377860f7d47e6a087376d57639",
+    "reproduction/model_consistency/__init__.py": "e3928aac04071760737b892437e7ae11501c00ed60065fdcccda3a8bb4978cb4",
+    "reproduction/model_consistency/__main__.py": "bd71d37414b2859a4f78fa600e2ae89500c9a77f69156c99b4429eac0b5fd26f",
+    "reproduction/reference-results/controlled_predictions.json": "be23f363923da135356bb09f9a33230e95355d6b931d72abf624885d00b4b11a",
+    "reproduction/reference-results/controlled_summary.json": "d76b8dd4a9ce6c7a1db0eaec1f40af1d133b8871d89899b202fb72ea74c654dc",
+    "reproduction/reference-results/error_analysis.json": "5f1eca22ffbdc67a0df93a3833e74acb915834ad2a3a951db0f0715e3d6a384e",
+    "reproduction/scripts/run_experiment.py": "234cf2316df64d08e9166c9305b65f8e5e51f436d7a93a5c0feebb022d9194b1",
+    "reproduction/tests/test_overlay.py": "4ca5a7b57d5d1e9d18f9d17a332c584977dd35435c9e6fdffb0f7841d8c33039"
+  },
+  "all_pages_visually_checked": true,
+  "pdf_source_zip_matches": true,
+  "current_scanner_qualification_excluded_from_manuscript_experiments": true
+}

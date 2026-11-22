@@ -1,10 +1,17 @@
 {
-  "date": "2026-10-20",
-  "pages": 6,
+  "date": "2026-11-22",
+  "pages": 7,
   "all_pages_visually_inspected": true,
-  "native_compile_succeeded": true,
-  "portable_export_succeeded": true,
-  "text_spans_outside_page": [],
-  "pdf_sha256": "b2bf70a76e0b105ac939dbdd7787ddb395eb9032ba8bf9d88d79ab14190d5317",
-  "experiment_outcomes_changed": false
+  "compiler": "Tectonic 0.17",
+  "compile_exit_code": 0,
+  "text_blocks_outside_page": [],
+  "overfull_horizontal_boxes": 0,
+  "minor_vertical_balance_warning_pt": [
+    1.13799
+  ],
+  "visual_clipping_or_overlap_observed": false,
+  "pdf_sha256": "34c173229458dbc75b873ba308809433e5b9353c4d2767c74a8db1da899e691e",
+  "experiment_outcomes_changed": false,
+  "new_experiment_runs": 0,
+  "source_archive_matches": true
 }
