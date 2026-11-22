@@ -1,6 +1,6 @@
 # AI Security Artifact Audits — Preliminary Technical Reports
 
-Ezekiel Ologunde · Collection version 15 · 19 November 2026
+Ezekiel Ologunde · Collection version 16 · 21 November 2026
 
 Seven bounded, reproducible audit notes, plus three separately identified existing studies in offboarding, memory deletion and model provenance. These reports have **not undergone independent peer review** and are not accepted ACM publications. ACM-style formatting does not imply ACM publication or endorsement. Claims apply to the pinned artifacts and controlled conditions described in each report; field-wide novelty is not established. The first four reports were released on 19 October; the scoring-helper audit was added on 20 October.
 
@@ -23,7 +23,7 @@ Each report folder contains its PDF, Overleaf source ZIP, and an unpacked reprod
 
 The preserved reproduction READMEs describe the original private preparation state and local tool paths. This root README and RELEASE_MANIFEST.json describe the public release. Original measurement files are preserved; publication copies identify manuscript availability or literature updates. A standard installed `acmart` class is required to rebuild TeX; the generated third-party class is deliberately not bundled.
 
-The SABench correspondence supplement includes its pinned synthetic upstream tasks/traces under CC BY 4.0 and code under MIT, with explicit attribution. Other raw upstream datasets, downloaded paper copies, private working folders, and independent-review answer keys are excluded. Upstream notices inside reproduction directories apply only to their identified material. No blanket reuse licence is assigned to the authored reports or code in this release; contact the author before reuse beyond applicable rights. This does not replace or restrict upstream licences.
+The SABench correspondence supplement includes its pinned synthetic upstream tasks/traces under CC BY 4.0 and code under MIT, with explicit attribution. Other raw upstream datasets, downloaded paper copies, private working folders, and independent-review answer keys are excluded. Upstream notices inside reproduction directories apply only to their identified material. Authored reports are licensed under CC BY 4.0 and authored code under MIT, as selected by the author on 21 November 2026. See RIGHTS.md and the licence notices; third-party material retains its own terms. This does not replace or restrict upstream licences.
 
 Independent review remains pending. Please distinguish a reproducible artifact-specific observation from a general claim about model or system safety. Publication here is a public technical-report release, not an external preprint-server submission or peer-reviewed acceptance.
 
@@ -40,3 +40,7 @@ The P01 package includes 1,020 authored inert SQLite reference files, original v
 ## Authored evidence-attribution sensitivity study
 
 [Separate 72-case P02 sensitivity study](supplements/P02-binding-sensitivity/README.md) reports both sides of a controlled tradeoff: default mode fires on 18 constructed enabled routes and 12 negative routes; strict mode fires on 6 enabled and zero negative routes, missing 12 enabled routes. All 144 outputs reproduce after clean dataset regeneration. These counts are not natural precision/recall, runtime security or evidence of a new algorithm. The earlier six-page paper and its zero-false-positive result remain scoped to the original 36 cases; all existing PDFs and frozen reproduction directories are unchanged.
+
+## Authored licensing update
+
+Version 16 applies the author-selected CC BY 4.0 report licence and MIT code licence to authored material. All ten report PDFs, source archives, reproduction files and technical supplements retain their previous bytes. Preserved embedded preparation notices are historical; RIGHTS.md supplies the current authored licensing decision. This update adds no experiment, manuscript, independent review or external submission. Local LinEra/Lightfoot notes and the separate P12 arXiv draft are excluded.

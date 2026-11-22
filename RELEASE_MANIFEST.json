@@ -1,6 +1,6 @@
 {
-  "version": 15,
-  "date": "2026-11-19",
+  "version": 16,
+  "date": "2026-11-21",
   "author": "Ezekiel Ologunde",
   "reports": [
     {
@@ -134,5 +134,15 @@
   "P02_reproduction_is_controlled_only": true,
   "P01_authored_inert_SQLite_files": 1020,
   "P01_task_prose_restored_from_pinned_origin": true,
-  "independent_review_complete": false
+  "independent_review_complete": false,
+  "authored_report_license": "CC-BY-4.0",
+  "authored_code_license": "MIT",
+  "rights_update": {
+    "date": "2026-11-21",
+    "source": "Explicit author choice",
+    "scientific_artifacts_changed": false,
+    "new_reports_added": 0,
+    "new_experiment_runs": 0,
+    "upstream_terms_retained": true
+  }
 }
