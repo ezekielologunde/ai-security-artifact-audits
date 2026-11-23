@@ -1,0 +1,17 @@
+{
+  "commands": [
+    {
+      "script": "run_opencode_write_effects_20261123.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_opencode_write_effects_20261123.py",
+      "exit_code": 0
+    }
+  ],
+  "normalized_observations_match": true,
+  "conditions": 7,
+  "packaged_members_unchanged": true,
+  "real_inference_models": 0,
+  "external_peer_review": false
+}

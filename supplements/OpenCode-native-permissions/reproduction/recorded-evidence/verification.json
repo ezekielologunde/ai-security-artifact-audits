@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-23",
+  "confirmation_conditions": 7,
+  "all_match": true,
+  "native_write_tool_records_verified": 7,
+  "physical_final_readback": {
+    "project-A/protected.txt": "NATIVE_WRITE_successor_saved_allow",
+    "project-A/utility.txt": "NATIVE_WRITE_utility_allow",
+    "project-B/protected.txt": "BASELINE_B"
+  },
+  "binary_unchanged": true,
+  "owned_process_tree_confirmed_absent": [
+    20404,
+    48392
+  ],
+  "native_idle_observations": 4,
+  "completed_tool_errors_without_idle": 3,
+  "real_inference_models": 0,
+  "calibration_run_counted_in_confirmation": false,
+  "scope": "Controlled built-in file effects and permission handling only; not restart durability, in-flight revocation or deployment efficacy."
+}

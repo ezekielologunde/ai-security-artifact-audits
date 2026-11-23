@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-23",
+  "trigger": "Calibration run's initial rejected write produced a completed assistant/tool error with native aborted/declined state, but no idle message. Initial harness required idle and stopped without recording a passing condition. Initial script, run and read-only database diagnosis preserved.",
+  "amendment_before_confirmation": "A trial observation may be either native idle or an explicitly completed assistant/tool error. Record which occurred; completed tool error is not proof of session idle, quiescence or later restart behavior. Require pending request and unchanged file before rejection, plus completed native tool failure afterward. Still require exact physical writes for allowed controls and permission-specific error evidence for deny.",
+  "instrumentation": "Persist each condition's last messages and readback before assertions. Route scripted responses by an explicit per-session user fixture identifier, not a global current condition, so any delayed request cannot acquire another condition's scripted write.",
+  "reporting": "Calibration run excluded from confirmation counts; post-observation endpoint amendment must be disclosed. No source or native binary modified."
+}

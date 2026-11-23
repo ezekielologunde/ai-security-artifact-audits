@@ -1,0 +1,135 @@
+[
+  {
+    "id": "initial_reject",
+    "configured_effect": "ask",
+    "reply": "reject",
+    "before": "BASELINE_A",
+    "after": "BASELINE_A",
+    "expected_after": "BASELINE_A",
+    "match": true,
+    "pending_seen": true,
+    "pre_reply_file_unchanged": true,
+    "write_advertised": true,
+    "tool_name": "write",
+    "tool_input": {
+      "path": "protected.txt",
+      "content": "NATIVE_WRITE_initial_reject"
+    },
+    "error_type": "aborted",
+    "completion_observed": true
+  },
+  {
+    "id": "utility_allow",
+    "configured_effect": "allow",
+    "reply": "none",
+    "before": null,
+    "after": "NATIVE_WRITE_utility_allow",
+    "expected_after": "NATIVE_WRITE_utility_allow",
+    "match": true,
+    "pending_seen": false,
+    "pre_reply_file_unchanged": null,
+    "write_advertised": true,
+    "tool_name": "write",
+    "tool_input": {
+      "path": "utility.txt",
+      "content": "NATIVE_WRITE_utility_allow"
+    },
+    "error_type": null,
+    "completion_observed": true
+  },
+  {
+    "id": "approve_always",
+    "configured_effect": "ask",
+    "reply": "always",
+    "before": "BASELINE_A",
+    "after": "NATIVE_WRITE_approve_always",
+    "expected_after": "NATIVE_WRITE_approve_always",
+    "match": true,
+    "pending_seen": true,
+    "pre_reply_file_unchanged": true,
+    "write_advertised": true,
+    "tool_name": "write",
+    "tool_input": {
+      "path": "protected.txt",
+      "content": "NATIVE_WRITE_approve_always"
+    },
+    "error_type": null,
+    "completion_observed": true
+  },
+  {
+    "id": "successor_saved_allow",
+    "configured_effect": "ask",
+    "reply": "none",
+    "before": "NATIVE_WRITE_approve_always",
+    "after": "NATIVE_WRITE_successor_saved_allow",
+    "expected_after": "NATIVE_WRITE_successor_saved_allow",
+    "match": true,
+    "pending_seen": false,
+    "pre_reply_file_unchanged": null,
+    "write_advertised": true,
+    "tool_name": "write",
+    "tool_input": {
+      "path": "protected.txt",
+      "content": "NATIVE_WRITE_successor_saved_allow"
+    },
+    "error_type": null,
+    "completion_observed": true
+  },
+  {
+    "id": "explicit_deny",
+    "configured_effect": "deny",
+    "reply": "none",
+    "before": "NATIVE_WRITE_successor_saved_allow",
+    "after": "NATIVE_WRITE_successor_saved_allow",
+    "expected_after": "NATIVE_WRITE_successor_saved_allow",
+    "match": true,
+    "pending_seen": false,
+    "pre_reply_file_unchanged": null,
+    "write_advertised": true,
+    "tool_name": "write",
+    "tool_input": {
+      "path": "protected.txt",
+      "content": "NATIVE_WRITE_explicit_deny"
+    },
+    "error_type": "permission.rejected",
+    "completion_observed": true
+  },
+  {
+    "id": "removed_saved_approval",
+    "configured_effect": "ask",
+    "reply": "reject",
+    "before": "NATIVE_WRITE_successor_saved_allow",
+    "after": "NATIVE_WRITE_successor_saved_allow",
+    "expected_after": "NATIVE_WRITE_successor_saved_allow",
+    "match": true,
+    "pending_seen": true,
+    "pre_reply_file_unchanged": true,
+    "write_advertised": true,
+    "tool_name": "write",
+    "tool_input": {
+      "path": "protected.txt",
+      "content": "NATIVE_WRITE_removed_saved_approval"
+    },
+    "error_type": "aborted",
+    "completion_observed": true
+  },
+  {
+    "id": "independent_project",
+    "configured_effect": "ask",
+    "reply": "reject",
+    "before": "BASELINE_B",
+    "after": "BASELINE_B",
+    "expected_after": "BASELINE_B",
+    "match": true,
+    "pending_seen": true,
+    "pre_reply_file_unchanged": true,
+    "write_advertised": true,
+    "tool_name": "write",
+    "tool_input": {
+      "path": "protected.txt",
+      "content": "NATIVE_WRITE_independent_project"
+    },
+    "error_type": "aborted",
+    "completion_observed": true
+  }
+]

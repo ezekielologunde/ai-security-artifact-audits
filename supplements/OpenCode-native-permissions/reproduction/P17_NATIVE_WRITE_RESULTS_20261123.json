@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-23",
+  "project": "P17",
+  "original_question": "Which configuration changes increase reachable security exposure?",
+  "release": "OpenCode v2.3.0",
+  "source_tag": "a6b15d33daf6ab7d35569f6d711fdb630b9f04e7",
+  "binary_sha256": "2359208e2f81539fd16eb755a4d8a747e87c6fd5cd59a49bb552f8a610d33eb9",
+  "protocol": "OPENCODE_WRITE_EFFECT_PROTOCOL_20261123.json",
+  "disclosed_endpoint_amendment": "OPENCODE_WRITE_EFFECT_AMENDMENT_20261123.json",
+  "confirmation_results": "results/opencode-write-effects-20261123-r2/RESULTS.json",
+  "verification": "results/opencode-write-effects-20261123-r2/VERIFICATION.json",
+  "native_path": "Local scripted provider emits tool call; unchanged native session dispatches built-in write through edit permission and native file commit. The authored driver does not apply file changes after initial baseline creation.",
+  "results": {
+    "confirmation_conditions": 7,
+    "matching_effects": 7,
+    "physical_writes": ["explicitly_allowed_utility", "approve_always", "successor_saved_allow"],
+    "protected_content_unchanged": ["initial_reject", "explicit_deny", "removed_saved_approval_then_reject", "independent_project_then_reject"],
+    "all_write_tools_advertised": true,
+    "explicit_deny_native_error": "permission.rejected: Permission denied: edit",
+    "saved_permission": "Native write requests save=['*']; always approval persists an edit wildcard for the project. This broad scope is explicit in the native request, not an undisclosed single-file grant.",
+    "utility": "One allowed synthetic file-write task completed with exact content. This is not general workload utility.",
+    "lifecycle": "Four conditions yield native idle events; three rejected calls yield completed native aborted-tool errors without observed idle. Initial idle-only calibration harness stopped; its run is excluded from confirmation counts. No idle, quiescence or crash guarantee inferred."
+  },
+  "research_decision": "Native effects now confirm the documented configuration-plus-saved-state distinction in one released backend. This is bounded conformance evidence, not a newly identified vulnerability, generic drift-detection invention, automated overlay improvement or field-wide novelty claim. No new standalone preprint justified from these expected outcomes.",
+  "limits": [
+    "No real inference model, human behavior or deployment prevalence measured.",
+    "No restart durability, permission changes during an admitted write, broad resource universe or repeated random trials tested.",
+    "Initial calibration-driven observation amendment is disclosed; no blind discovery claim.",
+    "Logical research configuration isolation is not an OS sandbox. Only synthetic local files used.",
+    "Owned native server tree stopped; final physical contents and unchanged binary verified."
+  ],
+  "next_action": "Preserve the native baseline. Require a distinct implemented policy-lifecycle promise before another experiment; do not rerun known conditions as novelty. Continue remaining portfolio endpoints.",
+  "external_peer_review_is_preprint_gate": false
+}

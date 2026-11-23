@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-23",
+  "project": "P17",
+  "release": "v2.3.0",
+  "binary_sha256": "2359208e2f81539fd16eb755a4d8a747e87c6fd5cd59a49bb552f8a610d33eb9",
+  "native_path": "Scripted local OpenAI-compatible provider emits one write tool call. Native session loop dispatches built-in write through FileWrite.authorize (edit permission) and commit. No authored client writes the effect target after initial baseline creation.",
+  "source_basis": "Release-tag packages/core/src/tool/plugin/write.ts and file-write.ts: write requests edit approval for Location-relative target.resource, with save=['*']; only afterward calls commit.",
+  "conditions": [
+    {"id":"initial_reject","rules":"edit protected.txt ask","reply":"reject","expected_effect":"baseline unchanged; pending observed before reply"},
+    {"id":"utility_allow","rules":"edit utility.txt allow","reply":"none","expected_effect":"utility.txt contains exact requested marker"},
+    {"id":"approve_always","rules":"edit protected.txt ask","reply":"always","expected_effect":"protected.txt contains exact requested marker; saved edit wildcard recorded"},
+    {"id":"successor_saved_allow","rules":"new session, edit protected.txt ask","reply":"none","expected_effect":"same file changed to successor marker without prompt"},
+    {"id":"explicit_deny","rules":"edit protected.txt deny, saved wildcard present","reply":"none","expected_effect":"file retains previous marker"},
+    {"id":"removed_saved_approval","rules":"native saved approval removed, edit protected.txt ask","reply":"reject","expected_effect":"pending observed and file retains previous marker"},
+    {"id":"independent_project","rules":"second Git project, edit protected.txt ask","reply":"reject","expected_effect":"pending observed; second project baseline unchanged"}
+  ],
+  "observations": "Capture advertised tool definitions, scripted provider responses, native permission requests, saved approval rows, full native session messages including terminal idle event, and exact before/after file bytes. Pending-state observation precedes replies; absence of an effect is assessed after a terminal session event.",
+  "scope": "Controlled native file-write conformance, one request per condition; no inference model, attack prevalence, general task utility or deployment-security efficacy. Expected behavior is already documented prior art; do not claim a new vulnerability or mechanism.",
+  "isolation": "New research-only XDG/config/database roots and two synthetic Git projects; authenticated loopback server. Stop only owned process tree. No OS sandbox claim."
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-23",
+  "kind": "Documented native conformance baseline; not a standalone paper or new vulnerability claim",
+  "release": "OpenCode v2.3.0",
+  "source_tag": "a6b15d33daf6ab7d35569f6d711fdb630b9f04e7",
+  "replay_archive_sha256": "d6a9c50310d1fbb206c03ef0d84ad2f7726ea3ac55256c8e3601e3b2542447eb",
+  "archive_members": 16,
+  "clean_replay_conditions": 7,
+  "clean_replay_commands": [
+    {
+      "script": "run_opencode_write_effects_20261123.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_opencode_write_effects_20261123.py",
+      "exit_code": 0
+    }
+  ],
+  "normalized_observations_match": true,
+  "packaged_inputs_unchanged": true,
+  "real_inference_models": 0,
+  "native_binaries_included": false,
+  "native_databases_included": false,
+  "initial_calibration": "Idle-only completion assumption failed; amended explicitly for completed native tool errors. Original calibration evidence included.",
+  "packaging_amendment": "First fresh extraction stopped before native startup because wrapper did not create the parent work directory. V2 creates it; failed first archive/extraction retained locally. Scientific driver and expected outcomes unchanged.",
+  "scope": "Controlled native file writes and exact readback. No restart durability, in-flight revocation, prevalence, novel mechanism or broad task utility.",
+  "external_preprint_server_submission": false
+}

@@ -1,6 +1,6 @@
 {
-  "version": 22,
-  "date": "2026-11-22",
+  "version": 23,
+  "date": "2026-11-23",
   "author": "Ezekiel Ologunde",
   "reports": [
     {
@@ -203,6 +203,17 @@
         }
       },
       "independent_review_complete": false
+    },
+    {
+      "id": "OpenCode-native-permissions",
+      "path": "supplements/OpenCode-native-permissions",
+      "status": "Clean-replayed documented native conformance baseline; not novel mechanism or vulnerability",
+      "conditions": 7,
+      "replay_commands": 2,
+      "archive_sha256": "d6a9c50310d1fbb206c03ef0d84ad2f7726ea3ac55256c8e3601e3b2542447eb",
+      "native_binary_bundled": false,
+      "real_inference_models": 0,
+      "paper_revised": false
     }
   ],
   "upstream_raw_data_included": true,
@@ -222,5 +233,5 @@
     "new_experiment_runs": 0,
     "upstream_terms_retained": true
   },
-  "latest_addition": "P01 and AgentDefense publication/authorship metadata corrections; scientific text and all3192 reproduction files retained."
+  "latest_addition": "OpenCode native permission/file-write conformance supplement; no paper revised."
 }
