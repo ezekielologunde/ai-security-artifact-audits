@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "date": "2026-11-23",
   "author": "Ezekiel Ologunde",
   "reports": [
@@ -140,15 +140,17 @@
       "study": "Lightfoot-transaction",
       "shared_topic": "P23",
       "report": "reports/Lightfoot-transaction/lightfoot_transaction_boundary_audit.pdf",
-      "pdf_sha256": "61c18e5df3de79bb2c1d3e6b0a6609e19e6e846ec25f929a4500f8bc8d94143b",
-      "pages": 3,
-      "status": "bounded artifact audit preprint",
+      "pdf_sha256": "c8c4e3859f8baa1dcf7050a3ad42619e80d34db460d2b756c2908963eda41201",
+      "pages": 4,
+      "status": "bounded artifact audit and standard repair preprint",
       "external_review_required_for_preprint": false,
-      "manuscript_bytes_unchanged": true,
+      "manuscript_bytes_unchanged": false,
       "replay_archive_members": 42,
       "prior_clean_replay_verified": true,
       "upstream_source_license": "MIT",
-      "field_wide_priority_established": false
+      "field_wide_priority_established": false,
+      "repair_replay_archive_members": 61,
+      "repair_clean_replay_verified": true
     },
     {
       "study": "RAC-adapter-replication",

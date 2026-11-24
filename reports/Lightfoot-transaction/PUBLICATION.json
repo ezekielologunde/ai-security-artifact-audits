@@ -1,20 +1,21 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-23",
   "study": "Lightfoot",
-  "status": "Verified public preprint release candidate",
-  "title": "Committed Vector State After a Later Abort: A Bounded Lightfoot Audit",
+  "status": "Public GitHub preprint revision with clean-replayed bounded repair",
+  "title": "Committed Vector State After a Later Abort: A Lightfoot Audit and Bounded Repair",
   "author": "Ezekiel Ologunde",
   "affiliation": "Independent researcher, Boston, USA",
-  "pdf_sha256": "61c18e5df3de79bb2c1d3e6b0a6609e19e6e846ec25f929a4500f8bc8d94143b",
-  "source_zip_sha256": "820a2b8a73e4b66e1f86dd5d1039413d360a31ffd85fa2d51b5da8f5ebd69c53",
-  "pages": 3,
+  "pdf_sha256": "c8c4e3859f8baa1dcf7050a3ad42619e80d34db460d2b756c2908963eda41201",
+  "source_zip_sha256": "9b58d02546dacb5f9a06f89bc98dddf2181ba1cdd815c23a0a340967532aab38",
+  "pages": 4,
   "visual_pages_checked": [
     1,
     2,
-    3
+    3,
+    4
   ],
   "source_archive_matches": true,
-  "manuscript_bytes_unchanged": true,
+  "manuscript_bytes_unchanged": false,
   "replay_archive_sha256": "3277b1b07be112cdc7456106193187c5858ff79a3800a4ec2972bc7d726c34c0",
   "replay_archive_members": 42,
   "manifest_entries_verified": 41,
@@ -36,10 +37,42 @@
   "upstream_licences_retained": true,
   "external_review_required_for_preprint": false,
   "external_preprint_server_submission": false,
-  "new_experiment_runs": 0,
+  "new_experiment_runs": 2,
   "new_hosted_model_calls": 0,
   "report_license": "CC-BY-4.0",
   "authored_code_license": "MIT",
-  "scope": "Two file-backed deferred-save storage controls show vector rollback despite correct SQL rows; four flush/in-memory controls preserve state. Native retrieval uses deterministic injected embeddings: all 16 post-deletion query observations exclude retired text and final-ranked retired IDs while preserving survivor context. No deleted-text disclosure or learned-model efficacy claim.",
-  "replay_scope": "The exact 42-member archive was replayed from a clean extraction; all three commands exited zero and scientific outcomes matched. Timing, timestamp-bearing NPZ container byte hashes and the dependent receipt hash are excluded from comparison; vector values, row content, identifiers, graph fingerprints and context are compared."
+  "scope": "Existing storage/query audit plus standard snapshot-at-entry and dirty-empty-state repair. Final six controls and four reopen cases preserved; prior16 native query observations still show no retired text/final-ranked ID. No crash, scale, neural efficacy or RAG-wide erasure claim.",
+  "replay_scope": "The exact 42-member archive was replayed from a clean extraction; all three commands exited zero and scientific outcomes matched. Timing, timestamp-bearing NPZ container byte hashes and the dependent receipt hash are excluded from comparison; vector values, row content, identifiers, graph fingerprints and context are compared.",
+  "repair_replay_archive": "repair-reproduction.zip",
+  "repair_replay_archive_sha256": "bc6f1922a746a3623284708dce357f26eb3cce0c3177ba7afd51626f41400e82",
+  "repair_replay_archive_members": 61,
+  "repair_manifest_entries": 60,
+  "repair_clean_replay": {
+    "commands": [
+      {
+        "script": "run_lightfoot_snapshot_repair_20261123.py",
+        "exit_code": 0
+      },
+      {
+        "script": "verify_lightfoot_snapshot_repair_20261123.py",
+        "exit_code": 0
+      }
+    ],
+    "normalized_variant_matches": {
+      "original": true,
+      "repaired": true
+    },
+    "all_packaged_inputs_unchanged": true,
+    "scope": "Clean extraction using supplied runtime, not independent OS/human validation or new model evidence."
+  },
+  "prior_native_query_experiment_changed": false,
+  "repair_outcomes": {
+    "original_live": "4/6",
+    "entry_only_live": "6/6",
+    "final_live": "6/6",
+    "original_reopen": "2/4",
+    "entry_only_reopen": "3/4",
+    "final_reopen": "4/4"
+  },
+  "repair_trial_accounting": "Two completed paired stages of12 variant-condition executions each; final clean replay repeats12. Six condition shapes; no independent-incident or prevalence estimate."
 }
